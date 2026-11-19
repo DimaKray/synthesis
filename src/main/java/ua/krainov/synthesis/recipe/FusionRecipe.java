@@ -26,7 +26,7 @@ import java.util.List;
  */
 public record FusionRecipe(Ingredient center, List<Ingredient> pedestals,
                            int mana, int source, int energy, int time, ItemStack result)
-        implements Recipe<FusionRecipeInput> {
+        implements Recipe<FusionRecipeInput>, AltarRecipe {
 
     public static final MapCodec<FusionRecipe> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
             Ingredient.CODEC_NONEMPTY.fieldOf("center").forGetter(FusionRecipe::center),

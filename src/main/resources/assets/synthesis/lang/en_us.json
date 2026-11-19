@@ -40,5 +40,11 @@
   "gui.synthesis.tank_empty": "Empty: 0 / %s mB",
   "gui.synthesis.progress": "Progress: %s%%",
   "jei.synthesis.synthesizing": "Synthesizing",
-  "jei.synthesis.rotation": "Create: %s RPM, %s SU"
+  "jei.synthesis.rotation": "Create: %s RPM, %s SU",
+  "block.synthesis.capital_altar": "Altar of Capitalism",
+  "jei.synthesis.capital": "Altar of Capitalism",
+  "message.synthesis.altar.tank": "Altar tank: %s %s / %s mB",
+  "message.synthesis.altar.needs_extra": "Also needs: %s mB of %s, %s RPM, %s SU",
+  "message.synthesis.altar.waiting.fluid": "Paused: not enough fluid — fill the altar tank (bucket or pipe)",
+  "message.synthesis.altar.waiting.rotation": "Paused: not enough rotation — put a Kinetic Drive next to the altar"
 }

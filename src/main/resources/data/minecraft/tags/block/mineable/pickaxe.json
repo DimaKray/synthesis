@@ -2,6 +2,7 @@
   "values": [
     "synthesis:pedestal",
     "synthesis:fusion_altar",
+    "synthesis:capital_altar",
     "synthesis:synthesizer",
     {
       "id": "synthesis:kinetic_drive",

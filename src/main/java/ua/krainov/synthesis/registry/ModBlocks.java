@@ -6,6 +6,7 @@ import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.block.CapitalAltarBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
 import ua.krainov.synthesis.block.SynthesizerBlock;
@@ -40,6 +41,16 @@ public final class ModBlocks {
                     .strength(3.5f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
+
+    /** Вівтар Капіталізму — фінальний ритуал (Infinity Catalyst). */
+    public static final DeferredBlock<CapitalAltarBlock> CAPITAL_ALTAR = BLOCKS.register("capital_altar",
+            () -> new CapitalAltarBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.GOLD)
+                    .strength(5.0f, 1200.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHERITE_BLOCK)
+                    .lightLevel(state -> 10)
+                    .noOcclusion()));
 
     private ModBlocks() {}
 }

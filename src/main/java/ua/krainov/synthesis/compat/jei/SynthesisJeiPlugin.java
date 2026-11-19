@@ -11,6 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeHolder;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.recipe.CapitalRecipe;
 import ua.krainov.synthesis.recipe.FusionRecipe;
 import ua.krainov.synthesis.recipe.SynthesizerRecipe;
 import ua.krainov.synthesis.registry.ModItems;
@@ -30,6 +31,7 @@ public class SynthesisJeiPlugin implements IModPlugin {
     public void registerCategories(IRecipeCategoryRegistration registration) {
         registration.addRecipeCategories(new FusionRecipeCategory(registration.getJeiHelpers().getGuiHelper()));
         registration.addRecipeCategories(new SynthesizerRecipeCategory(registration.getJeiHelpers().getGuiHelper()));
+        registration.addRecipeCategories(new CapitalRecipeCategory(registration.getJeiHelpers().getGuiHelper()));
     }
 
     @Override
@@ -42,6 +44,9 @@ public class SynthesisJeiPlugin implements IModPlugin {
         List<SynthesizerRecipe> synthesizing = level.getRecipeManager().getAllRecipesFor(ModRecipes.SYNTHESIZING_TYPE.get())
                 .stream().map(RecipeHolder::value).toList();
         registration.addRecipes(SynthesizerRecipeCategory.TYPE, synthesizing);
+        List<CapitalRecipe> capital = level.getRecipeManager().getAllRecipesFor(ModRecipes.CAPITAL_TYPE.get())
+                .stream().map(RecipeHolder::value).toList();
+        registration.addRecipes(CapitalRecipeCategory.TYPE, capital);
     }
 
     @Override
@@ -50,5 +55,7 @@ public class SynthesisJeiPlugin implements IModPlugin {
         registration.addRecipeCatalyst(new ItemStack(ModItems.PEDESTAL.get()), FusionRecipeCategory.TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModItems.SYNTHESIS_SCEPTER.get()), FusionRecipeCategory.TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModItems.SYNTHESIZER.get()), SynthesizerRecipeCategory.TYPE);
+        registration.addRecipeCatalyst(new ItemStack(ModItems.CAPITAL_ALTAR.get()), CapitalRecipeCategory.TYPE);
+        registration.addRecipeCatalyst(new ItemStack(ModItems.PEDESTAL.get()), CapitalRecipeCategory.TYPE);
     }
 }

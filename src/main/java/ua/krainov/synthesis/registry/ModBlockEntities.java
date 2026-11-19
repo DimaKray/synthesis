@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
 import ua.krainov.synthesis.blockentity.SynthesizerBlockEntity;
@@ -28,6 +29,11 @@ public final class ModBlockEntities {
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SynthesizerBlockEntity>> SYNTHESIZER =
             BLOCK_ENTITIES.register("synthesizer",
                     () -> BlockEntityType.Builder.of(SynthesizerBlockEntity::new, ModBlocks.SYNTHESIZER.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CapitalAltarBlockEntity>> CAPITAL_ALTAR =
+            BLOCK_ENTITIES.register("capital_altar",
+                    () -> BlockEntityType.Builder.of(CapitalAltarBlockEntity::new, ModBlocks.CAPITAL_ALTAR.get()).build(null));
 
     private ModBlockEntities() {}
 }

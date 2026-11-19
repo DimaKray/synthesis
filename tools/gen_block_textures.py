@@ -94,9 +94,52 @@ def altar_top():
     for (x, y) in [(1,1),(14,1),(1,14),(14,14)]: im.putpixel((x, y), GL)
     return im
 
+def capital_side():
+    # як у Вівтаря Злиття: плита y10-13 -> рядки 3-5, тіло -> 6-11, основа -> 12-15
+    rng = random.Random(6)
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            c = rng.choice([G, G, GL, GD])            # усе золоте
+            if y in (3, 5, 12):      c = GL if x % 2 else G
+            elif y == 4:             c = PURP if x % 4 == 1 else GD
+            elif 6 <= y <= 11:
+                c = rng.choice([GD, G, G])
+                if x in (2, 13):     c = GL
+                if 7 <= y <= 10 and 5 <= x <= 10:  # монета з символом
+                    c = GL if (x in (5, 10) or y in (7, 10)) else D
+                    if (x, y) in [(7, 8), (8, 8), (7, 9), (8, 9)]: c = TEAL
+            elif y >= 13:            c = rng.choice([D, M, D])
+            im.putpixel((x, y), c)
+    return im
+
+def capital_top():
+    rng = random.Random(7)
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            im.putpixel((x, y), rng.choice([G, G, GL, GD]))
+    for i in range(1, 15):
+        for (x, y) in [(i, 1), (i, 14), (1, i), (14, i)]:
+            im.putpixel((x, y), GD)
+    # 13 променів-точок по колу + центр
+    import math
+    for k in range(13):
+        a = -math.pi / 2 + 2 * math.pi * k / 13
+        x, y = round(7.5 + 5.6 * math.cos(a)), round(7.5 + 5.6 * math.sin(a))
+        im.putpixel((x, y), PURP if k % 2 else TEAL)
+    for (x, y) in [(6,6),(7,6),(8,6),(9,6),(6,9),(7,9),(8,9),(9,9),(6,7),(6,8),(9,7),(9,8)]:
+        im.putpixel((x, y), D)
+    for (x, y) in [(7,7),(8,7),(7,8),(8,8)]:
+        im.putpixel((x, y), (255, 255, 255))
+    return im
+
+
 side().save(OUT + 'pedestal_side.png')
 altar_side().save(OUT + 'fusion_altar_side.png')
 altar_top().save(OUT + 'fusion_altar_top.png')
+capital_side().save(OUT + 'capital_altar_side.png')
+capital_top().save(OUT + 'capital_altar_top.png')
 top().save(OUT + 'pedestal_top.png')
 bottom().save(OUT + 'pedestal_bottom.png')
 print('ok')

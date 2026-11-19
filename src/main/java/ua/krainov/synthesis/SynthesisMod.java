@@ -54,6 +54,12 @@ public class SynthesisMod {
                 (machine, side) -> machine.getTank());
         event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.SYNTHESIZER.get(),
                 (machine, side) -> machine.getEnergy());
+        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModBlockEntities.CAPITAL_ALTAR.get(),
+                (altar, side) -> altar.getInventory());
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.CAPITAL_ALTAR.get(),
+                (altar, side) -> altar.getEnergy());
+        event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, ModBlockEntities.CAPITAL_ALTAR.get(),
+                (altar, side) -> altar.getTank());
         // FE — від кабелів будь-якого мода
         event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.FUSION_ALTAR.get(),
                 (altar, side) -> altar.getEnergy());

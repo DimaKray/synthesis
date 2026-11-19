@@ -39,5 +39,8 @@ public final class ModItems {
     public static final DeferredItem<Item> SYNTHESIS_CORE = ITEMS.registerSimpleItem("synthesis_core",
             new Item.Properties().rarity(Rarity.RARE));
 
+    public static final DeferredItem<BlockItem> CAPITAL_ALTAR = ITEMS.registerItem("capital_altar",
+            props -> new BlockItem(ModBlocks.CAPITAL_ALTAR.get(), props), new Item.Properties().rarity(Rarity.EPIC));
+
     private ModItems() {}
 }

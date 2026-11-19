@@ -7,6 +7,8 @@ import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import ua.krainov.synthesis.registry.ModMenus;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
+import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
 import ua.krainov.synthesis.registry.ModBlockEntities;
 
 /** Реєстрації, потрібні лише клієнту (рендерери). На сервері цей клас не завантажується. */
@@ -15,7 +17,8 @@ public final class SynthesisClient {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL.get(), PedestalRenderer::new);
-        event.registerBlockEntityRenderer(ModBlockEntities.FUSION_ALTAR.get(), FusionAltarRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.FUSION_ALTAR.get(), ctx -> new AltarRenderer<FusionAltarBlockEntity>(ctx, false));
+        event.registerBlockEntityRenderer(ModBlockEntities.CAPITAL_ALTAR.get(), ctx -> new AltarRenderer<CapitalAltarBlockEntity>(ctx, true));
     }
 
     @SubscribeEvent

@@ -1,0 +1,119 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "draconicevolution"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tc4modern"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ttinkerer"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialupgrade"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "avaritia"
+    }
+  ],
+  "type": "synthesis:capital",
+  "center": {
+    "item": "synthesis:unity_alloy_3"
+  },
+  "pedestals": [
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "tc4modern:primordial_pearl"
+    },
+    {
+      "item": "ttinkerer:ichorium"
+    },
+    {
+      "item": "mekanism:pellet_antimatter"
+    },
+    {
+      "item": "witchery:infernal_animus"
+    },
+    {
+      "item": "cataclysm:cursium_ingot"
+    },
+    {
+      "item": "industrialupgrade:neutroniumingot"
+    },
+    {
+      "item": "twilightforest:fiery_ingot"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    }
+  ],
+  "mana": 1000000,
+  "source": 50000,
+  "energy": 10000000,
+  "fluid": {
+    "fluid": "minecraft:lava",
+    "amount": 8000
+  },
+  "min_rpm": 128,
+  "stress": 8192,
+  "time": 1200,
+  "result": {
+    "id": "avaritia:infinity_catalyst",
+    "count": 1
+  }
+}

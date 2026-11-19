@@ -25,6 +25,7 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.UNITY_ALLOY_2.get());
                         output.accept(ModItems.UNITY_ALLOY_3.get());
                         output.accept(ModItems.FUSION_ALTAR.get());
+                        output.accept(ModItems.CAPITAL_ALTAR.get());
                         output.accept(ModItems.PEDESTAL.get());
                         output.accept(ModItems.SYNTHESIZER.get());
                         if (ModCompat.CREATE) output.accept(CreateCompat.driveItem());

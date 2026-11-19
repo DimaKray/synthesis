@@ -7,6 +7,7 @@ import net.minecraft.world.item.crafting.RecipeType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.recipe.CapitalRecipe;
 import ua.krainov.synthesis.recipe.FusionRecipe;
 import ua.krainov.synthesis.recipe.SynthesizerRecipe;
 
@@ -28,6 +29,12 @@ public final class ModRecipes {
 
     public static final DeferredHolder<RecipeSerializer<?>, SynthesizerRecipe.Serializer> SYNTHESIZING_SERIALIZER =
             SERIALIZERS.register("synthesizing", SynthesizerRecipe.Serializer::new);
+
+    public static final DeferredHolder<RecipeType<?>, RecipeType<CapitalRecipe>> CAPITAL_TYPE =
+            TYPES.register("capital", () -> RecipeType.simple(ResourceLocation.fromNamespaceAndPath(SynthesisMod.MODID, "capital")));
+
+    public static final DeferredHolder<RecipeSerializer<?>, CapitalRecipe.Serializer> CAPITAL_SERIALIZER =
+            SERIALIZERS.register("capital", CapitalRecipe.Serializer::new);
 
     private ModRecipes() {}
 }

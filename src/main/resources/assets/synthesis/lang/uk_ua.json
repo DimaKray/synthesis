@@ -40,5 +40,11 @@
   "gui.synthesis.tank_empty": "Порожньо: 0 / %s мВ",
   "gui.synthesis.progress": "Прогрес: %s%%",
   "jei.synthesis.synthesizing": "Синтез",
-  "jei.synthesis.rotation": "Create: %s RPM, %s SU"
+  "jei.synthesis.rotation": "Create: %s RPM, %s SU",
+  "block.synthesis.capital_altar": "Вівтар Капіталізму",
+  "jei.synthesis.capital": "Вівтар Капіталізму",
+  "message.synthesis.altar.tank": "Бак вівтаря: %s %s / %s мВ",
+  "message.synthesis.altar.needs_extra": "Також потрібно: %s мВ «%s», %s RPM, %s SU",
+  "message.synthesis.altar.waiting.fluid": "Пауза: бракує рідини — заповніть бак вівтаря (відро або труба)",
+  "message.synthesis.altar.waiting.rotation": "Пауза: бракує обертання — поставте Кінетичний привід впритул до вівтаря"
 }

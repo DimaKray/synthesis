@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NUN",
+    "SFS",
+    "BBB"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "U": {
+      "item": "synthesis:unity_alloy_3"
+    },
+    "S": {
+      "item": "synthesis:synthesis_core"
+    },
+    "F": {
+      "item": "synthesis:fusion_altar"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "id": "synthesis:capital_altar",
+    "count": 1
+  }
+}
