@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "synthesis:item/synthesis_scepter"
+  }
+}

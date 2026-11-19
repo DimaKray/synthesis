@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "synthesis"
+version = "0.1.0"
+displayName = "Capitalism: Synthesis"
+authors = "Dmytro Krainov"
+description = '''
+Машини й вівтарі, що об'єднують моди збірки Capitalism: мана Ботанії, джерело Ars Nouveau, енергія FE та обертання Create в одній системі.
+'''
+
+[[dependencies.synthesis]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.synthesis]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
