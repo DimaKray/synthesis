@@ -1,5 +1,6 @@
 package ua.krainov.synthesis.registry;
 
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -25,6 +26,9 @@ public final class ModItems {
     /** Скіпетр синтезу — запускатиме ритуали (функція з'явиться на етапі 3). */
     public static final DeferredItem<Item> SYNTHESIS_SCEPTER = ITEMS.registerSimpleItem("synthesis_scepter",
             new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
+
+    /** Предмет-блок п'єдестала. */
+    public static final DeferredItem<BlockItem> PEDESTAL = ITEMS.registerSimpleBlockItem(ModBlocks.PEDESTAL);
 
     private ModItems() {}
 }

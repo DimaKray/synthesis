@@ -22,6 +22,7 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.UNITY_ALLOY_1.get());
                         output.accept(ModItems.UNITY_ALLOY_2.get());
                         output.accept(ModItems.UNITY_ALLOY_3.get());
+                        output.accept(ModItems.PEDESTAL.get());
                     })
                     .build());
 
