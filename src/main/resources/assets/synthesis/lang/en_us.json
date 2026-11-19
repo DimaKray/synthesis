@@ -20,5 +20,10 @@
   "jei.synthesis.time": "Time: %s s",
   "jei.synthesis.mana": "Mana: %s",
   "jei.synthesis.source": "Source: %s",
-  "jei.synthesis.energy": "Energy: %s FE"
+  "jei.synthesis.energy": "Energy: %s FE",
+  "message.synthesis.altar.stock": "Altar stock: mana %s, source %s, energy %s FE",
+  "message.synthesis.altar.needs": "Ritual needs: mana %s, source %s, energy %s FE",
+  "message.synthesis.altar.waiting.mana": "Paused: not enough mana — aim a Mana Spreader at the altar",
+  "message.synthesis.altar.waiting.source": "Paused: not enough source — place Source Jars within 6 blocks",
+  "message.synthesis.altar.waiting.energy": "Paused: not enough energy — connect an FE cable"
 }

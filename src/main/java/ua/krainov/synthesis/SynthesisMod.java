@@ -7,6 +7,8 @@ import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
+import ua.krainov.synthesis.compat.ModCompat;
+import ua.krainov.synthesis.compat.botania.BotaniaCompat;
 import ua.krainov.synthesis.registry.ModBlockEntities;
 import ua.krainov.synthesis.registry.ModBlocks;
 import ua.krainov.synthesis.registry.ModCreativeTabs;
@@ -39,5 +41,12 @@ public class SynthesisMod {
                 (pedestal, side) -> pedestal.getInventory());
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModBlockEntities.FUSION_ALTAR.get(),
                 (altar, side) -> altar.getInventory());
+        // FE — від кабелів будь-якого мода
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.FUSION_ALTAR.get(),
+                (altar, side) -> altar.getEnergy());
+        // Мана — лише якщо встановлена Botania
+        if (ModCompat.BOTANIA) {
+            BotaniaCompat.registerCapabilities(event);
+        }
     }
 }

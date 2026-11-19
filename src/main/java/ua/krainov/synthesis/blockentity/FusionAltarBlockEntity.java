@@ -22,8 +22,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+import net.neoforged.neoforge.energy.EnergyStorage;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import org.jetbrains.annotations.Nullable;
+import ua.krainov.synthesis.compat.ModCompat;
+import ua.krainov.synthesis.compat.ars.ArsCompat;
 import ua.krainov.synthesis.recipe.FusionRecipe;
 import ua.krainov.synthesis.recipe.FusionRecipeInput;
 import ua.krainov.synthesis.registry.ModBlockEntities;
@@ -36,10 +39,32 @@ import java.util.Optional;
 /**
  * Вівтар Злиття: центральний предмет + п'єдестали навколо (радіус 3 блоки, ±1 по висоті).
  * Скіпетр запускає ритуал; через {@code time} тіків предмети з п'єдесталів зникають, у центрі — результат.
+ * <p>
+ * Живлення (етап 4): вівтар має власні запаси мани (з мана-розповсюджувачів Botania), джерела
+ * (тягне з банок Ars Nouveau поруч) і FE (через кабель). Ритуал щотіку бере свою частку;
+ * якщо чогось бракує — стоїть на паузі, прогрес не губиться.
  */
 public class FusionAltarBlockEntity extends BlockEntity {
     public static final int RADIUS = 3;
     private static final int CHECK_INTERVAL = 20; // як часто перевіряти, що рецепт ще складений
+
+    public static final int MANA_CAPACITY = 1_000_000;
+    public static final int SOURCE_CAPACITY = 50_000;
+    public static final int ENERGY_CAPACITY = 2_000_000;
+    public static final int ENERGY_MAX_RECEIVE = 100_000;
+    private static final int SOURCE_RANGE = 6;       // радіус пошуку банок джерела
+    private static final int SOURCE_PULL_MAX = 1_000; // скільки джерела тягнути за раз
+
+    /** Чого бракує ритуалу зараз (для підказки Скіпетра). */
+    public enum Waiting { NONE, MANA, SOURCE, ENERGY }
+
+    private int mana;
+    private int source;
+    private final AltarEnergy energy = new AltarEnergy();
+    private int needMana;
+    private int needSource;
+    private int needEnergy;
+    private Waiting waiting = Waiting.NONE;
 
     private boolean crafting;
     private int progress;
@@ -90,6 +115,27 @@ public class FusionAltarBlockEntity extends BlockEntity {
 
     public boolean isCrafting() {
         return crafting;
+    }
+
+    public EnergyStorage getEnergy() {
+        return energy;
+    }
+
+    public int getMana() {
+        return mana;
+    }
+
+    public boolean isManaFull() {
+        return mana >= MANA_CAPACITY;
+    }
+
+    /** Мана з Botania (може бути й від'ємною — тоді забирають). */
+    public void receiveMana(int amount) {
+        int updated = (int) Math.max(0, Math.min(MANA_CAPACITY, (long) mana + amount));
+        if (updated != mana) {
+            mana = updated;
+            setChanged();
+        }
     }
 
     public boolean placeItem(ItemStack stack) {
@@ -148,9 +194,14 @@ public class FusionAltarBlockEntity extends BlockEntity {
             describe(player);
             return;
         }
+        FusionRecipe recipe = holder.get().value();
         crafting = true;
         progress = 0;
-        duration = holder.get().value().time();
+        duration = recipe.time();
+        needMana = recipe.mana();
+        needSource = recipe.source();
+        needEnergy = recipe.energy();
+        waiting = Waiting.NONE;
         recipeId = holder.get().id();
         activePedestals = filled.stream().map(BlockEntity::getBlockPos).toList();
         level.playSound(null, worldPosition, SoundEvents.BEACON_ACTIVATE, SoundSource.BLOCKS, 1.0f, 1.2f);
@@ -161,9 +212,16 @@ public class FusionAltarBlockEntity extends BlockEntity {
 
     /** Shift+ПКМ Скіпетром: стан вівтаря і чого бракує. */
     public void describe(Player player) {
+        player.sendSystemMessage(Component.translatable("message.synthesis.altar.stock",
+                mana, source, energy.getEnergyStored()).withStyle(ChatFormatting.AQUA));
         if (crafting) {
             player.sendSystemMessage(Component.translatable("message.synthesis.altar.already", percent())
                     .withStyle(ChatFormatting.LIGHT_PURPLE));
+            if (waiting != Waiting.NONE) {
+                player.sendSystemMessage(Component.translatable(
+                        "message.synthesis.altar.waiting." + waiting.name().toLowerCase(java.util.Locale.ROOT))
+                        .withStyle(ChatFormatting.RED));
+            }
             return;
         }
         if (isEmpty()) {
@@ -180,8 +238,13 @@ public class FusionAltarBlockEntity extends BlockEntity {
         List<PedestalBlockEntity> filled = filled(pedestals);
         Optional<RecipeHolder<FusionRecipe>> ready = findRecipe(filled);
         if (ready.isPresent()) {
+            FusionRecipe r = ready.get().value();
             player.sendSystemMessage(Component.translatable("message.synthesis.altar.ready",
-                    ready.get().value().result().getHoverName()).withStyle(ChatFormatting.GREEN));
+                    r.result().getHoverName()).withStyle(ChatFormatting.GREEN));
+            if (r.mana() > 0 || r.source() > 0 || r.energy() > 0) {
+                player.sendSystemMessage(Component.translatable("message.synthesis.altar.needs",
+                        r.mana(), r.source(), r.energy()).withStyle(ChatFormatting.GRAY));
+            }
             return;
         }
 
@@ -257,8 +320,9 @@ public class FusionAltarBlockEntity extends BlockEntity {
     }
 
     private void tickRitual(ServerLevel level) {
+        long gameTime = level.getGameTime();
         // Періодично (і одразу після завантаження світу) перевіряємо, що все ще на місці
-        if (progress % CHECK_INTERVAL == 0 || activePedestals.isEmpty()) {
+        if (gameTime % CHECK_INTERVAL == 0 || activePedestals.isEmpty()) {
             List<PedestalBlockEntity> filled = filled(findPedestals());
             Optional<RecipeHolder<FusionRecipe>> holder = findRecipe(filled);
             if (holder.isEmpty() || !holder.get().id().equals(recipeId)) {
@@ -268,6 +332,38 @@ public class FusionAltarBlockEntity extends BlockEntity {
             activePedestals = filled.stream().map(BlockEntity::getBlockPos).toList();
         }
 
+        // Частка ресурсів на цей тік (сума часток за весь ритуал = точно потрібна кількість)
+        int manaShare = share(needMana);
+        int sourceShare = share(needSource);
+        int energyShare = share(needEnergy);
+
+        if (sourceShare > source && gameTime % 10 == 0) {
+            pullSource(level);
+        }
+
+        Waiting nowWaiting;
+        if (mana < manaShare) nowWaiting = Waiting.MANA;
+        else if (source < sourceShare) nowWaiting = Waiting.SOURCE;
+        else if (energy.getEnergyStored() < energyShare) nowWaiting = Waiting.ENERGY;
+        else nowWaiting = Waiting.NONE;
+
+        if (nowWaiting != waiting) {
+            waiting = nowWaiting;
+            setChanged();
+        }
+        if (waiting != Waiting.NONE) {
+            // Пауза: прогрес стоїть, зрідка показуємо, що вівтар «голодний»
+            if (gameTime % 20 == 0) {
+                level.sendParticles(ParticleTypes.SMOKE, worldPosition.getX() + 0.5, worldPosition.getY() + 1.1,
+                        worldPosition.getZ() + 0.5, 3, 0.2, 0.05, 0.2, 0.01);
+            }
+            return;
+        }
+
+        mana -= manaShare;
+        source -= sourceShare;
+        energy.consume(energyShare);
+
         progress++;
         spawnRitualParticles(level);
         if (progress % 40 == 0) {
@@ -275,8 +371,31 @@ public class FusionAltarBlockEntity extends BlockEntity {
         }
         if (progress >= duration) {
             finish(level);
-        } else if (progress % 10 == 0) {
+        } else {
             setChanged();
+        }
+    }
+
+    /** Скільки ресурсу треба на поточний крок прогресу. */
+    private int share(int total) {
+        if (total <= 0 || duration <= 0) return 0;
+        return (int) ((long) total * (progress + 1) / duration - (long) total * progress / duration);
+    }
+
+    /** Тягнемо джерело з банок Ars Nouveau поруч (якщо Ars встановлено). */
+    private void pullSource(ServerLevel level) {
+        if (!ModCompat.ARS_NOUVEAU) return;
+        int remaining = needSource - (int) ((long) needSource * progress / duration);
+        int wanted = Math.min(Math.min(remaining - source, SOURCE_PULL_MAX), SOURCE_CAPACITY - source);
+        if (wanted <= 0) return;
+        // Спершу пробуємо великою порцією, потім маленькою (якщо в банках мало)
+        if (ArsCompat.takeSource(level, worldPosition, SOURCE_RANGE, wanted)) {
+            source += wanted;
+        } else {
+            int small = Math.min(wanted, Math.max(1, share(needSource) * 10));
+            if (small < wanted && ArsCompat.takeSource(level, worldPosition, SOURCE_RANGE, small)) {
+                source += small;
+            }
         }
     }
 
@@ -338,6 +457,10 @@ public class FusionAltarBlockEntity extends BlockEntity {
         crafting = false;
         progress = 0;
         duration = 0;
+        needMana = 0;
+        needSource = 0;
+        needEnergy = 0;
+        waiting = Waiting.NONE;
         recipeId = null;
         activePedestals = List.of();
     }
@@ -359,6 +482,13 @@ public class FusionAltarBlockEntity extends BlockEntity {
         tag.putInt("progress", progress);
         tag.putInt("duration", duration);
         if (recipeId != null) tag.putString("recipe", recipeId.toString());
+        tag.putInt("mana", mana);
+        tag.putInt("source", source);
+        tag.putInt("energy", energy.getEnergyStored());
+        tag.putInt("need_mana", needMana);
+        tag.putInt("need_source", needSource);
+        tag.putInt("need_energy", needEnergy);
+        tag.putString("waiting", waiting.name());
     }
 
     @Override
@@ -370,6 +500,39 @@ public class FusionAltarBlockEntity extends BlockEntity {
         duration = tag.getInt("duration");
         recipeId = tag.contains("recipe") ? ResourceLocation.tryParse(tag.getString("recipe")) : null;
         if (crafting && recipeId == null) crafting = false;
+        mana = Math.min(tag.getInt("mana"), MANA_CAPACITY);
+        source = Math.min(tag.getInt("source"), SOURCE_CAPACITY);
+        energy.set(tag.getInt("energy"));
+        needMana = tag.getInt("need_mana");
+        needSource = tag.getInt("need_source");
+        needEnergy = tag.getInt("need_energy");
+        try {
+            waiting = Waiting.valueOf(tag.getString("waiting"));
+        } catch (IllegalArgumentException e) {
+            waiting = Waiting.NONE;
+        }
+    }
+
+    /** Буфер FE: приймає ззовні (кабелі), віддавати назовні не вміє — лише витрачає на ритуал. */
+    private class AltarEnergy extends EnergyStorage {
+        AltarEnergy() {
+            super(ENERGY_CAPACITY, ENERGY_MAX_RECEIVE, 0);
+        }
+
+        @Override
+        public int receiveEnergy(int maxReceive, boolean simulate) {
+            int received = super.receiveEnergy(maxReceive, simulate);
+            if (received > 0 && !simulate) setChanged();
+            return received;
+        }
+
+        void consume(int amount) {
+            energy = Math.max(0, energy - amount);
+        }
+
+        void set(int value) {
+            energy = Math.max(0, Math.min(capacity, value));
+        }
     }
 
     @Override

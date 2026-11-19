@@ -20,5 +20,10 @@
   "jei.synthesis.time": "Час: %s с",
   "jei.synthesis.mana": "Мана: %s",
   "jei.synthesis.source": "Джерело: %s",
-  "jei.synthesis.energy": "Енергія: %s FE"
+  "jei.synthesis.energy": "Енергія: %s FE",
+  "message.synthesis.altar.stock": "Запас вівтаря: мана %s, джерело %s, енергія %s FE",
+  "message.synthesis.altar.needs": "Ритуал потребує: мана %s, джерело %s, енергія %s FE",
+  "message.synthesis.altar.waiting.mana": "Пауза: бракує мани — направте на вівтар мана-розповсюджувач",
+  "message.synthesis.altar.waiting.source": "Пауза: бракує джерела — поставте банки джерела в радіусі 6 блоків",
+  "message.synthesis.altar.waiting.energy": "Пауза: бракує енергії — підключіть кабель FE"
 }

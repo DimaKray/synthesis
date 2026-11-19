@@ -12,12 +12,20 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+// «Стаби» — порожні копії класів API Botania Revived і Ars Nouveau лише для компіляції.
+// У jar вони не потрапляють; у грі використовуються справжні класи цих модів.
+// (Botania Revived немає в Maven, а класти чужі jar у публічний репозиторій не хочемо.)
+sourceSets {
+    stubs
+}
+
 repositories {
     // JEI
     maven { url = 'https://maven.blamejared.com/' }
 }
 
 dependencies {
+    compileOnly sourceSets.stubs.output
     // Лише для компіляції: у грі JEI береться зі збірки, мод працює і без нього
     compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
     compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
@@ -35,6 +43,8 @@ neoForge {
             programArgument '--nogui'
         }
     }
+
+    addModdingDependenciesTo(sourceSets.stubs)
 
     mods {
         "${mod_id}" {
