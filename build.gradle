@@ -22,6 +22,8 @@ sourceSets {
 repositories {
     // JEI
     maven { url = 'https://maven.blamejared.com/' }
+    // Create, Ponder, Flywheel
+    maven { url = 'https://maven.createmod.net' }
 }
 
 dependencies {
@@ -29,6 +31,10 @@ dependencies {
     // Лише для компіляції: у грі JEI береться зі збірки, мод працює і без нього
     compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
     compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+    // Create — лише для компіляції Кінетичного приводу (compat/create); у грі береться зі збірки
+    compileOnly("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    compileOnly("net.createmod.ponder:ponder-neoforge:${ponder_version}") { transitive = false }
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}") { transitive = false }
 }
 
 neoForge {

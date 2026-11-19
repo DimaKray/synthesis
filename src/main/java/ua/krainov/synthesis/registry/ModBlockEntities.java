@@ -7,6 +7,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
+import ua.krainov.synthesis.blockentity.SynthesizerBlockEntity;
 
 /** Типи BlockEntity (блоків, що зберігають дані). */
 public final class ModBlockEntities {
@@ -22,6 +23,11 @@ public final class ModBlockEntities {
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<FusionAltarBlockEntity>> FUSION_ALTAR =
             BLOCK_ENTITIES.register("fusion_altar",
                     () -> BlockEntityType.Builder.of(FusionAltarBlockEntity::new, ModBlocks.FUSION_ALTAR.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SynthesizerBlockEntity>> SYNTHESIZER =
+            BLOCK_ENTITIES.register("synthesizer",
+                    () -> BlockEntityType.Builder.of(SynthesizerBlockEntity::new, ModBlocks.SYNTHESIZER.get()).build(null));
 
     private ModBlockEntities() {}
 }

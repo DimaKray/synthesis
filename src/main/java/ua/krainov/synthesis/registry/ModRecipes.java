@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.recipe.FusionRecipe;
+import ua.krainov.synthesis.recipe.SynthesizerRecipe;
 
 /** Типи рецептів мода та їхні серіалізатори (читання з JSON). */
 public final class ModRecipes {
@@ -21,6 +22,12 @@ public final class ModRecipes {
 
     public static final DeferredHolder<RecipeSerializer<?>, FusionRecipe.Serializer> FUSION_SERIALIZER =
             SERIALIZERS.register("fusion", FusionRecipe.Serializer::new);
+
+    public static final DeferredHolder<RecipeType<?>, RecipeType<SynthesizerRecipe>> SYNTHESIZING_TYPE =
+            TYPES.register("synthesizing", () -> RecipeType.simple(ResourceLocation.fromNamespaceAndPath(SynthesisMod.MODID, "synthesizing")));
+
+    public static final DeferredHolder<RecipeSerializer<?>, SynthesizerRecipe.Serializer> SYNTHESIZING_SERIALIZER =
+            SERIALIZERS.register("synthesizing", SynthesizerRecipe.Serializer::new);
 
     private ModRecipes() {}
 }

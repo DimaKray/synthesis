@@ -9,6 +9,7 @@ import net.neoforged.fml.ModList;
 public final class ModCompat {
     public static final boolean BOTANIA = ModList.get().isLoaded("botania");
     public static final boolean ARS_NOUVEAU = ModList.get().isLoaded("ars_nouveau");
+    public static final boolean CREATE = ModList.get().isLoaded("create");
 
     private ModCompat() {}
 }

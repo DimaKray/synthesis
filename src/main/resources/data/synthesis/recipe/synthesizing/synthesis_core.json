@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "synthesis:synthesizing",
+  "ingredients": [
+    {
+      "item": "synthesis:unity_alloy_1"
+    },
+    {
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "fluid": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  },
+  "energy": 200000,
+  "min_rpm": 64,
+  "stress": 512,
+  "time": 300,
+  "result": {
+    "id": "synthesis:synthesis_core",
+    "count": 1
+  }
+}

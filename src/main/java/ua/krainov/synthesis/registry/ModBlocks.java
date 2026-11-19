@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
+import ua.krainov.synthesis.block.SynthesizerBlock;
 
 /** Усі блоки мода. */
 public final class ModBlocks {
@@ -31,6 +32,14 @@ public final class ModBlocks {
                     .sound(SoundType.POLISHED_DEEPSLATE)
                     .lightLevel(state -> 5)
                     .noOcclusion()));
+
+    /** Техно-магічний синтезатор — машина з інтерфейсом, рідиною, FE і (за потреби) обертанням Create. */
+    public static final DeferredBlock<SynthesizerBlock> SYNTHESIZER = BLOCKS.register("synthesizer",
+            () -> new SynthesizerBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .strength(3.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
 
     private ModBlocks() {}
 }

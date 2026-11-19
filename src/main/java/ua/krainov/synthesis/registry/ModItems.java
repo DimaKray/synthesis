@@ -33,5 +33,11 @@ public final class ModItems {
 
     public static final DeferredItem<BlockItem> FUSION_ALTAR = ITEMS.registerSimpleBlockItem(ModBlocks.FUSION_ALTAR);
 
+    public static final DeferredItem<BlockItem> SYNTHESIZER = ITEMS.registerSimpleBlockItem(ModBlocks.SYNTHESIZER);
+
+    /** Ядро синтезу — компонент машин, робиться в Синтезаторі. */
+    public static final DeferredItem<Item> SYNTHESIS_CORE = ITEMS.registerSimpleItem("synthesis_core",
+            new Item.Properties().rarity(Rarity.RARE));
+
     private ModItems() {}
 }

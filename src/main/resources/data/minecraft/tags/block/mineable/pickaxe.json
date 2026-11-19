@@ -1,3 +1,11 @@
 {
-  "values": [ "synthesis:pedestal", "synthesis:fusion_altar" ]
+  "values": [
+    "synthesis:pedestal",
+    "synthesis:fusion_altar",
+    "synthesis:synthesizer",
+    {
+      "id": "synthesis:kinetic_drive",
+      "required": false
+    }
+  ]
 }

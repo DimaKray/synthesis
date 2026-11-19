@@ -7,6 +7,8 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.compat.ModCompat;
+import ua.krainov.synthesis.compat.create.CreateCompat;
 
 /** Власна вкладка «Синтез» у творчому режимі. */
 public final class ModCreativeTabs {
@@ -24,6 +26,9 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.UNITY_ALLOY_3.get());
                         output.accept(ModItems.FUSION_ALTAR.get());
                         output.accept(ModItems.PEDESTAL.get());
+                        output.accept(ModItems.SYNTHESIZER.get());
+                        if (ModCompat.CREATE) output.accept(CreateCompat.driveItem());
+                        output.accept(ModItems.SYNTHESIS_CORE.get());
                     })
                     .build());
 

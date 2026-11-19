@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "synthesis:block/kinetic_drive_end",
+    "side": "synthesis:block/kinetic_drive_side"
+  }
+}

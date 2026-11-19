@@ -1,0 +1,179 @@
+"""Генерує текстури Синтезатора, Кінетичного приводу, Ядра синтезу та інтерфейсу синтезатора.
+Запуск: python tools/gen_machine_textures.py"""
+import random
+from PIL import Image, ImageDraw
+
+RES = 'src/main/resources/assets/synthesis/textures/'
+D, M, L, H = (46, 46, 54), (66, 66, 78), (88, 88, 102), (112, 112, 128)
+GD, G, GL = (156, 107, 30), (217, 164, 65), (246, 210, 122)
+TEAL, PURP = (79, 195, 247), (155, 107, 224)
+IRON_D, IRON, IRON_L = (96, 100, 108), (140, 146, 156), (186, 192, 200)
+AND_D, AND, AND_L = (110, 104, 92), (150, 142, 126), (182, 174, 156)   # «андезит»
+
+
+def frame(im, c_out, c_in):
+    for i in range(16):
+        for (x, y) in [(i, 0), (i, 15), (0, i), (15, i)]:
+            im.putpixel((x, y), c_out)
+    for i in range(1, 15):
+        for (x, y) in [(i, 1), (1, i)]:
+            im.putpixel((x, y), c_in)
+
+
+def machine_side():
+    rng = random.Random(10)
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            im.putpixel((x, y), rng.choice([IRON, IRON, IRON_L, IRON_D]))
+    frame(im, IRON_D, IRON_L)
+    for x in range(3, 13):          # золота смуга
+        im.putpixel((x, 7), G)
+        im.putpixel((x, 8), GD)
+    for (x, y) in [(3, 3), (12, 3), (3, 12), (12, 12)]:  # заклепки
+        im.putpixel((x, y), IRON_L)
+    return im
+
+
+def machine_front():
+    im = machine_side()
+    # віконце з фіолетово-бірюзовим сяйвом
+    for y in range(4, 12):
+        for x in range(4, 12):
+            im.putpixel((x, y), D)
+    for y in range(5, 11):
+        for x in range(5, 11):
+            im.putpixel((x, y), PURP if (x + y) % 3 else TEAL)
+    for (x, y) in [(7, 7), (8, 7), (7, 8), (8, 8)]:
+        im.putpixel((x, y), GL)
+    return im
+
+
+def machine_top():
+    rng = random.Random(11)
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            im.putpixel((x, y), rng.choice([IRON, IRON_L, IRON]))
+    frame(im, IRON_D, IRON_L)
+    for i in range(4, 12):
+        im.putpixel((i, 4), G); im.putpixel((i, 11), G)
+        im.putpixel((4, i), G); im.putpixel((11, i), G)
+    for (x, y) in [(7, 7), (8, 7), (7, 8), (8, 8)]:
+        im.putpixel((x, y), TEAL)
+    return im
+
+
+def drive_side():
+    rng = random.Random(12)
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            im.putpixel((x, y), rng.choice([AND, AND, AND_L, AND_D]))
+    frame(im, AND_D, AND_L)
+    for y in range(3, 13):           # руна-стрілка: обертання передається в машину
+        im.putpixel((7, y), PURP); im.putpixel((8, y), PURP)
+    for (x, y) in [(5, 5), (6, 4), (9, 4), (10, 5), (5, 10), (6, 11), (9, 11), (10, 10)]:
+        im.putpixel((x, y), TEAL)
+    return im
+
+
+def drive_end():
+    im = drive_side()
+    for y in range(5, 11):           # отвір під вал
+        for x in range(5, 11):
+            im.putpixel((x, y), D)
+    for y in range(6, 10):
+        for x in range(6, 10):
+            im.putpixel((x, y), (120, 90, 60) if (x + y) % 2 else (150, 112, 74))
+    return im
+
+
+def core_item():
+    im = Image.new('RGBA', (16, 16), (0, 0, 0, 0))
+    pts = {}
+    for y in range(16):
+        for x in range(16):
+            dx, dy = x - 7.5, y - 7.5
+            d = abs(dx) + abs(dy)
+            if d <= 7:
+                c = G if d > 5.5 else (PURP if d > 3 else (TEAL if d > 1.2 else GL))
+                if d > 6.5:
+                    c = GD
+                pts[(x, y)] = c
+    for (x, y), c in pts.items():
+        im.putpixel((x, y), c)
+    for (x, y) in [(6, 5), (5, 6)]:
+        im.putpixel((x, y), (255, 255, 255))
+    return im
+
+
+# --- інтерфейс 176×166 (у файлі 256×256) ---
+BG, WHITE, DARK, BLACK, SLOT = (198, 198, 198), (255, 255, 255), (85, 85, 85), (0, 0, 0), (139, 139, 139)
+
+
+def panel(dr):
+    dr.rectangle([0, 0, 175, 165], fill=BG)
+    dr.line([(2, 0), (173, 0)], fill=BLACK); dr.line([(2, 165), (173, 165)], fill=BLACK)
+    dr.line([(0, 2), (0, 163)], fill=BLACK); dr.line([(175, 2), (175, 163)], fill=BLACK)
+    for (x, y) in [(1, 1), (174, 1), (1, 164), (174, 164)]:
+        dr.point((x, y), fill=BLACK)
+    dr.line([(1, 2), (1, 163)], fill=WHITE); dr.line([(2, 1), (173, 1)], fill=WHITE)
+    dr.line([(2, 2), (2, 162)], fill=WHITE); dr.line([(2, 2), (172, 2)], fill=WHITE)
+    dr.line([(174, 2), (174, 163)], fill=DARK); dr.line([(2, 164), (173, 164)], fill=DARK)
+    dr.line([(173, 3), (173, 163)], fill=DARK); dr.line([(3, 163), (173, 163)], fill=DARK)
+
+
+def sunken(dr, x, y, w, h, fill=SLOT):
+    """Заглиблена рамка: (x, y) — зовнішній кут, w×h — зовнішній розмір."""
+    dr.rectangle([x, y, x + w - 1, y + h - 1], fill=fill)
+    dr.line([(x, y), (x + w - 2, y)], fill=(55, 55, 55))
+    dr.line([(x, y), (x, y + h - 2)], fill=(55, 55, 55))
+    dr.line([(x + 1, y + h - 1), (x + w - 1, y + h - 1)], fill=WHITE)
+    dr.line([(x + w - 1, y + 1), (x + w - 1, y + h - 1)], fill=WHITE)
+
+
+def slot(dr, ix, iy):
+    sunken(dr, ix - 1, iy - 1, 18, 18)
+
+
+def arrow(dr, x, y, color):
+    # тіло 0..15 × 6..10, голова 15..22
+    dr.rectangle([x, y + 6, x + 15, y + 10], fill=color)
+    for i in range(8):
+        dr.line([(x + 15 + i, y + 1 + i), (x + 15 + i, y + 15 - i)], fill=color)
+
+
+def gui():
+    im = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
+    dr = ImageDraw.Draw(im)
+    panel(dr)
+    sunken(dr, 9, 17, 14, 54, fill=(40, 20, 20))      # шкала FE (внутрішня 10..22 × 18..70)
+    sunken(dr, 27, 17, 18, 54, fill=(30, 30, 40))     # бак (внутрішній 28..44 × 18..70)
+    for (ix, iy) in [(56, 17), (56, 35), (56, 53)]:
+        slot(dr, ix, iy)
+    sunken(dr, 115, 30, 26, 26)                       # великий вихідний слот
+    arrow(dr, 82, 35, (139, 139, 139))                # порожня стрілка
+    arrow(dr, 176, 0, (255, 255, 255))                # заповнена — для прогресу
+    for row in range(3):
+        for col in range(9):
+            slot(dr, 8 + col * 18, 84 + row * 18)
+    for col in range(9):
+        slot(dr, 8 + col * 18, 142)
+    # поділки на баку
+    for yy in range(26, 70, 9):
+        dr.line([(39, yy), (43, yy)], fill=(200, 200, 220, 160))
+    return im
+
+
+if __name__ == '__main__':
+    machine_side().save(RES + 'block/synthesizer_side.png')
+    machine_front().save(RES + 'block/synthesizer_front.png')
+    machine_top().save(RES + 'block/synthesizer_top.png')
+    drive_side().save(RES + 'block/kinetic_drive_side.png')
+    drive_end().save(RES + 'block/kinetic_drive_end.png')
+    core_item().save(RES + 'item/synthesis_core.png')
+    import os
+    os.makedirs(RES + 'gui', exist_ok=True)
+    gui().save(RES + 'gui/synthesizer.png')
+    print('ok')

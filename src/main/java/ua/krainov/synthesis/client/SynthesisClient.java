@@ -4,6 +4,8 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import ua.krainov.synthesis.registry.ModMenus;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.registry.ModBlockEntities;
 
@@ -14,6 +16,11 @@ public final class SynthesisClient {
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL.get(), PedestalRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.FUSION_ALTAR.get(), FusionAltarRenderer::new);
+    }
+
+    @SubscribeEvent
+    public static void registerScreens(RegisterMenuScreensEvent event) {
+        event.register(ModMenus.SYNTHESIZER.get(), SynthesizerScreen::new);
     }
 
     private SynthesisClient() {}

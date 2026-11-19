@@ -12,6 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeHolder;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.recipe.FusionRecipe;
+import ua.krainov.synthesis.recipe.SynthesizerRecipe;
 import ua.krainov.synthesis.registry.ModItems;
 import ua.krainov.synthesis.registry.ModRecipes;
 
@@ -28,6 +29,7 @@ public class SynthesisJeiPlugin implements IModPlugin {
     @Override
     public void registerCategories(IRecipeCategoryRegistration registration) {
         registration.addRecipeCategories(new FusionRecipeCategory(registration.getJeiHelpers().getGuiHelper()));
+        registration.addRecipeCategories(new SynthesizerRecipeCategory(registration.getJeiHelpers().getGuiHelper()));
     }
 
     @Override
@@ -37,6 +39,9 @@ public class SynthesisJeiPlugin implements IModPlugin {
         List<FusionRecipe> recipes = level.getRecipeManager().getAllRecipesFor(ModRecipes.FUSION_TYPE.get())
                 .stream().map(RecipeHolder::value).toList();
         registration.addRecipes(FusionRecipeCategory.TYPE, recipes);
+        List<SynthesizerRecipe> synthesizing = level.getRecipeManager().getAllRecipesFor(ModRecipes.SYNTHESIZING_TYPE.get())
+                .stream().map(RecipeHolder::value).toList();
+        registration.addRecipes(SynthesizerRecipeCategory.TYPE, synthesizing);
     }
 
     @Override
@@ -44,5 +49,6 @@ public class SynthesisJeiPlugin implements IModPlugin {
         registration.addRecipeCatalyst(new ItemStack(ModItems.FUSION_ALTAR.get()), FusionRecipeCategory.TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModItems.PEDESTAL.get()), FusionRecipeCategory.TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModItems.SYNTHESIS_SCEPTER.get()), FusionRecipeCategory.TYPE);
+        registration.addRecipeCatalyst(new ItemStack(ModItems.SYNTHESIZER.get()), SynthesizerRecipeCategory.TYPE);
     }
 }

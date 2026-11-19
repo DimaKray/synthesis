@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "synthesis:block/kinetic_drive"
+    },
+    "axis=z": {
+      "model": "synthesis:block/kinetic_drive",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "synthesis:block/kinetic_drive",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

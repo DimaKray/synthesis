@@ -25,5 +25,20 @@
   "message.synthesis.altar.needs": "Ritual needs: mana %s, source %s, energy %s FE",
   "message.synthesis.altar.waiting.mana": "Paused: not enough mana — aim a Mana Spreader at the altar",
   "message.synthesis.altar.waiting.source": "Paused: not enough source — place Source Jars within 6 blocks",
-  "message.synthesis.altar.waiting.energy": "Paused: not enough energy — connect an FE cable"
+  "message.synthesis.altar.waiting.energy": "Paused: not enough energy — connect an FE cable",
+  "block.synthesis.synthesizer": "Techno-Magical Synthesizer",
+  "block.synthesis.kinetic_drive": "Kinetic Drive",
+  "item.synthesis.synthesis_core": "Synthesis Core",
+  "gui.synthesis.status.idle": "Idle",
+  "gui.synthesis.status.working": "Working",
+  "gui.synthesis.status.no_energy": "Not enough FE",
+  "gui.synthesis.status.no_rotation": "Not enough rotation",
+  "gui.synthesis.status.output_full": "Output is full",
+  "gui.synthesis.rpm": "RPM: %s / %s",
+  "gui.synthesis.energy": "%s / %s FE",
+  "gui.synthesis.tank": "%s: %s / %s mB",
+  "gui.synthesis.tank_empty": "Empty: 0 / %s mB",
+  "gui.synthesis.progress": "Progress: %s%%",
+  "jei.synthesis.synthesizing": "Synthesizing",
+  "jei.synthesis.rotation": "Create: %s RPM, %s SU"
 }

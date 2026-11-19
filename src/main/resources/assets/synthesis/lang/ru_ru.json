@@ -25,5 +25,20 @@
   "message.synthesis.altar.needs": "Ритуал потребує: мана %s, джерело %s, енергія %s FE",
   "message.synthesis.altar.waiting.mana": "Пауза: бракує мани — направте на вівтар мана-розповсюджувач",
   "message.synthesis.altar.waiting.source": "Пауза: бракує джерела — поставте банки джерела в радіусі 6 блоків",
-  "message.synthesis.altar.waiting.energy": "Пауза: бракує енергії — підключіть кабель FE"
+  "message.synthesis.altar.waiting.energy": "Пауза: бракує енергії — підключіть кабель FE",
+  "block.synthesis.synthesizer": "Техно-магічний синтезатор",
+  "block.synthesis.kinetic_drive": "Кінетичний привід",
+  "item.synthesis.synthesis_core": "Ядро синтезу",
+  "gui.synthesis.status.idle": "Очікує",
+  "gui.synthesis.status.working": "Працює",
+  "gui.synthesis.status.no_energy": "Бракує FE",
+  "gui.synthesis.status.no_rotation": "Бракує обертання",
+  "gui.synthesis.status.output_full": "Вихід заповнено",
+  "gui.synthesis.rpm": "RPM: %s / %s",
+  "gui.synthesis.energy": "%s / %s FE",
+  "gui.synthesis.tank": "%s: %s / %s мВ",
+  "gui.synthesis.tank_empty": "Порожньо: 0 / %s мВ",
+  "gui.synthesis.progress": "Прогрес: %s%%",
+  "jei.synthesis.synthesizing": "Синтез",
+  "jei.synthesis.rotation": "Create: %s RPM, %s SU"
 }
