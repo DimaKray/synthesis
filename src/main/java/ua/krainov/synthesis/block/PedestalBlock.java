@@ -23,6 +23,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
+import ua.krainov.synthesis.registry.ModItems;
 
 /**
  * П'єдестал синтезу.
@@ -67,6 +68,10 @@ public class PedestalBlock extends BaseEntityBlock {
     @Override
     protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos,
                                               Player player, InteractionHand hand, BlockHitResult hit) {
+        // Скіпетр на п'єдестал не кладемо
+        if (stack.is(ModItems.SYNTHESIS_SCEPTER.get())) {
+            return ItemInteractionResult.SKIP_DEFAULT_BLOCK_INTERACTION;
+        }
         if (!(level.getBlockEntity(pos) instanceof PedestalBlockEntity pedestal) || !pedestal.isEmpty()) {
             // П'єдестал зайнятий — далі спрацює useWithoutItem і предмет забереться
             return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;

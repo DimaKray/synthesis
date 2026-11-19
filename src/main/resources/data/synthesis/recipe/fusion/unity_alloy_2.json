@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "botania" },
+    { "type": "neoforge:mod_loaded", "modid": "mekanism" },
+    { "type": "neoforge:mod_loaded", "modid": "tc4modern" },
+    { "type": "neoforge:mod_loaded", "modid": "ars_nouveau" }
+  ],
+  "type": "synthesis:fusion",
+  "center": { "item": "synthesis:unity_alloy_1" },
+  "pedestals": [
+    { "item": "botania:terrasteel_ingot" },
+    { "item": "mekanism:ingot_steel" },
+    { "item": "tc4modern:void_ingot" },
+    { "item": "ars_nouveau:source_gem" }
+  ],
+  "mana": 150000,
+  "source": 5000,
+  "time": 300,
+  "result": { "id": "synthesis:unity_alloy_2", "count": 1 }
+}

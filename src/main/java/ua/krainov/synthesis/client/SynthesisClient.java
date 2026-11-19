@@ -13,6 +13,7 @@ public final class SynthesisClient {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL.get(), PedestalRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.FUSION_ALTAR.get(), FusionAltarRenderer::new);
     }
 
     private SynthesisClient() {}

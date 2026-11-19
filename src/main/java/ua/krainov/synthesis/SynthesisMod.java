@@ -11,6 +11,7 @@ import ua.krainov.synthesis.registry.ModBlockEntities;
 import ua.krainov.synthesis.registry.ModBlocks;
 import ua.krainov.synthesis.registry.ModCreativeTabs;
 import ua.krainov.synthesis.registry.ModItems;
+import ua.krainov.synthesis.registry.ModRecipes;
 
 /**
  * Capitalism: Синтез — точка входу мода.
@@ -25,14 +26,18 @@ public class SynthesisMod {
         ModBlocks.BLOCKS.register(modBus);
         ModItems.ITEMS.register(modBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modBus);
+        ModRecipes.TYPES.register(modBus);
+        ModRecipes.SERIALIZERS.register(modBus);
         ModCreativeTabs.TABS.register(modBus);
         modBus.addListener(SynthesisMod::registerCapabilities);
         LOGGER.info("Capitalism: Синтез завантажується");
     }
 
-    /** Відкриваємо інвентар п'єдестала для хоперів, труб і жолобів Create. */
+    /** Відкриваємо інвентарі п'єдестала й вівтаря для хоперів, труб і жолобів Create. */
     private static void registerCapabilities(RegisterCapabilitiesEvent event) {
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModBlockEntities.PEDESTAL.get(),
                 (pedestal, side) -> pedestal.getInventory());
+        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModBlockEntities.FUSION_ALTAR.get(),
+                (altar, side) -> altar.getInventory());
     }
 }

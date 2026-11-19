@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " E ",
+    "GPG",
+    "DBD"
+  ],
+  "key": {
+    "E": { "item": "minecraft:ender_eye" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "P": { "item": "synthesis:pedestal" },
+    "D": { "item": "minecraft:polished_deepslate" },
+    "B": { "item": "minecraft:gold_block" }
+  },
+  "result": { "id": "synthesis:fusion_altar", "count": 1 }
+}

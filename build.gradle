@@ -12,6 +12,17 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+repositories {
+    // JEI
+    maven { url = 'https://maven.blamejared.com/' }
+}
+
+dependencies {
+    // Лише для компіляції: у грі JEI береться зі збірки, мод працює і без нього
+    compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+}
+
 neoForge {
     version = project.neo_version
 

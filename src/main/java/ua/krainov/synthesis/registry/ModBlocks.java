@@ -6,6 +6,7 @@ import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
 
 /** Усі блоки мода. */
@@ -19,6 +20,16 @@ public final class ModBlocks {
                     .strength(2.5f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.POLISHED_DEEPSLATE)
+                    .noOcclusion()));
+
+    /** Вівтар Злиття — центр ритуалу, п'єдестали ставляться навколо. */
+    public static final DeferredBlock<FusionAltarBlock> FUSION_ALTAR = BLOCKS.register("fusion_altar",
+            () -> new FusionAltarBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.DEEPSLATE)
+                    .strength(3.5f, 9.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.POLISHED_DEEPSLATE)
+                    .lightLevel(state -> 5)
                     .noOcclusion()));
 
     private ModBlocks() {}

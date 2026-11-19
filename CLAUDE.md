@@ -18,7 +18,7 @@
 - Логіку без Minecraft тримати в `core/` (для майбутнього переносу на 26.x), інтеграції в `compat/`
 
 ## Стан
-**Етап 1 (скелет) — готовий. Етап 2 (П'єдестал, 0.2.0) — готовий, перевірено в грі.** Є: П'єдестал синтезу (`block/PedestalBlock`, `blockentity/PedestalBlockEntity`, рендерер `client/PedestalRenderer`, інвентар відкритий для хоперів/Create через capability; текстури генерує `tools/gen_pedestal_textures.py`), вкладка «Синтез», Сплави єдності I–III, Скіпетр синтезу (поки без функцій), текстури, lang (en_us, uk_ua, ru_ru = українською — гра Дмитра російською локаллю).
+**Етапи 1–2 готові й перевірені. Етап 3 (Вівтар Злиття, 0.3.0) — код запушено, чекає перевірки в грі.** Є: вкладка «Синтез», Сплави єдності I–III, П'єдестал (`block/PedestalBlock`, `blockentity/PedestalBlockEntity`), Вівтар Злиття (`block/FusionAltarBlock`, `blockentity/FusionAltarBlockEntity` — ритуал, частинки, перевірка кожні 20 тіків), Скіпетр (`item/SynthesisScepterItem`: ПКМ — старт, Shift+ПКМ — чого бракує), рецепт `synthesis:fusion` (`recipe/FusionRecipe`, JSON у `data/synthesis/recipe/fusion/`, з умовами `neoforge:mod_loaded`), JEI (`compat/jei/`, compileOnly з maven.blamejared.com). Інвентарі відкриті для хоперів/Create через capability. Текстури блоків генерує `tools/gen_block_textures.py`. mana/source/energy у рецептах поки лише читаються (етап 4). lang: en_us, uk_ua, ru_ru = українською (гра Дмитра російською локаллю).
 
 CI: `.github/workflows/build.yml` — кожен пуш у `main` збирає jar і викладає в Releases (`build-N`). `gh` на ПК немає: статус перевіряти через `curl https://api.github.com/repos/DimaKray/synthesis/actions/runs?per_page=1`, jar брати з `releases/latest`. На ПК стоїть Java 23 (не 21); локально не збираємо.
 

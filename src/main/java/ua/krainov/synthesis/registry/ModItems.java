@@ -6,6 +6,7 @@ import net.minecraft.world.item.Rarity;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.item.SynthesisScepterItem;
 
 /** Усі предмети мода. */
 public final class ModItems {
@@ -23,12 +24,14 @@ public final class ModItems {
     public static final DeferredItem<Item> UNITY_ALLOY_3 = ITEMS.registerSimpleItem("unity_alloy_3",
             new Item.Properties().rarity(Rarity.EPIC));
 
-    /** Скіпетр синтезу — запускатиме ритуали (функція з'явиться на етапі 3). */
-    public static final DeferredItem<Item> SYNTHESIS_SCEPTER = ITEMS.registerSimpleItem("synthesis_scepter",
-            new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
+    /** Скіпетр синтезу — запускає ритуали Вівтаря Злиття. */
+    public static final DeferredItem<SynthesisScepterItem> SYNTHESIS_SCEPTER = ITEMS.registerItem("synthesis_scepter",
+            SynthesisScepterItem::new, new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 
     /** Предмет-блок п'єдестала. */
     public static final DeferredItem<BlockItem> PEDESTAL = ITEMS.registerSimpleBlockItem(ModBlocks.PEDESTAL);
+
+    public static final DeferredItem<BlockItem> FUSION_ALTAR = ITEMS.registerSimpleBlockItem(ModBlocks.FUSION_ALTAR);
 
     private ModItems() {}
 }
