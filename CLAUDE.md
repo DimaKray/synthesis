@@ -18,63 +18,9 @@
 - Логіку без Minecraft тримати в `core/` (для майбутнього переносу на 26.x), інтеграції в `compat/`
 
 ## Стан
-**Етап 1 (скелет) — код готовий, ще не запушений.** Є: вкладка «Синтез», Сплави єдності I–III, Скіпетр синтезу (поки без функцій), текстури, lang (en_us, uk_ua, ru_ru = українською — гра Дмитра російською локаллю).
+**Етап 1 (скелет) — готовий і запушений.** Є: вкладка «Синтез», Сплави єдності I–III, Скіпетр синтезу (поки без функцій), текстури, lang (en_us, uk_ua, ru_ru = українською — гра Дмитра російською локаллю).
 
-### ПЕРШЕ, що треба зробити
-1. Створити `.github/workflows/build.yml` (текст нижче) — попередня сесія не могла записати папку `.github`.
-2. `git init -b main`, закомітити все, `git remote add origin https://github.com/DimaKray/synthesis.git`, запушити.
-3. Дочекатися GitHub Actions; jar з'явиться в Releases (`build-N`).
-4. Скопіювати jar у mods профілю Capitalism (шлях нижче) і попросити Дмитра перевірити вкладку «Синтез» у креативі.
-
-```yaml
-name: Build
-
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Java 21
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 21
-
-      - name: Gradle
-        uses: gradle/actions/setup-gradle@v4
-
-      - name: Build
-        run: |
-          chmod +x ./gradlew
-          ./gradlew build --no-daemon
-
-      - name: Upload jar
-        uses: actions/upload-artifact@v4
-        with:
-          name: synthesis-jar
-          path: build/libs/*.jar
-
-      - name: Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: build-${{ github.run_number }}
-          name: Build ${{ github.run_number }}
-          body: "Автоматична збірка з коміту ${{ github.sha }}"
-          files: build/libs/*.jar
-          make_latest: true
-```
-
-Якщо на ПК Дмитра встановлено JDK 21 — можна збирати й локально (`gradlew build`), це швидше за Actions. Якщо ні — збираємо через Actions (Дмитро не хоче нічого встановлювати без потреби).
+CI: `.github/workflows/build.yml` — кожен пуш у `main` збирає jar і викладає в Releases (`build-N`). `gh` на ПК немає: статус перевіряти через `curl https://api.github.com/repos/DimaKray/synthesis/actions/runs?per_page=1`, jar брати з `releases/latest`. На ПК стоїть Java 23 (не 21); локально не збираємо.
 
 ## Етапи
 | # | Етап | Результат |
