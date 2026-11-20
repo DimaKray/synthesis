@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "synthesis:block/industrial_processor"
+    },
+    "facing=east": {
+      "model": "synthesis:block/industrial_processor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "synthesis:block/industrial_processor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "synthesis:block/industrial_processor",
+      "y": 270
+    }
+  }
+}

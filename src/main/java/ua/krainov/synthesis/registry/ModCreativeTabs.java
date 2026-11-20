@@ -36,6 +36,10 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.ACCELERATOR_X4.get());
                         output.accept(ModItems.ACCELERATOR_X8.get());
                         output.accept(ModItems.ACCELERATOR_X16.get());
+                        output.accept(ModItems.INDUSTRIAL_PROCESSOR.get());
+                        output.accept(ModItems.STACK_MODULE_1.get());
+                        output.accept(ModItems.STACK_MODULE_2.get());
+                        output.accept(ModItems.STACK_MODULE_3.get());
                         output.accept(ModItems.FORTUNE_CONVERTER.get());
                         output.accept(ModItems.FORTUNE_MODULE_1.get());
                         output.accept(ModItems.FORTUNE_MODULE_2.get());

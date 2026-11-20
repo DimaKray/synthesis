@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " U ",
+    "UMU",
+    " U "
+  ],
+  "key": {
+    "U": {
+      "item": "synthesis:unity_alloy_2"
+    },
+    "M": {
+      "item": "synthesis:stack_module_2"
+    }
+  },
+  "result": {
+    "id": "synthesis:stack_module_3",
+    "count": 1
+  }
+}

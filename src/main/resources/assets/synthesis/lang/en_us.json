@@ -111,5 +111,18 @@
   "tooltip.synthesis.solar": "Day: %s FE/t, night: %s FE/t. Needs open sky",
   "tooltip.synthesis.solar.no_rain": "Not affected by rain",
   "message.synthesis.solar.info": "Now: %s FE/t (day %s, night %s) | Buffer: %s / %s FE",
-  "message.synthesis.solar.no_sky": "Not generating: the panel must see the sky (and be in a world with daylight)"
+  "message.synthesis.solar.no_sky": "Not generating: the panel must see the sky (and be in a world with daylight)",
+  "block.synthesis.industrial_processor": "Industrial Processor",
+  "item.synthesis.stack_module_1": "Stack Module I",
+  "item.synthesis.stack_module_2": "Stack Module II",
+  "item.synthesis.stack_module_3": "Stack Module III",
+  "tooltip.synthesis.module.stack": "Industrial Processor: %s items per operation",
+  "gui.synthesis.processor.mode.smelting": "Smelting",
+  "gui.synthesis.processor.mode.crushing": "Crushing",
+  "gui.synthesis.processor.batch": "×%s",
+  "gui.synthesis.processor.status.idle": "Insert items",
+  "gui.synthesis.processor.status.working": "Working",
+  "gui.synthesis.processor.status.no_energy": "Not enough FE",
+  "gui.synthesis.processor.status.no_recipe": "No recipe in this mode",
+  "gui.synthesis.processor.status.output_full": "Output is full"
 }

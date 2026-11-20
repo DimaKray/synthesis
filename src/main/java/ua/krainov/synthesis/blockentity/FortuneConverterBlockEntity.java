@@ -83,7 +83,8 @@ public class FortuneConverterBlockEntity extends BlockEntity implements MenuProv
                 case SLOT_INPUT -> isProcessable(stack);
                 case SLOT_TOOL -> isTool(stack);
                 case SLOT_FORTUNE -> stack.getItem() instanceof ConverterModuleItem m && m.getKind() == ConverterModuleItem.Kind.FORTUNE;
-                default -> stack.getItem() instanceof ConverterModuleItem m && m.getKind() != ConverterModuleItem.Kind.FORTUNE;
+                default -> stack.getItem() instanceof ConverterModuleItem m
+                        && (m.getKind() == ConverterModuleItem.Kind.SMELTING || m.getKind() == ConverterModuleItem.Kind.SILK_TOUCH);
             };
         }
 

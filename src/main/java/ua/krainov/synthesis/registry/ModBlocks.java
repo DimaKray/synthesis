@@ -11,6 +11,7 @@ import ua.krainov.synthesis.block.AcceleratorTier;
 import ua.krainov.synthesis.block.CapitalAltarBlock;
 import ua.krainov.synthesis.block.FortuneConverterBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
+import ua.krainov.synthesis.block.IndustrialProcessorBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
 import ua.krainov.synthesis.block.SolarPanelBlock;
 import ua.krainov.synthesis.block.SolarTier;
@@ -115,6 +116,14 @@ public final class ModBlocks {
                         .sound(SoundType.METAL)
                         .noOcclusion()));
     }
+
+    /** Промисловий процесор — плавка/дроблення цілими стаками. */
+    public static final DeferredBlock<IndustrialProcessorBlock> INDUSTRIAL_PROCESSOR = BLOCKS.register("industrial_processor",
+            () -> new IndustrialProcessorBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .strength(3.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
 
     private ModBlocks() {}
 }

@@ -9,6 +9,7 @@ import ua.krainov.synthesis.blockentity.AcceleratorBlockEntity;
 import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.FortuneConverterBlockEntity;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
+import ua.krainov.synthesis.blockentity.IndustrialProcessorBlockEntity;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
 import ua.krainov.synthesis.blockentity.SolarPanelBlockEntity;
 import ua.krainov.synthesis.blockentity.SoulStabilizerBlockEntity;
@@ -64,6 +65,11 @@ public final class ModBlockEntities {
                     () -> BlockEntityType.Builder.of(SolarPanelBlockEntity::new,
                             ModBlocks.SOLAR_HYBRID.get(), ModBlocks.SOLAR_ULTIMATE.get(),
                             ModBlocks.SOLAR_QUANTUM.get(), ModBlocks.SOLAR_INFINITE.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IndustrialProcessorBlockEntity>> INDUSTRIAL_PROCESSOR =
+            BLOCK_ENTITIES.register("industrial_processor",
+                    () -> BlockEntityType.Builder.of(IndustrialProcessorBlockEntity::new, ModBlocks.INDUSTRIAL_PROCESSOR.get()).build(null));
 
     private ModBlockEntities() {}
 }

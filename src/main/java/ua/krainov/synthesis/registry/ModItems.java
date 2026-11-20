@@ -99,5 +99,18 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> SOLAR_INFINITE = ITEMS.registerItem("solar_infinite",
             p -> new BlockItem(ModBlocks.SOLAR_INFINITE.get(), p), new Item.Properties().rarity(Rarity.EPIC));
 
+    public static final DeferredItem<BlockItem> INDUSTRIAL_PROCESSOR = ITEMS.registerSimpleBlockItem(ModBlocks.INDUSTRIAL_PROCESSOR);
+
+    /** Стекові модулі Промислового процесора: 16 / 32 / 64 предмети за операцію. */
+    public static final DeferredItem<ConverterModuleItem> STACK_MODULE_1 = stackModule(1, Rarity.COMMON);
+    public static final DeferredItem<ConverterModuleItem> STACK_MODULE_2 = stackModule(2, Rarity.UNCOMMON);
+    public static final DeferredItem<ConverterModuleItem> STACK_MODULE_3 = stackModule(3, Rarity.RARE);
+
+    private static DeferredItem<ConverterModuleItem> stackModule(int level, Rarity rarity) {
+        return ITEMS.registerItem("stack_module_" + level,
+                p -> new ConverterModuleItem(ConverterModuleItem.Kind.STACK, level, p),
+                new Item.Properties().stacksTo(1).rarity(rarity));
+    }
+
     private ModItems() {}
 }

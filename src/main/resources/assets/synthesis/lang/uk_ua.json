@@ -111,5 +111,18 @@
   "tooltip.synthesis.solar": "Вдень: %s FE/т, вночі: %s FE/т. Потрібне відкрите небо",
   "tooltip.synthesis.solar.no_rain": "Дощ не впливає",
   "message.synthesis.solar.info": "Зараз: %s FE/т (вдень %s, вночі %s) | Буфер: %s / %s FE",
-  "message.synthesis.solar.no_sky": "Не генерує: панель має бачити небо (і стояти у світі з денним світлом)"
+  "message.synthesis.solar.no_sky": "Не генерує: панель має бачити небо (і стояти у світі з денним світлом)",
+  "block.synthesis.industrial_processor": "Промисловий процесор",
+  "item.synthesis.stack_module_1": "Стековий модуль I",
+  "item.synthesis.stack_module_2": "Стековий модуль II",
+  "item.synthesis.stack_module_3": "Стековий модуль III",
+  "tooltip.synthesis.module.stack": "Промисловий процесор: %s предметів за операцію",
+  "gui.synthesis.processor.mode.smelting": "Плавка",
+  "gui.synthesis.processor.mode.crushing": "Дроблення",
+  "gui.synthesis.processor.batch": "×%s",
+  "gui.synthesis.processor.status.idle": "Покладіть предмети",
+  "gui.synthesis.processor.status.working": "Працює",
+  "gui.synthesis.processor.status.no_energy": "Бракує FE",
+  "gui.synthesis.processor.status.no_recipe": "Немає рецепта",
+  "gui.synthesis.processor.status.output_full": "Вихід заповнено"
 }

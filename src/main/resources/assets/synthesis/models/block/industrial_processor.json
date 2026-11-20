@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "synthesis:block/synthesizer_top",
+    "front": "synthesis:block/industrial_processor_front",
+    "side": "synthesis:block/synthesizer_side"
+  }
+}

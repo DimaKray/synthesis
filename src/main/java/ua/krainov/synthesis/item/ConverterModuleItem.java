@@ -8,9 +8,9 @@ import net.minecraft.world.item.TooltipFlag;
 
 import java.util.List;
 
-/** Модулі Перетворювача удачі: удача I–V, плавка, шовковий дотик. */
+/** Модулі машин: удача I–V, плавка, шовковий дотик (Перетворювач удачі); стековий I–III (Промисловий процесор). */
 public class ConverterModuleItem extends Item {
-    public enum Kind { FORTUNE, SMELTING, SILK_TOUCH }
+    public enum Kind { FORTUNE, SMELTING, SILK_TOUCH, STACK }
 
     private final Kind kind;
     private final int level;
@@ -25,7 +25,12 @@ public class ConverterModuleItem extends Item {
         return kind;
     }
 
-    /** Рівень удачі (лише для FORTUNE). */
+    /** Скільки предметів за операцію Промислового процесора: без модуля 8, I — 16, II — 32, III — 64. */
+    public static int stackCapacity(int level) {
+        return 8 << Math.max(0, Math.min(3, level));
+    }
+
+    /** Рівень удачі (FORTUNE) або рівень стекового модуля (STACK). */
     public int getLevel() {
         return level;
     }
@@ -36,7 +41,9 @@ public class ConverterModuleItem extends Item {
             case FORTUNE -> "tooltip.synthesis.module.fortune";
             case SMELTING -> "tooltip.synthesis.module.smelting";
             case SILK_TOUCH -> "tooltip.synthesis.module.silk_touch";
+            case STACK -> "tooltip.synthesis.module.stack";
         };
-        tooltip.add(Component.translatable(key, level).withStyle(ChatFormatting.GRAY));
+        Object arg = kind == Kind.STACK ? stackCapacity(level) : level;
+        tooltip.add(Component.translatable(key, arg).withStyle(ChatFormatting.GRAY));
     }
 }

@@ -32,6 +32,9 @@ public final class SynthesisConfig {
     public static final ModConfigSpec.IntValue[] SOLAR_NIGHT = new ModConfigSpec.IntValue[4];
     public static final ModConfigSpec.DoubleValue SOLAR_RAIN_MULTIPLIER;
 
+    public static final ModConfigSpec.IntValue PROCESSOR_TICKS;
+    public static final ModConfigSpec.IntValue PROCESSOR_ENERGY_PER_ITEM;
+
     // ---------- SERVER ----------
     public static final ModConfigSpec SERVER_SPEC;
     public static final ModConfigSpec.IntValue BOX_INTERVAL_MINUTES;
@@ -124,6 +127,12 @@ public final class SynthesisConfig {
         SOLAR_RAIN_MULTIPLIER = b.comment("Множник у дощ/грозу (Нескінченна панель його ігнорує).",
                         "Rain multiplier (the Infinite panel ignores it).")
                 .defineInRange("rainMultiplier", 0.5, 0.0, 1.0);
+        b.pop();
+        b.comment("Промисловий процесор / Industrial Processor").push("industrial_processor");
+        PROCESSOR_TICKS = b.comment("Тіків на одну операцію (стак за раз).", "Ticks per operation (a whole stack).")
+                .defineInRange("ticksPerOperation", 100, 1, 6000);
+        PROCESSOR_ENERGY_PER_ITEM = b.comment("FE за кожен перероблений предмет.", "FE per processed item.")
+                .defineInRange("energyPerItem", 200, 0, 1_000_000);
         b.pop();
         COMMON_SPEC = b.build();
 

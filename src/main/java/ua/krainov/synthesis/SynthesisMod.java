@@ -78,6 +78,10 @@ public class SynthesisMod {
                 (accelerator, side) -> accelerator.getEnergy());
         event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.SOLAR_PANEL.get(),
                 (panel, side) -> panel.getEnergy());
+        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModBlockEntities.INDUSTRIAL_PROCESSOR.get(),
+                (machine, side) -> machine.getAutomation());
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.INDUSTRIAL_PROCESSOR.get(),
+                (machine, side) -> machine.getEnergy());
         // FE — від кабелів будь-якого мода
         event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.FUSION_ALTAR.get(),
                 (altar, side) -> altar.getEnergy());
