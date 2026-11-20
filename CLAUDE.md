@@ -18,21 +18,27 @@
 - Логіку без Minecraft тримати в `core/` (для майбутнього переносу на 26.x), інтеграції в `compat/`
 
 ## Стан
-**Етапи 1–3 перевірені в грі. Етапи 4 (живлення вівтаря), 5 (Синтезатор) і 6 (Вівтар Капіталізму, 0.6.0) — код запушено, Дмитро ще НЕ перевіряв у грі.** Вівтарі: спільна логіка в `blockentity/AltarBlockEntity<R>` (мана/джерело/FE/бак/обертання, пауза), `block/AltarBlock`; тонкі `FusionAltar*` і `CapitalAltar*`; рецепти реалізують `recipe/AltarRecipe`. Вівтар Капіталізму: рецепт `synthesis:capital` (`recipe/CapitalRecipe`, + fluid, min_rpm, stress), промені в `client/AltarRenderer` (RenderType.lightning), Infinity Catalyst у `data/synthesis/recipe/capital/` (центр — Сплав III, 13 ключів). Рецепт Avaritia на каталізатор ще НЕ прибраний (це етап 7, KubeJS). Синтезатор: `block/SynthesizerBlock`, `blockentity/SynthesizerBlockEntity` (3 входи, вихід, бак 16000 мВ, FE 1M, статуси), `menu/SynthesizerMenu` + `client/SynthesizerScreen` (текстура GUI з `tools/gen_machine_textures.py`), рецепт `synthesis:synthesizing` (`recipe/SynthesizerRecipe`, JSON у `data/synthesis/recipe/synthesizing/`), JEI-категорія. Обертання: інтерфейс `api/RotationSource`; Кінетичний привід `compat/create/` (KineticBlockEntity, реєструється лише з Create; навантаження impact = SU/|RPM|, модель статична, без Flywheel-візуалу). Create компілюється з maven.createmod.net (slim, transitive=false). Живлення: буфери мани/джерела/FE у `FusionAltarBlockEntity`, ритуал щотіку бере частку й стає на паузу, якщо бракує; `compat/botania/BotaniaCompat` (capability MANA_RECEIVER), `compat/ars/ArsCompat` (банки в радіусі 6), FE через `Capabilities.EnergyStorage`. API Botania/Ars компілюються проти **стабів** у `src/stubs/java` (sourceSet `stubs`, у jar не йде) — нові методи чужих API додавати туди, звіряючи сигнатури з jar у mods (парсер class-файлів, бо javap немає). Є: вкладка «Синтез», Сплави єдності I–III, П'єдестал (`block/PedestalBlock`, `blockentity/PedestalBlockEntity`), Вівтар Злиття (`block/FusionAltarBlock`, `blockentity/FusionAltarBlockEntity` — ритуал, частинки, перевірка кожні 20 тіків), Скіпетр (`item/SynthesisScepterItem`: ПКМ — старт, Shift+ПКМ — чого бракує), рецепт `synthesis:fusion` (`recipe/FusionRecipe`, JSON у `data/synthesis/recipe/fusion/`, з умовами `neoforge:mod_loaded`), JEI (`compat/jei/`, compileOnly з maven.blamejared.com). Інвентарі відкриті для хоперів/Create через capability. Текстури блоків генерує `tools/gen_block_textures.py`. lang: en_us, uk_ua, ru_ru = українською (гра Дмитра російською локаллю).
+**Версія 0.6.0 (старі етапи 1–6). Нумерація етапів змінилася — див. таблицю нижче. Живлення вівтаря, Синтезатор і Вівтар Капіталізму Дмитро ще НЕ перевіряв у грі.** Вівтарі: спільна логіка в `blockentity/AltarBlockEntity<R>` (мана/джерело/FE/бак/обертання, пауза), `block/AltarBlock`; тонкі `FusionAltar*` і `CapitalAltar*`; рецепти реалізують `recipe/AltarRecipe`. Вівтар Капіталізму: рецепт `synthesis:capital` (`recipe/CapitalRecipe`, + fluid, min_rpm, stress), промені в `client/AltarRenderer` (RenderType.lightning), Infinity Catalyst у `data/synthesis/recipe/capital/` (центр — Сплав III, 13 ключів). Рецепт Avaritia на каталізатор ще НЕ прибраний (це етап 7, KubeJS). Синтезатор: `block/SynthesizerBlock`, `blockentity/SynthesizerBlockEntity` (3 входи, вихід, бак 16000 мВ, FE 1M, статуси), `menu/SynthesizerMenu` + `client/SynthesizerScreen` (текстура GUI з `tools/gen_machine_textures.py`), рецепт `synthesis:synthesizing` (`recipe/SynthesizerRecipe`, JSON у `data/synthesis/recipe/synthesizing/`), JEI-категорія. Обертання: інтерфейс `api/RotationSource`; Кінетичний привід `compat/create/` (KineticBlockEntity, реєструється лише з Create; навантаження impact = SU/|RPM|, модель статична, без Flywheel-візуалу). Create компілюється з maven.createmod.net (slim, transitive=false). Живлення: буфери мани/джерела/FE у `FusionAltarBlockEntity`, ритуал щотіку бере частку й стає на паузу, якщо бракує; `compat/botania/BotaniaCompat` (capability MANA_RECEIVER), `compat/ars/ArsCompat` (банки в радіусі 6), FE через `Capabilities.EnergyStorage`. API Botania/Ars компілюються проти **стабів** у `src/stubs/java` (sourceSet `stubs`, у jar не йде) — нові методи чужих API додавати туди, звіряючи сигнатури з jar у mods (парсер class-файлів, бо javap немає). Є: вкладка «Синтез», Сплави єдності I–III, П'єдестал (`block/PedestalBlock`, `blockentity/PedestalBlockEntity`), Вівтар Злиття (`block/FusionAltarBlock`, `blockentity/FusionAltarBlockEntity` — ритуал, частинки, перевірка кожні 20 тіків), Скіпетр (`item/SynthesisScepterItem`: ПКМ — старт, Shift+ПКМ — чого бракує), рецепт `synthesis:fusion` (`recipe/FusionRecipe`, JSON у `data/synthesis/recipe/fusion/`, з умовами `neoforge:mod_loaded`), JEI (`compat/jei/`, compileOnly з maven.blamejared.com). Інвентарі відкриті для хоперів/Create через capability. Текстури блоків генерує `tools/gen_block_textures.py`. lang: en_us, uk_ua, ru_ru = українською (гра Дмитра російською локаллю).
 
 CI: `.github/workflows/build.yml` — кожен пуш у `main` збирає jar і викладає в Releases (`build-N`). `gh` на ПК немає: статус перевіряти через `curl https://api.github.com/repos/DimaKray/synthesis/actions/runs?per_page=1`, jar брати з `releases/latest`. На ПК стоїть Java 23 (не 21); локально не збираємо.
 
-## Етапи
-| # | Етап | Результат |
+## Етапи (нумерація з нового `docs/DESIGN.md`, 1–14)
+| # | Етап | Стан |
 |---|---|---|
-| 1 | Скелет + CI | мод запускається, предмети, вкладка |
-| 2 | П'єдестал | ставиться, тримає й показує предмет (BlockEntity + рендерер) |
-| 3 | Вівтар Злиття (предмети) | мультиблок, Скіпетр, рецепт `synthesis:fusion` з JSON, частинки, JEI |
-| 4 | Живлення вівтаря | мана Ботанії, джерело Ars, FE |
-| 5 | Синтезатор | GUI, рідина, FE, обертання Create |
-| 6 | Вівтар Капіталізму | мультиблок 7×7, 13 п'єдесталів, крафт Infinity Catalyst |
-| 7 | Інтеграція у збірку | рецепти, мости KubeJS, розділ квестів «Синтез» |
-| 8 | Перенос на 26.x | — |
+| 1 | Скелет + CI | ✅ перевірено |
+| 2 | Стабілізатор душ | у роботі |
+| 3 | Капітал-бокси | далі |
+| 4 | Перетворювач удачі | — |
+| 5 | Прискорювач | — |
+| 6 | Капітал-панелі | — |
+| 7 | Промисловий процесор | — |
+| 8 | Мультитеплиця + Драконієвий розповсюджувач + Великий басейн | — |
+| 9 | П'єдестал + Вівтар Злиття (+ мана/джерело/FE) | ✅ код є; П'єдестал і ритуал перевірені, живлення — ні |
+| 10 | Синтезатор (+ Кінетичний привід Create) | ✅ код є, не перевірено |
+| 11 | Квантовий збирач 9×9 | — |
+| 12 | Вівтар Капіталізму | ⚠ зроблено 7×7 / 13 п'єдесталів; за новим дизайном треба 9×9 / 21 п'єдестал (два кільця) — переробити |
+| 13 | Інтеграція у збірку (KubeJS, квести «10. Синтез») | — |
+| 14 | Перенос на 26.x | — |
 
 ## API інтеграцій (перевірено в jar-файлах збірки)
 - **Botania Revived** (неофіційний порт!): пакет `velrondevs.botania.api` (НЕ `vazkii`), `velrondevs.botania.api.mana.ManaReceiver`, `velrondevs.botania.api.BotaniaCapabilities`. Підключати як compileOnly з локального jar (`libs/`), бо в Maven його немає.
