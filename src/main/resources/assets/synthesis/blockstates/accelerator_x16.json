@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "synthesis:block/accelerator_x16"
+    }
+  }
+}

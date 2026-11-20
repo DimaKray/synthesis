@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " U ",
+    "UAU",
+    " U "
+  ],
+  "key": {
+    "U": {
+      "item": "synthesis:unity_alloy_2"
+    },
+    "A": {
+      "item": "synthesis:accelerator_x2"
+    }
+  },
+  "result": {
+    "id": "synthesis:accelerator_x4",
+    "count": 1
+  }
+}

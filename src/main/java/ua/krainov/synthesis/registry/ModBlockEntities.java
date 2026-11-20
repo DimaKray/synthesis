@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.blockentity.AcceleratorBlockEntity;
 import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.FortuneConverterBlockEntity;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
@@ -48,6 +49,13 @@ public final class ModBlockEntities {
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<FortuneConverterBlockEntity>> FORTUNE_CONVERTER =
             BLOCK_ENTITIES.register("fortune_converter",
                     () -> BlockEntityType.Builder.of(FortuneConverterBlockEntity::new, ModBlocks.FORTUNE_CONVERTER.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AcceleratorBlockEntity>> ACCELERATOR =
+            BLOCK_ENTITIES.register("accelerator",
+                    () -> BlockEntityType.Builder.of(AcceleratorBlockEntity::new,
+                            ModBlocks.ACCELERATOR_X2.get(), ModBlocks.ACCELERATOR_X4.get(),
+                            ModBlocks.ACCELERATOR_X8.get(), ModBlocks.ACCELERATOR_X16.get()).build(null));
 
     private ModBlockEntities() {}
 }

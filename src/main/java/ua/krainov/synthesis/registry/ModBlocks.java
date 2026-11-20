@@ -6,6 +6,8 @@ import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.block.AcceleratorBlock;
+import ua.krainov.synthesis.block.AcceleratorTier;
 import ua.krainov.synthesis.block.CapitalAltarBlock;
 import ua.krainov.synthesis.block.FortuneConverterBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
@@ -79,6 +81,22 @@ public final class ModBlocks {
                     .strength(3.5f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
+
+    /** Прискорювачі ×2 / ×4 / ×8 / ×16. */
+    public static final DeferredBlock<AcceleratorBlock> ACCELERATOR_X2 = accelerator(AcceleratorTier.X2);
+    public static final DeferredBlock<AcceleratorBlock> ACCELERATOR_X4 = accelerator(AcceleratorTier.X4);
+    public static final DeferredBlock<AcceleratorBlock> ACCELERATOR_X8 = accelerator(AcceleratorTier.X8);
+    public static final DeferredBlock<AcceleratorBlock> ACCELERATOR_X16 = accelerator(AcceleratorTier.X16);
+
+    private static DeferredBlock<AcceleratorBlock> accelerator(AcceleratorTier tier) {
+        return BLOCKS.register("accelerator_" + tier.getSerializedName(),
+                () -> new AcceleratorBlock(tier, BlockBehaviour.Properties.of()
+                        .mapColor(MapColor.GOLD)
+                        .strength(3.5f, 6.0f)
+                        .requiresCorrectToolForDrops()
+                        .sound(SoundType.METAL)
+                        .lightLevel(state -> 6)));
+    }
 
     private ModBlocks() {}
 }

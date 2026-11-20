@@ -338,3 +338,36 @@ if __name__ == '__main__':
     module((230, 110, 30), [(7, 6), (8, 7), (7, 8), (8, 9)]).save(RES + 'item/smelting_module.png')
     module((235, 235, 245), [(6, 7), (7, 7), (8, 8), (9, 8)]).save(RES + 'item/silk_touch_module.png')
     print('converter ok')
+
+
+# --- Прискорювачі: золотий корпус з циферблатом, колір стрілок/рамки за рівнем ---
+ACCEL_COLORS = {'x2': (90, 200, 90), 'x4': (79, 195, 247), 'x8': (170, 100, 240), 'x16': (240, 70, 70)}
+
+
+def accelerator(tier):
+    accent = ACCEL_COLORS[tier]
+    rng = random.Random(20)
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            im.putpixel((x, y), rng.choice([G, G, GD, GL]))
+    frame(im, GD, GL)
+    for i in range(16):                 # кольорова рамка рівня
+        for (x, y) in [(i, 2), (i, 13), (2, i), (13, i)]:
+            if 2 <= i <= 13:
+                im.putpixel((x, y), accent)
+    for y in range(4, 12):              # циферблат
+        for x in range(4, 12):
+            if (x - 7.5) ** 2 + (y - 7.5) ** 2 <= 14:
+                im.putpixel((x, y), (235, 230, 210))
+    for (x, y) in [(7, 5), (7, 6), (7, 7), (8, 7), (9, 7), (10, 7)]:   # стрілки
+        im.putpixel((x, y), (40, 40, 50))
+    for (x, y) in [(7, 4), (11, 7), (7, 11), (4, 7)]:                 # поділки
+        im.putpixel((x, y), accent)
+    return im
+
+
+if __name__ == '__main__':
+    for t in ACCEL_COLORS:
+        accelerator(t).save(RES + 'block/accelerator_' + t + '.png')
+    print('accelerators ok')

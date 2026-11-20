@@ -83,5 +83,13 @@ public final class ModItems {
                 new Item.Properties().stacksTo(1).rarity(rarity));
     }
 
+    public static final DeferredItem<BlockItem> ACCELERATOR_X2 = ITEMS.registerSimpleBlockItem(ModBlocks.ACCELERATOR_X2);
+    public static final DeferredItem<BlockItem> ACCELERATOR_X4 = ITEMS.registerItem("accelerator_x4",
+            p -> new BlockItem(ModBlocks.ACCELERATOR_X4.get(), p), new Item.Properties().rarity(Rarity.UNCOMMON));
+    public static final DeferredItem<BlockItem> ACCELERATOR_X8 = ITEMS.registerItem("accelerator_x8",
+            p -> new BlockItem(ModBlocks.ACCELERATOR_X8.get(), p), new Item.Properties().rarity(Rarity.RARE));
+    public static final DeferredItem<BlockItem> ACCELERATOR_X16 = ITEMS.registerItem("accelerator_x16",
+            p -> new BlockItem(ModBlocks.ACCELERATOR_X16.get(), p), new Item.Properties().rarity(Rarity.EPIC));
+
     private ModItems() {}
 }

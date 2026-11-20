@@ -94,5 +94,14 @@
   "gui.synthesis.converter.status.no_energy": "Бракує FE",
   "gui.synthesis.converter.status.no_output": "Потрібна скриня поруч",
   "gui.synthesis.converter.status.output_full": "Скриня заповнена",
-  "gui.synthesis.converter.status.invalid": "Не переробляється"
+  "gui.synthesis.converter.status.invalid": "Не переробляється",
+  "block.synthesis.accelerator_x2": "Прискорювач ×2",
+  "block.synthesis.accelerator_x4": "Прискорювач ×4",
+  "block.synthesis.accelerator_x8": "Прискорювач ×8",
+  "block.synthesis.accelerator_x16": "Прискорювач ×16",
+  "message.synthesis.accelerator.info": "Прискорювач ×%s | Енергія: %s / %s FE | Машин: %s",
+  "message.synthesis.accelerator.status.idle": "Поруч немає машин для прискорення (або вони в чорному списку)",
+  "message.synthesis.accelerator.status.working": "Працює: %s FE за тік на кожну машину",
+  "message.synthesis.accelerator.status.no_energy": "Бракує FE (потрібно %s FE за тік на машину)",
+  "message.synthesis.accelerator.status.disabled": "Вимкнено сигналом редстоуну"
 }

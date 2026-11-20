@@ -25,6 +25,9 @@ public final class SynthesisConfig {
     public static final ModConfigSpec.BooleanValue FORTUNE_RAW_MODE;
     public static final ModConfigSpec.ConfigValue<List<? extends String>> FORTUNE_BLACKLIST;
 
+    public static final ModConfigSpec.IntValue ACCEL_ENERGY_PER_TICK;
+    public static final ModConfigSpec.ConfigValue<List<? extends String>> ACCEL_BLACKLIST;
+
     // ---------- SERVER ----------
     public static final ModConfigSpec SERVER_SPEC;
     public static final ModConfigSpec.IntValue BOX_INTERVAL_MINUTES;
@@ -80,6 +83,31 @@ public final class SynthesisConfig {
                 .define("rawOreMode", false);
         FORTUNE_BLACKLIST = b.comment("Заборонені блоки/предмети (id або 'modid:*').", "Forbidden ores (id or 'modid:*').")
                 .defineListAllowEmpty("blacklist", List.of(), () -> "minecraft:example", o -> o instanceof String);
+        b.pop();
+        b.comment("Прискорювач / Accelerator").push("accelerator");
+        ACCEL_ENERGY_PER_TICK = b
+                .comment("FE за кожен ДОДАТКОВИЙ тік однієї машини (×4 = 3 додаткові тіки щотіку).",
+                        "FE per EXTRA tick of one machine (x4 = 3 extra ticks every tick).")
+                .defineInRange("energyPerExtraTick", 40, 0, 1_000_000);
+        ACCEL_BLACKLIST = b
+                .comment("Блоки, які НЕ прискорюються (id або 'modid:*'). Генератори краще тримати тут —",
+                        "інакше Прискорювач стане вічним двигуном. Ще можна додати блок у тег #synthesis:accelerator_blacklist.",
+                        "Blocks that are NOT accelerated (id or 'modid:*'). Keep generators here.")
+                .defineListAllowEmpty("blacklist", List.of(
+                        "minecraft:spawner", "minecraft:trial_spawner", "minecraft:vault",
+                        "apotheosis:boss_spawner",
+                        "draconicevolution:reactor_core", "draconicevolution:reactor_stabilizer",
+                        "draconicevolution:reactor_injector", "draconicevolution:stabilized_spawner",
+                        "draconicevolution:crafting_core", "draconicevolution:energy_core",
+                        "avaritia:neutron_collector", "avaritia:dense_neutron_collector",
+                        "avaritia:denser_neutron_collector", "avaritia:densest_neutron_collector",
+                        "industrialforegoing:ore_laser_base", "industrialforegoing:fluid_laser_base",
+                        "industrialforegoing:laser_drill",
+                        "ars_nouveau:ritual_brazier", "neovitae:master_ritual_stone", "neovitae:inverted_master_ritual_stone",
+                        "oritech:spawner_controller_block", "oritech:reactor_controller",
+                        "powah:reactor_starter", "powah:reactor_basic", "powah:reactor_hardened", "powah:reactor_blazing",
+                        "powah:reactor_niotic", "powah:reactor_spirited", "powah:reactor_nitro"
+                ), () -> "minecraft:example", o -> o instanceof String);
         b.pop();
         COMMON_SPEC = b.build();
 

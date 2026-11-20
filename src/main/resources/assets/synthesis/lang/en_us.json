@@ -94,5 +94,14 @@
   "gui.synthesis.converter.status.no_energy": "Not enough FE",
   "gui.synthesis.converter.status.no_output": "Needs a chest nearby",
   "gui.synthesis.converter.status.output_full": "Chest is full",
-  "gui.synthesis.converter.status.invalid": "Can't process this"
+  "gui.synthesis.converter.status.invalid": "Can't process this",
+  "block.synthesis.accelerator_x2": "Accelerator ×2",
+  "block.synthesis.accelerator_x4": "Accelerator ×4",
+  "block.synthesis.accelerator_x8": "Accelerator ×8",
+  "block.synthesis.accelerator_x16": "Accelerator ×16",
+  "message.synthesis.accelerator.info": "Accelerator ×%s | Energy: %s / %s FE | Machines: %s",
+  "message.synthesis.accelerator.status.idle": "No machines to accelerate next to it (or they are blacklisted)",
+  "message.synthesis.accelerator.status.working": "Working: %s FE per tick for each machine",
+  "message.synthesis.accelerator.status.no_energy": "Not enough FE (needs %s FE per tick per machine)",
+  "message.synthesis.accelerator.status.disabled": "Disabled by a redstone signal"
 }

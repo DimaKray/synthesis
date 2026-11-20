@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SUS",
+    "UAU",
+    "SUS"
+  ],
+  "key": {
+    "S": {
+      "item": "synthesis:synthesis_core"
+    },
+    "U": {
+      "item": "synthesis:unity_alloy_3"
+    },
+    "A": {
+      "item": "synthesis:accelerator_x8"
+    }
+  },
+  "result": {
+    "id": "synthesis:accelerator_x16",
+    "count": 1
+  }
+}
