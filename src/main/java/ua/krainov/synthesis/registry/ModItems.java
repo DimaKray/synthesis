@@ -42,5 +42,13 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> CAPITAL_ALTAR = ITEMS.registerItem("capital_altar",
             props -> new BlockItem(ModBlocks.CAPITAL_ALTAR.get(), props), new Item.Properties().rarity(Rarity.EPIC));
 
+    public static final DeferredItem<BlockItem> SOUL_STABILIZER_BASIC = ITEMS.registerSimpleBlockItem(ModBlocks.SOUL_STABILIZER_BASIC);
+    public static final DeferredItem<BlockItem> SOUL_STABILIZER_WYVERN = ITEMS.registerItem("soul_stabilizer_wyvern",
+            props -> new BlockItem(ModBlocks.SOUL_STABILIZER_WYVERN.get(), props), new Item.Properties().rarity(Rarity.UNCOMMON));
+    public static final DeferredItem<BlockItem> SOUL_STABILIZER_AWAKENED = ITEMS.registerItem("soul_stabilizer_awakened",
+            props -> new BlockItem(ModBlocks.SOUL_STABILIZER_AWAKENED.get(), props), new Item.Properties().rarity(Rarity.RARE));
+    public static final DeferredItem<BlockItem> SOUL_STABILIZER_CHAOTIC = ITEMS.registerItem("soul_stabilizer_chaotic",
+            props -> new BlockItem(ModBlocks.SOUL_STABILIZER_CHAOTIC.get(), props), new Item.Properties().rarity(Rarity.EPIC));
+
     private ModItems() {}
 }

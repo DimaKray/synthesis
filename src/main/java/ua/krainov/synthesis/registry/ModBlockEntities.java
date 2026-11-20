@@ -8,6 +8,7 @@ import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
+import ua.krainov.synthesis.blockentity.SoulStabilizerBlockEntity;
 import ua.krainov.synthesis.blockentity.SynthesizerBlockEntity;
 
 /** Типи BlockEntity (блоків, що зберігають дані). */
@@ -34,6 +35,13 @@ public final class ModBlockEntities {
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CapitalAltarBlockEntity>> CAPITAL_ALTAR =
             BLOCK_ENTITIES.register("capital_altar",
                     () -> BlockEntityType.Builder.of(CapitalAltarBlockEntity::new, ModBlocks.CAPITAL_ALTAR.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SoulStabilizerBlockEntity>> SOUL_STABILIZER =
+            BLOCK_ENTITIES.register("soul_stabilizer",
+                    () -> BlockEntityType.Builder.of(SoulStabilizerBlockEntity::new,
+                            ModBlocks.SOUL_STABILIZER_BASIC.get(), ModBlocks.SOUL_STABILIZER_WYVERN.get(),
+                            ModBlocks.SOUL_STABILIZER_AWAKENED.get(), ModBlocks.SOUL_STABILIZER_CHAOTIC.get()).build(null));
 
     private ModBlockEntities() {}
 }

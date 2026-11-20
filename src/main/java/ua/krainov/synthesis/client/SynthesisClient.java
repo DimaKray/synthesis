@@ -19,6 +19,7 @@ public final class SynthesisClient {
         event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL.get(), PedestalRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.FUSION_ALTAR.get(), ctx -> new AltarRenderer<FusionAltarBlockEntity>(ctx, false));
         event.registerBlockEntityRenderer(ModBlockEntities.CAPITAL_ALTAR.get(), ctx -> new AltarRenderer<CapitalAltarBlockEntity>(ctx, true));
+        event.registerBlockEntityRenderer(ModBlockEntities.SOUL_STABILIZER.get(), SoulStabilizerRenderer::new);
     }
 
     @SubscribeEvent

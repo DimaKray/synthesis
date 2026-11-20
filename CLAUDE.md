@@ -26,8 +26,8 @@ CI: `.github/workflows/build.yml` — кожен пуш у `main` збирає j
 | # | Етап | Стан |
 |---|---|---|
 | 1 | Скелет + CI | ✅ перевірено |
-| 2 | Стабілізатор душ | у роботі |
-| 3 | Капітал-бокси | далі |
+| 2 | Стабілізатор душ | ✅ код є (0.7.0), не перевірено: `block/SoulStabilizerBlock` (4 рівні, `StabilizerTier`), `blockentity/SoulStabilizerBlockEntity` (id моба з компонента `draconicevolution:soul_id` без залежності, лут через LootParams + FakePlayer з мечем «Добичі», вихід у сусідні інвентарі, буфер `pending`), чорний список: тег `#c:bosses` + `synthesis-common.toml` + ліміт HP, рендер моба `client/SoulStabilizerRenderer`. LivingDropsEvent і досвід НЕ зроблені |
+| 3 | Капітал-бокси | у роботі |
 | 4 | Перетворювач удачі | — |
 | 5 | Прискорювач | — |
 | 6 | Капітал-панелі | — |

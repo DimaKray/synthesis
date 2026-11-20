@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DBD",
+    "BCB",
+    "DBD"
+  ],
+  "key": {
+    "D": {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "draconicevolution:draconium_core"
+    }
+  },
+  "result": {
+    "id": "synthesis:soul_stabilizer_basic",
+    "count": 1
+  }
+}

@@ -28,6 +28,10 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.CAPITAL_ALTAR.get());
                         output.accept(ModItems.PEDESTAL.get());
                         output.accept(ModItems.SYNTHESIZER.get());
+                        output.accept(ModItems.SOUL_STABILIZER_BASIC.get());
+                        output.accept(ModItems.SOUL_STABILIZER_WYVERN.get());
+                        output.accept(ModItems.SOUL_STABILIZER_AWAKENED.get());
+                        output.accept(ModItems.SOUL_STABILIZER_CHAOTIC.get());
                         if (ModCompat.CREATE) output.accept(CreateCompat.driveItem());
                         output.accept(ModItems.SYNTHESIS_CORE.get());
                     })

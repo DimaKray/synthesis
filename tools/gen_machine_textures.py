@@ -177,3 +177,40 @@ if __name__ == '__main__':
     os.makedirs(RES + 'gui', exist_ok=True)
     gui().save(RES + 'gui/synthesizer.png')
     print('ok')
+
+
+# --- Стабілізатори душ: кліть (прозорий центр), колір рамки за рівнем ---
+TIER_COLORS = {
+    'basic': ((70, 70, 80), (120, 120, 135), (170, 170, 185)),
+    'wyvern': ((60, 30, 95), (120, 70, 190), (175, 130, 240)),
+    'awakened': ((120, 55, 10), (230, 130, 30), (255, 200, 110)),
+    'chaotic': ((70, 10, 10), (170, 25, 25), (240, 90, 70)),
+}
+
+
+def stabilizer(tier):
+    dark, mid, light = TIER_COLORS[tier]
+    im = Image.new('RGBA', (16, 16), (0, 0, 0, 0))
+    for i in range(16):
+        for (x, y) in [(i, 0), (i, 15), (0, i), (15, i)]:
+            im.putpixel((x, y), dark)
+        for (x, y) in [(i, 1), (1, i)]:
+            if 1 <= i <= 14:
+                im.putpixel((x, y), light)
+        for (x, y) in [(i, 14), (14, i)]:
+            if 1 <= i <= 14:
+                im.putpixel((x, y), mid)
+    for i in range(2, 14):   # ґрати: хрест посередині
+        im.putpixel((7, i), mid)
+        im.putpixel((8, i), dark)
+        im.putpixel((i, 7), mid)
+        im.putpixel((i, 8), dark)
+    for (x, y) in [(7, 7), (8, 7), (7, 8), (8, 8)]:
+        im.putpixel((x, y), (79, 195, 247))   # бірюзове «око» душі
+    return im
+
+
+if __name__ == '__main__':
+    for t in TIER_COLORS:
+        stabilizer(t).save(RES + 'block/soul_stabilizer_' + t + '.png')
+    print('stabilizers ok')

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CSC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "S": {
+      "item": "synthesis:soul_stabilizer_awakened"
+    }
+  },
+  "result": {
+    "id": "synthesis:soul_stabilizer_chaotic",
+    "count": 1
+  }
+}

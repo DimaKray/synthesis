@@ -3,6 +3,10 @@
     "synthesis:pedestal",
     "synthesis:fusion_altar",
     "synthesis:capital_altar",
+    "synthesis:soul_stabilizer_chaotic",
+    "synthesis:soul_stabilizer_awakened",
+    "synthesis:soul_stabilizer_wyvern",
+    "synthesis:soul_stabilizer_basic",
     "synthesis:synthesizer",
     {
       "id": "synthesis:kinetic_drive",

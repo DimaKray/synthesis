@@ -46,5 +46,19 @@
   "message.synthesis.altar.tank": "Бак вівтаря: %s %s / %s мВ",
   "message.synthesis.altar.needs_extra": "Також потрібно: %s мВ «%s», %s RPM, %s SU",
   "message.synthesis.altar.waiting.fluid": "Пауза: бракує рідини — заповніть бак вівтаря (відро або труба)",
-  "message.synthesis.altar.waiting.rotation": "Пауза: бракує обертання — поставте Кінетичний привід впритул до вівтаря"
+  "message.synthesis.altar.waiting.rotation": "Пауза: бракує обертання — поставте Кінетичний привід впритул до вівтаря",
+  "block.synthesis.soul_stabilizer_basic": "Стабілізатор душ",
+  "block.synthesis.soul_stabilizer_wyvern": "Стабілізатор душ Віверни",
+  "block.synthesis.soul_stabilizer_awakened": "Пробуджений стабілізатор душ",
+  "block.synthesis.soul_stabilizer_chaotic": "Хаотичний стабілізатор душ",
+  "message.synthesis.stabilizer.occupied": "Усередині вже є душа — спершу заберіть її (ПКМ порожньою рукою)",
+  "message.synthesis.stabilizer.info": "Душа: %s | Енергія: %s / %s FE",
+  "message.synthesis.stabilizer.cost": "Цикл: %s FE, %s с, мобів: %s, «Добича»: %s",
+  "message.synthesis.stabilizer.status.no_soul": "Вставте душу моба з Draconic Evolution",
+  "message.synthesis.stabilizer.status.working": "Працює: %s%%",
+  "message.synthesis.stabilizer.status.no_energy": "Пауза: бракує FE",
+  "message.synthesis.stabilizer.status.no_output": "Поставте скриню (або будь-який інвентар) поруч зі стабілізатором",
+  "message.synthesis.stabilizer.status.output_full": "Пауза: сусідній інвентар заповнений",
+  "message.synthesis.stabilizer.status.forbidden": "Цей моб заборонений (бос або в чорному списку)",
+  "message.synthesis.stabilizer.status.invalid": "Моба з цієї душі неможливо змоделювати"
 }

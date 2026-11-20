@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CSC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "draconicevolution:wyvern_core"
+    },
+    "S": {
+      "item": "synthesis:soul_stabilizer_basic"
+    }
+  },
+  "result": {
+    "id": "synthesis:soul_stabilizer_wyvern",
+    "count": 1
+  }
+}

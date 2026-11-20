@@ -8,6 +8,8 @@ import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import ua.krainov.synthesis.compat.ModCompat;
+import ua.krainov.synthesis.config.SynthesisConfig;
+import net.neoforged.fml.config.ModConfig;
 import ua.krainov.synthesis.compat.botania.BotaniaCompat;
 import ua.krainov.synthesis.compat.create.CreateCompat;
 import ua.krainov.synthesis.registry.ModBlockEntities;
@@ -39,6 +41,8 @@ public class SynthesisMod {
             CreateCompat.register(modBus);
         }
         modBus.addListener(SynthesisMod::registerCapabilities);
+        container.registerConfig(ModConfig.Type.COMMON, SynthesisConfig.COMMON_SPEC, "synthesis-common.toml");
+        container.registerConfig(ModConfig.Type.SERVER, SynthesisConfig.SERVER_SPEC, "synthesis-server.toml");
         LOGGER.info("Capitalism: Синтез завантажується");
     }
 
@@ -60,6 +64,10 @@ public class SynthesisMod {
                 (altar, side) -> altar.getEnergy());
         event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, ModBlockEntities.CAPITAL_ALTAR.get(),
                 (altar, side) -> altar.getTank());
+        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModBlockEntities.SOUL_STABILIZER.get(),
+                (machine, side) -> machine.getAutomationSlot());
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.SOUL_STABILIZER.get(),
+                (machine, side) -> machine.getEnergy());
         // FE — від кабелів будь-якого мода
         event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.FUSION_ALTAR.get(),
                 (altar, side) -> altar.getEnergy());

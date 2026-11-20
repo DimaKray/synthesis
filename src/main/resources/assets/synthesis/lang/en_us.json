@@ -46,5 +46,19 @@
   "message.synthesis.altar.tank": "Altar tank: %s %s / %s mB",
   "message.synthesis.altar.needs_extra": "Also needs: %s mB of %s, %s RPM, %s SU",
   "message.synthesis.altar.waiting.fluid": "Paused: not enough fluid — fill the altar tank (bucket or pipe)",
-  "message.synthesis.altar.waiting.rotation": "Paused: not enough rotation — put a Kinetic Drive next to the altar"
+  "message.synthesis.altar.waiting.rotation": "Paused: not enough rotation — put a Kinetic Drive next to the altar",
+  "block.synthesis.soul_stabilizer_basic": "Soul Stabilizer",
+  "block.synthesis.soul_stabilizer_wyvern": "Wyvern Soul Stabilizer",
+  "block.synthesis.soul_stabilizer_awakened": "Awakened Soul Stabilizer",
+  "block.synthesis.soul_stabilizer_chaotic": "Chaotic Soul Stabilizer",
+  "message.synthesis.stabilizer.occupied": "There is already a soul inside — take it out first (right-click with an empty hand)",
+  "message.synthesis.stabilizer.info": "Soul: %s | Energy: %s / %s FE",
+  "message.synthesis.stabilizer.cost": "Cycle: %s FE, %s s, mobs: %s, Looting: %s",
+  "message.synthesis.stabilizer.status.no_soul": "Insert a Draconic Evolution mob soul",
+  "message.synthesis.stabilizer.status.working": "Working: %s%%",
+  "message.synthesis.stabilizer.status.no_energy": "Paused: not enough FE",
+  "message.synthesis.stabilizer.status.no_output": "Place a chest (or any inventory) next to the stabilizer",
+  "message.synthesis.stabilizer.status.output_full": "Paused: the neighbouring inventory is full",
+  "message.synthesis.stabilizer.status.forbidden": "This mob is forbidden (boss or blacklisted)",
+  "message.synthesis.stabilizer.status.invalid": "This soul's mob cannot be simulated"
 }

@@ -9,6 +9,8 @@ import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.block.CapitalAltarBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
+import ua.krainov.synthesis.block.SoulStabilizerBlock;
+import ua.krainov.synthesis.block.StabilizerTier;
 import ua.krainov.synthesis.block.SynthesizerBlock;
 
 /** Усі блоки мода. */
@@ -51,6 +53,23 @@ public final class ModBlocks {
                     .sound(SoundType.NETHERITE_BLOCK)
                     .lightLevel(state -> 10)
                     .noOcclusion()));
+
+    /** Стабілізатори душ — 4 рівні (Базовий, Віверни, Пробуджений, Хаотичний). */
+    public static final DeferredBlock<SoulStabilizerBlock> SOUL_STABILIZER_BASIC = stabilizer(StabilizerTier.BASIC);
+    public static final DeferredBlock<SoulStabilizerBlock> SOUL_STABILIZER_WYVERN = stabilizer(StabilizerTier.WYVERN);
+    public static final DeferredBlock<SoulStabilizerBlock> SOUL_STABILIZER_AWAKENED = stabilizer(StabilizerTier.AWAKENED);
+    public static final DeferredBlock<SoulStabilizerBlock> SOUL_STABILIZER_CHAOTIC = stabilizer(StabilizerTier.CHAOTIC);
+
+    private static DeferredBlock<SoulStabilizerBlock> stabilizer(StabilizerTier tier) {
+        return BLOCKS.register("soul_stabilizer_" + tier.getSerializedName(),
+                () -> new SoulStabilizerBlock(tier, BlockBehaviour.Properties.of()
+                        .mapColor(MapColor.COLOR_BLACK)
+                        .strength(5.0f, 6.0f)
+                        .requiresCorrectToolForDrops()
+                        .sound(SoundType.METAL)
+                        .lightLevel(state -> 4)
+                        .noOcclusion()));
+    }
 
     private ModBlocks() {}
 }
