@@ -142,5 +142,12 @@
   "gui.synthesis.greenhouse.stack_on": "Стак: УВІМК",
   "gui.synthesis.greenhouse.stack_off": "Стак: ВИМК",
   "gui.synthesis.greenhouse.rate": "%s мани/с",
-  "gui.synthesis.greenhouse.mana": "Мана: %s / %s"
+  "gui.synthesis.greenhouse.mana": "Мана: %s / %s",
+  "block.synthesis.quantum_assembler": "Квантовий збирач 9×9",
+  "message.synthesis.assembler.info": "Енергія: %s / %s FE | Буфер: %s / %s слотів | Скрафчено: %s",
+  "message.synthesis.assembler.status.idle": "Чекає інгредієнти (Pattern Provider AE2 з шаблоном обробки)",
+  "message.synthesis.assembler.status.working": "Крафтить",
+  "message.synthesis.assembler.status.no_energy": "Бракує FE",
+  "message.synthesis.assembler.status.no_output": "Поруч немає інвентаря для результату",
+  "message.synthesis.assembler.status.output_full": "Сусідній інвентар заповнений"
 }

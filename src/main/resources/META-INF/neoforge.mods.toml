@@ -4,7 +4,7 @@ license = "MIT"
 
 [[mods]]
 modId = "synthesis"
-version = "0.13.0"
+version = "0.14.0"
 displayName = "Capitalism: Synthesis"
 authors = "Dmytro Krainov"
 description = '''

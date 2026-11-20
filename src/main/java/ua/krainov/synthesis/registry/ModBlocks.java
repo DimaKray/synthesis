@@ -13,6 +13,7 @@ import ua.krainov.synthesis.block.FortuneConverterBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.IndustrialProcessorBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
+import ua.krainov.synthesis.block.QuantumAssemblerBlock;
 import ua.krainov.synthesis.block.SolarPanelBlock;
 import ua.krainov.synthesis.block.SolarTier;
 import ua.krainov.synthesis.block.SoulStabilizerBlock;
@@ -124,6 +125,15 @@ public final class ModBlocks {
                     .strength(3.5f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
+
+    /** Квантовий збирач 9×9 — автокрафт столів Avaritia через AE2. */
+    public static final DeferredBlock<QuantumAssemblerBlock> QUANTUM_ASSEMBLER = BLOCKS.register("quantum_assembler",
+            () -> new QuantumAssemblerBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_BLACK)
+                    .strength(5.0f, 12.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHERITE_BLOCK)
+                    .lightLevel(state -> 7)));
 
     private ModBlocks() {}
 }

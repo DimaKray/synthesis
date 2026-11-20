@@ -112,5 +112,8 @@ public final class ModItems {
                 new Item.Properties().stacksTo(1).rarity(rarity));
     }
 
+    public static final DeferredItem<BlockItem> QUANTUM_ASSEMBLER = ITEMS.registerItem("quantum_assembler",
+            p -> new BlockItem(ModBlocks.QUANTUM_ASSEMBLER.get(), p), new Item.Properties().rarity(Rarity.EPIC));
+
     private ModItems() {}
 }

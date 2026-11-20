@@ -39,6 +39,8 @@ public final class SynthesisConfig {
     public static final ModConfigSpec.IntValue SPREADER_RANGE;
     public static final ModConfigSpec.ConfigValue<List<? extends String>> GREENHOUSE_FLOWERS;
 
+    public static final ModConfigSpec.IntValue ASSEMBLER_ENERGY_PER_CRAFT;
+
     // ---------- SERVER ----------
     public static final ModConfigSpec SERVER_SPEC;
     public static final ModConfigSpec.IntValue BOX_INTERVAL_MINUTES;
@@ -157,6 +159,10 @@ public final class SynthesisConfig {
                         "botania:spectrolus=300", "botania:dandelifeon=500", "botania:rafflowsia=600",
                         "botania:shulk_me_not=800"
                 ), () -> "botania:example=10", o -> o instanceof String);
+        b.pop();
+        b.comment("Квантовий збирач 9×9 / Quantum Assembler").push("quantum_assembler");
+        ASSEMBLER_ENERGY_PER_CRAFT = b.comment("FE за один крафт рецепта столу Avaritia.", "FE per Avaritia table craft.")
+                .defineInRange("energyPerCraft", 50_000, 0, 100_000_000);
         b.pop();
         COMMON_SPEC = b.build();
 

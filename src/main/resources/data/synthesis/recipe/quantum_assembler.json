@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "avaritia"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "PXP",
+    "SMS"
+  ],
+  "key": {
+    "S": {
+      "item": "synthesis:synthesis_core"
+    },
+    "C": {
+      "item": "ae2:calculation_processor"
+    },
+    "P": {
+      "item": "ae2:pattern_provider"
+    },
+    "X": {
+      "item": "avaritia:extreme_crafting_table"
+    },
+    "M": {
+      "item": "ae2:molecular_assembler"
+    }
+  },
+  "result": {
+    "id": "synthesis:quantum_assembler",
+    "count": 1
+  }
+}

@@ -142,5 +142,12 @@
   "gui.synthesis.greenhouse.stack_on": "Stack: ON",
   "gui.synthesis.greenhouse.stack_off": "Stack: OFF",
   "gui.synthesis.greenhouse.rate": "%s mana/s",
-  "gui.synthesis.greenhouse.mana": "Mana: %s / %s"
+  "gui.synthesis.greenhouse.mana": "Mana: %s / %s",
+  "block.synthesis.quantum_assembler": "Quantum Assembler 9×9",
+  "message.synthesis.assembler.info": "Energy: %s / %s FE | Buffer: %s / %s slots | Crafted: %s",
+  "message.synthesis.assembler.status.idle": "Waiting for ingredients (AE2 Pattern Provider with a processing pattern)",
+  "message.synthesis.assembler.status.working": "Crafting",
+  "message.synthesis.assembler.status.no_energy": "Not enough FE",
+  "message.synthesis.assembler.status.no_output": "No inventory next to it for the result",
+  "message.synthesis.assembler.status.output_full": "Neighbouring inventory is full"
 }
