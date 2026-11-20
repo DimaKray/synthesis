@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SUS",
+    "GRG"
+  ],
+  "key": {
+    "S": {
+      "tag": "synthesis:solar_base"
+    },
+    "U": {
+      "item": "synthesis:unity_alloy_1"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "synthesis:solar_hybrid",
+    "count": 1
+  }
+}

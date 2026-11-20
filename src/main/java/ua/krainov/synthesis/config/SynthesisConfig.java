@@ -28,6 +28,10 @@ public final class SynthesisConfig {
     public static final ModConfigSpec.IntValue ACCEL_ENERGY_PER_TICK;
     public static final ModConfigSpec.ConfigValue<List<? extends String>> ACCEL_BLACKLIST;
 
+    public static final ModConfigSpec.IntValue[] SOLAR_DAY = new ModConfigSpec.IntValue[4];
+    public static final ModConfigSpec.IntValue[] SOLAR_NIGHT = new ModConfigSpec.IntValue[4];
+    public static final ModConfigSpec.DoubleValue SOLAR_RAIN_MULTIPLIER;
+
     // ---------- SERVER ----------
     public static final ModConfigSpec SERVER_SPEC;
     public static final ModConfigSpec.IntValue BOX_INTERVAL_MINUTES;
@@ -108,6 +112,18 @@ public final class SynthesisConfig {
                         "powah:reactor_starter", "powah:reactor_basic", "powah:reactor_hardened", "powah:reactor_blazing",
                         "powah:reactor_niotic", "powah:reactor_spirited", "powah:reactor_nitro"
                 ), () -> "minecraft:example", o -> o instanceof String);
+        b.pop();
+        b.comment("Капітал-панелі / Capital solar panels (FE за тік)").push("solar_panels");
+        String[] names = {"hybrid", "ultimate", "quantum", "infinite"};
+        int[] day = {64, 512, 4096, 65536};
+        int[] night = {8, 64, 512, 65536};
+        for (int i = 0; i < 4; i++) {
+            SOLAR_DAY[i] = b.defineInRange(names[i] + "Day", day[i], 0, Integer.MAX_VALUE / 2);
+            SOLAR_NIGHT[i] = b.defineInRange(names[i] + "Night", night[i], 0, Integer.MAX_VALUE / 2);
+        }
+        SOLAR_RAIN_MULTIPLIER = b.comment("Множник у дощ/грозу (Нескінченна панель його ігнорує).",
+                        "Rain multiplier (the Infinite panel ignores it).")
+                .defineInRange("rainMultiplier", 0.5, 0.0, 1.0);
         b.pop();
         COMMON_SPEC = b.build();
 

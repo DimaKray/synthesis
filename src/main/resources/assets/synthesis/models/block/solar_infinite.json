@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "synthesis:block/synthesizer_top",
+    "top": "synthesis:block/solar_infinite_top",
+    "side": "synthesis:block/solar_infinite_side"
+  }
+}

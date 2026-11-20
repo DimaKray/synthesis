@@ -103,5 +103,13 @@
   "message.synthesis.accelerator.status.idle": "No machines to accelerate next to it (or they are blacklisted)",
   "message.synthesis.accelerator.status.working": "Working: %s FE per tick for each machine",
   "message.synthesis.accelerator.status.no_energy": "Not enough FE (needs %s FE per tick per machine)",
-  "message.synthesis.accelerator.status.disabled": "Disabled by a redstone signal"
+  "message.synthesis.accelerator.status.disabled": "Disabled by a redstone signal",
+  "block.synthesis.solar_hybrid": "Hybrid Capital Panel",
+  "block.synthesis.solar_ultimate": "Ultimate Capital Panel",
+  "block.synthesis.solar_quantum": "Quantum Capital Panel",
+  "block.synthesis.solar_infinite": "Infinite Capital Panel",
+  "tooltip.synthesis.solar": "Day: %s FE/t, night: %s FE/t. Needs open sky",
+  "tooltip.synthesis.solar.no_rain": "Not affected by rain",
+  "message.synthesis.solar.info": "Now: %s FE/t (day %s, night %s) | Buffer: %s / %s FE",
+  "message.synthesis.solar.no_sky": "Not generating: the panel must see the sky (and be in a world with daylight)"
 }

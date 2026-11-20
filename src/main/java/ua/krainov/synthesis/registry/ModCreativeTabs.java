@@ -28,6 +28,10 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.CAPITAL_ALTAR.get());
                         output.accept(ModItems.PEDESTAL.get());
                         output.accept(ModItems.SYNTHESIZER.get());
+                        output.accept(ModItems.SOLAR_HYBRID.get());
+                        output.accept(ModItems.SOLAR_ULTIMATE.get());
+                        output.accept(ModItems.SOLAR_QUANTUM.get());
+                        output.accept(ModItems.SOLAR_INFINITE.get());
                         output.accept(ModItems.ACCELERATOR_X2.get());
                         output.accept(ModItems.ACCELERATOR_X4.get());
                         output.accept(ModItems.ACCELERATOR_X8.get());

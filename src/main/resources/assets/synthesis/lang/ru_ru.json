@@ -103,5 +103,13 @@
   "message.synthesis.accelerator.status.idle": "Поруч немає машин для прискорення (або вони в чорному списку)",
   "message.synthesis.accelerator.status.working": "Працює: %s FE за тік на кожну машину",
   "message.synthesis.accelerator.status.no_energy": "Бракує FE (потрібно %s FE за тік на машину)",
-  "message.synthesis.accelerator.status.disabled": "Вимкнено сигналом редстоуну"
+  "message.synthesis.accelerator.status.disabled": "Вимкнено сигналом редстоуну",
+  "block.synthesis.solar_hybrid": "Гібридна Капітал-панель",
+  "block.synthesis.solar_ultimate": "Ультимативна Капітал-панель",
+  "block.synthesis.solar_quantum": "Квантова Капітал-панель",
+  "block.synthesis.solar_infinite": "Нескінченна Капітал-панель",
+  "tooltip.synthesis.solar": "Вдень: %s FE/т, вночі: %s FE/т. Потрібне відкрите небо",
+  "tooltip.synthesis.solar.no_rain": "Дощ не впливає",
+  "message.synthesis.solar.info": "Зараз: %s FE/т (вдень %s, вночі %s) | Буфер: %s / %s FE",
+  "message.synthesis.solar.no_sky": "Не генерує: панель має бачити небо (і стояти у світі з денним світлом)"
 }

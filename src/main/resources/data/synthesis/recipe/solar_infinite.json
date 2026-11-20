@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "avaritia"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HUH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "synthesis:solar_quantum"
+    },
+    "U": {
+      "item": "avaritia:infinity_ingot"
+    }
+  },
+  "result": {
+    "id": "synthesis:solar_infinite",
+    "count": 1
+  }
+}

@@ -91,5 +91,13 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> ACCELERATOR_X16 = ITEMS.registerItem("accelerator_x16",
             p -> new BlockItem(ModBlocks.ACCELERATOR_X16.get(), p), new Item.Properties().rarity(Rarity.EPIC));
 
+    public static final DeferredItem<BlockItem> SOLAR_HYBRID = ITEMS.registerSimpleBlockItem(ModBlocks.SOLAR_HYBRID);
+    public static final DeferredItem<BlockItem> SOLAR_ULTIMATE = ITEMS.registerItem("solar_ultimate",
+            p -> new BlockItem(ModBlocks.SOLAR_ULTIMATE.get(), p), new Item.Properties().rarity(Rarity.UNCOMMON));
+    public static final DeferredItem<BlockItem> SOLAR_QUANTUM = ITEMS.registerItem("solar_quantum",
+            p -> new BlockItem(ModBlocks.SOLAR_QUANTUM.get(), p), new Item.Properties().rarity(Rarity.RARE));
+    public static final DeferredItem<BlockItem> SOLAR_INFINITE = ITEMS.registerItem("solar_infinite",
+            p -> new BlockItem(ModBlocks.SOLAR_INFINITE.get(), p), new Item.Properties().rarity(Rarity.EPIC));
+
     private ModItems() {}
 }

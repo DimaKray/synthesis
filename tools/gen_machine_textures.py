@@ -371,3 +371,54 @@ if __name__ == '__main__':
     for t in ACCEL_COLORS:
         accelerator(t).save(RES + 'block/accelerator_' + t + '.png')
     print('accelerators ok')
+
+
+# --- Капітал-панелі: верх — сонячні елементи, рамка кольору рівня ---
+SOLAR_COLORS = {
+    'hybrid': ((30, 45, 90), (55, 80, 150), (170, 170, 185)),
+    'ultimate': ((25, 70, 60), (40, 130, 110), (217, 164, 65)),
+    'quantum': ((55, 25, 90), (110, 60, 180), (79, 195, 247)),
+    'infinite': ((20, 20, 25), (60, 60, 70), (255, 255, 255)),
+}
+
+
+def solar_top(tier):
+    dark, mid, rim = SOLAR_COLORS[tier]
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            c = mid if (x // 4 + y // 4) % 2 == 0 else dark
+            if x % 4 == 0 or y % 4 == 0:
+                c = (200, 200, 210)          # сітка між елементами
+            im.putpixel((x, y), c)
+    for i in range(16):
+        for (x, y) in [(i, 0), (i, 15), (0, i), (15, i)]:
+            im.putpixel((x, y), rim)
+    if tier == 'infinite':                   # «зоряні» відблиски
+        for (x, y) in [(2, 2), (6, 9), (10, 5), (13, 13), (9, 11), (5, 6)]:
+            im.putpixel((x, y), (255, 240, 160))
+    else:
+        for (x, y) in [(2, 1), (6, 5), (10, 9), (14, 13)]:
+            im.putpixel((x, y), (230, 240, 255))
+    return im
+
+
+def solar_side(tier):
+    _, _, rim = SOLAR_COLORS[tier]
+    im = Image.new('RGBA', (16, 16))
+    for y in range(16):
+        for x in range(16):
+            c = IRON if y >= 8 else (0, 0, 0, 0)
+            if y == 8:
+                c = rim
+            if y == 15:
+                c = IRON_D
+            im.putpixel((x, y), c)
+    return im
+
+
+if __name__ == '__main__':
+    for t in SOLAR_COLORS:
+        solar_top(t).save(RES + 'block/solar_' + t + '_top.png')
+        solar_side(t).save(RES + 'block/solar_' + t + '_side.png')
+    print('solar ok')

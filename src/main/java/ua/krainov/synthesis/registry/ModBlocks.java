@@ -12,6 +12,8 @@ import ua.krainov.synthesis.block.CapitalAltarBlock;
 import ua.krainov.synthesis.block.FortuneConverterBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
+import ua.krainov.synthesis.block.SolarPanelBlock;
+import ua.krainov.synthesis.block.SolarTier;
 import ua.krainov.synthesis.block.SoulStabilizerBlock;
 import ua.krainov.synthesis.block.StabilizerTier;
 import ua.krainov.synthesis.block.SynthesizerBlock;
@@ -96,6 +98,22 @@ public final class ModBlocks {
                         .requiresCorrectToolForDrops()
                         .sound(SoundType.METAL)
                         .lightLevel(state -> 6)));
+    }
+
+    /** Капітал-панелі: Гібридна, Ультимативна, Квантова, Нескінченна. */
+    public static final DeferredBlock<SolarPanelBlock> SOLAR_HYBRID = solar(SolarTier.HYBRID);
+    public static final DeferredBlock<SolarPanelBlock> SOLAR_ULTIMATE = solar(SolarTier.ULTIMATE);
+    public static final DeferredBlock<SolarPanelBlock> SOLAR_QUANTUM = solar(SolarTier.QUANTUM);
+    public static final DeferredBlock<SolarPanelBlock> SOLAR_INFINITE = solar(SolarTier.INFINITE);
+
+    private static DeferredBlock<SolarPanelBlock> solar(SolarTier tier) {
+        return BLOCKS.register("solar_" + tier.getSerializedName(),
+                () -> new SolarPanelBlock(tier, BlockBehaviour.Properties.of()
+                        .mapColor(MapColor.COLOR_BLUE)
+                        .strength(3.0f, 6.0f)
+                        .requiresCorrectToolForDrops()
+                        .sound(SoundType.METAL)
+                        .noOcclusion()));
     }
 
     private ModBlocks() {}

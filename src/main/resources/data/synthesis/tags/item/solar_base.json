@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "mekanismgenerators:solar_generator",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:advanced_solar_generator",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_basic",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_starter",
+      "required": false
+    }
+  ]
+}

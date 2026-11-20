@@ -10,6 +10,7 @@ import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.FortuneConverterBlockEntity;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
+import ua.krainov.synthesis.blockentity.SolarPanelBlockEntity;
 import ua.krainov.synthesis.blockentity.SoulStabilizerBlockEntity;
 import ua.krainov.synthesis.blockentity.SynthesizerBlockEntity;
 
@@ -56,6 +57,13 @@ public final class ModBlockEntities {
                     () -> BlockEntityType.Builder.of(AcceleratorBlockEntity::new,
                             ModBlocks.ACCELERATOR_X2.get(), ModBlocks.ACCELERATOR_X4.get(),
                             ModBlocks.ACCELERATOR_X8.get(), ModBlocks.ACCELERATOR_X16.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SolarPanelBlockEntity>> SOLAR_PANEL =
+            BLOCK_ENTITIES.register("solar_panel",
+                    () -> BlockEntityType.Builder.of(SolarPanelBlockEntity::new,
+                            ModBlocks.SOLAR_HYBRID.get(), ModBlocks.SOLAR_ULTIMATE.get(),
+                            ModBlocks.SOLAR_QUANTUM.get(), ModBlocks.SOLAR_INFINITE.get()).build(null));
 
     private ModBlockEntities() {}
 }

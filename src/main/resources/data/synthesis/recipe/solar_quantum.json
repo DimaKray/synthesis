@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HUH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "synthesis:solar_ultimate"
+    },
+    "U": {
+      "item": "draconicevolution:wyvern_core"
+    }
+  },
+  "result": {
+    "id": "synthesis:solar_quantum",
+    "count": 1
+  }
+}

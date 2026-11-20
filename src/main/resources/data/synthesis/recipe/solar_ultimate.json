@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HUH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "synthesis:solar_hybrid"
+    },
+    "U": {
+      "item": "synthesis:unity_alloy_2"
+    }
+  },
+  "result": {
+    "id": "synthesis:solar_ultimate",
+    "count": 1
+  }
+}
