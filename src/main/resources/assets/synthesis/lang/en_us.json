@@ -60,5 +60,18 @@
   "message.synthesis.stabilizer.status.no_output": "Place a chest (or any inventory) next to the stabilizer",
   "message.synthesis.stabilizer.status.output_full": "Paused: the neighbouring inventory is full",
   "message.synthesis.stabilizer.status.forbidden": "This mob is forbidden (boss or blacklisted)",
-  "message.synthesis.stabilizer.status.invalid": "This soul's mob cannot be simulated"
+  "message.synthesis.stabilizer.status.invalid": "This soul's mob cannot be simulated",
+  "item.synthesis.capital_box_common": "Common Capital Box",
+  "item.synthesis.capital_box_rare": "Rare Capital Box",
+  "item.synthesis.capital_box_epic": "Epic Capital Box",
+  "item.synthesis.capital_box_legendary": "LEGENDARY Capital Box",
+  "tooltip.synthesis.box.open": "Hold right-click to open",
+  "message.synthesis.box.received": "You received a %s for playing!",
+  "message.synthesis.box.announce": "%s received a %s!",
+  "message.synthesis.box.opened": "%s: %s",
+  "command.synthesis.box.bad_rarity": "Unknown rarity. Use: common, rare, epic, legendary",
+  "command.synthesis.box.given": "Gave %s a %s box",
+  "command.synthesis.box.timer": "%s: next roll in %s min %s s, chance %s%%, AFK: %s",
+  "command.synthesis.box.afk_yes": "yes (timer paused)",
+  "command.synthesis.box.afk_no": "no"
 }

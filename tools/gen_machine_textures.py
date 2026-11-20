@@ -214,3 +214,44 @@ if __name__ == '__main__':
     for t in TIER_COLORS:
         stabilizer(t).save(RES + 'block/soul_stabilizer_' + t + '.png')
     print('stabilizers ok')
+
+
+# --- Капітал-бокси: подарункова коробка, колір за рідкістю ---
+BOX_COLORS = {
+    'common': ((150, 150, 150), (205, 205, 205), (245, 245, 245)),
+    'rare': ((30, 60, 150), (60, 110, 220), (130, 175, 255)),
+    'epic': ((80, 30, 130), (140, 70, 210), (200, 140, 255)),
+    'legendary': ((150, 95, 10), (225, 160, 30), (255, 220, 110)),
+}
+
+
+def capital_box(rarity):
+    dark, mid, light = BOX_COLORS[rarity]
+    ribbon_d, ribbon = ((150, 25, 35), (220, 50, 60)) if rarity != 'legendary' else ((120, 40, 160), (170, 90, 230))
+    im = Image.new('RGBA', (16, 16), (0, 0, 0, 0))
+    for y in range(5, 15):            # корпус
+        for x in range(2, 14):
+            c = mid
+            if x == 2 or y == 14: c = dark
+            if x == 13: c = dark
+            if y == 5: c = light
+            im.putpixel((x, y), c)
+    for y in range(3, 6):             # кришка
+        for x in range(1, 15):
+            im.putpixel((x, y), light if y == 3 else mid)
+        im.putpixel((1, y), dark); im.putpixel((14, y), dark)
+    for y in range(3, 15):            # стрічка вертикальна
+        im.putpixel((7, y), ribbon); im.putpixel((8, y), ribbon_d)
+    for x in range(1, 15):            # стрічка на кришці
+        im.putpixel((x, 4), ribbon if x not in (7, 8) else ribbon_d)
+    for (x, y) in [(5, 1), (6, 2), (5, 2), (10, 1), (9, 2), (10, 2), (7, 2), (8, 2)]:  # бантик
+        im.putpixel((x, y), ribbon)
+    for (x, y) in [(4, 7), (11, 9), (5, 12)]:   # блиск
+        im.putpixel((x, y), (255, 255, 255))
+    return im
+
+
+if __name__ == '__main__':
+    for r in BOX_COLORS:
+        capital_box(r).save(RES + 'item/capital_box_' + r + '.png')
+    print('boxes ok')

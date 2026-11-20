@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:redstone",
+    "minecraft:lapis_lazuli",
+    "minecraft:glowstone_dust",
+    "minecraft:coal",
+    "minecraft:quartz",
+    {
+      "id": "ae2:certus_quartz_crystal",
+      "required": false
+    }
+  ]
+}

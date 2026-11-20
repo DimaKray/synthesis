@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "mekanism:advanced_control_circuit",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_control_circuit",
+      "required": false
+    },
+    {
+      "id": "mekanism:alloy_reinforced",
+      "required": false
+    },
+    {
+      "id": "draconicevolution:draconium_core",
+      "required": false
+    },
+    {
+      "id": "botania:rune_water",
+      "required": false
+    },
+    {
+      "id": "botania:rune_fire",
+      "required": false
+    },
+    {
+      "id": "botania:rune_earth",
+      "required": false
+    },
+    {
+      "id": "botania:rune_air",
+      "required": false
+    },
+    {
+      "id": "botania:rune_mana",
+      "required": false
+    },
+    {
+      "id": "botania:mana_diamond",
+      "required": false
+    },
+    {
+      "id": "ae2:engineering_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:logic_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:calculation_processor",
+      "required": false
+    }
+  ]
+}

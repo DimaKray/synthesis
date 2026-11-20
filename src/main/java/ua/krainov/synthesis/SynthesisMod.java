@@ -12,6 +12,7 @@ import ua.krainov.synthesis.config.SynthesisConfig;
 import net.neoforged.fml.config.ModConfig;
 import ua.krainov.synthesis.compat.botania.BotaniaCompat;
 import ua.krainov.synthesis.compat.create.CreateCompat;
+import ua.krainov.synthesis.registry.ModAttachments;
 import ua.krainov.synthesis.registry.ModBlockEntities;
 import ua.krainov.synthesis.registry.ModBlocks;
 import ua.krainov.synthesis.registry.ModCreativeTabs;
@@ -35,6 +36,7 @@ public class SynthesisMod {
         ModRecipes.TYPES.register(modBus);
         ModRecipes.SERIALIZERS.register(modBus);
         ModMenus.MENUS.register(modBus);
+        ModAttachments.ATTACHMENTS.register(modBus);
         ModCreativeTabs.TABS.register(modBus);
         // Кінетичний привід існує лише разом із Create
         if (ModCompat.CREATE) {

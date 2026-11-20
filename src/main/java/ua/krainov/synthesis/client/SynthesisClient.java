@@ -5,6 +5,8 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
+import ua.krainov.synthesis.registry.ModItems;
 import ua.krainov.synthesis.registry.ModMenus;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
@@ -25,6 +27,12 @@ public final class SynthesisClient {
     @SubscribeEvent
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(ModMenus.SYNTHESIZER.get(), SynthesizerScreen::new);
+    }
+
+    @SubscribeEvent
+    public static void registerClientExtensions(RegisterClientExtensionsEvent event) {
+        event.registerItem(new CapitalBoxClientExtension(), ModItems.CAPITAL_BOX_COMMON.get(), ModItems.CAPITAL_BOX_RARE.get(),
+                ModItems.CAPITAL_BOX_EPIC.get(), ModItems.CAPITAL_BOX_LEGENDARY.get());
     }
 
     private SynthesisClient() {}

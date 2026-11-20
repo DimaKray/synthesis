@@ -7,6 +7,8 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.item.SynthesisScepterItem;
+import ua.krainov.synthesis.item.CapitalBoxItem;
+import ua.krainov.synthesis.box.BoxRarity;
 
 /** Усі предмети мода. */
 public final class ModItems {
@@ -49,6 +51,17 @@ public final class ModItems {
             props -> new BlockItem(ModBlocks.SOUL_STABILIZER_AWAKENED.get(), props), new Item.Properties().rarity(Rarity.RARE));
     public static final DeferredItem<BlockItem> SOUL_STABILIZER_CHAOTIC = ITEMS.registerItem("soul_stabilizer_chaotic",
             props -> new BlockItem(ModBlocks.SOUL_STABILIZER_CHAOTIC.get(), props), new Item.Properties().rarity(Rarity.EPIC));
+
+    /** Капітал-бокси — падають гравцям за активну гру. */
+    public static final DeferredItem<CapitalBoxItem> CAPITAL_BOX_COMMON = box(BoxRarity.COMMON, Rarity.COMMON);
+    public static final DeferredItem<CapitalBoxItem> CAPITAL_BOX_RARE = box(BoxRarity.RARE, Rarity.RARE);
+    public static final DeferredItem<CapitalBoxItem> CAPITAL_BOX_EPIC = box(BoxRarity.EPIC, Rarity.EPIC);
+    public static final DeferredItem<CapitalBoxItem> CAPITAL_BOX_LEGENDARY = box(BoxRarity.LEGENDARY, Rarity.EPIC);
+
+    private static DeferredItem<CapitalBoxItem> box(BoxRarity rarity, Rarity itemRarity) {
+        return ITEMS.registerItem("capital_box_" + rarity.id(), props -> new CapitalBoxItem(rarity, props),
+                new Item.Properties().stacksTo(16).rarity(itemRarity));
+    }
 
     private ModItems() {}
 }

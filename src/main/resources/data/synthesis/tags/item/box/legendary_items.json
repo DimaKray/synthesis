@@ -1,0 +1,29 @@
+{
+  "values": [
+    {
+      "id": "draconicevolution:wyvern_core",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_control_circuit",
+      "required": false
+    },
+    {
+      "id": "mekanism:alloy_atomic",
+      "required": false
+    },
+    {
+      "id": "avaritia:neutron_ingot",
+      "required": false
+    },
+    {
+      "id": "avaritia:crystal_matrix_ingot",
+      "required": false
+    },
+    {
+      "id": "ae2:singularity",
+      "required": false
+    },
+    "minecraft:netherite_block"
+  ]
+}

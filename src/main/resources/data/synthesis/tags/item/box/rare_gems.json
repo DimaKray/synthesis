@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:diamond",
+    "minecraft:emerald",
+    {
+      "id": "ars_nouveau:source_gem",
+      "required": false
+    },
+    {
+      "id": "botania:mana_pearl",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_crystal",
+      "required": false
+    },
+    {
+      "id": "tc4modern:amber",
+      "required": false
+    }
+  ]
+}

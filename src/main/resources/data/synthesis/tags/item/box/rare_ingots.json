@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "mekanism:ingot_osmium",
+      "required": false
+    },
+    {
+      "id": "mekanism:ingot_steel",
+      "required": false
+    },
+    {
+      "id": "draconicevolution:draconium_ingot",
+      "required": false
+    },
+    {
+      "id": "tc4modern:thaumium_ingot",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_ingot",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_ingot",
+      "required": false
+    },
+    {
+      "id": "industrialupgrade:itemingots/iridium_ingot",
+      "required": false
+    }
+  ]
+}

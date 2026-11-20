@@ -27,7 +27,7 @@ CI: `.github/workflows/build.yml` — кожен пуш у `main` збирає j
 |---|---|---|
 | 1 | Скелет + CI | ✅ перевірено |
 | 2 | Стабілізатор душ | ✅ код є (0.7.0), не перевірено: `block/SoulStabilizerBlock` (4 рівні, `StabilizerTier`), `blockentity/SoulStabilizerBlockEntity` (id моба з компонента `draconicevolution:soul_id` без залежності, лут через LootParams + FakePlayer з мечем «Добичі», вихід у сусідні інвентарі, буфер `pending`), чорний список: тег `#c:bosses` + `synthesis-common.toml` + ліміт HP, рендер моба `client/SoulStabilizerRenderer`. LivingDropsEvent і досвід НЕ зроблені |
-| 3 | Капітал-бокси | у роботі |
+| 3 | Капітал-бокси | ✅ код є (0.8.0), не перевірено: `box/` (BoxTimer — attachment `ModAttachments.BOX_TIMER`, BoxService — щосекундний лічильник/AFK/кидок/видача, BoxEvents — тік гравця, активність, команди `/synthesis box give|timer`), `item/CapitalBoxItem` (затиснути ПКМ 1.5 с), анімація `client/CapitalBoxClientExtension`, математика `core/BoxMath`, числа в `synthesis-server.toml` (лежить у `<світ>/serverconfig/`). Лут: `data/synthesis/loot_table/boxes/*.json` через теги `synthesis:box/*` з `required:false` (відсутній мод не ламає таблицю) |
 | 4 | Перетворювач удачі | — |
 | 5 | Прискорювач | — |
 | 6 | Капітал-панелі | — |

@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:gold_ingot",
+    {
+      "id": "create:brass_ingot",
+      "required": false
+    },
+    {
+      "id": "create:zinc_ingot",
+      "required": false
+    },
+    {
+      "id": "create:andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_ingot",
+      "required": false
+    },
+    {
+      "id": "mekanism:ingot_tin",
+      "required": false
+    },
+    {
+      "id": "mekanism:ingot_lead",
+      "required": false
+    }
+  ]
+}

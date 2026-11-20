@@ -60,5 +60,18 @@
   "message.synthesis.stabilizer.status.no_output": "Поставте скриню (або будь-який інвентар) поруч зі стабілізатором",
   "message.synthesis.stabilizer.status.output_full": "Пауза: сусідній інвентар заповнений",
   "message.synthesis.stabilizer.status.forbidden": "Цей моб заборонений (бос або в чорному списку)",
-  "message.synthesis.stabilizer.status.invalid": "Моба з цієї душі неможливо змоделювати"
+  "message.synthesis.stabilizer.status.invalid": "Моба з цієї душі неможливо змоделювати",
+  "item.synthesis.capital_box_common": "Звичайний Капітал-бокс",
+  "item.synthesis.capital_box_rare": "Рідкісний Капітал-бокс",
+  "item.synthesis.capital_box_epic": "Епічний Капітал-бокс",
+  "item.synthesis.capital_box_legendary": "ЛЕГЕНДАРНИЙ Капітал-бокс",
+  "tooltip.synthesis.box.open": "Затисніть ПКМ, щоб відкрити",
+  "message.synthesis.box.received": "Ви отримали %s за гру!",
+  "message.synthesis.box.announce": "%s отримав %s!",
+  "message.synthesis.box.opened": "%s: %s",
+  "command.synthesis.box.bad_rarity": "Невідома рідкість. Можна: common, rare, epic, legendary",
+  "command.synthesis.box.given": "Видано %s бокс «%s»",
+  "command.synthesis.box.timer": "%s: наступний кидок через %s хв %s с, шанс %s%%, AFK: %s",
+  "command.synthesis.box.afk_yes": "так (лічильник стоїть)",
+  "command.synthesis.box.afk_no": "ні"
 }

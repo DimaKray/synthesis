@@ -1,0 +1,17 @@
+{
+  "values": [
+    {
+      "id": "botania:terrasteel_ingot",
+      "required": false
+    },
+    {
+      "id": "draconicevolution:awakened_draconium_ingot",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_ingot",
+      "required": false
+    },
+    "minecraft:netherite_ingot"
+  ]
+}
