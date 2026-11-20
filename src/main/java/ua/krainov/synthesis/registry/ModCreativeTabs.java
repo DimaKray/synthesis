@@ -28,6 +28,14 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.CAPITAL_ALTAR.get());
                         output.accept(ModItems.PEDESTAL.get());
                         output.accept(ModItems.SYNTHESIZER.get());
+                        output.accept(ModItems.FORTUNE_CONVERTER.get());
+                        output.accept(ModItems.FORTUNE_MODULE_1.get());
+                        output.accept(ModItems.FORTUNE_MODULE_2.get());
+                        output.accept(ModItems.FORTUNE_MODULE_3.get());
+                        output.accept(ModItems.FORTUNE_MODULE_4.get());
+                        output.accept(ModItems.FORTUNE_MODULE_5.get());
+                        output.accept(ModItems.SMELTING_MODULE.get());
+                        output.accept(ModItems.SILK_TOUCH_MODULE.get());
                         output.accept(ModItems.SOUL_STABILIZER_BASIC.get());
                         output.accept(ModItems.SOUL_STABILIZER_WYVERN.get());
                         output.accept(ModItems.SOUL_STABILIZER_AWAKENED.get());

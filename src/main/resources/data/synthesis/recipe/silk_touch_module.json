@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SLS",
+    "LDL",
+    "SLS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "synthesis:silk_touch_module",
+    "count": 1
+  }
+}

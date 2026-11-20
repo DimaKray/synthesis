@@ -2,11 +2,75 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "draconicevolution"
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "avaritia"
     },
     {
       "type": "neoforge:mod_loaded",
       "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "divinerpg"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "draconicevolution"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extrabotany"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialupgrade"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagradditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oritech"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
     },
     {
       "type": "neoforge:mod_loaded",
@@ -18,43 +82,11 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "witchery"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "cataclysm"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "industrialupgrade"
-    },
-    {
-      "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "ars_nouveau"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "irons_spellbooks"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "create"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ae2"
-    },
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "avaritia"
+      "modid": "witchery"
     }
   ],
   "type": "synthesis:capital",
@@ -100,6 +132,30 @@
     },
     {
       "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "oritech:unholy_intelligence"
+    },
+    {
+      "item": "neovitae:blood_orb_transcendent"
+    },
+    {
+      "item": "occultism:book_of_binding_bound_marid"
+    },
+    {
+      "item": "forbidden_arcanus:eternal_stella"
+    },
+    {
+      "item": "extrabotany:orichalcos_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "divinerpg:mortum_heart"
     }
   ],
   "mana": 1000000,

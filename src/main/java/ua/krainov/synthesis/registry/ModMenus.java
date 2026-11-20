@@ -6,6 +6,7 @@ import net.neoforged.neoforge.common.extensions.IMenuTypeExtension;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
+import ua.krainov.synthesis.menu.FortuneConverterMenu;
 import ua.krainov.synthesis.menu.SynthesizerMenu;
 
 /** Типи меню (інтерфейсів) мода. */
@@ -14,6 +15,9 @@ public final class ModMenus {
 
     public static final DeferredHolder<MenuType<?>, MenuType<SynthesizerMenu>> SYNTHESIZER =
             MENUS.register("synthesizer", () -> IMenuTypeExtension.create(SynthesizerMenu::new));
+
+    public static final DeferredHolder<MenuType<?>, MenuType<FortuneConverterMenu>> FORTUNE_CONVERTER =
+            MENUS.register("fortune_converter", () -> IMenuTypeExtension.create(FortuneConverterMenu::new));
 
     private ModMenus() {}
 }

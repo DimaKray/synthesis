@@ -255,3 +255,86 @@ if __name__ == '__main__':
     for r in BOX_COLORS:
         capital_box(r).save(RES + 'item/capital_box_' + r + '.png')
     print('boxes ok')
+
+
+# --- Перетворювач удачі ---
+def converter_front():
+    im = machine_side()
+    for y in range(3, 13):            # «кирка» з лазуриту на передній панелі
+        for x in range(3, 13):
+            im.putpixel((x, y), D)
+    pick = [(4, 5), (5, 4), (6, 4), (7, 4), (8, 4), (9, 4), (10, 4), (11, 5)]
+    for p in pick:
+        im.putpixel(p, (40, 80, 200))
+    for i in range(5, 12):
+        im.putpixel((7, i), (140, 100, 60))
+        im.putpixel((8, i), (110, 75, 45))
+    for (x, y) in [(5, 10), (10, 9), (11, 11), (4, 8)]:
+        im.putpixel((x, y), (60, 220, 120))   # «самоцвіти»
+    return im
+
+
+def converter_top():
+    im = machine_top()
+    for y in range(5, 11):            # воронка для руди
+        for x in range(5, 11):
+            im.putpixel((x, y), D if 6 <= x <= 9 and 6 <= y <= 9 else IRON_D)
+    return im
+
+
+def converter_gui():
+    im = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
+    dr = ImageDraw.Draw(im)
+    panel(dr)
+    sunken(dr, 9, 17, 14, 54, fill=(40, 20, 20))      # FE
+    slot(dr, 34, 26)                                  # руда
+    arrow(dr, 56, 26, (139, 139, 139))
+    arrow(dr, 176, 0, (255, 255, 255))
+    for (ix, iy) in [(92, 17), (110, 17), (92, 35), (110, 35)]:
+        slot(dr, ix, iy)
+    for row in range(3):
+        for col in range(9):
+            slot(dr, 8 + col * 18, 84 + row * 18)
+    for col in range(9):
+        slot(dr, 8 + col * 18, 142)
+    return im
+
+
+MODULE_COLORS = {1: (60, 90, 200), 2: (60, 170, 90), 3: (200, 170, 40), 4: (170, 70, 220), 5: (230, 60, 60)}
+
+
+def module(color, mark):
+    im = Image.new('RGBA', (16, 16), (0, 0, 0, 0))
+    for y in range(3, 13):            # плата
+        for x in range(2, 14):
+            c = (40, 110, 60) if (x + y) % 5 else (60, 140, 80)
+            if x in (2, 13) or y in (3, 12):
+                c = (25, 70, 40)
+            im.putpixel((x, y), c)
+    for x in (4, 6, 9, 11):           # контакти
+        im.putpixel((x, 13), G)
+        im.putpixel((x, 14), GD)
+    for y in range(5, 11):            # чип
+        for x in range(5, 11):
+            im.putpixel((x, y), color)
+    for (x, y) in mark:
+        im.putpixel((x, y), (255, 255, 255))
+    return im
+
+
+ROMAN = {1: [(7, 6), (7, 7), (7, 8), (7, 9)],
+         2: [(6, 6), (6, 7), (6, 8), (6, 9), (8, 6), (8, 7), (8, 8), (8, 9)],
+         3: [(5, 6), (5, 7), (5, 8), (5, 9), (7, 6), (7, 7), (7, 8), (7, 9), (9, 6), (9, 7), (9, 8), (9, 9)],
+         4: [(5, 6), (5, 7), (5, 8), (5, 9), (7, 6), (8, 8), (9, 6), (8, 9), (7, 7)],
+         5: [(6, 6), (7, 8), (8, 9), (9, 8), (10, 6), (7, 7), (9, 7)]}
+
+
+if __name__ == '__main__':
+    converter_front().save(RES + 'block/fortune_converter_front.png')
+    converter_top().save(RES + 'block/fortune_converter_top.png')
+    converter_gui().save(RES + 'gui/fortune_converter.png')
+    for lvl, col in MODULE_COLORS.items():
+        module(col, ROMAN[lvl]).save(RES + f'item/fortune_module_{lvl}.png')
+    module((230, 110, 30), [(7, 6), (8, 7), (7, 8), (8, 9)]).save(RES + 'item/smelting_module.png')
+    module((235, 235, 245), [(6, 7), (7, 7), (8, 8), (9, 8)]).save(RES + 'item/silk_touch_module.png')
+    print('converter ok')

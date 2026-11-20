@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "synthesis:block/fortune_converter_top",
+    "front": "synthesis:block/fortune_converter_front",
+    "side": "synthesis:block/synthesizer_side"
+  }
+}

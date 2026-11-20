@@ -120,6 +120,6 @@ public class AltarRenderer<T extends AltarBlockEntity<?>> implements BlockEntity
     /** Промені виходять за межі блока — розширюємо рамку, щоб їх не обрізало. */
     @Override
     public AABB getRenderBoundingBox(T altar) {
-        return new AABB(altar.getBlockPos()).inflate(AltarBlockEntity.RADIUS + 1);
+        return new AABB(altar.getBlockPos()).inflate(altar.structureRadius() + 1);
     }
 }

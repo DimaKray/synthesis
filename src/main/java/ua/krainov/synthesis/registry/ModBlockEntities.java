@@ -6,6 +6,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.blockentity.CapitalAltarBlockEntity;
+import ua.krainov.synthesis.blockentity.FortuneConverterBlockEntity;
 import ua.krainov.synthesis.blockentity.FusionAltarBlockEntity;
 import ua.krainov.synthesis.blockentity.PedestalBlockEntity;
 import ua.krainov.synthesis.blockentity.SoulStabilizerBlockEntity;
@@ -42,6 +43,11 @@ public final class ModBlockEntities {
                     () -> BlockEntityType.Builder.of(SoulStabilizerBlockEntity::new,
                             ModBlocks.SOUL_STABILIZER_BASIC.get(), ModBlocks.SOUL_STABILIZER_WYVERN.get(),
                             ModBlocks.SOUL_STABILIZER_AWAKENED.get(), ModBlocks.SOUL_STABILIZER_CHAOTIC.get()).build(null));
+
+    @SuppressWarnings("DataFlowIssue")
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<FortuneConverterBlockEntity>> FORTUNE_CONVERTER =
+            BLOCK_ENTITIES.register("fortune_converter",
+                    () -> BlockEntityType.Builder.of(FortuneConverterBlockEntity::new, ModBlocks.FORTUNE_CONVERTER.get()).build(null));
 
     private ModBlockEntities() {}
 }

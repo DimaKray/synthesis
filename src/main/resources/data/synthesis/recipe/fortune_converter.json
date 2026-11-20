@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IPI",
+    "UFU",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "U": {
+      "item": "synthesis:unity_alloy_1"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "synthesis:fortune_converter",
+    "count": 1
+  }
+}

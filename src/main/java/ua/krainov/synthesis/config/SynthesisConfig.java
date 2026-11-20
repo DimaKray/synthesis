@@ -18,6 +18,13 @@ public final class SynthesisConfig {
     public static final ModConfigSpec.DoubleValue SOUL_MAX_MOB_HEALTH;
     public static final ModConfigSpec.ConfigValue<List<? extends String>> SOUL_BLACKLIST;
 
+    public static final ModConfigSpec.IntValue FORTUNE_TICKS;
+    public static final ModConfigSpec.IntValue FORTUNE_ENERGY_BASE;
+    public static final ModConfigSpec.IntValue FORTUNE_ENERGY_PER_LEVEL;
+    public static final ModConfigSpec.IntValue FORTUNE_ENERGY_SMELT;
+    public static final ModConfigSpec.BooleanValue FORTUNE_RAW_MODE;
+    public static final ModConfigSpec.ConfigValue<List<? extends String>> FORTUNE_BLACKLIST;
+
     // ---------- SERVER ----------
     public static final ModConfigSpec SERVER_SPEC;
     public static final ModConfigSpec.IntValue BOX_INTERVAL_MINUTES;
@@ -56,6 +63,23 @@ public final class SynthesisConfig {
                         "irons_spellbooks:dead_king", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:fire_boss",
                         "extrabotany:gaia_legacy", "extrabotany:gaia_3rd", "extrabotany:ego", "extrabotany:void_herrscher"
                 ), () -> "minecraft:example", o -> o instanceof String);
+        b.pop();
+
+        b.comment("Перетворювач удачі / Fortune Converter").push("fortune_converter");
+        FORTUNE_TICKS = b.comment("Тіків на одну руду (20 = 1 с).", "Ticks per ore block.")
+                .defineInRange("ticksPerOperation", 20, 1, 1200);
+        FORTUNE_ENERGY_BASE = b.comment("FE за одну руду.", "FE per ore block.")
+                .defineInRange("energyBase", 2000, 0, 10_000_000);
+        FORTUNE_ENERGY_PER_LEVEL = b.comment("Додатково FE за кожен рівень удачі.", "Extra FE per Fortune level.")
+                .defineInRange("energyPerFortuneLevel", 1000, 0, 10_000_000);
+        FORTUNE_ENERGY_SMELT = b.comment("Додатково FE, якщо стоїть Модуль плавки.", "Extra FE with the Smelting Module.")
+                .defineInRange("energySmelting", 1000, 0, 10_000_000);
+        FORTUNE_RAW_MODE = b
+                .comment("Запасний режим: приймати «сиру» руду (raw_*) і самоцвіти й множити їх за формулою Fortune.",
+                        "Fallback: accept raw ores and gems and multiply them with the vanilla Fortune formula.")
+                .define("rawOreMode", false);
+        FORTUNE_BLACKLIST = b.comment("Заборонені блоки/предмети (id або 'modid:*').", "Forbidden ores (id or 'modid:*').")
+                .defineListAllowEmpty("blacklist", List.of(), () -> "minecraft:example", o -> o instanceof String);
         b.pop();
         COMMON_SPEC = b.build();
 

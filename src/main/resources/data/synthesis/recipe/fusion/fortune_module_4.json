@@ -1,0 +1,26 @@
+{
+  "type": "synthesis:fusion",
+  "center": {
+    "item": "synthesis:fortune_module_3"
+  },
+  "pedestals": [
+    {
+      "item": "synthesis:unity_alloy_2"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "mana": 100000,
+  "time": 200,
+  "result": {
+    "id": "synthesis:fortune_module_4",
+    "count": 1
+  }
+}

@@ -27,6 +27,7 @@ public final class SynthesisClient {
     @SubscribeEvent
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(ModMenus.SYNTHESIZER.get(), SynthesizerScreen::new);
+        event.register(ModMenus.FORTUNE_CONVERTER.get(), FortuneConverterScreen::new);
     }
 
     @SubscribeEvent

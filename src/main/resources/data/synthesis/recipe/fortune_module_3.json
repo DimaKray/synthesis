@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DED",
+    "EME",
+    "DED"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "M": {
+      "item": "synthesis:fortune_module_2"
+    }
+  },
+  "result": {
+    "id": "synthesis:fortune_module_3",
+    "count": 1
+  }
+}

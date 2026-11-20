@@ -187,13 +187,68 @@ public abstract class AltarBlockEntity<R extends Recipe<FusionRecipeInput> & Alt
     public List<PedestalBlockEntity> findPedestals() {
         List<PedestalBlockEntity> result = new ArrayList<>();
         if (level == null) return result;
-        for (BlockPos p : BlockPos.betweenClosed(worldPosition.offset(-RADIUS, -1, -RADIUS),
-                worldPosition.offset(RADIUS, 1, RADIUS))) {
-            if (level.getBlockEntity(p) instanceof PedestalBlockEntity pedestal) {
+        for (BlockPos offset : pedestalOffsets()) {
+            if (level.getBlockEntity(worldPosition.offset(offset)) instanceof PedestalBlockEntity pedestal) {
                 result.add(pedestal);
             }
         }
         return result;
+    }
+
+    /** Усі клітинки в квадраті 7×7 (±1 по висоті), крім самого вівтаря — для Вівтаря Злиття. */
+    private static final List<BlockPos> AREA_OFFSETS = buildAreaOffsets();
+
+    private static List<BlockPos> buildAreaOffsets() {
+        List<BlockPos> list = new ArrayList<>();
+        for (int y = -1; y <= 1; y++) {
+            for (int x = -RADIUS; x <= RADIUS; x++) {
+                for (int z = -RADIUS; z <= RADIUS; z++) {
+                    if (x != 0 || y != 0 || z != 0) list.add(new BlockPos(x, y, z));
+                }
+            }
+        }
+        return List.copyOf(list);
+    }
+
+    /** Де шукати п'єдестали (зсуви від вівтаря). Вівтар Капіталізму задає фіксовану розмітку. */
+    protected List<BlockPos> pedestalOffsets() {
+        return AREA_OFFSETS;
+    }
+
+    /** true — п'єдестали мають стояти рівно на всіх позиціях {@link #pedestalOffsets()} (мультиблок). */
+    protected boolean fixedLayout() {
+        return false;
+    }
+
+    /** Наскільки далеко від центру сягає мультиблок (для рендеру променів). */
+    public int structureRadius() {
+        return RADIUS;
+    }
+
+    /** Позиції розмітки, де ще немає п'єдестала (лише для фіксованої розмітки). */
+    public List<BlockPos> missingPedestalPositions() {
+        List<BlockPos> missing = new ArrayList<>();
+        if (level == null || !fixedLayout()) return missing;
+        for (BlockPos offset : pedestalOffsets()) {
+            BlockPos p = worldPosition.offset(offset);
+            if (!(level.getBlockEntity(p) instanceof PedestalBlockEntity)) missing.add(p);
+        }
+        return missing;
+    }
+
+    /** Повідомляє про недобудований мультиблок і підсвічує порожні позиції. true — якщо недобудований. */
+    private boolean reportIncompleteStructure(Player player) {
+        List<BlockPos> missing = missingPedestalPositions();
+        if (missing.isEmpty()) return false;
+        player.sendSystemMessage(Component.translatable("message.synthesis.altar.structure_incomplete",
+                missing.size(), pedestalOffsets().size()).withStyle(ChatFormatting.YELLOW));
+        if (level instanceof ServerLevel server) {
+            for (BlockPos p : missing) {
+                server.sendParticles(ParticleTypes.HAPPY_VILLAGER, p.getX() + 0.5, p.getY() + 0.6, p.getZ() + 0.5,
+                        8, 0.25, 0.3, 0.25, 0.0);
+            }
+        }
+        return true;
     }
 
     private static List<PedestalBlockEntity> filled(List<PedestalBlockEntity> pedestals) {
@@ -233,6 +288,10 @@ public abstract class AltarBlockEntity<R extends Recipe<FusionRecipeInput> & Alt
     public void tryStart(Player player) {
         if (crafting) {
             player.displayClientMessage(Component.translatable("message.synthesis.altar.already", percent()), true);
+            return;
+        }
+        if (fixedLayout() && !missingPedestalPositions().isEmpty()) {
+            describe(player);
             return;
         }
         List<PedestalBlockEntity> filled = filled(findPedestals());
@@ -281,6 +340,7 @@ public abstract class AltarBlockEntity<R extends Recipe<FusionRecipeInput> & Alt
                     .withStyle(ChatFormatting.YELLOW));
             return;
         }
+        if (reportIncompleteStructure(player)) return;
         List<PedestalBlockEntity> pedestals = findPedestals();
         if (pedestals.isEmpty()) {
             player.sendSystemMessage(Component.translatable("message.synthesis.altar.no_pedestals", RADIUS)

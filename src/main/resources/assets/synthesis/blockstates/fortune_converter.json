@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "synthesis:block/fortune_converter"
+    },
+    "facing=east": {
+      "model": "synthesis:block/fortune_converter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "synthesis:block/fortune_converter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "synthesis:block/fortune_converter",
+      "y": 270
+    }
+  }
+}

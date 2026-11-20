@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.item.SynthesisScepterItem;
 import ua.krainov.synthesis.item.CapitalBoxItem;
+import ua.krainov.synthesis.item.ConverterModuleItem;
 import ua.krainov.synthesis.box.BoxRarity;
 
 /** Усі предмети мода. */
@@ -61,6 +62,25 @@ public final class ModItems {
     private static DeferredItem<CapitalBoxItem> box(BoxRarity rarity, Rarity itemRarity) {
         return ITEMS.registerItem("capital_box_" + rarity.id(), props -> new CapitalBoxItem(rarity, props),
                 new Item.Properties().stacksTo(16).rarity(itemRarity));
+    }
+
+    public static final DeferredItem<BlockItem> FORTUNE_CONVERTER = ITEMS.registerSimpleBlockItem(ModBlocks.FORTUNE_CONVERTER);
+
+    /** Модулі Перетворювача удачі. IV–V — вище ванільного максимуму, робляться на Вівтарі Злиття. */
+    public static final DeferredItem<ConverterModuleItem> FORTUNE_MODULE_1 = fortuneModule(1, Rarity.COMMON);
+    public static final DeferredItem<ConverterModuleItem> FORTUNE_MODULE_2 = fortuneModule(2, Rarity.UNCOMMON);
+    public static final DeferredItem<ConverterModuleItem> FORTUNE_MODULE_3 = fortuneModule(3, Rarity.RARE);
+    public static final DeferredItem<ConverterModuleItem> FORTUNE_MODULE_4 = fortuneModule(4, Rarity.EPIC);
+    public static final DeferredItem<ConverterModuleItem> FORTUNE_MODULE_5 = fortuneModule(5, Rarity.EPIC);
+    public static final DeferredItem<ConverterModuleItem> SMELTING_MODULE = ITEMS.registerItem("smelting_module",
+            p -> new ConverterModuleItem(ConverterModuleItem.Kind.SMELTING, 0, p), new Item.Properties().stacksTo(1));
+    public static final DeferredItem<ConverterModuleItem> SILK_TOUCH_MODULE = ITEMS.registerItem("silk_touch_module",
+            p -> new ConverterModuleItem(ConverterModuleItem.Kind.SILK_TOUCH, 0, p), new Item.Properties().stacksTo(1));
+
+    private static DeferredItem<ConverterModuleItem> fortuneModule(int level, Rarity rarity) {
+        return ITEMS.registerItem("fortune_module_" + level,
+                p -> new ConverterModuleItem(ConverterModuleItem.Kind.FORTUNE, level, p),
+                new Item.Properties().stacksTo(1).rarity(rarity));
     }
 
     private ModItems() {}

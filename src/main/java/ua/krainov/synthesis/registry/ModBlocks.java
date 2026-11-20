@@ -7,6 +7,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ua.krainov.synthesis.SynthesisMod;
 import ua.krainov.synthesis.block.CapitalAltarBlock;
+import ua.krainov.synthesis.block.FortuneConverterBlock;
 import ua.krainov.synthesis.block.FusionAltarBlock;
 import ua.krainov.synthesis.block.PedestalBlock;
 import ua.krainov.synthesis.block.SoulStabilizerBlock;
@@ -70,6 +71,14 @@ public final class ModBlocks {
                         .lightLevel(state -> 4)
                         .noOcclusion()));
     }
+
+    /** Перетворювач удачі — руда + удача → дроп як при копанні. */
+    public static final DeferredBlock<FortuneConverterBlock> FORTUNE_CONVERTER = BLOCKS.register("fortune_converter",
+            () -> new FortuneConverterBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .strength(3.5f, 6.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
 
     private ModBlocks() {}
 }
