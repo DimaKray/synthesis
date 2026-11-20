@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "top": "synthesis:block/multi_greenhouse_top",
+    "bottom": "synthesis:block/synthesizer_top",
+    "side": "synthesis:block/multi_greenhouse_side"
+  }
+}

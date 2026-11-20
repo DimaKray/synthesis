@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "synthesis:block/great_mana_pool_2_top",
+    "bottom": "synthesis:block/pedestal_bottom",
+    "side": "synthesis:block/great_mana_pool_2_side"
+  }
+}

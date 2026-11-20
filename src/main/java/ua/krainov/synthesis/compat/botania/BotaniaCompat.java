@@ -18,10 +18,16 @@ public final class BotaniaCompat {
                 (altar, side) -> new AltarManaReceiver(altar));
         event.registerBlockEntity(BotaniaCapabilities.MANA_RECEIVER, ModBlockEntities.CAPITAL_ALTAR.get(),
                 (altar, side) -> new AltarManaReceiver(altar));
+        BotaniaMachines.registerCapabilities(event);
     }
 
     /** Обгортка: Botania бачить вівтар як приймач мани. */
-    private record AltarManaReceiver(AltarBlockEntity<?> altar) implements ManaReceiver {
+    private record AltarManaReceiver(AltarBlockEntity<?> altar) implements ManaReceiver, ManaSpace {
+        @Override
+        public int manaSpace() {
+            return AltarBlockEntity.MANA_CAPACITY - altar.getMana();
+        }
+
         @Override
         public Level getManaReceiverLevel() {
             return altar.getLevel();

@@ -13,6 +13,26 @@
     "synthesis:solar_hybrid",
     "synthesis:solar_ultimate",
     "synthesis:solar_quantum",
-    "synthesis:solar_infinite"
+    "synthesis:solar_infinite",
+    {
+      "id": "synthesis:multi_greenhouse",
+      "required": false
+    },
+    {
+      "id": "synthesis:draconic_spreader",
+      "required": false
+    },
+    {
+      "id": "synthesis:great_mana_pool_1",
+      "required": false
+    },
+    {
+      "id": "synthesis:great_mana_pool_2",
+      "required": false
+    },
+    {
+      "id": "synthesis:great_mana_pool_3",
+      "required": false
+    }
   ]
 }

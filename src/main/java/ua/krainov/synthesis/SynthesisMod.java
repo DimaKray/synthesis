@@ -42,6 +42,10 @@ public class SynthesisMod {
         if (ModCompat.CREATE) {
             CreateCompat.register(modBus);
         }
+        // Машини мани (басейн, розповсюджувач, теплиця) існують лише разом із Ботанією
+        if (ModCompat.BOTANIA) {
+            ua.krainov.synthesis.compat.botania.BotaniaMachines.register(modBus);
+        }
         modBus.addListener(SynthesisMod::registerCapabilities);
         container.registerConfig(ModConfig.Type.COMMON, SynthesisConfig.COMMON_SPEC, "synthesis-common.toml");
         container.registerConfig(ModConfig.Type.SERVER, SynthesisConfig.SERVER_SPEC, "synthesis-server.toml");

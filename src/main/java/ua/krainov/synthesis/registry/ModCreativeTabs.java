@@ -53,6 +53,7 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.SOUL_STABILIZER_AWAKENED.get());
                         output.accept(ModItems.SOUL_STABILIZER_CHAOTIC.get());
                         if (ModCompat.CREATE) output.accept(CreateCompat.driveItem());
+                        if (ModCompat.BOTANIA) ua.krainov.synthesis.compat.botania.BotaniaMachines.addToTab(output);
                         output.accept(ModItems.SYNTHESIS_CORE.get());
                         output.accept(ModItems.CAPITAL_BOX_COMMON.get());
                         output.accept(ModItems.CAPITAL_BOX_RARE.get());

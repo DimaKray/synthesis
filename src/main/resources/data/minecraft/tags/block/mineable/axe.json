@@ -3,6 +3,10 @@
     {
       "id": "synthesis:kinetic_drive",
       "required": false
+    },
+    {
+      "id": "synthesis:draconic_spreader",
+      "required": false
     }
   ]
 }

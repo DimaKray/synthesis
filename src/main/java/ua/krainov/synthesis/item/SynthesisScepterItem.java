@@ -17,6 +17,11 @@ public class SynthesisScepterItem extends Item {
 
     @Override
     public InteractionResult useOn(UseOnContext context) {
+        // Прив'язка Драконієвого розповсюджувача (лише з Ботанією)
+        if (ua.krainov.synthesis.compat.ModCompat.BOTANIA) {
+            InteractionResult bind = ua.krainov.synthesis.compat.botania.BotaniaMachines.scepterUse(context);
+            if (bind != null) return bind;
+        }
         Level level = context.getLevel();
         Player player = context.getPlayer();
         if (player == null || !(level.getBlockEntity(context.getClickedPos()) instanceof AltarBlockEntity<?> altar)) {

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PDP",
+    "PUP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "botania:mana_pool"
+    },
+    "D": {
+      "item": "botania:mana_diamond"
+    },
+    "U": {
+      "item": "synthesis:unity_alloy_1"
+    }
+  },
+  "result": {
+    "id": "synthesis:great_mana_pool_1",
+    "count": 1
+  }
+}

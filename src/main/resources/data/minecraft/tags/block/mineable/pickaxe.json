@@ -21,6 +21,22 @@
     {
       "id": "synthesis:kinetic_drive",
       "required": false
+    },
+    {
+      "id": "synthesis:great_mana_pool_1",
+      "required": false
+    },
+    {
+      "id": "synthesis:great_mana_pool_2",
+      "required": false
+    },
+    {
+      "id": "synthesis:great_mana_pool_3",
+      "required": false
+    },
+    {
+      "id": "synthesis:multi_greenhouse",
+      "required": false
     }
   ]
 }

@@ -35,6 +35,10 @@ public final class SynthesisConfig {
     public static final ModConfigSpec.IntValue PROCESSOR_TICKS;
     public static final ModConfigSpec.IntValue PROCESSOR_ENERGY_PER_ITEM;
 
+    public static final ModConfigSpec.IntValue MANA_TRANSFER_RATE;
+    public static final ModConfigSpec.IntValue SPREADER_RANGE;
+    public static final ModConfigSpec.ConfigValue<List<? extends String>> GREENHOUSE_FLOWERS;
+
     // ---------- SERVER ----------
     public static final ModConfigSpec SERVER_SPEC;
     public static final ModConfigSpec.IntValue BOX_INTERVAL_MINUTES;
@@ -133,6 +137,26 @@ public final class SynthesisConfig {
                 .defineInRange("ticksPerOperation", 100, 1, 6000);
         PROCESSOR_ENERGY_PER_ITEM = b.comment("FE за кожен перероблений предмет.", "FE per processed item.")
                 .defineInRange("energyPerItem", 200, 0, 1_000_000);
+        b.pop();
+        b.comment("Машини мани (Ботанія) / Mana machines (Botania)").push("mana");
+        MANA_TRANSFER_RATE = b
+                .comment("Скільки мани за тік Великий басейн / Драконієвий розповсюджувач / Мультитеплиця віддають в один приймач.",
+                        "Mana per tick the Great Pool / Draconic Spreader / Multi-Greenhouse give to one receiver.")
+                .defineInRange("transferRate", 100_000, 1, 100_000_000);
+        SPREADER_RANGE = b.comment("Максимальна відстань прив'язки Драконієвого розповсюджувача (блоків).",
+                        "Max binding distance of the Draconic Spreader (blocks).")
+                .defineInRange("spreaderRange", 64, 4, 256);
+        GREENHOUSE_FLOWERS = b
+                .comment("Квіти Мультитеплиці: 'id=мана_за_секунду' або 'id=мана:fuel' (квітці потрібне паливо печі).",
+                        "Варіанти floating_* рахуються як звичайні.",
+                        "Multi-Greenhouse flowers: 'id=mana_per_second' or 'id=mana:fuel' (needs furnace fuel).")
+                .defineListAllowEmpty("greenhouseFlowers", List.of(
+                        "botania:endoflame=60:fuel", "botania:hydroangeas=20", "botania:thermalily=400:fuel",
+                        "botania:rosa_arcana=100", "botania:munchdew=150", "botania:entropinnyum=500:fuel",
+                        "botania:kekimurus=300", "botania:gourmaryllis=200", "botania:narslimmus=250",
+                        "botania:spectrolus=300", "botania:dandelifeon=500", "botania:rafflowsia=600",
+                        "botania:shulk_me_not=800"
+                ), () -> "botania:example=10", o -> o instanceof String);
         b.pop();
         COMMON_SPEC = b.build();
 

@@ -29,6 +29,10 @@ public final class SynthesisClient {
         event.register(ModMenus.SYNTHESIZER.get(), SynthesizerScreen::new);
         event.register(ModMenus.FORTUNE_CONVERTER.get(), FortuneConverterScreen::new);
         event.register(ModMenus.INDUSTRIAL_PROCESSOR.get(), IndustrialProcessorScreen::new);
+        if (ua.krainov.synthesis.compat.ModCompat.BOTANIA) {
+            event.register(ua.krainov.synthesis.compat.botania.BotaniaMachines.GREENHOUSE_MENU.get(),
+                    ua.krainov.synthesis.compat.botania.GreenhouseScreen::new);
+        }
     }
 
     @SubscribeEvent
