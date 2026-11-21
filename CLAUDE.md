@@ -51,6 +51,7 @@ CI: `.github/workflows/build.yml` — кожен пуш у `main` збирає j
 - Профіль CurseForge: `C:\Users\dimak\curseforge\minecraft\Instances\Capitalism` (mods, logs, crash-reports, kubejs, config)
 - ~70 модів: Create, Mekanism, AE2, Industrial Upgrade, Draconic Evolution + Retro Draconic, Botania Revived, Thaumcraft 4 port (`tc4modern`) + Thaumic Tinkerer port (`ttinkerer`), Just Another Witchery Remake, Ars Nouveau, Iron's Spells, Re:Avaritia, Twilight Forest, L_Ender's Cataclysm, Apotheosis, FTB Quests/Teams/Chunks, KubeJS
 - ⚠ **Curios закріплено на 9.5.1** — 9.6.0 ламає Witchery. Не оновлювати.
+- Шейдери (додано 21.11.2026): `sodium-neoforge-0.8.13` + `iris-neoforge-1.8.14-beta.1` (пара сумісна), шейдерпаки Complementary Reimagined/Unbound r5.10, BSL 10.1.8 у `shaderpacks`. При графічних крашах першими підозрювати Sodium/Iris
 - KubeJS-скрипти збірки: `kubejs/server_scripts/capitalism_endgame.js` (список 21 ключа; рецепти Avaritia на Infinity Catalyst прибрано — лише Вівтар Капіталізму), `capitalism_boss_souls.js` (крафт душ босів), `capitalism_creative.js`, `capitalism_bridges.js` (мости між модами)
 - Квести FTB: `config/ftbquests/quests/` (згенеровані + глава «10. Синтез»). ID квестів ≤ 7FFFFFFFFFFFFFFF, тексти в `lang/en_us.snbt`
 - ID предметів Industrial Upgrade мають вигляд `industrialupgrade:simplemachine/macerator_iu` — модель у jar не гарантує, що предмет зареєстрований (`industrialupgrade:infinitycore` НЕ існує)
