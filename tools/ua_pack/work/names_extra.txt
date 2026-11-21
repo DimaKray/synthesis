@@ -1,0 +1,63 @@
+%1$s%2$sStorage Connector	%1$s%2$sЗ'єднувач сховища
+Advanced Alchemy Upgrade	Покращене алхімічне покращення
+Advanced Jukebox Upgrade	Покращене покращення програвача
+Advanced Wireless Terminal	Покращений бездротовий термінал
+Alchemy Upgrade	Алхімічне покращення
+Basic Inventory Hopper	Проста лійка інвентаря
+Copper Tank	Мідний бак
+Crafting Terminal	Крафтовий термінал
+Decoration Table	Декоративний стіл
+Diamond Tank	Алмазний бак
+Filing Cabinet	Картотека
+Framed Inventory Cable	Обрамлений кабель інвентаря
+Gold Tank	Золотий бак
+Infinity Upgrade (Admin)	Покращення нескінченності (адмін)
+Inventory Cable	Кабель інвентаря
+Inventory Cable Connector	З'єднувач кабелю інвентаря
+Inventory Cable Connector (Framed)	З'єднувач кабелю інвентаря (обрамлений)
+Inventory Configurator	Конфігуратор інвентаря
+Inventory Connector	З'єднувач інвентаря
+Inventory Interface	Інтерфейс інвентаря
+Inventory Proxy	Проксі інвентаря
+Inventory Trim	Оздоблення інвентаря
+Iron Tank	Залізний бак
+Item Filter	Фільтр предметів
+Level Emitter	Випромінювач рівня
+Mode: %s	Режим: %s
+Netherite Tank	Незеритовий бак
+Open Crate	Відкритий ящик
+Paint Kit	Набір фарб
+Paintbrush	Пензель
+Polymorphic Item Filter	Поліморфний фільтр предметів
+Sawmill Upgrade	Покращення пилорами
+Stack Downgrade Tier 1	Зменшення стосу, рівень 1
+Stack Downgrade Tier 2	Зменшення стосу, рівень 2
+Stack Downgrade Tier 3	Зменшення стосу, рівень 3
+Stack Upgrade Conversion: Tier 1 Plus to Tier 2	Перетворення покращення стосу: рівень 1+ → 2
+Stack Upgrade Conversion: Tier 1 Plus to Tier 3	Перетворення покращення стосу: рівень 1+ → 3
+Stack Upgrade Conversion: Tier 1 Plus to Tier 4	Перетворення покращення стосу: рівень 1+ → 4
+Stack Upgrade Conversion: Tier 1 Plus to Tier 5	Перетворення покращення стосу: рівень 1+ → 5
+Stack Upgrade Conversion: Tier 1 to Tier 1 Plus	Перетворення покращення стосу: рівень 1 → 1+
+Stack Upgrade Conversion: Tier 1 to Tier 2	Перетворення покращення стосу: рівень 1 → 2
+Stack Upgrade Conversion: Tier 1 to Tier 3	Перетворення покращення стосу: рівень 1 → 3
+Stack Upgrade Conversion: Tier 1 to Tier 4	Перетворення покращення стосу: рівень 1 → 4
+Stack Upgrade Conversion: Tier 1 to Tier 5	Перетворення покращення стосу: рівень 1 → 5
+Stack Upgrade Conversion: Tier 2 to Tier 3	Перетворення покращення стосу: рівень 2 → 3
+Stack Upgrade Conversion: Tier 2 to Tier 4	Перетворення покращення стосу: рівень 2 → 4
+Stack Upgrade Conversion: Tier 2 to Tier 5	Перетворення покращення стосу: рівень 2 → 5
+Stack Upgrade Conversion: Tier 3 to Tier 4	Перетворення покращення стосу: рівень 3 → 4
+Stack Upgrade Conversion: Tier 3 to Tier 5	Перетворення покращення стосу: рівень 3 → 5
+Stack Upgrade Conversion: Tier 4 to Tier 5	Перетворення покращення стосу: рівень 4 → 5
+Stack Upgrade Omega Tier	Покращення стосу, рівень Омега
+Stack Upgrade Tier 5	Покращення стосу, рівень 5
+Storage I/O	Введення/виведення сховища
+Storage Input	Вхід сховища
+Storage Output	Вихід сховища
+Storage Terminal	Термінал сховища
+Super Packing Tape	Суперпакувальна стрічка
+Survival Infinity Upgrade	Покращення нескінченності для виживання
+Tag Item Filter	Фільтр предметів за тегом
+Tank	Бак
+Tom's Simple Storage	Tom's Simple Storage
+Wireless Terminal	Бездротовий термінал
+[Tom's Simple Storage] Open Terminal	[Tom's Simple Storage] Відкрити термінал

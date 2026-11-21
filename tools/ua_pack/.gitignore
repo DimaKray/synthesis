@@ -1,3 +1,6 @@
-work/*.json
+work/todo.json
+work/keys.json
+work/existing_uk.json
+work/books_todo.json
 work/batch_*.txt
 work/book_*.txt

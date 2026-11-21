@@ -17,19 +17,21 @@ keys = json.load(open(os.path.join(WORK, 'keys.json'), encoding='utf-8'))
 existing = json.load(open(os.path.join(WORK, 'existing_uk.json'), encoding='utf-8'))
 
 PH = re.compile(r'%(\d+\$)?[sd%]|§.')
-tr = {}
-problems = 0
-for f in sorted(glob.glob(os.path.join(WORK, 'out_*.txt'))):
-    for line in open(f, encoding='utf-8'):
+# Словник назв «англійська → українська»: work/names_tr.json (основний) + work/names_extra.txt («англ\tукр»,
+# доповнення для нових модів). Ключ — сам англійський текст, тож extract.py можна перезапускати.
+tr = dict(json.load(open(os.path.join(WORK, 'names_tr.json'), encoding='utf-8')))
+extra = os.path.join(WORK, 'names_extra.txt')
+if os.path.exists(extra):
+    for line in open(extra, encoding='utf-8'):
         line = line.rstrip('\r\n')
-        if not line:
-            continue
-        idx, text = line.split('\t', 1)
-        en = todo[int(idx)]
-        if sorted(PH.findall(en)) != sorted(PH.findall(text)):
-            print('плейсхолдери не збігаються:', idx, repr(en), '->', repr(text))
-            problems += 1
-        tr[en] = text
+        if line:
+            en, text = line.split('\t', 1)
+            tr[en] = text
+problems = 0
+for en, text in tr.items():
+    if sorted(PH.findall(en)) != sorted(PH.findall(text)):
+        print('плейсхолдери не збігаються:', repr(en), '->', repr(text))
+        problems += 1
 missing = [e for e in todo if e not in tr]
 print('перекладено:', len(tr), '| бракує:', len(missing), '| проблем:', problems)
 
