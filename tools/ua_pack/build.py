@@ -79,11 +79,49 @@ if os.path.exists(bpath):
             done += 1
     print('книжки: перекладено фрагментів', done, 'з', len(units))
 
+# ---- готова українська там, де гра показала б англійську (немає ru_ru, але є uk_ua) ----
+import zipfile
+uk_fill = {}        # ns -> {key: uk} — будь-які ключі, не лише назви
+uk_files = {}       # шлях ru_ru у паку -> байти uk_ua-файлу Patchouli
+PB = re.compile(r'assets/([^/]+)/patchouli_books/([^/]+)/([a-z]{2}_[a-z]{2})/(.+)$')
+all_lang, locs, uk_bytes = {}, {}, {}
+for jar in sorted(glob.glob(r"C:/Users/dimak/curseforge/minecraft/Instances/Capitalism/mods/*.jar")):
+    try:
+        z = zipfile.ZipFile(jar)
+    except Exception:
+        continue
+    for n in z.namelist():
+        m = re.match(r'assets/([^/]+)/lang/(en_us|uk_ua|ru_ru)\.json$', n)
+        if m:
+            try:
+                all_lang.setdefault(m.group(1), {}).setdefault(m.group(2), {}).update(
+                    json.loads(z.read(n).decode('utf-8-sig')))
+            except Exception:
+                pass
+            continue
+        m = PB.match(n)
+        if m and not n.endswith('/'):
+            locs.setdefault((m.group(1), m.group(2), m.group(4)), set()).add(m.group(3))
+            if m.group(3) == 'uk_ua':
+                uk_bytes[(m.group(1), m.group(2), m.group(4))] = z.read(n)
+for ns, L in all_lang.items():
+    en, uk, ruo = L.get('en_us', {}), L.get('uk_ua', {}), L.get('ru_ru', {})
+    for k in en:
+        if k not in ruo and isinstance(uk.get(k), str) and uk[k].strip():
+            uk_fill.setdefault(ns, {})[k] = uk[k]
+for key, ls in locs.items():
+    if 'uk_ua' in ls and 'ru_ru' not in ls and key in uk_bytes:
+        ns, book, rel = key
+        uk_files[f'assets/{ns}/patchouli_books/{book}/ru_ru/{rel}'] = uk_bytes[key]
+print('готова uk замість англ.: ключів', sum(len(d) for d in uk_fill.values()),
+      '| файлів книжок Patchouli', len(uk_files))
+
 total = 0
-for ns in sorted(set(keys) | set(existing) | set(book_lang)):
+for ns in sorted(set(keys) | set(existing) | set(book_lang) | set(uk_fill)):
     new = {k: tr[v] for k, v in keys.get(ns, {}).items() if v in tr}
     new.update(book_lang.get(ns, {}))
-    ru = dict(existing.get(ns, {}))
+    ru = dict(uk_fill.get(ns, {}))
+    ru.update(existing.get(ns, {}))
     ru.update(new)
     if not ru:
         continue
@@ -116,4 +154,8 @@ if book_files:
                 json.dump(data, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
             wanted.discard(n)
     print('книжки: сторінок-файлів записано', len(book_files) - len(wanted), '| не знайдено', len(wanted))
+for rel, data in uk_files.items():
+    out = os.path.join(PACK, rel)
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    open(out, 'wb').write(data)
 print('модів (просторів імен):', len(os.listdir(os.path.join(PACK, 'assets'))), '| ключів у ru_ru:', total)
