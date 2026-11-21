@@ -169,15 +169,37 @@ public class SoulStabilizerBlockEntity extends BlockEntity {
         return soul.getStackInSlot(0);
     }
 
+    private static final ResourceLocation MOB_SOUL_ITEM = ResourceLocation.fromNamespaceAndPath("draconicevolution", "mob_soul");
+    /** Метод MobSoul.getEntity(ItemStack) самого Draconic (через рефлексію — без залежності при компіляції). */
+    @Nullable
+    private static java.lang.reflect.Method draconicGetEntity;
+    private static boolean draconicLookupFailed;
+
     /** Id моба з предмета-душі Draconic (або null, якщо це не душа). */
     @Nullable
     public static ResourceLocation readSoulId(ItemStack stack) {
-        if (stack.isEmpty()) return null;
+        if (stack.isEmpty() || !MOB_SOUL_ITEM.equals(BuiltInRegistries.ITEM.getKey(stack.getItem()))) return null;
+
+        // 1) Питаємо сам Draconic — він знає, як зберігає моба (і що вважати за замовчуванням)
+        if (!draconicLookupFailed) {
+            try {
+                if (draconicGetEntity == null) {
+                    draconicGetEntity = stack.getItem().getClass().getMethod("getEntity", ItemStack.class);
+                }
+                Object result = draconicGetEntity.invoke(stack.getItem(), stack);
+                if (result instanceof ResourceLocation rl) return rl;
+            } catch (ReflectiveOperationException | RuntimeException e) {
+                draconicLookupFailed = true;
+                ua.krainov.synthesis.SynthesisMod.LOGGER.warn("Soul Stabilizer: cannot call MobSoul.getEntity, using data component", e);
+            }
+        }
+
+        // 2) Запасний шлях: компонент draconicevolution:soul_id напряму
         DataComponentType<?> type = BuiltInRegistries.DATA_COMPONENT_TYPE.get(SOUL_COMPONENT);
         if (type == null) return null;
         Object value = stack.get(type);
         if (value instanceof ResourceLocation rl) return rl;
-        if (value instanceof String s) return ResourceLocation.tryParse(s);
+        if (value instanceof String str) return ResourceLocation.tryParse(str);
         return null;
     }
 
