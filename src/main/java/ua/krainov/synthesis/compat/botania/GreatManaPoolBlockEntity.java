@@ -5,6 +5,10 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -19,6 +23,9 @@ import ua.krainov.synthesis.config.SynthesisConfig;
 public class GreatManaPoolBlockEntity extends BlockEntity implements ManaReceiver, ManaSpace {
     private final int capacity;
     private int mana;
+    /** Заповненість, яку бачить клієнт (0..1) — для малювання рівня мани. */
+    private float clientFill;
+    private int lastSyncedPercent = -1;
 
     public GreatManaPoolBlockEntity(BlockPos pos, BlockState state) {
         super(BotaniaMachines.GREAT_POOL_BE.get(), pos, state);
@@ -26,6 +33,14 @@ public class GreatManaPoolBlockEntity extends BlockEntity implements ManaReceive
     }
 
     public static void serverTick(Level level, BlockPos pos, BlockState state, GreatManaPoolBlockEntity pool) {
+        // Раз на пів секунди повідомляємо клієнтів, якщо рівень мани змінився хоча б на 1%
+        if (level.getGameTime() % 10 == 0) {
+            int percent = (int) (100L * pool.mana / Math.max(1, pool.capacity));
+            if (percent != pool.lastSyncedPercent) {
+                pool.lastSyncedPercent = percent;
+                level.sendBlockUpdated(pos, state, state, Block.UPDATE_CLIENTS);
+            }
+        }
         if (pool.mana <= 0 || level.hasNeighborSignal(pos)) return;
         int sent = ManaTransfer.pushToNeighbours(level, pos, pool.mana, SynthesisConfig.MANA_TRANSFER_RATE.get(),
                 r -> r instanceof GreatManaPoolBlockEntity); // між великими басейнами не ганяємо
@@ -33,6 +48,22 @@ public class GreatManaPoolBlockEntity extends BlockEntity implements ManaReceive
             pool.mana -= sent;
             pool.setChanged();
         }
+    }
+
+    public float getClientFill() {
+        return clientFill;
+    }
+
+    @Override
+    public CompoundTag getUpdateTag(HolderLookup.Provider registries) {
+        CompoundTag tag = new CompoundTag();
+        tag.putFloat("fill", capacity <= 0 ? 0 : (float) mana / capacity);
+        return tag;
+    }
+
+    @Override
+    public Packet<ClientGamePacketListener> getUpdatePacket() {
+        return ClientboundBlockEntityDataPacket.create(this);
     }
 
     public int getCapacity() {
@@ -100,6 +131,8 @@ public class GreatManaPoolBlockEntity extends BlockEntity implements ManaReceive
     @Override
     protected void loadAdditional(CompoundTag tag, HolderLookup.Provider registries) {
         super.loadAdditional(tag, registries);
-        mana = Math.min(tag.getInt("mana"), capacity);
+        if (tag.contains("mana")) mana = Math.min(tag.getInt("mana"), capacity);
+        if (tag.contains("fill")) clientFill = tag.getFloat("fill");
+        else clientFill = capacity <= 0 ? 0 : (float) mana / capacity;
     }
 }

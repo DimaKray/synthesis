@@ -24,5 +24,37 @@ public final class SoulRules {
         return Math.max(0L, Math.round(maxHealth * energyPerHealth) * mobs);
     }
 
+    /** Предмет із кількістю в перевизначенні луту. */
+    public record Drop(String itemId, int count) {}
+
+    /**
+     * Знаходить для моба рядок 'моб=предмет*кількість,...' і повертає дроп; null — якщо перевизначення немає.
+     */
+    public static List<Drop> lootOverride(String entityId, List<? extends String> lines) {
+        for (String raw : lines) {
+            String line = raw.trim();
+            int eq = line.indexOf('=');
+            if (eq <= 0 || !line.substring(0, eq).trim().equals(entityId)) continue;
+            List<Drop> drops = new java.util.ArrayList<>();
+            for (String part : line.substring(eq + 1).split(",")) {
+                String p = part.trim();
+                if (p.isEmpty()) continue;
+                int star = p.indexOf('*');
+                String item = star > 0 ? p.substring(0, star).trim() : p;
+                int count = 1;
+                if (star > 0) {
+                    try {
+                        count = Math.max(1, Integer.parseInt(p.substring(star + 1).trim()));
+                    } catch (NumberFormatException ignored) {
+                        // кривий рядок — лишаємо 1
+                    }
+                }
+                drops.add(new Drop(item, count));
+            }
+            return drops;
+        }
+        return null;
+    }
+
     private SoulRules() {}
 }

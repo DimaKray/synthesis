@@ -1,10 +1,7 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "synthesis:block/capital_altar_side",
-    "side": "synthesis:block/capital_altar_side",
-    "top": "synthesis:block/capital_altar_top",
-    "bottom": "synthesis:block/pedestal_bottom"
+    "particle": "minecraft:block/gold_block"
   },
   "elements": [
     {
@@ -20,26 +17,26 @@
       ],
       "faces": {
         "down": {
-          "texture": "#bottom",
+          "texture": "minecraft:block/polished_blackstone",
           "cullface": "down"
         },
         "up": {
-          "texture": "#top"
+          "texture": "minecraft:block/polished_blackstone"
         },
         "north": {
-          "texture": "#side",
+          "texture": "minecraft:block/gilded_blackstone",
           "cullface": "north"
         },
         "south": {
-          "texture": "#side",
+          "texture": "minecraft:block/gilded_blackstone",
           "cullface": "south"
         },
         "west": {
-          "texture": "#side",
+          "texture": "minecraft:block/gilded_blackstone",
           "cullface": "west"
         },
         "east": {
-          "texture": "#side",
+          "texture": "minecraft:block/gilded_blackstone",
           "cullface": "east"
         }
       }
@@ -57,16 +54,16 @@
       ],
       "faces": {
         "north": {
-          "texture": "#side"
+          "texture": "minecraft:block/chiseled_polished_blackstone"
         },
         "south": {
-          "texture": "#side"
+          "texture": "minecraft:block/chiseled_polished_blackstone"
         },
         "west": {
-          "texture": "#side"
+          "texture": "minecraft:block/chiseled_polished_blackstone"
         },
         "east": {
-          "texture": "#side"
+          "texture": "minecraft:block/chiseled_polished_blackstone"
         }
       }
     },
@@ -83,22 +80,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "#bottom"
+          "texture": "minecraft:block/polished_blackstone"
         },
         "up": {
-          "texture": "#top"
+          "texture": "minecraft:block/beacon"
         },
         "north": {
-          "texture": "#side"
+          "texture": "minecraft:block/gold_block"
         },
         "south": {
-          "texture": "#side"
+          "texture": "minecraft:block/gold_block"
         },
         "west": {
-          "texture": "#side"
+          "texture": "minecraft:block/gold_block"
         },
         "east": {
-          "texture": "#side"
+          "texture": "minecraft:block/gold_block"
         }
       }
     }

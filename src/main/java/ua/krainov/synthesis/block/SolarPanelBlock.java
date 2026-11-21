@@ -28,14 +28,14 @@ import ua.krainov.synthesis.registry.ModBlockEntities;
 
 import java.util.List;
 
-/** Капітал-панель — плаский блок висотою пів-блока. ПКМ — стан. */
+/** Капітал-панель — плаский блок (як датчик денного світла). ПКМ — стан. */
 public class SolarPanelBlock extends BaseEntityBlock {
     public static final MapCodec<SolarPanelBlock> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
             SolarTier.CODEC.fieldOf("tier").forGetter(SolarPanelBlock::getTier),
             propertiesCodec()
     ).apply(inst, SolarPanelBlock::new));
 
-    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 8, 16);
+    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 6, 16);
 
     private final SolarTier tier;
 

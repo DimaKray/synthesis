@@ -1,8 +1,64 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "minecraft:block/block",
   "textures": {
-    "top": "synthesis:block/fortune_converter_top",
-    "front": "synthesis:block/fortune_converter_front",
-    "side": "synthesis:block/synthesizer_side"
-  }
+    "particle": "minecraft:block/lodestone_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/lodestone_top",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/lodestone_top",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "minecraft:block/lodestone_side",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/lodestone_side",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/lodestone_side",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/lodestone_side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        -0.01
+      ],
+      "to": [
+        16,
+        16,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "synthesis:block/overlay/converter_pickaxe"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

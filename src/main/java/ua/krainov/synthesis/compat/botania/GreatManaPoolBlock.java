@@ -18,7 +18,11 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -31,6 +35,8 @@ public class GreatManaPoolBlock extends BaseEntityBlock {
     ).apply(inst, GreatManaPoolBlock::new));
 
     private static final int[] CAPACITIES = {100_000_000, 500_000_000, 2_000_000_000};
+
+    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 8, 16);
 
     private final int tier;
 
@@ -50,6 +56,20 @@ public class GreatManaPoolBlock extends BaseEntityBlock {
     @Override
     protected MapCodec<? extends BaseEntityBlock> codec() {
         return CODEC;
+    }
+
+    @Override
+    protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        return SHAPE;
+    }
+
+    /** Колір рівня (як у басейнів Ботанії): I — без відтінку, II — зелений, III — рожевий. */
+    public int tintColor() {
+        return switch (tier) {
+            case 2 -> 0xFFA6F5B4;
+            case 3 -> 0xFFF7A8E6;
+            default -> 0xFFFFFFFF;
+        };
     }
 
     @Override

@@ -1,8 +1,46 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "minecraft:block/block",
   "textures": {
-    "top": "synthesis:block/synthesizer_top",
-    "front": "synthesis:block/industrial_processor_front",
-    "side": "synthesis:block/synthesizer_side"
-  }
+    "particle": "minecraft:block/blast_furnace_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/blast_furnace_top",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/blast_furnace_top",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "minecraft:block/blast_furnace_front_on",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/blast_furnace_side",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/blast_furnace_side",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/blast_furnace_side",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
 }

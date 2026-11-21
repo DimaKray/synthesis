@@ -59,7 +59,7 @@
   "message.synthesis.stabilizer.status.no_energy": "Paused: not enough FE",
   "message.synthesis.stabilizer.status.no_output": "Place a chest (or any inventory) next to the stabilizer",
   "message.synthesis.stabilizer.status.output_full": "Paused: the neighbouring inventory is full",
-  "message.synthesis.stabilizer.status.forbidden": "This mob is forbidden (boss or blacklisted)",
+  "message.synthesis.stabilizer.status.forbidden": "This mob can't be simulated (simulationBlacklist in the config)",
   "message.synthesis.stabilizer.status.invalid": "This soul's mob cannot be simulated",
   "item.synthesis.capital_box_common": "Common Capital Box",
   "item.synthesis.capital_box_rare": "Rare Capital Box",
@@ -149,5 +149,7 @@
   "message.synthesis.assembler.status.working": "Crafting",
   "message.synthesis.assembler.status.no_energy": "Not enough FE",
   "message.synthesis.assembler.status.no_output": "No inventory next to it for the result",
-  "message.synthesis.assembler.status.output_full": "Neighbouring inventory is full"
+  "message.synthesis.assembler.status.output_full": "Neighbouring inventory is full",
+  "message.synthesis.stabilizer.status.weak_tier": "Not enough power for a boss soul — needs an Awakened or Chaotic Soul Stabilizer",
+  "message.synthesis.stabilizer.boss": "Boss soul: longer cycle and more FE, full loot"
 }

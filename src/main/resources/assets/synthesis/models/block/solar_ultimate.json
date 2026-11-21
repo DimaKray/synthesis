@@ -1,8 +1,99 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "minecraft:block/block",
   "textures": {
-    "bottom": "synthesis:block/synthesizer_top",
-    "top": "synthesis:block/solar_ultimate_top",
-    "side": "synthesis:block/solar_ultimate_side"
-  }
+    "particle": "minecraft:block/daylight_detector_top"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        6,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "minecraft:block/daylight_detector_side",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "minecraft:block/daylight_detector_top"
+        },
+        "north": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "minecraft:block/daylight_detector_side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "minecraft:block/daylight_detector_side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "minecraft:block/daylight_detector_side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "minecraft:block/daylight_detector_side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        6.01,
+        0
+      ],
+      "to": [
+        16,
+        6.01,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "synthesis:block/overlay/solar_ultimate"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

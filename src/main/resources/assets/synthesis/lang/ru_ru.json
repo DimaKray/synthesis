@@ -59,7 +59,7 @@
   "message.synthesis.stabilizer.status.no_energy": "Пауза: бракує FE",
   "message.synthesis.stabilizer.status.no_output": "Поставте скриню (або будь-який інвентар) поруч зі стабілізатором",
   "message.synthesis.stabilizer.status.output_full": "Пауза: сусідній інвентар заповнений",
-  "message.synthesis.stabilizer.status.forbidden": "Цей моб заборонений (бос або в чорному списку)",
+  "message.synthesis.stabilizer.status.forbidden": "Цього моба неможливо симулювати (simulationBlacklist у конфігу)",
   "message.synthesis.stabilizer.status.invalid": "Моба з цієї душі неможливо змоделювати",
   "item.synthesis.capital_box_common": "Звичайний Капітал-бокс",
   "item.synthesis.capital_box_rare": "Рідкісний Капітал-бокс",
@@ -149,5 +149,7 @@
   "message.synthesis.assembler.status.working": "Крафтить",
   "message.synthesis.assembler.status.no_energy": "Бракує FE",
   "message.synthesis.assembler.status.no_output": "Поруч немає інвентаря для результату",
-  "message.synthesis.assembler.status.output_full": "Сусідній інвентар заповнений"
+  "message.synthesis.assembler.status.output_full": "Сусідній інвентар заповнений",
+  "message.synthesis.stabilizer.status.weak_tier": "Замало сили для душі боса — потрібен Пробуджений або Хаотичний стабілізатор",
+  "message.synthesis.stabilizer.boss": "Душа боса: довший цикл і більше FE, повний лут"
 }

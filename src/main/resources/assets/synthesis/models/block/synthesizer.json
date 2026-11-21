@@ -1,8 +1,64 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "minecraft:block/block",
   "textures": {
-    "top": "synthesis:block/synthesizer_top",
-    "front": "synthesis:block/synthesizer_front",
-    "side": "synthesis:block/synthesizer_side"
-  }
+    "particle": "minecraft:block/smithing_table_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/smithing_table_bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/smithing_table_top",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "minecraft:block/smithing_table_front",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/smithing_table_side",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/smithing_table_side",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/smithing_table_side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        -0.01
+      ],
+      "to": [
+        16,
+        16,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "synthesis:block/overlay/synthesizer_window"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

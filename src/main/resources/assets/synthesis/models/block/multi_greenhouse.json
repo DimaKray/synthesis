@@ -1,9 +1,144 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
-  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/block",
   "textures": {
-    "top": "synthesis:block/multi_greenhouse_top",
-    "bottom": "synthesis:block/synthesizer_top",
-    "side": "synthesis:block/multi_greenhouse_side"
-  }
+    "particle": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "botania:block/livingrock",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "botania:block/livingrock"
+        },
+        "north": {
+          "texture": "botania:block/livingrock",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "botania:block/livingrock",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "botania:block/livingrock",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "botania:block/livingrock",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        3.5,
+        3,
+        8
+      ],
+      "to": [
+        12.5,
+        12,
+        8
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 45
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "minecraft:block/poppy"
+        },
+        "south": {
+          "texture": "minecraft:block/poppy"
+        }
+      }
+    },
+    {
+      "from": [
+        3.5,
+        3,
+        8
+      ],
+      "to": [
+        12.5,
+        12,
+        8
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -45
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "minecraft:block/blue_orchid"
+        },
+        "south": {
+          "texture": "minecraft:block/blue_orchid"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/glass",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/glass",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "minecraft:block/glass",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/glass",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/glass",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/glass",
+          "cullface": "east"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

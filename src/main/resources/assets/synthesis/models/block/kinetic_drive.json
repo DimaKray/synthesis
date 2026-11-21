@@ -1,7 +1,46 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/block",
   "textures": {
-    "end": "synthesis:block/kinetic_drive_end",
-    "side": "synthesis:block/kinetic_drive_side"
-  }
+    "particle": "create:block/andesite_casing"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "create:block/gearbox_top",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "create:block/gearbox_top",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "create:block/andesite_casing",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "create:block/andesite_casing",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "create:block/andesite_casing",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "create:block/andesite_casing",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
 }

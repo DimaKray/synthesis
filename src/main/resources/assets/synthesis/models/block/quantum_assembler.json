@@ -1,6 +1,46 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/block",
   "textures": {
-    "all": "synthesis:block/quantum_assembler"
-  }
+    "particle": "minecraft:block/crafter_north"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/crafter_bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/crafter_top",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "minecraft:block/crafter_north",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/crafter_south",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/crafter_west",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/crafter_east",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
 }

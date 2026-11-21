@@ -1,41 +1,102 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "synthesis:block/fusion_altar_side",
-    "side": "synthesis:block/fusion_altar_side",
-    "top": "synthesis:block/fusion_altar_top",
-    "bottom": "synthesis:block/pedestal_bottom"
+    "particle": "minecraft:block/polished_deepslate"
   },
   "elements": [
     {
-      "from": [0, 0, 0], "to": [16, 4, 16],
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
       "faces": {
-        "down":  { "texture": "#bottom", "cullface": "down" },
-        "up":    { "texture": "#top" },
-        "north": { "texture": "#side", "cullface": "north" },
-        "south": { "texture": "#side", "cullface": "south" },
-        "west":  { "texture": "#side", "cullface": "west" },
-        "east":  { "texture": "#side", "cullface": "east" }
+        "down": {
+          "texture": "minecraft:block/polished_deepslate",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/deepslate_tiles"
+        },
+        "north": {
+          "texture": "minecraft:block/polished_deepslate",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/polished_deepslate",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/polished_deepslate",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/polished_deepslate",
+          "cullface": "east"
+        }
       }
     },
     {
-      "from": [2, 4, 2], "to": [14, 10, 14],
+      "from": [
+        2,
+        4,
+        2
+      ],
+      "to": [
+        14,
+        10,
+        14
+      ],
       "faces": {
-        "north": { "texture": "#side" },
-        "south": { "texture": "#side" },
-        "west":  { "texture": "#side" },
-        "east":  { "texture": "#side" }
+        "north": {
+          "texture": "minecraft:block/chiseled_deepslate"
+        },
+        "south": {
+          "texture": "minecraft:block/chiseled_deepslate"
+        },
+        "west": {
+          "texture": "minecraft:block/chiseled_deepslate"
+        },
+        "east": {
+          "texture": "minecraft:block/chiseled_deepslate"
+        }
       }
     },
     {
-      "from": [1, 10, 1], "to": [15, 13, 15],
+      "from": [
+        1,
+        10,
+        1
+      ],
+      "to": [
+        15,
+        13,
+        15
+      ],
       "faces": {
-        "down":  { "texture": "#bottom" },
-        "up":    { "texture": "#top" },
-        "north": { "texture": "#side" },
-        "south": { "texture": "#side" },
-        "west":  { "texture": "#side" },
-        "east":  { "texture": "#side" }
+        "down": {
+          "texture": "minecraft:block/polished_deepslate"
+        },
+        "up": {
+          "texture": "minecraft:block/enchanting_table_top"
+        },
+        "north": {
+          "texture": "minecraft:block/gold_block"
+        },
+        "south": {
+          "texture": "minecraft:block/gold_block"
+        },
+        "west": {
+          "texture": "minecraft:block/gold_block"
+        },
+        "east": {
+          "texture": "minecraft:block/gold_block"
+        }
       }
     }
   ]

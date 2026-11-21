@@ -1,7 +1,73 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/block",
   "textures": {
-    "all": "synthesis:block/soul_stabilizer_chaotic"
-  }
+    "particle": "minecraft:block/spawner"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/spawner"
+        },
+        "up": {
+          "texture": "minecraft:block/spawner"
+        },
+        "north": {
+          "texture": "minecraft:block/spawner"
+        },
+        "south": {
+          "texture": "minecraft:block/spawner"
+        },
+        "west": {
+          "texture": "minecraft:block/spawner"
+        },
+        "east": {
+          "texture": "minecraft:block/spawner"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        -0.01
+      ],
+      "to": [
+        16.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "down": {
+          "texture": "synthesis:block/overlay/stabilizer_chaotic"
+        },
+        "up": {
+          "texture": "synthesis:block/overlay/stabilizer_chaotic"
+        },
+        "north": {
+          "texture": "synthesis:block/overlay/stabilizer_chaotic"
+        },
+        "south": {
+          "texture": "synthesis:block/overlay/stabilizer_chaotic"
+        },
+        "west": {
+          "texture": "synthesis:block/overlay/stabilizer_chaotic"
+        },
+        "east": {
+          "texture": "synthesis:block/overlay/stabilizer_chaotic"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

@@ -72,7 +72,7 @@ public class SoulStabilizerBlockEntity extends BlockEntity {
             new GameProfile(UUID.fromString("5f1e7a2b-3c4d-4e5f-8a9b-0c1d2e3f4a5b"), "[Synthesis Soul Stabilizer]");
     private static final int MAX_ENERGY_RECEIVE = 200_000;
 
-    public enum Status { NO_SOUL, WORKING, NO_ENERGY, NO_OUTPUT, OUTPUT_FULL, FORBIDDEN, INVALID }
+    public enum Status { NO_SOUL, WORKING, NO_ENERGY, NO_OUTPUT, OUTPUT_FULL, FORBIDDEN, INVALID, WEAK_TIER }
 
     private final StabilizerTier tier;
     private final ItemStackHandler soul = new ItemStackHandler(1) {
@@ -228,11 +228,15 @@ public class SoulStabilizerBlockEntity extends BlockEntity {
 
         LivingEntity mob = getMob(level, id);
         if (mob == null) return Status.INVALID;
-        if (isForbidden(mob, id)) return Status.FORBIDDEN;
+        if (isForbidden(id)) return Status.FORBIDDEN;
+        boolean boss = isBoss(mob, id);
+        // Душа боса — лише для Пробудженого й Хаотичного
+        if (boss && tier.ordinal() < StabilizerTier.AWAKENED.ordinal()) return Status.WEAK_TIER;
 
-        long cost = SoulRules.cycleCost(mob.getMaxHealth(), SynthesisConfig.SOUL_ENERGY_PER_HEALTH.get(), tier.mobsPerCycle);
+        int cycle = cycleTicks(boss);
+        long cost = cycleCost(mob, boss);
         int share = (int) Math.min(Integer.MAX_VALUE,
-                cost * (progress + 1) / tier.cycleTicks - cost * progress / tier.cycleTicks);
+                cost * (progress + 1) / cycle - cost * progress / cycle);
         if (energy.getEnergyStored() < share) return Status.NO_ENERGY;
         energy.consume(share);
         progress++;
@@ -241,7 +245,7 @@ public class SoulStabilizerBlockEntity extends BlockEntity {
             level.sendParticles(ParticleTypes.SOUL, worldPosition.getX() + 0.5, worldPosition.getY() + 0.5,
                     worldPosition.getZ() + 0.5, 1, 0.25, 0.25, 0.25, 0.01);
         }
-        if (progress >= tier.cycleTicks) {
+        if (progress >= cycle) {
             progress = 0;
             for (int i = 0; i < tier.mobsPerCycle; i++) {
                 pending.addAll(rollLoot(level, mob));
@@ -270,15 +274,47 @@ public class SoulStabilizerBlockEntity extends BlockEntity {
         return cachedMob;
     }
 
-    private static boolean isForbidden(LivingEntity mob, ResourceLocation id) {
-        if (mob.getType().is(BOSSES)) return true;
-        if (SoulRules.isListed(id.toString(), SynthesisConfig.SOUL_BLACKLIST.get())) return true;
-        double maxHealth = SynthesisConfig.SOUL_MAX_MOB_HEALTH.get();
-        return maxHealth > 0 && mob.getMaxHealth() > maxHealth;
+    /** Чорний список — лише для мобів, яких неможливо симулювати (за замовчуванням порожній). */
+    private static boolean isForbidden(ResourceLocation id) {
+        return SoulRules.isListed(id.toString(), SynthesisConfig.SOUL_BLACKLIST.get());
+    }
+
+    /** Бос: тег #c:bosses або список extraBosses у конфігу. */
+    private static boolean isBoss(LivingEntity mob, ResourceLocation id) {
+        return mob.getType().is(BOSSES) || SoulRules.isListed(id.toString(), SynthesisConfig.SOUL_EXTRA_BOSSES.get());
+    }
+
+    private int cycleTicks(boolean boss) {
+        return tier.cycleTicks * (boss ? SynthesisConfig.SOUL_BOSS_TIME_MULTIPLIER.get() : 1);
+    }
+
+    private long cycleCost(LivingEntity mob, boolean boss) {
+        long cost = SoulRules.cycleCost(mob.getMaxHealth(), SynthesisConfig.SOUL_ENERGY_PER_HEALTH.get(), tier.mobsPerCycle);
+        return boss ? cost * SynthesisConfig.SOUL_BOSS_ENERGY_MULTIPLIER.get() : cost;
     }
 
     /** Таблиця луту моба, ніби його вбив гравець зброєю з «Добичею» рівня tier.looting. */
     private List<ItemStack> rollLoot(ServerLevel level, LivingEntity mob) {
+        // Перевизначення з конфігу (Дракон, Візер, Хаос-охоронець — їхній лут видається в коді, а не в таблиці)
+        String mobId = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType()).toString();
+        List<SoulRules.Drop> override = SoulRules.lootOverride(mobId, SynthesisConfig.SOUL_LOOT_OVERRIDES.get());
+        if (override != null) {
+            List<ItemStack> result = new ArrayList<>();
+            for (SoulRules.Drop drop : override) {
+                ResourceLocation itemId = ResourceLocation.tryParse(drop.itemId());
+                if (itemId == null) continue;
+                BuiltInRegistries.ITEM.getOptional(itemId).ifPresent(item -> {
+                    int left = drop.count();
+                    while (left > 0) {
+                        ItemStack stack = new ItemStack(item);
+                        int n = Math.min(left, stack.getMaxStackSize());
+                        result.add(stack.copyWithCount(n));
+                        left -= n;
+                    }
+                });
+            }
+            return result;
+        }
         FakePlayer player = FakePlayerFactory.get(level, FAKE_PROFILE);
         player.setPos(Vec3.atCenterOf(worldPosition));
         ItemStack weapon = new ItemStack(Items.NETHERITE_SWORD);
@@ -339,11 +375,15 @@ public class SoulStabilizerBlockEntity extends BlockEntity {
         ChatFormatting color = status == Status.WORKING ? ChatFormatting.GREEN : ChatFormatting.YELLOW;
         player.sendSystemMessage(Component.translatable(
                 "message.synthesis.stabilizer.status." + status.name().toLowerCase(Locale.ROOT),
-                progress * 100 / tier.cycleTicks).withStyle(color));
-        if (cachedMob != null && status != Status.FORBIDDEN) {
-            long cost = SoulRules.cycleCost(cachedMob.getMaxHealth(), SynthesisConfig.SOUL_ENERGY_PER_HEALTH.get(), tier.mobsPerCycle);
+                progress * 100 / Math.max(1, cachedMob != null && id != null ? cycleTicks(isBoss(cachedMob, id)) : tier.cycleTicks))
+                .withStyle(color));
+        if (cachedMob != null && id != null && status != Status.FORBIDDEN) {
+            boolean boss = isBoss(cachedMob, id);
             player.sendSystemMessage(Component.translatable("message.synthesis.stabilizer.cost",
-                    cost, tier.cycleTicks / 20.0, tier.mobsPerCycle, tier.looting).withStyle(ChatFormatting.GRAY));
+                    cycleCost(cachedMob, boss), cycleTicks(boss) / 20.0, tier.mobsPerCycle, tier.looting).withStyle(ChatFormatting.GRAY));
+            if (boss) {
+                player.sendSystemMessage(Component.translatable("message.synthesis.stabilizer.boss").withStyle(ChatFormatting.LIGHT_PURPLE));
+            }
         }
     }
 

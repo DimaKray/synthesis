@@ -15,8 +15,11 @@ public final class SynthesisConfig {
     // ---------- COMMON ----------
     public static final ModConfigSpec COMMON_SPEC;
     public static final ModConfigSpec.IntValue SOUL_ENERGY_PER_HEALTH;
-    public static final ModConfigSpec.DoubleValue SOUL_MAX_MOB_HEALTH;
     public static final ModConfigSpec.ConfigValue<List<? extends String>> SOUL_BLACKLIST;
+    public static final ModConfigSpec.ConfigValue<List<? extends String>> SOUL_EXTRA_BOSSES;
+    public static final ModConfigSpec.IntValue SOUL_BOSS_TIME_MULTIPLIER;
+    public static final ModConfigSpec.IntValue SOUL_BOSS_ENERGY_MULTIPLIER;
+    public static final ModConfigSpec.ConfigValue<List<? extends String>> SOUL_LOOT_OVERRIDES;
 
     public static final ModConfigSpec.IntValue FORTUNE_TICKS;
     public static final ModConfigSpec.IntValue FORTUNE_ENERGY_BASE;
@@ -61,24 +64,29 @@ public final class SynthesisConfig {
                 .comment("FE за один цикл на 1 одиницю здоров'я моба (зомбі = 20 HP).",
                         "FE per cycle per 1 point of mob max health.")
                 .defineInRange("energyPerHealth", 250, 0, 10_000_000);
-        SOUL_MAX_MOB_HEALTH = b
-                .comment("Моби з більшим максимальним здоров'ям не приймаються (запобіжник від босів). 0 = без ліміту.",
-                        "Mobs with more max health are refused (safety net against bosses). 0 = no limit.")
-                .defineInRange("maxMobHealth", 300.0, 0.0, 1_000_000.0);
         SOUL_BLACKLIST = b
-                .comment("Заборонені моби (на додачу до тегу #c:bosses). Можна 'modid:*' — увесь мод.",
-                        "Forbidden mobs (in addition to the #c:bosses tag). 'modid:*' bans a whole mod.")
-                .defineListAllowEmpty("blacklist", List.of(
+                .comment("Моби, яких НЕ можна симулювати (id або 'modid:*'). За замовчуванням порожньо — боси дозволені.",
+                        "Mobs that can NOT be simulated (id or 'modid:*'). Empty by default — bosses are allowed.")
+                .defineListAllowEmpty("simulationBlacklist", List.of(), () -> "minecraft:example", o -> o instanceof String);
+        SOUL_EXTRA_BOSSES = b
+                .comment("Хто вважається босом на додачу до тегу #c:bosses (душа боса — лише Пробуджений/Хаотичний).",
+                        "Extra bosses besides the #c:bosses tag (boss souls need Awakened/Chaotic).")
+                .defineListAllowEmpty("extraBosses", List.of(
                         "minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "minecraft:elder_guardian",
-                        "draconicevolution:draconic_guardian", "draconicevolution:guardian_wither",
-                        "botania:doppleganger", "botania:pink_wither",
-                        "ars_nouveau:wilden_boss",
-                        "cataclysm:old_netherite_monstrosity", "cataclysm:ancient_ancient_remnant",
-                        "cataclysm:the_leviathan_immune",
-                        "neovitae:daemonium_ignis",
-                        "irons_spellbooks:dead_king", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:fire_boss",
-                        "extrabotany:gaia_legacy", "extrabotany:gaia_3rd", "extrabotany:ego", "extrabotany:void_herrscher"
-                ), () -> "minecraft:example", o -> o instanceof String);
+                        "draconicevolution:draconic_guardian"), () -> "minecraft:example", o -> o instanceof String);
+        SOUL_BOSS_TIME_MULTIPLIER = b.comment("У скільки разів довший цикл для боса.", "Cycle length multiplier for bosses.")
+                .defineInRange("bossCycleMultiplier", 5, 1, 1000);
+        SOUL_BOSS_ENERGY_MULTIPLIER = b.comment("У скільки разів більше FE для боса.", "FE multiplier for bosses.")
+                .defineInRange("bossEnergyMultiplier", 10, 1, 100_000);
+        SOUL_LOOT_OVERRIDES = b
+                .comment("Свій дроп замість таблиці луту (для мобів, чий лут видається в коді, а не в таблиці).",
+                        "Формат: 'моб=предмет*кількість,предмет*кількість'.",
+                        "Custom drops instead of the loot table. Format: 'mob=item*count,item*count'.")
+                .defineListAllowEmpty("bossLootOverrides", List.of(
+                        "minecraft:ender_dragon=minecraft:dragon_breath*4,minecraft:experience_bottle*16",
+                        "minecraft:wither=minecraft:nether_star*1",
+                        "draconicevolution:draconic_guardian=draconicevolution:chaos_shard*1"
+                ), () -> "minecraft:example=minecraft:stone*1", o -> o instanceof String);
         b.pop();
 
         b.comment("Перетворювач удачі / Fortune Converter").push("fortune_converter");

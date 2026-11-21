@@ -1,6 +1,111 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/block",
   "textures": {
-    "all": "synthesis:block/accelerator_x2"
-  }
+    "particle": "minecraft:block/gold_block"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:block/gold_block",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "minecraft:block/gold_block",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "minecraft:block/gold_block",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "minecraft:block/gold_block",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "minecraft:block/gold_block",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "minecraft:block/gold_block",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        -0.01
+      ],
+      "to": [
+        16.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "down": {
+          "texture": "minecraft:item/clock_00"
+        },
+        "up": {
+          "texture": "minecraft:item/clock_00"
+        },
+        "north": {
+          "texture": "minecraft:item/clock_00"
+        },
+        "south": {
+          "texture": "minecraft:item/clock_00"
+        },
+        "west": {
+          "texture": "minecraft:item/clock_00"
+        },
+        "east": {
+          "texture": "minecraft:item/clock_00"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.02,
+        -0.02,
+        -0.02
+      ],
+      "to": [
+        16.02,
+        16.02,
+        16.02
+      ],
+      "faces": {
+        "down": {
+          "texture": "synthesis:block/overlay/accelerator_x2"
+        },
+        "up": {
+          "texture": "synthesis:block/overlay/accelerator_x2"
+        },
+        "north": {
+          "texture": "synthesis:block/overlay/accelerator_x2"
+        },
+        "south": {
+          "texture": "synthesis:block/overlay/accelerator_x2"
+        },
+        "west": {
+          "texture": "synthesis:block/overlay/accelerator_x2"
+        },
+        "east": {
+          "texture": "synthesis:block/overlay/accelerator_x2"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

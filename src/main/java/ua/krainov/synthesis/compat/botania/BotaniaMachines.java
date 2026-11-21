@@ -86,7 +86,7 @@ public final class BotaniaMachines {
     private static DeferredBlock<GreatManaPoolBlock> pool(int tier) {
         return BLOCKS.register("great_mana_pool_" + tier,
                 () -> new GreatManaPoolBlock(tier, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_BLUE)
-                        .strength(3.0f, 12.0f).sound(SoundType.STONE).lightLevel(s -> 8)));
+                        .strength(3.0f, 12.0f).sound(SoundType.STONE).lightLevel(s -> 8).noOcclusion()));
     }
 
     public static void register(IEventBus modBus) {
@@ -154,6 +154,18 @@ public final class BotaniaMachines {
         player.displayClientMessage(Component.translatable("message.synthesis.spreader.bound",
                 pos.getX(), pos.getY(), pos.getZ()).withStyle(ChatFormatting.GREEN), true);
         return InteractionResult.SUCCESS;
+    }
+
+    /** Колір рівня басейнів (у світі). Лише клієнт. */
+    public static void registerBlockColors(net.neoforged.neoforge.client.event.RegisterColorHandlersEvent.Block event) {
+        event.register((state, level, pos, tint) -> state.getBlock() instanceof GreatManaPoolBlock pool ? pool.tintColor() : -1,
+                GREAT_POOL_1.get(), GREAT_POOL_2.get(), GREAT_POOL_3.get());
+    }
+
+    /** Колір рівня басейнів (у руці/інвентарі). Лише клієнт. */
+    public static void registerItemColors(net.neoforged.neoforge.client.event.RegisterColorHandlersEvent.Item event) {
+        event.register((stack, tint) -> stack.getItem() instanceof BlockItem bi && bi.getBlock() instanceof GreatManaPoolBlock pool
+                ? pool.tintColor() : -1, GREAT_POOL_1_ITEM.get(), GREAT_POOL_2_ITEM.get(), GREAT_POOL_3_ITEM.get());
     }
 
     private BotaniaMachines() {}

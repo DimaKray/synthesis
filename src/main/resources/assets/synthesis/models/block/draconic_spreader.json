@@ -1,6 +1,79 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/block",
   "textures": {
-    "all": "synthesis:block/draconic_spreader"
-  }
+    "particle": "botania:block/dreamwood_planks"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "botania:block/dreamwood_planks",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "botania:block/dreamwood_planks",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "botania:block/dreamwood_planks",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "botania:block/dreamwood_planks",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "botania:block/dreamwood_planks",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "botania:block/dreamwood_planks",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        -0.01
+      ],
+      "to": [
+        16.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "down": {
+          "texture": "synthesis:block/overlay/draconic_core"
+        },
+        "up": {
+          "texture": "synthesis:block/overlay/draconic_core"
+        },
+        "north": {
+          "texture": "synthesis:block/overlay/draconic_core"
+        },
+        "south": {
+          "texture": "synthesis:block/overlay/draconic_core"
+        },
+        "west": {
+          "texture": "synthesis:block/overlay/draconic_core"
+        },
+        "east": {
+          "texture": "synthesis:block/overlay/draconic_core"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
 }

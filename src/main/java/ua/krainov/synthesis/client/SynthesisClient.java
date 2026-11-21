@@ -4,6 +4,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import ua.krainov.synthesis.registry.ModItems;
@@ -22,6 +23,10 @@ public final class SynthesisClient {
         event.registerBlockEntityRenderer(ModBlockEntities.FUSION_ALTAR.get(), ctx -> new AltarRenderer<FusionAltarBlockEntity>(ctx, false));
         event.registerBlockEntityRenderer(ModBlockEntities.CAPITAL_ALTAR.get(), ctx -> new AltarRenderer<CapitalAltarBlockEntity>(ctx, true));
         event.registerBlockEntityRenderer(ModBlockEntities.SOUL_STABILIZER.get(), SoulStabilizerRenderer::new);
+        if (ua.krainov.synthesis.compat.ModCompat.BOTANIA) {
+            event.registerBlockEntityRenderer(ua.krainov.synthesis.compat.botania.BotaniaMachines.GREAT_POOL_BE.get(),
+                    ua.krainov.synthesis.compat.botania.GreatManaPoolRenderer::new);
+        }
     }
 
     @SubscribeEvent
@@ -39,6 +44,25 @@ public final class SynthesisClient {
     public static void registerClientExtensions(RegisterClientExtensionsEvent event) {
         event.registerItem(new CapitalBoxClientExtension(), ModItems.CAPITAL_BOX_COMMON.get(), ModItems.CAPITAL_BOX_RARE.get(),
                 ModItems.CAPITAL_BOX_EPIC.get(), ModItems.CAPITAL_BOX_LEGENDARY.get());
+    }
+
+    /** Сплави — ванільний злиток, Ядро — зірка Незеру, перефарбовані в кольори мода. */
+    @SubscribeEvent
+    public static void registerItemColors(RegisterColorHandlersEvent.Item event) {
+        event.register((stack, layer) -> layer == 0 ? 0xFFD9B44A : -1, ModItems.UNITY_ALLOY_1.get());
+        event.register((stack, layer) -> layer == 0 ? 0xFF5FA8FF : -1, ModItems.UNITY_ALLOY_2.get());
+        event.register((stack, layer) -> layer == 0 ? 0xFFB57BFF : -1, ModItems.UNITY_ALLOY_3.get());
+        event.register((stack, layer) -> layer == 0 ? 0xFFC58BFF : -1, ModItems.SYNTHESIS_CORE.get());
+        if (ua.krainov.synthesis.compat.ModCompat.BOTANIA) {
+            ua.krainov.synthesis.compat.botania.BotaniaMachines.registerItemColors(event);
+        }
+    }
+
+    @SubscribeEvent
+    public static void registerBlockColors(RegisterColorHandlersEvent.Block event) {
+        if (ua.krainov.synthesis.compat.ModCompat.BOTANIA) {
+            ua.krainov.synthesis.compat.botania.BotaniaMachines.registerBlockColors(event);
+        }
     }
 
     private SynthesisClient() {}
