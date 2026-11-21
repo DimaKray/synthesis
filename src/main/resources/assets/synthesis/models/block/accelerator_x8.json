@@ -1,7 +1,10 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/gold_block"
+    "particle": "minecraft:block/gold_block",
+    "t0": "minecraft:block/gold_block",
+    "t1": "minecraft:item/clock_00",
+    "t2": "synthesis:block/overlay/accelerator_x8"
   },
   "elements": [
     {
@@ -17,27 +20,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/gold_block",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/gold_block",
+          "texture": "#t0",
           "cullface": "up"
         },
         "north": {
-          "texture": "minecraft:block/gold_block",
+          "texture": "#t0",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/gold_block",
+          "texture": "#t0",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/gold_block",
+          "texture": "#t0",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/gold_block",
+          "texture": "#t0",
           "cullface": "east"
         }
       }
@@ -55,22 +58,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:item/clock_00"
+          "texture": "#t1"
         },
         "up": {
-          "texture": "minecraft:item/clock_00"
+          "texture": "#t1"
         },
         "north": {
-          "texture": "minecraft:item/clock_00"
+          "texture": "#t1"
         },
         "south": {
-          "texture": "minecraft:item/clock_00"
+          "texture": "#t1"
         },
         "west": {
-          "texture": "minecraft:item/clock_00"
+          "texture": "#t1"
         },
         "east": {
-          "texture": "minecraft:item/clock_00"
+          "texture": "#t1"
         }
       }
     },
@@ -87,22 +90,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "synthesis:block/overlay/accelerator_x8"
+          "texture": "#t2"
         },
         "up": {
-          "texture": "synthesis:block/overlay/accelerator_x8"
+          "texture": "#t2"
         },
         "north": {
-          "texture": "synthesis:block/overlay/accelerator_x8"
+          "texture": "#t2"
         },
         "south": {
-          "texture": "synthesis:block/overlay/accelerator_x8"
+          "texture": "#t2"
         },
         "west": {
-          "texture": "synthesis:block/overlay/accelerator_x8"
+          "texture": "#t2"
         },
         "east": {
-          "texture": "synthesis:block/overlay/accelerator_x8"
+          "texture": "#t2"
         }
       }
     }

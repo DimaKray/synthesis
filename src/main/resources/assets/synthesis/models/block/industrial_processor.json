@@ -1,7 +1,10 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/blast_furnace_side"
+    "particle": "minecraft:block/blast_furnace_side",
+    "t0": "minecraft:block/blast_furnace_top",
+    "t1": "minecraft:block/blast_furnace_front_on",
+    "t2": "minecraft:block/blast_furnace_side"
   },
   "elements": [
     {
@@ -17,27 +20,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/blast_furnace_top",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/blast_furnace_top",
+          "texture": "#t0",
           "cullface": "up"
         },
         "north": {
-          "texture": "minecraft:block/blast_furnace_front_on",
+          "texture": "#t1",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/blast_furnace_side",
+          "texture": "#t2",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/blast_furnace_side",
+          "texture": "#t2",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/blast_furnace_side",
+          "texture": "#t2",
           "cullface": "east"
         }
       }

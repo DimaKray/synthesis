@@ -1,7 +1,11 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/glass"
+    "particle": "minecraft:block/glass",
+    "t0": "botania:block/livingrock",
+    "t1": "minecraft:block/poppy",
+    "t2": "minecraft:block/blue_orchid",
+    "t3": "minecraft:block/glass"
   },
   "elements": [
     {
@@ -17,26 +21,26 @@
       ],
       "faces": {
         "down": {
-          "texture": "botania:block/livingrock",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "botania:block/livingrock"
+          "texture": "#t0"
         },
         "north": {
-          "texture": "botania:block/livingrock",
+          "texture": "#t0",
           "cullface": "north"
         },
         "south": {
-          "texture": "botania:block/livingrock",
+          "texture": "#t0",
           "cullface": "south"
         },
         "west": {
-          "texture": "botania:block/livingrock",
+          "texture": "#t0",
           "cullface": "west"
         },
         "east": {
-          "texture": "botania:block/livingrock",
+          "texture": "#t0",
           "cullface": "east"
         }
       }
@@ -64,10 +68,10 @@
       "shade": false,
       "faces": {
         "north": {
-          "texture": "minecraft:block/poppy"
+          "texture": "#t1"
         },
         "south": {
-          "texture": "minecraft:block/poppy"
+          "texture": "#t1"
         }
       }
     },
@@ -94,10 +98,10 @@
       "shade": false,
       "faces": {
         "north": {
-          "texture": "minecraft:block/blue_orchid"
+          "texture": "#t2"
         },
         "south": {
-          "texture": "minecraft:block/blue_orchid"
+          "texture": "#t2"
         }
       }
     },
@@ -114,27 +118,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/glass",
+          "texture": "#t3",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/glass",
+          "texture": "#t3",
           "cullface": "up"
         },
         "north": {
-          "texture": "minecraft:block/glass",
+          "texture": "#t3",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/glass",
+          "texture": "#t3",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/glass",
+          "texture": "#t3",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/glass",
+          "texture": "#t3",
           "cullface": "east"
         }
       }

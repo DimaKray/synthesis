@@ -1,7 +1,10 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/lodestone_side"
+    "particle": "minecraft:block/lodestone_side",
+    "t0": "minecraft:block/lodestone_top",
+    "t1": "minecraft:block/lodestone_side",
+    "t2": "synthesis:block/overlay/converter_pickaxe"
   },
   "elements": [
     {
@@ -17,27 +20,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/lodestone_top",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/lodestone_top",
+          "texture": "#t0",
           "cullface": "up"
         },
         "north": {
-          "texture": "minecraft:block/lodestone_side",
+          "texture": "#t1",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/lodestone_side",
+          "texture": "#t1",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/lodestone_side",
+          "texture": "#t1",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/lodestone_side",
+          "texture": "#t1",
           "cullface": "east"
         }
       }
@@ -55,7 +58,7 @@
       ],
       "faces": {
         "north": {
-          "texture": "synthesis:block/overlay/converter_pickaxe"
+          "texture": "#t2"
         }
       }
     }

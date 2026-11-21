@@ -1,7 +1,11 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/polished_deepslate"
+    "particle": "minecraft:block/polished_deepslate",
+    "t0": "minecraft:block/polished_deepslate",
+    "t1": "minecraft:block/chiseled_deepslate",
+    "t2": "minecraft:block/deepslate_tiles",
+    "t3": "minecraft:block/gold_block"
   },
   "elements": [
     {
@@ -17,23 +21,23 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/polished_deepslate",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         },
         "north": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         },
         "south": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         },
         "west": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         },
         "east": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         }
       }
     },
@@ -50,16 +54,16 @@
       ],
       "faces": {
         "north": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t1"
         },
         "south": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t1"
         },
         "west": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t1"
         },
         "east": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t1"
         }
       }
     },
@@ -76,22 +80,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         },
         "up": {
-          "texture": "minecraft:block/deepslate_tiles"
+          "texture": "#t2"
         },
         "north": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t3"
         },
         "south": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t3"
         },
         "west": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t3"
         },
         "east": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t3"
         }
       }
     }

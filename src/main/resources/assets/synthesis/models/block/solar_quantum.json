@@ -1,7 +1,10 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/daylight_detector_top"
+    "particle": "minecraft:block/daylight_detector_top",
+    "t0": "minecraft:block/daylight_detector_side",
+    "t1": "minecraft:block/daylight_detector_top",
+    "t2": "synthesis:block/overlay/solar_quantum"
   },
   "elements": [
     {
@@ -23,7 +26,7 @@
             16,
             16
           ],
-          "texture": "minecraft:block/daylight_detector_side",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
@@ -33,7 +36,7 @@
             16,
             16
           ],
-          "texture": "minecraft:block/daylight_detector_top"
+          "texture": "#t1"
         },
         "north": {
           "uv": [
@@ -42,7 +45,7 @@
             16,
             16
           ],
-          "texture": "minecraft:block/daylight_detector_side",
+          "texture": "#t0",
           "cullface": "north"
         },
         "south": {
@@ -52,7 +55,7 @@
             16,
             16
           ],
-          "texture": "minecraft:block/daylight_detector_side",
+          "texture": "#t0",
           "cullface": "south"
         },
         "west": {
@@ -62,7 +65,7 @@
             16,
             16
           ],
-          "texture": "minecraft:block/daylight_detector_side",
+          "texture": "#t0",
           "cullface": "west"
         },
         "east": {
@@ -72,7 +75,7 @@
             16,
             16
           ],
-          "texture": "minecraft:block/daylight_detector_side",
+          "texture": "#t0",
           "cullface": "east"
         }
       }
@@ -90,7 +93,7 @@
       ],
       "faces": {
         "up": {
-          "texture": "synthesis:block/overlay/solar_quantum"
+          "texture": "#t2"
         }
       }
     }

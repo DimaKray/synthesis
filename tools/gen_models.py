@@ -39,6 +39,19 @@ def overlay(tex, faces=FACES, grow=0.01):
 
 
 def model(name, textures, elements, cutout=False, parent="minecraft:block/block"):
+    # Грані можуть посилатися лише на змінні (#t0), а не на шлях текстури напряму —
+    # тож кожен шлях отримує свою змінну в розділі "textures".
+    textures = dict(textures)
+    names = {}
+    for el in elements:
+        for face in el["faces"].values():
+            tex = face["texture"]
+            if tex.startswith('#'):
+                continue
+            if tex not in names:
+                names[tex] = f"t{len(names)}"
+                textures[names[tex]] = tex
+            face["texture"] = "#" + names[tex]
     m = {"parent": parent, "textures": textures, "elements": elements}
     if cutout:
         m["render_type"] = "minecraft:cutout"

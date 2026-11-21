@@ -1,7 +1,12 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/smithing_table_side"
+    "particle": "minecraft:block/smithing_table_side",
+    "t0": "minecraft:block/smithing_table_bottom",
+    "t1": "minecraft:block/smithing_table_top",
+    "t2": "minecraft:block/smithing_table_front",
+    "t3": "minecraft:block/smithing_table_side",
+    "t4": "synthesis:block/overlay/synthesizer_window"
   },
   "elements": [
     {
@@ -17,27 +22,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/smithing_table_bottom",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/smithing_table_top",
+          "texture": "#t1",
           "cullface": "up"
         },
         "north": {
-          "texture": "minecraft:block/smithing_table_front",
+          "texture": "#t2",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/smithing_table_side",
+          "texture": "#t3",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/smithing_table_side",
+          "texture": "#t3",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/smithing_table_side",
+          "texture": "#t3",
           "cullface": "east"
         }
       }
@@ -55,7 +60,7 @@
       ],
       "faces": {
         "north": {
-          "texture": "synthesis:block/overlay/synthesizer_window"
+          "texture": "#t4"
         }
       }
     }

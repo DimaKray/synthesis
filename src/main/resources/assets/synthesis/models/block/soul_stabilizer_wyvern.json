@@ -1,7 +1,9 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/spawner"
+    "particle": "minecraft:block/spawner",
+    "t0": "minecraft:block/spawner",
+    "t1": "synthesis:block/overlay/stabilizer_wyvern"
   },
   "elements": [
     {
@@ -17,22 +19,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/spawner"
+          "texture": "#t0"
         },
         "up": {
-          "texture": "minecraft:block/spawner"
+          "texture": "#t0"
         },
         "north": {
-          "texture": "minecraft:block/spawner"
+          "texture": "#t0"
         },
         "south": {
-          "texture": "minecraft:block/spawner"
+          "texture": "#t0"
         },
         "west": {
-          "texture": "minecraft:block/spawner"
+          "texture": "#t0"
         },
         "east": {
-          "texture": "minecraft:block/spawner"
+          "texture": "#t0"
         }
       }
     },
@@ -49,22 +51,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "synthesis:block/overlay/stabilizer_wyvern"
+          "texture": "#t1"
         },
         "up": {
-          "texture": "synthesis:block/overlay/stabilizer_wyvern"
+          "texture": "#t1"
         },
         "north": {
-          "texture": "synthesis:block/overlay/stabilizer_wyvern"
+          "texture": "#t1"
         },
         "south": {
-          "texture": "synthesis:block/overlay/stabilizer_wyvern"
+          "texture": "#t1"
         },
         "west": {
-          "texture": "synthesis:block/overlay/stabilizer_wyvern"
+          "texture": "#t1"
         },
         "east": {
-          "texture": "synthesis:block/overlay/stabilizer_wyvern"
+          "texture": "#t1"
         }
       }
     }

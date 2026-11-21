@@ -1,7 +1,12 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/polished_deepslate"
+    "particle": "minecraft:block/polished_deepslate",
+    "t0": "minecraft:block/polished_deepslate",
+    "t1": "minecraft:block/deepslate_tiles",
+    "t2": "minecraft:block/chiseled_deepslate",
+    "t3": "minecraft:block/enchanting_table_top",
+    "t4": "minecraft:block/gold_block"
   },
   "elements": [
     {
@@ -17,26 +22,26 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/polished_deepslate",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/deepslate_tiles"
+          "texture": "#t1"
         },
         "north": {
-          "texture": "minecraft:block/polished_deepslate",
+          "texture": "#t0",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/polished_deepslate",
+          "texture": "#t0",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/polished_deepslate",
+          "texture": "#t0",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/polished_deepslate",
+          "texture": "#t0",
           "cullface": "east"
         }
       }
@@ -54,16 +59,16 @@
       ],
       "faces": {
         "north": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t2"
         },
         "south": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t2"
         },
         "west": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t2"
         },
         "east": {
-          "texture": "minecraft:block/chiseled_deepslate"
+          "texture": "#t2"
         }
       }
     },
@@ -80,22 +85,22 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/polished_deepslate"
+          "texture": "#t0"
         },
         "up": {
-          "texture": "minecraft:block/enchanting_table_top"
+          "texture": "#t3"
         },
         "north": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t4"
         },
         "south": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t4"
         },
         "west": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t4"
         },
         "east": {
-          "texture": "minecraft:block/gold_block"
+          "texture": "#t4"
         }
       }
     }

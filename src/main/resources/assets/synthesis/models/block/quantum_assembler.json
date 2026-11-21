@@ -1,7 +1,13 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/crafter_north"
+    "particle": "minecraft:block/crafter_north",
+    "t0": "minecraft:block/crafter_bottom",
+    "t1": "minecraft:block/crafter_top",
+    "t2": "minecraft:block/crafter_north",
+    "t3": "minecraft:block/crafter_south",
+    "t4": "minecraft:block/crafter_west",
+    "t5": "minecraft:block/crafter_east"
   },
   "elements": [
     {
@@ -17,27 +23,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "minecraft:block/crafter_bottom",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "minecraft:block/crafter_top",
+          "texture": "#t1",
           "cullface": "up"
         },
         "north": {
-          "texture": "minecraft:block/crafter_north",
+          "texture": "#t2",
           "cullface": "north"
         },
         "south": {
-          "texture": "minecraft:block/crafter_south",
+          "texture": "#t3",
           "cullface": "south"
         },
         "west": {
-          "texture": "minecraft:block/crafter_west",
+          "texture": "#t4",
           "cullface": "west"
         },
         "east": {
-          "texture": "minecraft:block/crafter_east",
+          "texture": "#t5",
           "cullface": "east"
         }
       }

@@ -1,7 +1,9 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "create:block/andesite_casing"
+    "particle": "create:block/andesite_casing",
+    "t0": "create:block/gearbox_top",
+    "t1": "create:block/andesite_casing"
   },
   "elements": [
     {
@@ -17,27 +19,27 @@
       ],
       "faces": {
         "down": {
-          "texture": "create:block/gearbox_top",
+          "texture": "#t0",
           "cullface": "down"
         },
         "up": {
-          "texture": "create:block/gearbox_top",
+          "texture": "#t0",
           "cullface": "up"
         },
         "north": {
-          "texture": "create:block/andesite_casing",
+          "texture": "#t1",
           "cullface": "north"
         },
         "south": {
-          "texture": "create:block/andesite_casing",
+          "texture": "#t1",
           "cullface": "south"
         },
         "west": {
-          "texture": "create:block/andesite_casing",
+          "texture": "#t1",
           "cullface": "west"
         },
         "east": {
-          "texture": "create:block/andesite_casing",
+          "texture": "#t1",
           "cullface": "east"
         }
       }
