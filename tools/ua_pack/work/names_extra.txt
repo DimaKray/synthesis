@@ -61,3 +61,435 @@ Tank	Бак
 Tom's Simple Storage	Tom's Simple Storage
 Wireless Terminal	Бездротовий термінал
 [Tom's Simple Storage] Open Terminal	[Tom's Simple Storage] Відкрити термінал
+%ss	%ss
+ATM	Банкомат
+ATM Card	Банківська картка
+Acacia Auction Stand	Аукціонна стійка з акації
+Acacia Bookshelf Trader	Торговець-книжкова полиця з акації
+Acacia Card Display	Вітрина карток з акації
+Acacia Double Shelf	Подвійна полиця з акації
+Acacia Shelf	Полиця з акації
+Access Portable ATM	Відкрити портативний банкомат
+Access Portable Terminal	Відкрити портативний термінал
+Ancient Copper Coin	Давня мідна монета
+Ancient Diamond Coin	Давня алмазна монета
+Ancient Emerald Coin	Давня смарагдова монета
+Ancient Ender Pearl Coin	Давня ендерова монета
+Ancient Gold Coin	Давня золота монета
+Ancient Iron Coin	Давня залізна монета
+Ancient Lapis Coin	Давня лазуритова монета
+Ancient Netherite Coin	Давня незеритова монета
+Armor Display	Вітрина броні
+Avarice Button	Кнопка з дерева жадібності
+Avarice Door	Двері з дерева жадібності
+Avarice Fence	Паркан з дерева жадібності
+Avarice Fence Gate	Хвіртка з дерева жадібності
+Avarice Hanging Sign	Підвісна табличка з дерева жадібності
+Avarice Log	Колода дерева жадібності
+Avarice Planks	Дошки з дерева жадібності
+Avarice Pressure Plate	Натискна плита з дерева жадібності
+Avarice Sign	Табличка з дерева жадібності
+Avarice Slab	Плита з дерева жадібності
+Avarice Stairs	Сходи з дерева жадібності
+Avarice Trapdoor	Люк з дерева жадібності
+Bamboo Auction Stand	Аукціонна стійка з бамбука
+Bamboo Bookshelf Trader	Торговець-книжкова полиця з бамбука
+Bamboo Card Display	Вітрина карток з бамбука
+Bamboo Double Shelf	Подвійна полиця з бамбука
+Bamboo Shelf	Полиця з бамбука
+Bank Upgrade	Банківське покращення
+Basic Wallet	Простий гаманець
+Birch Auction Stand	Аукціонна стійка з берези
+Birch Bookshelf Trader	Торговець-книжкова полиця з берези
+Birch Card Display	Вітрина карток з берези
+Birch Double Shelf	Подвійна полиця з берези
+Birch Shelf	Полиця з берези
+Black Freezer	Чорний морозильник
+Black Gacha Machine	Чорний гача-автомат
+Black Vending Machine	Чорний торговий автомат
+Block of Copper Coins	Блок мідних монет
+Block of Diamond Coins	Блок алмазних монет
+Block of Emerald Coins	Блок смарагдових монет
+Block of Gold Coins	Блок золотих монет
+Block of Iron Coins	Блок залізних монет
+Block of Netherite Coins	Блок незеритових монет
+Blocks of Copper Coins	Блоки мідних монет
+Blocks of Diamond Coins	Блоки алмазних монет
+Blocks of Emerald Coins	Блоки смарагдових монет
+Blocks of Gold Coins	Блоки золотих монет
+Blocks of Iron Coins	Блоки залізних монет
+Blocks of Netherite Coins	Блоки незеритових монет
+Blue Casino Bit	Синій біт казино
+Blue Casino Block	Синій блок казино
+Blue Casino Bricks	Синя цегла казино
+Blue Casino Cabochon Pillar	Синя колона казино з кабошоном
+Blue Casino Chip	Синя фішка казино
+Blue Casino Door	Синіі двері казино
+Blue Casino Slab	Синя плита казино
+Blue Casino Tiles	Синя плитка казино
+Blue Casino Trapdoor	Синій люк казино
+Blue Casino Wall	Синя стіна казино
+Blue Dart	Синій дротик
+Blue Freezer	Синій морозильник
+Blue Gacha Machine	Синій гача-автомат
+Blue Pool Table	Синій більярдний стіл
+Blue Slot Machine	Синій ігровий автомат
+Blue Stool	Синій табурет
+Blue Vending Machine	Синій торговий автомат
+Brown Freezer	Коричневий морозильник
+Brown Gacha Machine	Коричневий гача-автомат
+Brown Vending Machine	Коричневий торговий автомат
+Card Deck	Колода карт
+Card Table	Картковий стіл
+Cash Register	Касовий апарат
+Casino Chip	Фішка казино
+Cherry Auction Stand	Аукціонна стійка з вишні
+Cherry Bookshelf Trader	Торговець-книжкова полиця з вишні
+Cherry Card Display	Вітрина карток з вишні
+Cherry Double Shelf	Подвійна полиця з вишні
+Cherry Shelf	Полиця з вишні
+Chocolate Block of Copper Coins	Шоколадний блок мідних монет
+Chocolate Block of Diamond Coins	Шоколадний блок алмазних монет
+Chocolate Block of Emerald Coins	Шоколадний блок смарагдових монет
+Chocolate Block of Gold Coins	Шоколадний блок золотих монет
+Chocolate Block of Iron Coins	Шоколадний блок залізних монет
+Chocolate Block of Netherite Coins	Шоколадний блок незеритових монет
+Chocolate Blocks of Copper Coins	Шоколадні блоки мідних монет
+Chocolate Blocks of Diamond Coins	Шоколадні блоки алмазних монет
+Chocolate Blocks of Emerald Coins	Шоколадні блоки смарагдових монет
+Chocolate Blocks of Gold Coins	Шоколадні блоки золотих монет
+Chocolate Blocks of Iron Coins	Шоколадні блоки залізних монет
+Chocolate Blocks of Netherite Coins	Шоколадні блоки незеритових монет
+Chocolate Copper Coin	Шоколадна мідна монета
+Chocolate Copper Coinpile	Шоколадна купка мідних монет
+Chocolate Copper Coinpiles	Шоколадні купки мідних монет
+Chocolate Copper Coins	Шоколадні мідні монети
+Chocolate Diamond Coin	Шоколадна алмазна монета
+Chocolate Diamond Coinpile	Шоколадна купка алмазних монет
+Chocolate Diamond Coinpiles	Шоколадні купки алмазних монет
+Chocolate Diamond Coins	Шоколадні алмазні монети
+Chocolate Emerald Coin	Шоколадна смарагдова монета
+Chocolate Emerald Coinpile	Шоколадна купка смарагдових монет
+Chocolate Emerald Coinpiles	Шоколадні купки смарагдових монет
+Chocolate Emerald Coins	Шоколадні смарагдові монети
+Chocolate Gold Coin	Шоколадна золота монета
+Chocolate Gold Coinpile	Шоколадна купка золотих монет
+Chocolate Gold Coinpiles	Шоколадні купки золотих монет
+Chocolate Gold Coins	Шоколадні золоті монети
+Chocolate Iron Coin	Шоколадна залізна монета
+Chocolate Iron Coinpile	Шоколадна купка залізних монет
+Chocolate Iron Coinpiles	Шоколадні купки залізних монет
+Chocolate Iron Coins	Шоколадні залізні монети
+Chocolate Netherite Coin	Шоколадна незеритова монета
+Chocolate Netherite Coinpile	Шоколадна купка незеритових монет
+Chocolate Netherite Coinpiles	Шоколадні купки незеритових монет
+Chocolate Netherite Coins	Шоколадні незеритові монети
+Coin Exchange Upgrade	Покращення обміну монет
+Coin Jar	Банка для монет
+Coin Magnet	Магніт для монет
+Coin Minting Machine	Монетний двір
+Coins & Items	Монети й предмети
+Command Trader	Торговець командами
+Contract Allay	Контракт: тихоня
+Contract Egg	Контракт: яйце
+Contract Horse	Контракт: кінь
+Copper Coin	Мідна монета
+Copper Coinpile	Купка мідних монет
+Copper Coinpiles	Купки мідних монет
+Copper Coins	Мідні монети
+Coupon	Купон
+Crimson Auction Stand	Аукціонна стійка з багряного дерева
+Crimson Bookshelf Trader	Торговець-книжкова полиця з багряного дерева
+Crimson Card Display	Вітрина карток з багряного дерева
+Crimson Double Shelf	Подвійна полиця з багряного дерева
+Crimson Shelf	Полиця з багряного дерева
+Cue Stick	Більярдний кий
+Curse of Misfire	Прокляття осічки
+Curse of Roulette	Прокляття рулетки
+Custom Item Trade Filter	Власний фільтр торгівлі предметами
+Cyan Freezer	Бірюзовий морозильник
+Cyan Gacha Machine	Бірюзовий гача-автомат
+Cyan Vending Machine	Бірюзовий торговий автомат
+Dark Oak Auction Stand	Аукціонна стійка з темного дуба
+Dark Oak Bookshelf Trader	Торговець-книжкова полиця з темного дуба
+Dark Oak Card Display	Вітрина карток з темного дуба
+Dark Oak Double Shelf	Подвійна полиця з темного дуба
+Dark Oak Shelf	Полиця з темного дуба
+Dart Board	Дартс
+Dead Auction Stand	Аукціонна стійка з мертвого дерева
+Dead Bookshelf Trader	Торговець-книжкова полиця з мертвого дерева
+Dead Card Display	Вітрина карток з мертвого дерева
+Dead Double Shelf	Подвійна полиця з мертвого дерева
+Dead Shelf	Полиця з мертвого дерева
+Dealer	Дилер
+Dealer Key	Ключ дилера
+Dealer Spawn Egg	Яйце виклику дилера
+Diamond Coin	Алмазна монета
+Diamond Coinpile	Купка алмазних монет
+Diamond Coinpiles	Купки алмазних монет
+Diamond Coins	Алмазні монети
+Display Case	Вітрина
+Emerald Coin	Смарагдова монета
+Emerald Coinpile	Купка смарагдових монет
+Emerald Coinpiles	Купки смарагдових монет
+Emerald Coins	Смарагдові монети
+Extra Machines	Додаткові автомати
+Fir Auction Stand	Аукціонна стійка з ялиці
+Fir Bookshelf Trader	Торговець-книжкова полиця з ялиці
+Fir Card Display	Вітрина карток з ялиці
+Fir Double Shelf	Подвійна полиця з ялиці
+Fir Shelf	Полиця з ялиці
+Gacha Ball	Гача-кулька
+Gold Coinpile	Купка золотих монет
+Gold Coinpiles	Купки золотих монет
+Gold Coins	Золоті монети
+Golden Master Ticket	Золотий майстер-квиток
+Golden Pass	Золота перепустка
+Golden Ticket	Золотий квиток
+Golden Ticket Stub	Корінець золотого квитка
+Gray Freezer	Сірий морозильник
+Gray Gacha Machine	Сірий гача-автомат
+Gray Vending Machine	Сірий торговий автомат
+Green Casino Bit	Зелений біт казино
+Green Casino Block	Зелений блок казино
+Green Casino Bricks	Зелена цегла казино
+Green Casino Cabochon Pillar	Зелена колона казино з кабошоном
+Green Casino Chip	Зелена фішка казино
+Green Casino Door	Зелені двері казино
+Green Casino Slab	Зелена плита казино
+Green Casino Tiles	Зелена плитка казино
+Green Casino Trapdoor	Зелений люк казино
+Green Casino Wall	Зелена стіна казино
+Green Dart	Зелений дротик
+Green Freezer	Зелений морозильник
+Green Gacha Machine	Зелений гача-автомат
+Green Pool Table	Зелений більярдний стіл
+Green Slot Machine	Зелений ігровий автомат
+Green Stool	Зелений табурет
+Green Vending Machine	Зелений торговий автомат
+Hellbark Auction Stand	Аукціонна стійка з пекельної кори
+Hellbark Bookshelf Trader	Торговець-книжкова полиця з пекельної кори
+Hellbark Card Display	Вітрина карток з пекельної кори
+Hellbark Double Shelf	Подвійна полиця з пекельної кори
+Hellbark Shelf	Полиця з пекельної кори
+High Roller	Великий гравець
+Hopper Upgrade	Покращення лійки
+Interaction Upgrade (Diamond)	Покращення взаємодії (алмаз)
+Interaction Upgrade (Emerald)	Покращення взаємодії (смарагд)
+Interaction Upgrade (Netherite)	Покращення взаємодії (незерит)
+Iron Coin	Залізна монета
+Iron Coinpile	Купка залізних монет
+Iron Coinpiles	Купки залізних монет
+Iron Coins	Залізні монети
+Item Capacity Upgrade (Diamond)	Покращення місткості (алмаз)
+Item Capacity Upgrade (Gold)	Покращення місткості (золото)
+Item Capacity Upgrade (Iron)	Покращення місткості (залізо)
+Item Capacity Upgrade (Netherite)	Покращення місткості (незерит)
+Item Network Trader T1	Мережевий торговець предметами T1
+Item Network Trader T2	Мережевий торговець предметами T2
+Item Network Trader T3	Мережевий торговець предметами T3
+Item Network Trader T4	Мережевий торговець предметами T4
+Item Trader Interface	Інтерфейс торговця предметами
+Jacaranda Auction Stand	Аукціонна стійка з жакаранди
+Jacaranda Bookshelf Trader	Торговець-книжкова полиця з жакаранди
+Jacaranda Card Display	Вітрина карток з жакаранди
+Jacaranda Double Shelf	Подвійна полиця з жакаранди
+Jacaranda Shelf	Полиця з жакаранди
+Jar of Sus	Підозріла банка
+Jungle Auction Stand	Аукціонна стійка з тропічного дерева
+Jungle Bookshelf Trader	Торговець-книжкова полиця з тропічного дерева
+Jungle Card Display	Вітрина карток з тропічного дерева
+Jungle Double Shelf	Подвійна полиця з тропічного дерева
+Jungle Shelf	Полиця з тропічного дерева
+Large Black Vending Machine	Великий чорний торговий автомат
+Large Blue Vending Machine	Великий синій торговий автомат
+Large Brown Vending Machine	Великий коричневий торговий автомат
+Large Cyan Vending Machine	Великий бірюзовий торговий автомат
+Large Gray Vending Machine	Великий сірий торговий автомат
+Large Green Vending Machine	Великий зелений торговий автомат
+Large Light Blue Vending Machine	Великий блакитний торговий автомат
+Large Light Gray Vending Machine	Великий світло-сірий торговий автомат
+Large Lime Vending Machine	Великий лаймовий торговий автомат
+Large Magenta Vending Machine	Великий пурпуровий торговий автомат
+Large Orange Vending Machine	Великий помаранчевий торговий автомат
+Large Pink Vending Machine	Великий рожевий торговий автомат
+Large Purple Vending Machine	Великий фіолетовий торговий автомат
+Large Red Vending Machine	Великий червоний торговий автомат
+Large White Vending Machine	Великий білий торговий автомат
+Large Yellow Vending Machine	Великий жовтий торговий автомат
+Life Chip	Фішка життя
+Light Blue Freezer	Блакитний морозильник
+Light Blue Gacha Machine	Блакитний гача-автомат
+Light Blue Vending Machine	Блакитний торговий автомат
+Light Gray Freezer	Світло-сірий морозильник
+Light Gray Gacha Machine	Світло-сірий гача-автомат
+Light Gray Vending Machine	Світло-сірий торговий автомат
+Lime Freezer	Лаймовий морозильник
+Lime Gacha Machine	Лаймовий гача-автомат
+Lime Vending Machine	Лаймовий торговий автомат
+Lucky Ticket	Щасливий квиток
+Machine Upgrades	Покращення автоматів
+Magenta Freezer	Пурпуровий морозильник
+Magenta Gacha Machine	Пурпуровий гача-автомат
+Magenta Vending Machine	Пурпуровий торговий автомат
+Magic Auction Stand	Аукціонна стійка з магічного дерева
+Magic Bookshelf Trader	Торговець-книжкова полиця з магічного дерева
+Magic Card Display	Вітрина карток з магічного дерева
+Magic Double Shelf	Подвійна полиця з магічного дерева
+Magic Shelf	Полиця з магічного дерева
+Magnet Upgrade (Copper)	Покращення-магніт (мідь)
+Magnet Upgrade (Emerald)	Покращення-магніт (смарагд)
+Magnet Upgrade (Gold)	Покращення-магніт (золото)
+Magnet Upgrade (Iron)	Покращення-магніт (залізо)
+Mahogany Auction Stand	Аукціонна стійка з червоного дерева
+Mahogany Bookshelf Trader	Торговець-книжкова полиця з червоного дерева
+Mahogany Card Display	Вітрина карток з червоного дерева
+Mahogany Double Shelf	Подвійна полиця з червоного дерева
+Mahogany Shelf	Полиця з червоного дерева
+Mangrove Auction Stand	Аукціонна стійка з мангрової
+Mangrove Bookshelf Trader	Торговець-книжкова полиця з мангрової
+Mangrove Card Display	Вітрина карток з мангрової
+Mangrove Double Shelf	Подвійна полиця з мангрової
+Mangrove Shelf	Полиця з мангрової
+Master Ticket	Майстер-квиток
+Misc Machines	Інші автомати
+Money Bag	Мішок грошей
+Money Chest	Скриня для грошей
+Money Mending	Грошове лагодження
+Mulligan Ticket	Квиток повтору
+Netherite Coin	Незеритова монета
+Netherite Coinpile	Купка незеритових монет
+Netherite Coinpiles	Купки незеритових монет
+Netherite Coins	Незеритові монети
+Network Upgrade	Мережеве покращення
+Oak Auction Stand	Аукціонна стійка з дуба
+Oak Bookshelf Trader	Торговець-книжкова полиця з дуба
+Oak Card Display	Вітрина карток з дуба
+Oak Double Shelf	Подвійна полиця з дуба
+Oak Shelf	Полиця з дуба
+Open Wallet	Відкрити гаманець
+Orange Freezer	Помаранчевий морозильник
+Orange Gacha Machine	Помаранчевий гача-автомат
+Orange Vending Machine	Помаранчевий торговий автомат
+Palm Auction Stand	Аукціонна стійка з пальми
+Palm Bookshelf Trader	Торговець-книжкова полиця з пальми
+Palm Card Display	Вітрина карток з пальми
+Palm Double Shelf	Подвійна полиця з пальми
+Palm Shelf	Полиця з пальми
+Pass	Перепустка
+Paygate	Платна брама
+Piggy Bank	Скарбничка
+Pink Freezer	Рожевий морозильник
+Pink Gacha Machine	Рожевий гача-автомат
+Pink Vending Machine	Рожевий торговий автомат
+Plinko	Плінко
+Prepaid Card	Передплачена картка
+Purple Freezer	Фіолетовий морозильник
+Purple Gacha Machine	Фіолетовий гача-автомат
+Purple Vending Machine	Фіолетовий торговий автомат
+Red Casino Bit	Червоний біт казино
+Red Casino Block	Червоний блок казино
+Red Casino Bricks	Червона цегла казино
+Red Casino Cabochon Pillar	Червона колона казино з кабошоном
+Red Casino Chip	Червона фішка казино
+Red Casino Door	Червоні двері казино
+Red Casino Slab	Червона плита казино
+Red Casino Tiles	Червона плитка казино
+Red Casino Trapdoor	Червоний люк казино
+Red Casino Wall	Червона стіна казино
+Red Dart	Червоний дротик
+Red Freezer	Червоний морозильник
+Red Gacha Machine	Червоний гача-автомат
+Red Pool Table	Червоний більярдний стіл
+Red Slot Machine	Червоний ігровий автомат
+Red Stool	Червоний табурет
+Red Vending Machine	Червоний торговий автомат
+Redwood Auction Stand	Аукціонна стійка з секвої
+Redwood Bookshelf Trader	Торговець-книжкова полиця з секвої
+Redwood Card Display	Вітрина карток з секвої
+Redwood Double Shelf	Подвійна полиця з секвої
+Redwood Shelf	Полиця з секвої
+Reroll	Переграш
+Root Of All Evil	Корінь усього зла
+Security Upgrade	Покращення безпеки
+Slot Machine	Ігровий автомат
+Speed Upgrade (Diamond)	Покращення швидкості (алмаз)
+Speed Upgrade (Emerald)	Покращення швидкості (смарагд)
+Speed Upgrade (Gold)	Покращення швидкості (золото)
+Speed Upgrade (Iron)	Покращення швидкості (залізо)
+Speed Upgrade (Netherite)	Покращення швидкості (незерит)
+Spruce Auction Stand	Аукціонна стійка з ялини
+Spruce Bookshelf Trader	Торговець-книжкова полиця з ялини
+Spruce Card Display	Вітрина карток з ялини
+Spruce Double Shelf	Подвійна полиця з ялини
+Spruce Shelf	Полиця з ялини
+Stogie	Сигара
+Stogie Box	Коробка сигар
+Tax Collector	Збирач податків
+Ticket	Квиток
+Ticket Kiosk	Кіоск квитків
+Ticket Station	Станція квитків
+Ticket Stub	Корінець квитка
+Top Streak	Найкраща серія
+Trade Offer Upgrade (Copper)	Покращення пропозицій (мідь)
+Trade Offer Upgrade (Diamond)	Покращення пропозицій (алмаз)
+Trade Offer Upgrade (Emerald)	Покращення пропозицій (смарагд)
+Trade Offer Upgrade (Gold)	Покращення пропозицій (золото)
+Trade Offer Upgrade (Iron)	Покращення пропозицій (залізо)
+Trade Offer Upgrade (Netherite)	Покращення пропозицій (незерит)
+Trading Core	Торгове ядро
+Trading Machines	Торгові автомати
+Trading Terminal	Торговий термінал
+Transaction Register	Реєстр транзакцій
+Umbran Auction Stand	Аукціонна стійка з умбрану
+Umbran Bookshelf Trader	Торговець-книжкова полиця з умбрану
+Umbran Card Display	Вітрина карток з умбрану
+Umbran Double Shelf	Подвійна полиця з умбрану
+Umbran Shelf	Полиця з умбрану
+Variant Wand	Жезл варіантів
+Void Upgrade	Покращення знищення
+Wallet (Copper)	Гаманець (мідь)
+Wallet (Diamond)	Гаманець (алмаз)
+Wallet (Emerald)	Гаманець (смарагд)
+Wallet (Ender Dragon)	Гаманець (Дракон Енду)
+Wallet (Gold)	Гаманець (золото)
+Wallet (Iron)	Гаманець (залізо)
+Wallet (Nether Star)	Гаманець (зірка Незеру)
+Wallet (Netherite)	Гаманець (незерит)
+Warped Auction Stand	Аукціонна стійка з спотвореного дерева
+Warped Bookshelf Trader	Торговець-книжкова полиця з спотвореного дерева
+Warped Card Display	Вітрина карток з спотвореного дерева
+Warped Double Shelf	Подвійна полиця з спотвореного дерева
+Warped Shelf	Полиця з спотвореного дерева
+White Freezer	Білий морозильник
+White Gacha Machine	Білий гача-автомат
+White Vending Machine	Білий торговий автомат
+Willow Auction Stand	Аукціонна стійка з верби
+Willow Bookshelf Trader	Торговець-книжкова полиця з верби
+Willow Card Display	Вітрина карток з верби
+Willow Double Shelf	Подвійна полиця з верби
+Willow Shelf	Полиця з верби
+Yellow Casino Bit	Жовтий біт казино
+Yellow Casino Block	Жовтий блок казино
+Yellow Casino Bricks	Жовта цегла казино
+Yellow Casino Cabochon Pillar	Жовта колона казино з кабошоном
+Yellow Casino Chip	Жовта фішка казино
+Yellow Casino Door	Жовті двері казино
+Yellow Casino Slab	Жовта плита казино
+Yellow Casino Tiles	Жовта плитка казино
+Yellow Casino Trapdoor	Жовтий люк казино
+Yellow Casino Wall	Жовта стіна казино
+Yellow Dart	Жовтий дротик
+Yellow Freezer	Жовтий морозильник
+Yellow Gacha Machine	Жовтий гача-автомат
+Yellow Pool Table	Жовтий більярдний стіл
+Yellow Slot Machine	Жовтий ігровий автомат
+Yellow Stool	Жовтий табурет
+Yellow Vending Machine	Жовтий торговий автомат
+c	c
+d	d
+e	e
+g	g
+i	i
+n	n
+Dart	Дротик

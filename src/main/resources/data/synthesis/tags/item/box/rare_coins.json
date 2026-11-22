@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "lightmanscurrency:coin_gold",
+      "required": false
+    }
+  ]
+}
