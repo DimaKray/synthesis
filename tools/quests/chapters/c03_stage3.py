@@ -57,7 +57,7 @@ CHAPTER = Chapter(
             ], deps=['de_core'], items=['draconicevolution:crafting_core', 'draconicevolution:basic_crafting_injector']),
             Q('de_energy_core', 'draconicevolution:energy_core', 'Енергетичне ядро', [
                 'Мультиблокове сховище енергії на мільярди FE. Не обов\'язкове, але для пізніх крафтів злиттям дуже допоможе.',
-            ], deps=['de_core'], reward='none'),
+            ], deps=['de_core', 'de_wyvern_core'], reward='none'),
             Q('de_wyvern_core', 'draconicevolution:wyvern_core', 'Ядро Віверни', [
                 'У збірці: драконієві ядра + &6злиток зірки Незеру IU&r + &6Сплав єдності II&r (міст).',
                 'Відкриває інструменти й броню Віверни, а також &6порт SPS Mekanism&r.',
@@ -68,13 +68,14 @@ CHAPTER = Chapter(
         ]),
         Lane('Mekanism', [
             Q('mk_reinforced', 'mekanism:alloy_reinforced', 'Зміцнений сплав', [
-                'Насичений сплав + алмази в інфузорі. Потрібен для елітних схем.',
+                'Насичений сплав + алмаз (як добавка) в металургійному інфузорі. Потрібен для елітних схем.',
             ], deps=['mk_adv_circuit']),
             Q('mk_elite', 'mekanism:elite_control_circuit', 'Елітна схема', [
                 'Потрібна для пізніх машин і &6нейтронного збирача Avaritia&r та &6лазерної бази IF&r (мости).',
             ], deps=['mk_reinforced'], count=4),
             Q('mk_obsidian', 'mekanism:ingot_refined_obsidian', 'Очищений обсидіан', [
-                'Обсидіан + алмаз у машині пресування. Інгредієнт атомного сплаву.',
+                'Пил очищеного обсидіану (обсидіановий пил + алмаз в інфузорі) стискається в злиток в осмієвому компресорі.',
+                'Інгредієнт атомного сплаву.',
             ], deps=['mk_elite']),
             Q('mk_atomic', 'mekanism:alloy_atomic', 'Атомний сплав', [
                 'Найвищий сплав Mekanism. Інгредієнт Сплаву єдності III, &6компонента 256k AE2&r (міст) і ультимативних схем.',

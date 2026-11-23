@@ -23,7 +23,7 @@ CHAPTER = Chapter(
                 'У збірці — з &6драконієм і драконієвим ядром&r (міст). Пробуджує супреміум.',
             ], deps=['ma_supremium', 'de_core']),
             Q('ma_insanium', 'mysticalagradditions:insanium_ingot', 'Інсаніум', [
-                'Mystical Agradditions: есенція понад супреміум. &6Один із 21 ключа.&r',
+                'Злиток процвітання + 2 есенції інсаніуму. Mystical Agradditions — есенція понад супреміум. &6Один із 21 ключа.&r',
             ], deps=['ma_awakening'], kind='key'),
         ]),
         Lane('DivineRPG', [
@@ -37,7 +37,9 @@ CHAPTER = Chapter(
                 'Перший «небесний» вимір. Самоцвіти кожного виміру відкривають портал у наступний:',
                 'Едем → Дикий ліс → Апалачія → Скайтерн → Мортум.',
             ], deps=['dv_shards']),
-            Q('dv_skythern', 'divinerpg:skythern_gem', 'Скайтерн', ['Предостанній небесний вимір.'], deps=['dv_eden'],
+            Q('dv_skythern', 'divinerpg:skythern_gem', 'Скайтерн', [
+                'Самоцвіти крафтяться з фрагментів, що падають з мобів відповідного виміру. Скайтерн — передостанній небесний вимір.',
+            ], deps=['dv_eden'],
               items=['divinerpg:wildwood_gem', 'divinerpg:apalachia_gem', 'divinerpg:skythern_gem']),
             Q('dv_mortum', 'divinerpg:mortum_heart', 'Серце Мортуму', [
                 'Найтемніший вимір DivineRPG. &6Один із 21 ключа.&r',

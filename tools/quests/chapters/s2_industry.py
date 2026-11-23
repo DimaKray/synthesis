@@ -52,14 +52,14 @@ CHAPTER = Chapter(
             ], deps=['welcome']),
             Q('ot_assembler', 'oritech:assembler_block', 'Збирач Oritech', [
                 'У збірці крафтиться з &6механічними крафтерами Create&r (міст). Потрібен для більшості компонентів мода.',
-            ], deps=['ot_core', 'cr_crafter']),
-            Q('ot_adamant', 'oritech:adamant_ingot', 'Адамант', ['Перший особливий метал Oritech.'], deps=['ot_assembler']),
-            Q('ot_duratium', 'oritech:duratium_ingot', 'Дуратій', ['Наступний метал — для атомної кузні.'], deps=['ot_adamant']),
+            ], deps=['ot_adamant', 'cr_crafter']),
+            Q('ot_adamant', 'oritech:adamant_ingot', 'Адамант', ['Перший особливий метал Oritech.'], deps=['ot_core']),
+            Q('ot_duratium', 'oritech:duratium_ingot', 'Дуратій', ['Наступний метал — для атомної кузні.'], deps=['ot_assembler']),
             Q('ot_forge', 'oritech:atomic_forge_block', 'Атомна кузня', [
                 'У збірці — з &6драконієвим ядром&r (міст). Робить найкращі матеріали Oritech.',
             ], deps=['ot_duratium', 'de_core']),
             Q('ot_unholy', 'oritech:unholy_intelligence', 'Нечестивий інтелект', [
-                'Вершина Oritech. &6Один із 21 ключа.&r',
+                'З «сумнівного контейнера» в рідинній центрифузі Oritech. Вершина мода. &6Один із 21 ключа.&r',
             ], deps=['ot_forge'], kind='key'),
             Q('ot_drill', 'oritech:deep_drill_block', 'Глибинний бур', [
                 'Бурить ресурсні вузли нескінченно. У збірці — з &6ніотичним кристалом Powah&r (міст).',
@@ -70,15 +70,18 @@ CHAPTER = Chapter(
                 'Латекс з дерев (витягувач рідин) → суха гума → пластик. Основа каркасів машин IF.',
             ], deps=['welcome']),
             Q('if_frame', 'industrialforegoing:machine_frame_simple', 'Простий каркас машини', [
+                'У камері розчинення: «жалюгідна» рамка + пластик + пекельна цегла + золота шестерня (і рідина — див. JEI).',
                 'Каркас для перших машин IF: ферми, збирачі рослин, дробарки мобів.',
             ], deps=['if_plastic']),
             Q('if_laser', 'industrialforegoing:laser_drill', 'Лазерний бур', [
                 'У збірці — зі &6схемою Mekanism&r і &6прецизійним механізмом Create&r (міст). Живить лазерні бази.',
-            ], deps=['if_frame', 'cr_precision', 'mk_circuit']),
+            ], deps=['if_frame', 'cr_precision', 'mk_circuit', 'mk_adv_circuit']),
             Q('if_ore_base', 'industrialforegoing:ore_laser_base', 'Лазерна база руди', [
                 'Видобуває руду з повітря — нескінченно. У збірці — з &6драконієвим ядром&r і &6елітними схемами&r (міст).',
             ], deps=['if_laser', 'de_core', 'mk_elite']),
-            Q('if_supreme', 'industrialforegoing:machine_frame_supreme', 'Найвищий каркас', ['Для найкращих машин IF.'], deps=['if_frame'], reward='none'),
+            Q('if_supreme', 'industrialforegoing:machine_frame_supreme', 'Найвищий каркас', [
+                'Камера розчинення: просунута рамка + пластик + незеритові злитки + алмази й алмазна шестерня. Для найкращих машин IF.',
+            ], deps=['if_frame', 'v_netherite'], reward='none'),
         ]),
         Lane('Industrial Upgrade', [
             Q('iu_photon', 'industrialupgrade:circuit/photoncircuit', 'Фотонна схема', [
@@ -98,9 +101,9 @@ CHAPTER = Chapter(
             ], deps=['ae_autocraft']),
             Q('mega_1m', 'megacells:cell_component_1m', 'Компонент 1M', [
                 'MEGA Cells — величезні комірки. У збірці компонент 1M стоїть на &6ультимативній схемі Mekanism&r (міст).',
-            ], deps=['xae_provider', 'mk_ultimate']),
+            ], deps=['xae_provider', 'mk_ultimate', 'ae_256k']),
             Q('aae_core', 'advanced_ae:quantum_core', 'Квантове ядро AdvancedAE', [
                 'Квантовий комп\'ютер AdvancedAE — найшвидший автокрафт. У збірці ядро вимагає &64 ядра Віверни&r (міст).',
-            ], deps=['xae_provider', 'de_wyvern_core'], reward='none'),
+            ], deps=['xae_provider', 'de_wyvern_core', 'ae_256k', 'ae_sing'], reward='none'),
         ]),
     ])

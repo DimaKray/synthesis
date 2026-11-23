@@ -24,13 +24,13 @@ CHAPTER = Chapter(
             ], deps=['s2_intro', 'mk_steel', 'mk_quartz_glass']),
             Q('mk_enrich', 'mekanism:enrichment_chamber', 'Збагачувальна камера', [
                 'Подвоює руду: руда → 2 пилу. Перша машина, яку варто поставити.',
-            ], deps=['mk_casing']),
+            ], deps=['mk_casing', 'mk_circuit']),
             Q('mk_smelter', 'mekanism:energized_smelter', 'Енергетична піч', [
                 'Піч на енергії: швидша за звичайну, не потребує палива. Разом зі збагачувальною камерою — перша лінія обробки руди.',
-            ], deps=['mk_casing']),
+            ], deps=['mk_casing', 'mk_circuit']),
             Q('mk_solar', 'mekanismgenerators:solar_generator', 'Сонячний генератор', [
                 'Безкоштовна енергія вдень. Для стабільного живлення пізніше: газові генератори, турбіни або реактор Powah.',
-            ], deps=['mk_casing']),
+            ], deps=['mk_casing', 'mk_infused']),
             Q('mk_infused', 'mekanism:alloy_infused', 'Насичений сплав', [
                 'Мідь/залізо + редстоун в інфузорі. Потрібен для покращених схем і &6важкого інженерного блоку IE&r (міст).',
             ], deps=['mk_infuser']),
@@ -39,7 +39,7 @@ CHAPTER = Chapter(
             ], deps=['mk_circuit', 'mk_infused']),
             Q('mk_purify', 'mekanism:purification_chamber', 'Очисна камера', [
                 'Руда → 3 грудки (з киснем). Наступний крок після збагачувальної камери.',
-            ], deps=['mk_adv_circuit', 'mk_casing']),
+            ], deps=['mk_adv_circuit', 'mk_casing', 'mk_enrich']),
         ]),
         Lane('AE2', [
             Q('ae_certus', 'ae2:certus_quartz_crystal', 'Істинний кварц', [
@@ -67,7 +67,7 @@ CHAPTER = Chapter(
             ], deps=['ae_processors', 'ae_fluix', 'mk_adv_circuit', 's2_intro']),
             Q('ae_drive', 'ae2:drive', 'ME-привід і комірка', [
                 'Привід тримає комірки сховища. Перша комірка 1k — це 1024 байти; для старту досить кількох.',
-            ], deps=['ae_controller'], items=['ae2:drive', 'ae2:item_storage_cell_1k']),
+            ], deps=['ae_controller', 'mk_quartz_glass'], items=['ae2:drive', 'ae2:item_storage_cell_1k']),
             Q('ae_terminal', 'ae2:crafting_terminal', 'Термінал крафту', [
                 'Доступ до всього сховища з пошуком і сіткою крафту. Тепер Tom\'s Simple Storage можна розібрати.',
             ], deps=['ae_drive']),
@@ -102,8 +102,8 @@ CHAPTER = Chapter(
                 'Верстак, що використовує віс із жезла. Більшість предметів Таумкрафту крафтиться тут.',
             ], deps=['tc_salis']),
             Q('tc_shard', 'tc4modern:balanced_shard', 'Урівноважений уламок', [
-                'Уламок з усіма первісними аспектами. Мост: &6зачаровувальний апарат Ars Nouveau&r.',
-            ], deps=['tc_workbench']),
+                'Уламок з усіма первісними аспектами — з уламків, що ростуть у світі як кристали. Мост: &6зачаровувальний апарат Ars Nouveau&r; а переплавлений дає сіль світу.',
+            ], deps=['tc_book']),
             Q('tc_thaumium_block', 'tc4modern:thaumium_block', 'Блок тауміуму', [
                 '9 злитків тауміуму. Три блоки потрібні для &6плити терасталі&r Ботанії.',
             ], deps=['tc_thaumium'], count=3),
@@ -139,7 +139,7 @@ CHAPTER = Chapter(
             ], deps=['cr_brass']),
             Q('cr_deployer', 'create:deployer', 'Розгортач', [
                 'Механічна «рука», що застосовує предмет. Ланцюжок розгортачів на конвеєрі збирає прецизійний механізм.',
-            ], deps=['cr_brass']),
+            ], deps=['cr_brass', 'cr_tube']),
             Q('cr_precision', 'create:precision_mechanism', 'Прецизійний механізм', [
                 'Збирається послідовно (золота пластина + шестерні + самородки), з шансом невдачі.',
                 '&6Це один із 21 ключа&r до Infinity Catalyst. А ще він потрібен для &6лазерного бура Industrial Foregoing&r.',
@@ -167,11 +167,11 @@ CHAPTER = Chapter(
                 'Сонячна панель на півблока, сама віддає FE в усі боки. Далі — ультимативна, квантова й нескінченна.',
             ], deps=['unity1']),
             Q('sy_synth', 'synthesis:synthesizer', 'Техно-магічний синтезатор', [
-                'Машина на 3 входи з баком і енергією: робить компоненти, яких більше ніде не отримати. Рецепти — у JEI.',
+                'Крафт: золото, алмаз, залізо, доменна піч і казан. Машина на 3 входи з баком і енергією — робить компоненти, яких більше ніде не отримати, зокрема &6ядро синтезу&r.',
             ], deps=['unity1']),
             Q('sy_pool', 'synthesis:great_mana_pool_1', 'Великий басейн мани', [
                 'Басейн на 100 мільйонів мани, що сам роздає ману сусідам — зручно живити Вівтар Злиття для великих сплавів.',
-            ], deps=['unity1', 'bo_pool']),
+            ], deps=['unity1', 'bo_pool', 'bo_diamond']),
         ]),
         Lane('Ворота', [
             Q('unity2', 'synthesis:unity_alloy_2', 'Сплав єдності II', [

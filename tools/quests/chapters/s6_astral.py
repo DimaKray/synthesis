@@ -13,7 +13,7 @@ CHAPTER = Chapter(
                 'Довідник мода (книга + аквамарин, див. JEI). Розділи відкриваються поступово — читай по черзі, він веде крок за кроком.',
             ], deps=['as_crystal']),
             Q('as_wand', 'astralsorcery:wand', 'Резонуючий жезл', [
-                'Показує, де зоряного світла найбільше, і запускає крафти на вівтарях.',
+                'Мармур + аквамарин (особливий рецепт Astral — див. JEI). Показує, де зоряного світла найбільше, і запускає крафти на вівтарях.',
             ], deps=['as_tome']),
             Q('as_altar1', 'astralsorcery:altar_luminance', 'Світний крафтовий вівтар', [
                 'Перший вівтар. Крафтить уночі під відкритим небом, живиться зоряним світлом.',
@@ -34,7 +34,7 @@ CHAPTER = Chapter(
         Lane('Applied AstralSorcery', [
             Q('aas_cell', 'appliedas:lumen_storage_cell_1k', 'Сховище люмену в ME', [
                 'Applied AstralSorcery зберігає люмен у мережі AE2 і автоматизує вівтарі. Довідник — у посібнику AE2 (перекладений).',
-            ], deps=['as_altar1', 'ae_drive']),
+            ], deps=['as_altar1', 'ae_drive', 'as_starmetal', 'mk_quartz_glass']),
             Q('aas_altar', 'appliedas:altar_automation_interface', 'Автоматизація вівтаря', [
                 'Постачальник шаблонів AE2 сам кладе інгредієнти й запускає вівтар.',
             ], deps=['aas_cell', 'ae_autocraft'], reward='none'),

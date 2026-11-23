@@ -54,9 +54,9 @@ CHAPTER = Chapter(
             Q('ca_monstrosity', 'cataclysm:monstrous_horn', 'Незеритова потвора', [
                 'Велетенський голем у Кузні душ (Незер). Перший великий бос мода.',
             ], deps=['v_netherite']),
-            Q('ca_ignis_boss', 'cataclysm:the_incinerator', 'Ігніс', [
-                'Палаюча арена в Незері. Ігніс дає &6ігнітієві злитки&r (Сплав єдності III, хаотичне ядро).',
-            ], deps=['ca_monstrosity']),
+            Q('ca_ignis_boss', 'cataclysm:the_incinerator', 'Спопелювач', [
+                'Меч Ігніса: незеритовий меч + ігнітієвий злиток + стрижень іфрита. Сам Ігніс живе на Палаючій арені в Незері.',
+            ], deps=['ca_monstrosity', 'ca_ignitium']),
             Q('ca_leviathan', 'cataclysm:tidal_claws', 'Левіафан', [
                 'Затоплене місто в океані. Бій під водою — бери підводне дихання й магію.',
             ], deps=['ca_monstrosity'], reward='none'),

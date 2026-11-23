@@ -32,7 +32,7 @@ CHAPTER = Chapter(
                 'Більше слотів заклинань і гліфи другого рівня.',
             ], deps=['ars_scribe', 'ars_chamber']),
             Q('ars_core', 'ars_nouveau:arcane_core', 'Таємне ядро', [
-                'Центр ритуалів і пізніх рецептів Ars (через зачаровувальний апарат).',
+                'Звичайний верстак: джерельний камінь + самоцвіт джерела. Центр ритуалів і пізніх рецептів Ars.',
             ], deps=['ars_apparatus']),
             Q('ars_horn', 'ars_nouveau:wilden_horn', 'Вайлдени', [
                 'Вайлдени — дикі звірі Ars у лісах і горах. Їхні роги, шипи й крила потрібні для виклику Хімери.',
@@ -41,8 +41,8 @@ CHAPTER = Chapter(
                 'Виклич Вайлден-Хімеру ритуалом і перемож — вона лишить данину. &6Один із 21 ключа.&r',
             ], deps=['ars_horn', 'ars_core'], kind='key'),
             Q('ars_archmage', 'ars_nouveau:archmage_spell_book', 'Книга архімага', [
-                'Найкраща книга заклинань Ars.',
-            ], deps=['ars_tribute', 'ars_apprentice'], reward='none'),
+                'Покращення книги учня: тотем безсмертя + зірка Незеру + &6данина Вайлденів&r. Найкраща книга заклинань Ars.',
+            ], deps=['ars_tribute', 'ars_apprentice', 'v_nether_star'], reward='none'),
         ]),
         Lane('Iron\'s Spells', [
             Q('isb_table', 'irons_spellbooks:inscription_table', 'Стіл написання', [
@@ -64,25 +64,28 @@ CHAPTER = Chapter(
         ]),
         Lane('Доповнення Ботанії', [
             Q('eb_quartz', 'extrabotany:gaia_quartz', 'Кварц Геї', [
-                'ExtraBotany продовжує Ботанію після Геї: нові квіти, зброя й бос Его.',
-            ], deps=['bo_gaia_spirit']),
+                'Кварц + самородок терасталі. ExtraBotany продовжує Ботанію: нові квіти, зброя й бос Его.',
+            ], deps=['bo_terrasteel']),
             Q('eb_catalyst', 'extrabotany:dimension_catalyst', 'Каталізатор вимірів', [
                 'У збірці — зі &6злитком порожнечі Таумкрафту&r (міст).',
-            ], deps=['eb_quartz', 'tc_void']),
+            ], deps=['eb_shadow', 'tc_void']),
             Q('eb_shadow', 'extrabotany:shadowium_ingot', 'Тіньовий і фотонієвий злитки', [
-                'Два протилежні метали ExtraBotany — обидва потрібні для оріхалку.',
-            ], deps=['eb_catalyst'], items=['extrabotany:shadowium_ingot', 'extrabotany:photonium_ingot']),
+                'Обидва — на рунічному вівтарі з елементіуму й товченої позолоченої картоплі:',
+                'тіньовий — з паливом кошмарів, фотонієвий — з уламками духу.',
+            ], deps=['eb_quartz', 'bo_elementium'], items=['extrabotany:shadowium_ingot', 'extrabotany:photonium_ingot']),
             Q('eb_orichalcos', 'extrabotany:orichalcos_ingot', 'Оріхалк', [
-                'Найвищий метал ExtraBotany. &6Один із 21 ключа.&r',
-            ], deps=['eb_shadow'], kind='key'),
+                'Рунічний вівтар: &6медаль героя&r + 2 злитки Геї + 4 духи Геї + товчена позолочена картопля.',
+                'Медаль героя — зі скриньки Пандори, яку лишає бос &6Его&r (виклик — сферою природи на арені ритуалу Геї, див. Лексикон).',
+                '&6Один із 21 ключа.&r',
+            ], deps=['eb_shadow', 'bo_gaia_ingot'], kind='key'),
             Q('mb_infuser', 'masterfulbotany:mana_infuser', 'Мана-інфузор', [
                 'Masterful Botany: покращена плита терасталі. У збірці — на &6блоці самоцвітів джерела Ars&r (міст).',
-            ], deps=['bo_terrasteel', 'ars_gem']),
+            ], deps=['bo_terrasteel', 'ars_gem', 'bo_dragonstone', 'bo_elementium']),
             Q('mb_alfsteel', 'masterfulbotany:alfsteel_ingot', 'Альфсталь', [
                 'Метал Альфгейму Masterful Botany — для найкращих інструментів, пілонів і рюкзаків.',
             ], deps=['mb_infuser', 'bo_portal']),
             Q('ae_elemental', 'ars_elemental:mark_of_mastery', 'Знак майстерності', [
-                'Ars Elemental: стихійні фокуси й школи магії. Знак — вершина мода.',
-            ], deps=['ars_core'], reward='none'),
+                'Наповнення: &6данина Вайлденів&r + есенції всіх шкіл Ars. Вершина Ars Elemental.',
+            ], deps=['ars_core', 'ars_tribute', 'v_wither_skull'], reward='none'),
         ]),
     ])
