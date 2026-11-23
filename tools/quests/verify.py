@@ -55,6 +55,9 @@ def main():
             return memo[item]
         if depth > 5 or item in stack:
             return set(), []
+        if depth > 0 and item.startswith('minecraft:'):
+            # ванільних рецептів в індексі немає — лише чужі «покращення»/розбирання (Apotheosis тощо), вони вводять в оману
+            return set(), []
         rs = [r for r in index.get(item, []) if not cyclic(item, r)]
         if not rs:
             return (None, []) if depth == 0 else (set(), [])

@@ -26,6 +26,15 @@ CHAPTER = Chapter(
                 'Злиток процвітання + 2 есенції інсаніуму. Mystical Agradditions — есенція понад супреміум. &6Один із 21 ключа.&r',
             ], deps=['ma_awakening'], kind='key'),
         ]),
+        Lane('Mystical Agriculture Plus', [
+            Q('map_seeds', 'mysticalagricultureplus:andesite_alloy_seeds', 'Насіння модів', [
+                'Mystical Agriculture Plus додає насіння для ресурсів інших модів: андезитовий сплав, есенції Ars, таємний кристал і т.д. '
+                'Робиться так само — на вівтарі наповнення з основи насіння й ресурсу.',
+            ], deps=['ma_altar', 'cr_alloy', 'ma_prudentium']),
+            Q('map_antimatter', 'mysticalagricultureplus:antimatter_seeds', 'Насіння антиматерії', [
+                'Наповнення: основа насіння процвітання + &6пелети антиматерії&r + блоки інсаніуму. Вирощуй антиматерію замість SPS.',
+            ], deps=['map_seeds', 'ma_insanium', 'mk_antimatter'], reward='none'),
+        ]),
         Lane('DivineRPG', [
             Q('dv_arlemite', 'divinerpg:arlemite_ingot', 'Арлеміт', [
                 'DivineRPG додає купу вимірів з босами. Арлеміт і рілміт — перші руди в звичайному світі.',

@@ -10,7 +10,7 @@ CREATIVE = [
 ]
 
 # що ще потрібно за рецептами (перевірено verify.py)
-CREATIVE_EXTRA = {'cre_mek': ['mk_casing'], 'cre_cr': ['mk_casing'], 'cre_de': ['v_dragon']}
+CREATIVE_EXTRA = {'cre_mek': ['mk_casing'], 'cre_cr': ['mk_casing'], 'cre_de': ['v_dragon', 'der_stab']}
 
 CHAPTER = Chapter(
     'capitalism_05_infinity', '5. Нескінченність',
@@ -34,11 +34,18 @@ CHAPTER = Chapter(
             Q('av_compressor', 'avaritia:neutron_compressor', 'Нейтронний компресор', [
                 'Стискає тисячі предметів у сингулярності. Для злитка нескінченності не обов\'язковий, але потрібен для деяких креативних рецептів.',
             ], deps=['av_neutronium'], reward='none'),
-            Q('av_ingot', 'avaritia:infinity_ingot', 'Злиток нескінченності', [
+            Q('uaa_collector', 'ultimateavaritiaadditions:ultra_dense_neutron_collector', 'Ультращільний збирач нейтронів', [
+                'Ultimate Avaritia Additions: збирачі понад найщільніший збирач Avaritia (екстремальний верстак: попередній збирач + сингулярність + нейтронієві шестерні). '
+                'Далі — гіперщільний і &6електричний&r (працює від енергії, найшвидший).',
+            ], deps=['av_collector', 'av_table', 'av_compressor']),
+            Q('av_ingot','avaritia:infinity_ingot', 'Злиток нескінченності', [
                 'Нейтроній + кристалічна матриця + &6Infinity Catalyst&r (у збірці — лише один каталізатор на злиток).',
             ], deps=['av_neutronium', 'av_matrix', 'catalyst'], kind='gate'),
             Q('av_sword', 'avaritia:infinity_sword', 'Меч нескінченності', ['Вбиває будь-що одним ударом.'], deps=['av_ingot'], reward='none'),
             Q('av_pick', 'avaritia:infinity_pickaxe', 'Кирка нескінченності', ['Копає все й одразу.'], deps=['av_ingot'], reward='none'),
+            Q('uaa_cell', 'ultimateavaritiaadditions:infinity_storage_cell', 'Комірка нескінченності', [
+                'Комірка ME без обмежень: злиток нескінченності + вічна сингулярність + комірка 256k + сингулярності AE2.',
+            ], deps=['av_ingot', 'av_compressor', 'ae_256k', 'ae_qsing'], reward='none'),
             Q('av_armor', 'avaritia:infinity_chestplate', 'Броня нескінченності', [
                 'Повний захист, політ і безсмертя.',
             ], deps=['av_ingot'], items=['avaritia:infinity_helmet', 'avaritia:infinity_chestplate', 'avaritia:infinity_pants', 'avaritia:infinity_boots'], reward='none'),
