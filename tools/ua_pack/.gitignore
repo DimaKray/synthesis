@@ -4,3 +4,4 @@ work/existing_uk.json
 work/books_todo.json
 work/batch_*.txt
 work/book_*.txt
+guides/*/src/

@@ -118,10 +118,17 @@ for key, ls in locs.items():
 print('готова uk замість англ.: ключів', sum(len(d) for d in uk_fill.values()),
       '| файлів книжок Patchouli', len(uk_files))
 
+# Окремі ключі, перекладені вручну (не назви й не книжки): work/lang_extra.json = {ns: {key: uk}}
+lang_extra = {}
+le = os.path.join(WORK, 'lang_extra.json')
+if os.path.exists(le):
+    lang_extra = json.load(open(le, encoding='utf-8'))
+
 total = 0
-for ns in sorted(set(keys) | set(existing) | set(book_lang) | set(uk_fill)):
+for ns in sorted(set(keys) | set(existing) | set(book_lang) | set(uk_fill) | set(lang_extra)):
     new = {k: tr[v] for k, v in keys.get(ns, {}).items() if v in tr}
     new.update(book_lang.get(ns, {}))
+    new.update(lang_extra.get(ns, {}))
     ru = dict(uk_fill.get(ns, {}))
     ru.update(existing.get(ns, {}))
     ru.update(new)
@@ -156,6 +163,17 @@ if book_files:
                 json.dump(data, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
             wanted.discard(n)
     print('книжки: сторінок-файлів записано', len(book_files) - len(wanted), '| не знайдено', len(wanted))
+# Гайди GuideME (ae2guide): переклад у guides/<ns>/uk/*.md → assets/<ns>/ae2guide/_ru_ru/ і _uk_ua/
+guide_pages = 0
+for d in glob.glob(os.path.join(HERE, 'guides', '*', 'uk')):
+    ns = os.path.basename(os.path.dirname(d))
+    for f in glob.glob(os.path.join(d, '*.md')):
+        for loc in ('ru_ru', 'uk_ua'):
+            out = os.path.join(PACK, 'assets', ns, 'ae2guide', '_' + loc, os.path.basename(f))
+            os.makedirs(os.path.dirname(out), exist_ok=True)
+            shutil.copyfile(f, out)
+        guide_pages += 1
+print('гайди GuideME: сторінок', guide_pages)
 for rel, data in uk_files.items():
     out = os.path.join(PACK, rel)
     os.makedirs(os.path.dirname(out), exist_ok=True)
