@@ -707,3 +707,2258 @@ XXXV	XXXV
 XXXVI	XXXVI
 XXXVII	XXXVII
 XXXVIII	XXXVIII
+Black Brass Wrapped Locometal Smokebox	Чорна димова коробка в латунній обгортці
+Black Copper Wrapped Locometal Smokebox	Чорна димова коробка в мідній обгортці
+Black Folding Locometal Door	Чорні складні локометалеві двері
+Black Four Pane Locometal Window	Чорне локометалеве вікно на 4 шибки
+Black Hinged Locometal Door	Чорні навісні локометалеві двері
+Black Iron Wrapped Locometal Smokebox	Чорна димова коробка в залізній обгортці
+Black Locometal End Ladder	Чорна торцева локометалева драбина
+Black Locometal Flywheel	Чорний локометалевий маховик
+Black Locometal Rung Ladder	Чорна локометалева драбина зі щаблями
+Black Locometal Trapdoor	Чорний локометалевий люк
+Black Locometal Vent	Чорна локометалева вентиляційна решітка
+Black Paint	Чорна фарба
+Black Paint Pitcher	Чорний глечик фарби
+Black Round Pane Locometal Window	Чорне локометалеве вікно з круглою шибкою
+Black Single Pane Locometal Window	Чорне локометалеве вікно з однією шибкою
+Black Sliding Locometal Door	Чорні розсувні локометалеві двері
+Black Two Pane Locometal Window	Чорне локометалеве вікно на 2 шибки
+Black on Black Chevron	Шеврон (чорний на чорний)
+Black on Black Hazard Stripes	Смуги небезпеки (чорний на чорний)
+Black on White Chevron	Шеврон (чорний на білий)
+Black on White Hazard Stripes	Смуги небезпеки (чорний на білий)
+Blue Brass Wrapped Locometal Smokebox	Синя димова коробка в латунній обгортці
+Blue Copper Wrapped Locometal Smokebox	Синя димова коробка в мідній обгортці
+Blue Folding Locometal Door	Сині складні локометалеві двері
+Blue Four Pane Locometal Window	Синє локометалеве вікно на 4 шибки
+Blue Hinged Locometal Door	Сині навісні локометалеві двері
+Blue Iron Wrapped Locometal Smokebox	Синя димова коробка в залізній обгортці
+Blue Locometal End Ladder	Синя торцева локометалева драбина
+Blue Locometal Flywheel	Синій локометалевий маховик
+Blue Locometal Rung Ladder	Синя локометалева драбина зі щаблями
+Blue Locometal Trapdoor	Синій локометалевий люк
+Blue Locometal Vent	Синя локометалева вентиляційна решітка
+Blue Paint	Синя фарба
+Blue Paint Pitcher	Синій глечик фарби
+Blue Round Pane Locometal Window	Синє локометалеве вікно з круглою шибкою
+Blue Single Pane Locometal Window	Синє локометалеве вікно з однією шибкою
+Blue Sliding Locometal Door	Сині розсувні локометалеві двері
+Blue Two Pane Locometal Window	Синє локометалеве вікно на 2 шибки
+Blue on Black Chevron	Шеврон (синій на чорний)
+Blue on Black Hazard Stripes	Смуги небезпеки (синій на чорний)
+Blue on White Chevron	Шеврон (синій на білий)
+Blue on White Hazard Stripes	Смуги небезпеки (синій на білий)
+Brass Wrapped Locometal Smokebox	Димова коробка в латунній обгортці
+Brown Brass Wrapped Locometal Smokebox	Коричнева димова коробка в латунній обгортці
+Brown Copper Wrapped Locometal Smokebox	Коричнева димова коробка в мідній обгортці
+Brown Folding Locometal Door	Коричневі складні локометалеві двері
+Brown Four Pane Locometal Window	Коричневе локометалеве вікно на 4 шибки
+Brown Hinged Locometal Door	Коричневі навісні локометалеві двері
+Brown Iron Wrapped Locometal Smokebox	Коричнева димова коробка в залізній обгортці
+Brown Locometal End Ladder	Коричнева торцева локометалева драбина
+Brown Locometal Flywheel	Коричневий локометалевий маховик
+Brown Locometal Rung Ladder	Коричнева локометалева драбина зі щаблями
+Brown Locometal Trapdoor	Коричневий локометалевий люк
+Brown Locometal Vent	Коричнева локометалева вентиляційна решітка
+Brown Paint	Коричнева фарба
+Brown Paint Pitcher	Коричневий глечик фарби
+Brown Round Pane Locometal Window	Коричневе локометалеве вікно з круглою шибкою
+Brown Single Pane Locometal Window	Коричневе локометалеве вікно з однією шибкою
+Brown Sliding Locometal Door	Коричневі розсувні локометалеві двері
+Brown Two Pane Locometal Window	Коричневе локометалеве вікно на 2 шибки
+Brown on Black Chevron	Шеврон (коричневий на чорний)
+Brown on Black Hazard Stripes	Смуги небезпеки (коричневий на чорний)
+Brown on White Chevron	Шеврон (коричневий на білий)
+Brown on White Hazard Stripes	Смуги небезпеки (коричневий на білий)
+Caboose Smokestack	Димова труба вагона-теплушки
+Chartreuse Brass Wrapped Locometal	Шартрезовий локометал у латунній обгортці
+Chartreuse Brass Wrapped Locometal Boiler	Шартрезовий котел у латунній обгортці
+Chartreuse Brass Wrapped Locometal Smokebox	Шартрезова димова коробка в латунній обгортці
+Chartreuse Copper Wrapped Locometal	Шартрезовий локометал у мідній обгортці
+Chartreuse Copper Wrapped Locometal Boiler	Шартрезовий котел у мідній обгортці
+Chartreuse Copper Wrapped Locometal Smokebox	Шартрезова димова коробка в мідній обгортці
+Chartreuse Folding Locometal Door	Шартрезові складні локометалеві двері
+Chartreuse Four Pane Locometal Window	Шартрезове локометалеве вікно на 4 шибки
+Chartreuse Hinged Locometal Door	Шартрезові навісні локометалеві двері
+Chartreuse Iron Wrapped Locometal	Шартрезовий локометал у залізній обгортці
+Chartreuse Iron Wrapped Locometal Boiler	Шартрезовий котел у залізній обгортці
+Chartreuse Iron Wrapped Locometal Smokebox	Шартрезова димова коробка в залізній обгортці
+Chartreuse Locometal Boiler	Шартрезовий локометалевий котел
+Chartreuse Locometal End Ladder	Шартрезова торцева локометалева драбина
+Chartreuse Locometal Flywheel	Шартрезовий локометалевий маховик
+Chartreuse Locometal Pillar	Шартрезова локометалева колона
+Chartreuse Locometal Rung Ladder	Шартрезова локометалева драбина зі щаблями
+Chartreuse Locometal Smokebox	Шартрезова локометалева димова коробка
+Chartreuse Locometal Trapdoor	Шартрезовий локометалевий люк
+Chartreuse Locometal Vent	Шартрезова локометалева вентиляційна решітка
+Chartreuse Paint	Шартрезова фарба
+Chartreuse Paint Pitcher	Шартрезовий глечик фарби
+Chartreuse Riveted Locometal	Шартрезовий клепаний локометал
+Chartreuse Round Pane Locometal Window	Шартрезове локометалеве вікно з круглою шибкою
+Chartreuse Single Pane Locometal Window	Шартрезове локометалеве вікно з однією шибкою
+Chartreuse Slashed Locometal	Шартрезовий смугастий локометал
+Chartreuse Sliding Locometal Door	Шартрезові розсувні локометалеві двері
+Chartreuse Two Pane Locometal Window	Шартрезове локометалеве вікно на 2 шибки
+Chartreuse on Black Chevron	Шеврон (шартрезовий на чорний)
+Chartreuse on Black Hazard Stripes	Смуги небезпеки (шартрезовий на чорний)
+Chartreuse on White Chevron	Шеврон (шартрезовий на білий)
+Chartreuse on White Hazard Stripes	Смуги небезпеки (шартрезовий на білий)
+Coalburner Smokestack Extension	Подовжувач вугільної димової труби
+Copper Wrapped Locometal Smokebox	Димова коробка в мідній обгортці
+Cyan Brass Wrapped Locometal Smokebox	Бірюзова димова коробка в латунній обгортці
+Cyan Copper Wrapped Locometal Smokebox	Бірюзова димова коробка в мідній обгортці
+Cyan Folding Locometal Door	Бірюзові складні локометалеві двері
+Cyan Four Pane Locometal Window	Бірюзове локометалеве вікно на 4 шибки
+Cyan Hinged Locometal Door	Бірюзові навісні локометалеві двері
+Cyan Iron Wrapped Locometal Smokebox	Бірюзова димова коробка в залізній обгортці
+Cyan Locometal End Ladder	Бірюзова торцева локометалева драбина
+Cyan Locometal Flywheel	Бірюзовий локометалевий маховик
+Cyan Locometal Rung Ladder	Бірюзова локометалева драбина зі щаблями
+Cyan Locometal Trapdoor	Бірюзовий локометалевий люк
+Cyan Locometal Vent	Бірюзова локометалева вентиляційна решітка
+Cyan Paint	Бірюзова фарба
+Cyan Paint Pitcher	Бірюзовий глечик фарби
+Cyan Round Pane Locometal Window	Бірюзове локометалеве вікно з круглою шибкою
+Cyan Single Pane Locometal Window	Бірюзове локометалеве вікно з однією шибкою
+Cyan Sliding Locometal Door	Бірюзові розсувні локометалеві двері
+Cyan Two Pane Locometal Window	Бірюзове локометалеве вікно на 2 шибки
+Cyan on Black Chevron	Шеврон (бірюзовий на чорний)
+Cyan on Black Hazard Stripes	Смуги небезпеки (бірюзовий на чорний)
+Cyan on White Chevron	Шеврон (бірюзовий на білий)
+Cyan on White Hazard Stripes	Смуги небезпеки (бірюзовий на білий)
+Diorite Brass Wrapped Locometal	Діоритовий локометал у латунній обгортці
+Diorite Brass Wrapped Locometal Boiler	Діоритовий котел у латунній обгортці
+Diorite Brass Wrapped Locometal Smokebox	Діоритова димова коробка в латунній обгортці
+Diorite Copper Wrapped Locometal	Діоритовий локометал у мідній обгортці
+Diorite Copper Wrapped Locometal Boiler	Діоритовий котел у мідній обгортці
+Diorite Copper Wrapped Locometal Smokebox	Діоритова димова коробка в мідній обгортці
+Diorite Folding Locometal Door	Діоритові складні локометалеві двері
+Diorite Four Pane Locometal Window	Діоритове локометалеве вікно на 4 шибки
+Diorite Hinged Locometal Door	Діоритові навісні локометалеві двері
+Diorite Iron Wrapped Locometal	Діоритовий локометал у залізній обгортці
+Diorite Iron Wrapped Locometal Boiler	Діоритовий котел у залізній обгортці
+Diorite Iron Wrapped Locometal Smokebox	Діоритова димова коробка в залізній обгортці
+Diorite Locometal Boiler	Діоритовий локометалевий котел
+Diorite Locometal End Ladder	Діоритова торцева локометалева драбина
+Diorite Locometal Flywheel	Діоритовий локометалевий маховик
+Diorite Locometal Pillar	Діоритова локометалева колона
+Diorite Locometal Rung Ladder	Діоритова локометалева драбина зі щаблями
+Diorite Locometal Smokebox	Діоритова локометалева димова коробка
+Diorite Locometal Trapdoor	Діоритовий локометалевий люк
+Diorite Locometal Vent	Діоритова локометалева вентиляційна решітка
+Diorite Paint	Діоритова фарба
+Diorite Paint Pitcher	Діоритовий глечик фарби
+Diorite Riveted Locometal	Діоритовий клепаний локометал
+Diorite Round Pane Locometal Window	Діоритове локометалеве вікно з круглою шибкою
+Diorite Single Pane Locometal Window	Діоритове локометалеве вікно з однією шибкою
+Diorite Slashed Locometal	Діоритовий смугастий локометал
+Diorite Sliding Locometal Door	Діоритові розсувні локометалеві двері
+Diorite Two Pane Locometal Window	Діоритове локометалеве вікно на 2 шибки
+Diorite on Black Chevron	Шеврон (діоритовий на чорний)
+Diorite on Black Hazard Stripes	Смуги небезпеки (діоритовий на чорний)
+Diorite on White Chevron	Шеврон (діоритовий на білий)
+Diorite on White Hazard Stripes	Смуги небезпеки (діоритовий на білий)
+Double Smokestack Extension	Подовжувач подвійної димової труби
+Dripstone Brass Wrapped Locometal	Натічний локометал у латунній обгортці
+Dripstone Brass Wrapped Locometal Boiler	Натічний котел у латунній обгортці
+Dripstone Brass Wrapped Locometal Smokebox	Натічна димова коробка в латунній обгортці
+Dripstone Copper Wrapped Locometal	Натічний локометал у мідній обгортці
+Dripstone Copper Wrapped Locometal Boiler	Натічний котел у мідній обгортці
+Dripstone Copper Wrapped Locometal Smokebox	Натічна димова коробка в мідній обгортці
+Dripstone Folding Locometal Door	Натічні складні локометалеві двері
+Dripstone Four Pane Locometal Window	Натічне локометалеве вікно на 4 шибки
+Dripstone Hinged Locometal Door	Натічні навісні локометалеві двері
+Dripstone Iron Wrapped Locometal	Натічний локометал у залізній обгортці
+Dripstone Iron Wrapped Locometal Boiler	Натічний котел у залізній обгортці
+Dripstone Iron Wrapped Locometal Smokebox	Натічна димова коробка в залізній обгортці
+Dripstone Locometal Boiler	Натічний локометалевий котел
+Dripstone Locometal End Ladder	Натічна торцева локометалева драбина
+Dripstone Locometal Flywheel	Натічний локометалевий маховик
+Dripstone Locometal Pillar	Натічна локометалева колона
+Dripstone Locometal Rung Ladder	Натічна локометалева драбина зі щаблями
+Dripstone Locometal Smokebox	Натічна локометалева димова коробка
+Dripstone Locometal Trapdoor	Натічний локометалевий люк
+Dripstone Locometal Vent	Натічна локометалева вентиляційна решітка
+Dripstone Paint	Натічна фарба
+Dripstone Paint Pitcher	Натічний глечик фарби
+Dripstone Riveted Locometal	Натічний клепаний локометал
+Dripstone Round Pane Locometal Window	Натічне локометалеве вікно з круглою шибкою
+Dripstone Single Pane Locometal Window	Натічне локометалеве вікно з однією шибкою
+Dripstone Slashed Locometal	Натічний смугастий локометал
+Dripstone Sliding Locometal Door	Натічні розсувні локометалеві двері
+Dripstone Two Pane Locometal Window	Натічне локометалеве вікно на 2 шибки
+Dripstone on Black Chevron	Шеврон (натічний на чорний)
+Dripstone on Black Hazard Stripes	Смуги небезпеки (натічний на чорний)
+Dripstone on White Chevron	Шеврон (натічний на білий)
+Dripstone on White Hazard Stripes	Смуги небезпеки (натічний на білий)
+Empty Paint Pitcher	Порожній глечик фарби
+Flat Chartreuse Riveted Locometal	Шартрезовий плаский клепаний локометал
+Flat Chartreuse Slashed Locometal	Шартрезовий плаский смугастий локометал
+Flat Diorite Riveted Locometal	Діоритовий плаский клепаний локометал
+Flat Diorite Slashed Locometal	Діоритовий плаский смугастий локометал
+Flat Dripstone Riveted Locometal	Натічний плаский клепаний локометал
+Flat Dripstone Slashed Locometal	Натічний плаский смугастий локометал
+Flat Granite Riveted Locometal	Гранітний плаский клепаний локометал
+Flat Granite Slashed Locometal	Гранітний плаский смугастий локометал
+Flat Limestone Riveted Locometal	Вапняковий плаский клепаний локометал
+Flat Limestone Slashed Locometal	Вапняковий плаский смугастий локометал
+Flat Maroon Riveted Locometal	Бордовий плаский клепаний локометал
+Flat Maroon Slashed Locometal	Бордовий плаский смугастий локометал
+Flat Ochrum Riveted Locometal	Охряний плаский клепаний локометал
+Flat Ochrum Slashed Locometal	Охряний плаский смугастий локометал
+Flat Olive Green Riveted Locometal	Оливковий плаский клепаний локометал
+Flat Olive Green Slashed Locometal	Оливковий плаский смугастий локометал
+Flat Pine Green Riveted Locometal	Хвойно-зелений плаский клепаний локометал
+Flat Pine Green Slashed Locometal	Хвойно-зелений плаский смугастий локометал
+Flat Royal Blue Riveted Locometal	Королівсько-синій плаский клепаний локометал
+Flat Royal Blue Slashed Locometal	Королівсько-синій плаский смугастий локометал
+Flat Scorchia Riveted Locometal	Обпалений плаский клепаний локометал
+Flat Scorchia Slashed Locometal	Обпалений плаский смугастий локометал
+Flat Sea Green Riveted Locometal	Морсько-зелений плаский клепаний локометал
+Flat Sea Green Slashed Locometal	Морсько-зелений плаский смугастий локометал
+Flat Tuff Riveted Locometal	Туфовий плаский клепаний локометал
+Flat Tuff Slashed Locometal	Туфовий плаский смугастий локометал
+Flat Turquoise Riveted Locometal	Бірюзово-зелений плаский клепаний локометал
+Flat Turquoise Slashed Locometal	Бірюзово-зелений плаский смугастий локометал
+Flat Vermilion Riveted Locometal	Кіноварний плаский клепаний локометал
+Flat Vermilion Slashed Locometal	Кіноварний плаский смугастий локометал
+Folding Locometal Door	Складні локометалеві двері
+Four Pane Locometal Window	Локометалеве вікно на 4 шибки
+Granite Brass Wrapped Locometal	Гранітний локометал у латунній обгортці
+Granite Brass Wrapped Locometal Boiler	Гранітний котел у латунній обгортці
+Granite Brass Wrapped Locometal Smokebox	Гранітна димова коробка в латунній обгортці
+Granite Copper Wrapped Locometal	Гранітний локометал у мідній обгортці
+Granite Copper Wrapped Locometal Boiler	Гранітний котел у мідній обгортці
+Granite Copper Wrapped Locometal Smokebox	Гранітна димова коробка в мідній обгортці
+Granite Folding Locometal Door	Гранітні складні локометалеві двері
+Granite Four Pane Locometal Window	Гранітне локометалеве вікно на 4 шибки
+Granite Hinged Locometal Door	Гранітні навісні локометалеві двері
+Granite Iron Wrapped Locometal	Гранітний локометал у залізній обгортці
+Granite Iron Wrapped Locometal Boiler	Гранітний котел у залізній обгортці
+Granite Iron Wrapped Locometal Smokebox	Гранітна димова коробка в залізній обгортці
+Granite Locometal Boiler	Гранітний локометалевий котел
+Granite Locometal End Ladder	Гранітна торцева локометалева драбина
+Granite Locometal Flywheel	Гранітний локометалевий маховик
+Granite Locometal Pillar	Гранітна локометалева колона
+Granite Locometal Rung Ladder	Гранітна локометалева драбина зі щаблями
+Granite Locometal Smokebox	Гранітна локометалева димова коробка
+Granite Locometal Trapdoor	Гранітний локометалевий люк
+Granite Locometal Vent	Гранітна локометалева вентиляційна решітка
+Granite Paint	Гранітна фарба
+Granite Paint Pitcher	Гранітний глечик фарби
+Granite Riveted Locometal	Гранітний клепаний локометал
+Granite Round Pane Locometal Window	Гранітне локометалеве вікно з круглою шибкою
+Granite Single Pane Locometal Window	Гранітне локометалеве вікно з однією шибкою
+Granite Slashed Locometal	Гранітний смугастий локометал
+Granite Sliding Locometal Door	Гранітні розсувні локометалеві двері
+Granite Two Pane Locometal Window	Гранітне локометалеве вікно на 2 шибки
+Granite on Black Chevron	Шеврон (гранітний на чорний)
+Granite on Black Hazard Stripes	Смуги небезпеки (гранітний на чорний)
+Granite on White Chevron	Шеврон (гранітний на білий)
+Granite on White Hazard Stripes	Смуги небезпеки (гранітний на білий)
+Gray Brass Wrapped Locometal Smokebox	Сіра димова коробка в латунній обгортці
+Gray Copper Wrapped Locometal Smokebox	Сіра димова коробка в мідній обгортці
+Gray Folding Locometal Door	Сірі складні локометалеві двері
+Gray Four Pane Locometal Window	Сіре локометалеве вікно на 4 шибки
+Gray Hinged Locometal Door	Сірі навісні локометалеві двері
+Gray Iron Wrapped Locometal Smokebox	Сіра димова коробка в залізній обгортці
+Gray Locometal End Ladder	Сіра торцева локометалева драбина
+Gray Locometal Flywheel	Сірий локометалевий маховик
+Gray Locometal Rung Ladder	Сіра локометалева драбина зі щаблями
+Gray Locometal Trapdoor	Сірий локометалевий люк
+Gray Locometal Vent	Сіра локометалева вентиляційна решітка
+Gray Paint	Сіра фарба
+Gray Paint Pitcher	Сірий глечик фарби
+Gray Round Pane Locometal Window	Сіре локометалеве вікно з круглою шибкою
+Gray Single Pane Locometal Window	Сіре локометалеве вікно з однією шибкою
+Gray Sliding Locometal Door	Сірі розсувні локометалеві двері
+Gray Two Pane Locometal Window	Сіре локометалеве вікно на 2 шибки
+Gray on Black Chevron	Шеврон (сірий на чорний)
+Gray on Black Hazard Stripes	Смуги небезпеки (сірий на чорний)
+Gray on White Chevron	Шеврон (сірий на білий)
+Gray on White Hazard Stripes	Смуги небезпеки (сірий на білий)
+Green Brass Wrapped Locometal Smokebox	Зелена димова коробка в латунній обгортці
+Green Copper Wrapped Locometal Smokebox	Зелена димова коробка в мідній обгортці
+Green Folding Locometal Door	Зелені складні локометалеві двері
+Green Four Pane Locometal Window	Зелене локометалеве вікно на 4 шибки
+Green Hinged Locometal Door	Зелені навісні локометалеві двері
+Green Iron Wrapped Locometal Smokebox	Зелена димова коробка в залізній обгортці
+Green Locometal End Ladder	Зелена торцева локометалева драбина
+Green Locometal Flywheel	Зелений локометалевий маховик
+Green Locometal Rung Ladder	Зелена локометалева драбина зі щаблями
+Green Locometal Trapdoor	Зелений локометалевий люк
+Green Locometal Vent	Зелена локометалева вентиляційна решітка
+Green Paint	Зелена фарба
+Green Paint Pitcher	Зелений глечик фарби
+Green Round Pane Locometal Window	Зелене локометалеве вікно з круглою шибкою
+Green Single Pane Locometal Window	Зелене локометалеве вікно з однією шибкою
+Green Sliding Locometal Door	Зелені розсувні локометалеві двері
+Green Two Pane Locometal Window	Зелене локометалеве вікно на 2 шибки
+Green on Black Chevron	Шеврон (зелений на чорний)
+Green on Black Hazard Stripes	Смуги небезпеки (зелений на чорний)
+Green on White Chevron	Шеврон (зелений на білий)
+Green on White Hazard Stripes	Смуги небезпеки (зелений на білий)
+Hinged Locometal Door	Навісні локометалеві двері
+Incomplete Narrow Phantom Track	Незавершена вузька фантомна колія
+Incomplete Wide Phantom Track	Незавершена широка фантомна колія
+Iron Capped Brass Coalburner Smokestack	Латунна вугільна димова труба із залізною шапкою
+Iron Capped Brass Double Smokestack	Латунна подвійна димова труба із залізною шапкою
+Iron Capped Brass Oilburner Smokestack	Латунна нафтова димова труба із залізною шапкою
+Iron Capped Brass Streamlined Smokestack	Латунна обтічна димова труба із залізною шапкою
+Iron Capped Brass Woodburner Smokestack	Латунна дров'яна димова труба із залізною шапкою
+Iron Capped Copper Coalburner Smokestack	Мідна вугільна димова труба із залізною шапкою
+Iron Capped Copper Double Smokestack	Мідна подвійна димова труба із залізною шапкою
+Iron Capped Copper Oilburner Smokestack	Мідна нафтова димова труба із залізною шапкою
+Iron Capped Copper Streamlined Smokestack	Мідна обтічна димова труба із залізною шапкою
+Iron Capped Copper Woodburner Smokestack	Мідна дров'яна димова труба із залізною шапкою
+Iron Capped Steel Coalburner Smokestack	Сталева вугільна димова труба із залізною шапкою
+Iron Capped Steel Double Smokestack	Сталева подвійна димова труба із залізною шапкою
+Iron Capped Steel Oilburner Smokestack	Сталева нафтова димова труба із залізною шапкою
+Iron Capped Steel Streamlined Smokestack	Сталева обтічна димова труба із залізною шапкою
+Iron Capped Steel Woodburner Smokestack	Сталева дров'яна димова труба із залізною шапкою
+Iron Wrapped Locometal Smokebox	Димова коробка в залізній обгортці
+Light Blue Brass Wrapped Locometal Smokebox	Блакитна димова коробка в латунній обгортці
+Light Blue Copper Wrapped Locometal Smokebox	Блакитна димова коробка в мідній обгортці
+Light Blue Folding Locometal Door	Блакитні складні локометалеві двері
+Light Blue Four Pane Locometal Window	Блакитне локометалеве вікно на 4 шибки
+Light Blue Hinged Locometal Door	Блакитні навісні локометалеві двері
+Light Blue Iron Wrapped Locometal Smokebox	Блакитна димова коробка в залізній обгортці
+Light Blue Locometal End Ladder	Блакитна торцева локометалева драбина
+Light Blue Locometal Flywheel	Блакитний локометалевий маховик
+Light Blue Locometal Rung Ladder	Блакитна локометалева драбина зі щаблями
+Light Blue Locometal Trapdoor	Блакитний локометалевий люк
+Light Blue Locometal Vent	Блакитна локометалева вентиляційна решітка
+Light Blue Paint	Блакитна фарба
+Light Blue Paint Pitcher	Блакитний глечик фарби
+Light Blue Round Pane Locometal Window	Блакитне локометалеве вікно з круглою шибкою
+Light Blue Single Pane Locometal Window	Блакитне локометалеве вікно з однією шибкою
+Light Blue Sliding Locometal Door	Блакитні розсувні локометалеві двері
+Light Blue Two Pane Locometal Window	Блакитне локометалеве вікно на 2 шибки
+Light Blue on Black Chevron	Шеврон (блакитний на чорний)
+Light Blue on Black Hazard Stripes	Смуги небезпеки (блакитний на чорний)
+Light Blue on White Chevron	Шеврон (блакитний на білий)
+Light Blue on White Hazard Stripes	Смуги небезпеки (блакитний на білий)
+Light Gray Brass Wrapped Locometal Smokebox	Світло-сіра димова коробка в латунній обгортці
+Light Gray Copper Wrapped Locometal Smokebox	Світло-сіра димова коробка в мідній обгортці
+Light Gray Folding Locometal Door	Світло-сірі складні локометалеві двері
+Light Gray Four Pane Locometal Window	Світло-сіре локометалеве вікно на 4 шибки
+Light Gray Hinged Locometal Door	Світло-сірі навісні локометалеві двері
+Light Gray Iron Wrapped Locometal Smokebox	Світло-сіра димова коробка в залізній обгортці
+Light Gray Locometal End Ladder	Світло-сіра торцева локометалева драбина
+Light Gray Locometal Flywheel	Світло-сірий локометалевий маховик
+Light Gray Locometal Rung Ladder	Світло-сіра локометалева драбина зі щаблями
+Light Gray Locometal Trapdoor	Світло-сірий локометалевий люк
+Light Gray Locometal Vent	Світло-сіра локометалева вентиляційна решітка
+Light Gray Paint	Світло-сіра фарба
+Light Gray Paint Pitcher	Світло-сірий глечик фарби
+Light Gray Round Pane Locometal Window	Світло-сіре локометалеве вікно з круглою шибкою
+Light Gray Single Pane Locometal Window	Світло-сіре локометалеве вікно з однією шибкою
+Light Gray Sliding Locometal Door	Світло-сірі розсувні локометалеві двері
+Light Gray Two Pane Locometal Window	Світло-сіре локометалеве вікно на 2 шибки
+Light Gray on Black Chevron	Шеврон (світло-сірий на чорний)
+Light Gray on Black Hazard Stripes	Смуги небезпеки (світло-сірий на чорний)
+Light Gray on White Chevron	Шеврон (світло-сірий на білий)
+Light Gray on White Hazard Stripes	Смуги небезпеки (світло-сірий на білий)
+Lime Brass Wrapped Locometal Smokebox	Лаймова димова коробка в латунній обгортці
+Lime Copper Wrapped Locometal Smokebox	Лаймова димова коробка в мідній обгортці
+Lime Folding Locometal Door	Лаймові складні локометалеві двері
+Lime Four Pane Locometal Window	Лаймове локометалеве вікно на 4 шибки
+Lime Hinged Locometal Door	Лаймові навісні локометалеві двері
+Lime Iron Wrapped Locometal Smokebox	Лаймова димова коробка в залізній обгортці
+Lime Locometal End Ladder	Лаймова торцева локометалева драбина
+Lime Locometal Flywheel	Лаймовий локометалевий маховик
+Lime Locometal Rung Ladder	Лаймова локометалева драбина зі щаблями
+Lime Locometal Trapdoor	Лаймовий локометалевий люк
+Lime Locometal Vent	Лаймова локометалева вентиляційна решітка
+Lime Paint	Лаймова фарба
+Lime Paint Pitcher	Лаймовий глечик фарби
+Lime Round Pane Locometal Window	Лаймове локометалеве вікно з круглою шибкою
+Lime Single Pane Locometal Window	Лаймове локометалеве вікно з однією шибкою
+Lime Sliding Locometal Door	Лаймові розсувні локометалеві двері
+Lime Two Pane Locometal Window	Лаймове локометалеве вікно на 2 шибки
+Lime on Black Chevron	Шеврон (лаймовий на чорний)
+Lime on Black Hazard Stripes	Смуги небезпеки (лаймовий на чорний)
+Lime on White Chevron	Шеврон (лаймовий на білий)
+Lime on White Hazard Stripes	Смуги небезпеки (лаймовий на білий)
+Limestone Brass Wrapped Locometal	Вапняковий локометал у латунній обгортці
+Limestone Brass Wrapped Locometal Boiler	Вапняковий котел у латунній обгортці
+Limestone Brass Wrapped Locometal Smokebox	Вапнякова димова коробка в латунній обгортці
+Limestone Copper Wrapped Locometal	Вапняковий локометал у мідній обгортці
+Limestone Copper Wrapped Locometal Boiler	Вапняковий котел у мідній обгортці
+Limestone Copper Wrapped Locometal Smokebox	Вапнякова димова коробка в мідній обгортці
+Limestone Folding Locometal Door	Вапнякові складні локометалеві двері
+Limestone Four Pane Locometal Window	Вапнякове локометалеве вікно на 4 шибки
+Limestone Hinged Locometal Door	Вапнякові навісні локометалеві двері
+Limestone Iron Wrapped Locometal	Вапняковий локометал у залізній обгортці
+Limestone Iron Wrapped Locometal Boiler	Вапняковий котел у залізній обгортці
+Limestone Iron Wrapped Locometal Smokebox	Вапнякова димова коробка в залізній обгортці
+Limestone Locometal Boiler	Вапняковий локометалевий котел
+Limestone Locometal End Ladder	Вапнякова торцева локометалева драбина
+Limestone Locometal Flywheel	Вапняковий локометалевий маховик
+Limestone Locometal Pillar	Вапнякова локометалева колона
+Limestone Locometal Rung Ladder	Вапнякова локометалева драбина зі щаблями
+Limestone Locometal Smokebox	Вапнякова локометалева димова коробка
+Limestone Locometal Trapdoor	Вапняковий локометалевий люк
+Limestone Locometal Vent	Вапнякова локометалева вентиляційна решітка
+Limestone Paint	Вапнякова фарба
+Limestone Paint Pitcher	Вапняковий глечик фарби
+Limestone Riveted Locometal	Вапняковий клепаний локометал
+Limestone Round Pane Locometal Window	Вапнякове локометалеве вікно з круглою шибкою
+Limestone Single Pane Locometal Window	Вапнякове локометалеве вікно з однією шибкою
+Limestone Slashed Locometal	Вапняковий смугастий локометал
+Limestone Sliding Locometal Door	Вапнякові розсувні локометалеві двері
+Limestone Two Pane Locometal Window	Вапнякове локометалеве вікно на 2 шибки
+Limestone on Black Chevron	Шеврон (вапняковий на чорний)
+Limestone on Black Hazard Stripes	Смуги небезпеки (вапняковий на чорний)
+Limestone on White Chevron	Шеврон (вапняковий на білий)
+Limestone on White Hazard Stripes	Смуги небезпеки (вапняковий на білий)
+Locometal on Black Chevron	Шеврон (локометалевий на чорний)
+Locometal on Black Hazard Stripes	Смуги небезпеки (локометалевий на чорний)
+Locometal on White Chevron	Шеврон (локометалевий на білий)
+Locometal on White Hazard Stripes	Смуги небезпеки (локометалевий на білий)
+Magenta Brass Wrapped Locometal Smokebox	Пурпурова димова коробка в латунній обгортці
+Magenta Copper Wrapped Locometal Smokebox	Пурпурова димова коробка в мідній обгортці
+Magenta Folding Locometal Door	Пурпурові складні локометалеві двері
+Magenta Four Pane Locometal Window	Пурпурове локометалеве вікно на 4 шибки
+Magenta Hinged Locometal Door	Пурпурові навісні локометалеві двері
+Magenta Iron Wrapped Locometal Smokebox	Пурпурова димова коробка в залізній обгортці
+Magenta Locometal End Ladder	Пурпурова торцева локометалева драбина
+Magenta Locometal Flywheel	Пурпуровий локометалевий маховик
+Magenta Locometal Rung Ladder	Пурпурова локометалева драбина зі щаблями
+Magenta Locometal Trapdoor	Пурпуровий локометалевий люк
+Magenta Locometal Vent	Пурпурова локометалева вентиляційна решітка
+Magenta Paint	Пурпурова фарба
+Magenta Paint Pitcher	Пурпуровий глечик фарби
+Magenta Round Pane Locometal Window	Пурпурове локометалеве вікно з круглою шибкою
+Magenta Single Pane Locometal Window	Пурпурове локометалеве вікно з однією шибкою
+Magenta Sliding Locometal Door	Пурпурові розсувні локометалеві двері
+Magenta Two Pane Locometal Window	Пурпурове локометалеве вікно на 2 шибки
+Magenta on Black Chevron	Шеврон (пурпуровий на чорний)
+Magenta on Black Hazard Stripes	Смуги небезпеки (пурпуровий на чорний)
+Magenta on White Chevron	Шеврон (пурпуровий на білий)
+Magenta on White Hazard Stripes	Смуги небезпеки (пурпуровий на білий)
+Maroon Brass Wrapped Locometal	Бордовий локометал у латунній обгортці
+Maroon Brass Wrapped Locometal Boiler	Бордовий котел у латунній обгортці
+Maroon Brass Wrapped Locometal Smokebox	Бордова димова коробка в латунній обгортці
+Maroon Copper Wrapped Locometal	Бордовий локометал у мідній обгортці
+Maroon Copper Wrapped Locometal Boiler	Бордовий котел у мідній обгортці
+Maroon Copper Wrapped Locometal Smokebox	Бордова димова коробка в мідній обгортці
+Maroon Folding Locometal Door	Бордові складні локометалеві двері
+Maroon Four Pane Locometal Window	Бордове локометалеве вікно на 4 шибки
+Maroon Hinged Locometal Door	Бордові навісні локометалеві двері
+Maroon Iron Wrapped Locometal	Бордовий локометал у залізній обгортці
+Maroon Iron Wrapped Locometal Boiler	Бордовий котел у залізній обгортці
+Maroon Iron Wrapped Locometal Smokebox	Бордова димова коробка в залізній обгортці
+Maroon Locometal Boiler	Бордовий локометалевий котел
+Maroon Locometal End Ladder	Бордова торцева локометалева драбина
+Maroon Locometal Flywheel	Бордовий локометалевий маховик
+Maroon Locometal Pillar	Бордова локометалева колона
+Maroon Locometal Rung Ladder	Бордова локометалева драбина зі щаблями
+Maroon Locometal Smokebox	Бордова локометалева димова коробка
+Maroon Locometal Trapdoor	Бордовий локометалевий люк
+Maroon Locometal Vent	Бордова локометалева вентиляційна решітка
+Maroon Paint	Бордова фарба
+Maroon Paint Pitcher	Бордовий глечик фарби
+Maroon Riveted Locometal	Бордовий клепаний локометал
+Maroon Round Pane Locometal Window	Бордове локометалеве вікно з круглою шибкою
+Maroon Single Pane Locometal Window	Бордове локометалеве вікно з однією шибкою
+Maroon Slashed Locometal	Бордовий смугастий локометал
+Maroon Sliding Locometal Door	Бордові розсувні локометалеві двері
+Maroon Two Pane Locometal Window	Бордове локометалеве вікно на 2 шибки
+Maroon on Black Chevron	Шеврон (бордовий на чорний)
+Maroon on Black Hazard Stripes	Смуги небезпеки (бордовий на чорний)
+Maroon on White Chevron	Шеврон (бордовий на білий)
+Maroon on White Hazard Stripes	Смуги небезпеки (бордовий на білий)
+Narrow Phantom Train Track	Вузька фантомна колія
+Ochrum Brass Wrapped Locometal	Охряний локометал у латунній обгортці
+Ochrum Brass Wrapped Locometal Boiler	Охряний котел у латунній обгортці
+Ochrum Brass Wrapped Locometal Smokebox	Охряна димова коробка в латунній обгортці
+Ochrum Copper Wrapped Locometal	Охряний локометал у мідній обгортці
+Ochrum Copper Wrapped Locometal Boiler	Охряний котел у мідній обгортці
+Ochrum Copper Wrapped Locometal Smokebox	Охряна димова коробка в мідній обгортці
+Ochrum Folding Locometal Door	Охряні складні локометалеві двері
+Ochrum Four Pane Locometal Window	Охряне локометалеве вікно на 4 шибки
+Ochrum Hinged Locometal Door	Охряні навісні локометалеві двері
+Ochrum Iron Wrapped Locometal	Охряний локометал у залізній обгортці
+Ochrum Iron Wrapped Locometal Boiler	Охряний котел у залізній обгортці
+Ochrum Iron Wrapped Locometal Smokebox	Охряна димова коробка в залізній обгортці
+Ochrum Locometal Boiler	Охряний локометалевий котел
+Ochrum Locometal End Ladder	Охряна торцева локометалева драбина
+Ochrum Locometal Flywheel	Охряний локометалевий маховик
+Ochrum Locometal Pillar	Охряна локометалева колона
+Ochrum Locometal Rung Ladder	Охряна локометалева драбина зі щаблями
+Ochrum Locometal Smokebox	Охряна локометалева димова коробка
+Ochrum Locometal Trapdoor	Охряний локометалевий люк
+Ochrum Locometal Vent	Охряна локометалева вентиляційна решітка
+Ochrum Paint	Охряна фарба
+Ochrum Paint Pitcher	Охряний глечик фарби
+Ochrum Riveted Locometal	Охряний клепаний локометал
+Ochrum Round Pane Locometal Window	Охряне локометалеве вікно з круглою шибкою
+Ochrum Single Pane Locometal Window	Охряне локометалеве вікно з однією шибкою
+Ochrum Slashed Locometal	Охряний смугастий локометал
+Ochrum Sliding Locometal Door	Охряні розсувні локометалеві двері
+Ochrum Two Pane Locometal Window	Охряне локометалеве вікно на 2 шибки
+Ochrum on Black Chevron	Шеврон (охряний на чорний)
+Ochrum on Black Hazard Stripes	Смуги небезпеки (охряний на чорний)
+Ochrum on White Chevron	Шеврон (охряний на білий)
+Ochrum on White Hazard Stripes	Смуги небезпеки (охряний на білий)
+Oilburner Smokestack Extension	Подовжувач нафтової димової труби
+Olive Green Brass Wrapped Locometal	Оливковий локометал у латунній обгортці
+Olive Green Brass Wrapped Locometal Boiler	Оливковий котел у латунній обгортці
+Olive Green Brass Wrapped Locometal Smokebox	Оливкова димова коробка в латунній обгортці
+Olive Green Copper Wrapped Locometal	Оливковий локометал у мідній обгортці
+Olive Green Copper Wrapped Locometal Boiler	Оливковий котел у мідній обгортці
+Olive Green Copper Wrapped Locometal Smokebox	Оливкова димова коробка в мідній обгортці
+Olive Green Folding Locometal Door	Оливкові складні локометалеві двері
+Olive Green Four Pane Locometal Window	Оливкове локометалеве вікно на 4 шибки
+Olive Green Hinged Locometal Door	Оливкові навісні локометалеві двері
+Olive Green Iron Wrapped Locometal	Оливковий локометал у залізній обгортці
+Olive Green Iron Wrapped Locometal Boiler	Оливковий котел у залізній обгортці
+Olive Green Iron Wrapped Locometal Smokebox	Оливкова димова коробка в залізній обгортці
+Olive Green Locometal Boiler	Оливковий локометалевий котел
+Olive Green Locometal End Ladder	Оливкова торцева локометалева драбина
+Olive Green Locometal Flywheel	Оливковий локометалевий маховик
+Olive Green Locometal Pillar	Оливкова локометалева колона
+Olive Green Locometal Rung Ladder	Оливкова локометалева драбина зі щаблями
+Olive Green Locometal Smokebox	Оливкова локометалева димова коробка
+Olive Green Locometal Trapdoor	Оливковий локометалевий люк
+Olive Green Locometal Vent	Оливкова локометалева вентиляційна решітка
+Olive Green Paint	Оливкова фарба
+Olive Green Paint Pitcher	Оливковий глечик фарби
+Olive Green Riveted Locometal	Оливковий клепаний локометал
+Olive Green Round Pane Locometal Window	Оливкове локометалеве вікно з круглою шибкою
+Olive Green Single Pane Locometal Window	Оливкове локометалеве вікно з однією шибкою
+Olive Green Slashed Locometal	Оливковий смугастий локометал
+Olive Green Sliding Locometal Door	Оливкові розсувні локометалеві двері
+Olive Green Two Pane Locometal Window	Оливкове локометалеве вікно на 2 шибки
+Olive Green on Black Chevron	Шеврон (оливковий на чорний)
+Olive Green on Black Hazard Stripes	Смуги небезпеки (оливковий на чорний)
+Olive Green on White Chevron	Шеврон (оливковий на білий)
+Olive Green on White Hazard Stripes	Смуги небезпеки (оливковий на білий)
+Orange Brass Wrapped Locometal Smokebox	Помаранчева димова коробка в латунній обгортці
+Orange Copper Wrapped Locometal Smokebox	Помаранчева димова коробка в мідній обгортці
+Orange Folding Locometal Door	Помаранчеві складні локометалеві двері
+Orange Four Pane Locometal Window	Помаранчеве локометалеве вікно на 4 шибки
+Orange Hinged Locometal Door	Помаранчеві навісні локометалеві двері
+Orange Iron Wrapped Locometal Smokebox	Помаранчева димова коробка в залізній обгортці
+Orange Locometal End Ladder	Помаранчева торцева локометалева драбина
+Orange Locometal Flywheel	Помаранчевий локометалевий маховик
+Orange Locometal Rung Ladder	Помаранчева локометалева драбина зі щаблями
+Orange Locometal Trapdoor	Помаранчевий локометалевий люк
+Orange Locometal Vent	Помаранчева локометалева вентиляційна решітка
+Orange Paint	Помаранчева фарба
+Orange Paint Pitcher	Помаранчевий глечик фарби
+Orange Round Pane Locometal Window	Помаранчеве локометалеве вікно з круглою шибкою
+Orange Single Pane Locometal Window	Помаранчеве локометалеве вікно з однією шибкою
+Orange Sliding Locometal Door	Помаранчеві розсувні локометалеві двері
+Orange Two Pane Locometal Window	Помаранчеве локометалеве вікно на 2 шибки
+Orange on Black Chevron	Шеврон (помаранчевий на чорний)
+Orange on Black Hazard Stripes	Смуги небезпеки (помаранчевий на чорний)
+Orange on White Chevron	Шеврон (помаранчевий на білий)
+Orange on White Hazard Stripes	Смуги небезпеки (помаранчевий на білий)
+Paint Brush	Пензель
+Paint level: %s / %s	Рівень фарби: %s / %s
+Pine Green Brass Wrapped Locometal	Хвойно-зелений локометал у латунній обгортці
+Pine Green Brass Wrapped Locometal Boiler	Хвойно-зелений котел у латунній обгортці
+Pine Green Brass Wrapped Locometal Smokebox	Хвойно-зелена димова коробка в латунній обгортці
+Pine Green Copper Wrapped Locometal	Хвойно-зелений локометал у мідній обгортці
+Pine Green Copper Wrapped Locometal Boiler	Хвойно-зелений котел у мідній обгортці
+Pine Green Copper Wrapped Locometal Smokebox	Хвойно-зелена димова коробка в мідній обгортці
+Pine Green Folding Locometal Door	Хвойно-зелені складні локометалеві двері
+Pine Green Four Pane Locometal Window	Хвойно-зелене локометалеве вікно на 4 шибки
+Pine Green Hinged Locometal Door	Хвойно-зелені навісні локометалеві двері
+Pine Green Iron Wrapped Locometal	Хвойно-зелений локометал у залізній обгортці
+Pine Green Iron Wrapped Locometal Boiler	Хвойно-зелений котел у залізній обгортці
+Pine Green Iron Wrapped Locometal Smokebox	Хвойно-зелена димова коробка в залізній обгортці
+Pine Green Locometal Boiler	Хвойно-зелений локометалевий котел
+Pine Green Locometal End Ladder	Хвойно-зелена торцева локометалева драбина
+Pine Green Locometal Flywheel	Хвойно-зелений локометалевий маховик
+Pine Green Locometal Pillar	Хвойно-зелена локометалева колона
+Pine Green Locometal Rung Ladder	Хвойно-зелена локометалева драбина зі щаблями
+Pine Green Locometal Smokebox	Хвойно-зелена локометалева димова коробка
+Pine Green Locometal Trapdoor	Хвойно-зелений локометалевий люк
+Pine Green Locometal Vent	Хвойно-зелена локометалева вентиляційна решітка
+Pine Green Paint	Хвойно-зелена фарба
+Pine Green Paint Pitcher	Хвойно-зелений глечик фарби
+Pine Green Riveted Locometal	Хвойно-зелений клепаний локометал
+Pine Green Round Pane Locometal Window	Хвойно-зелене локометалеве вікно з круглою шибкою
+Pine Green Single Pane Locometal Window	Хвойно-зелене локометалеве вікно з однією шибкою
+Pine Green Slashed Locometal	Хвойно-зелений смугастий локометал
+Pine Green Sliding Locometal Door	Хвойно-зелені розсувні локометалеві двері
+Pine Green Two Pane Locometal Window	Хвойно-зелене локометалеве вікно на 2 шибки
+Pine Green on Black Chevron	Шеврон (хвойно-зелений на чорний)
+Pine Green on Black Hazard Stripes	Смуги небезпеки (хвойно-зелений на чорний)
+Pine Green on White Chevron	Шеврон (хвойно-зелений на білий)
+Pine Green on White Hazard Stripes	Смуги небезпеки (хвойно-зелений на білий)
+Pink Brass Wrapped Locometal Smokebox	Рожева димова коробка в латунній обгортці
+Pink Copper Wrapped Locometal Smokebox	Рожева димова коробка в мідній обгортці
+Pink Folding Locometal Door	Рожеві складні локометалеві двері
+Pink Four Pane Locometal Window	Рожеве локометалеве вікно на 4 шибки
+Pink Hinged Locometal Door	Рожеві навісні локометалеві двері
+Pink Iron Wrapped Locometal Smokebox	Рожева димова коробка в залізній обгортці
+Pink Locometal End Ladder	Рожева торцева локометалева драбина
+Pink Locometal Flywheel	Рожевий локометалевий маховик
+Pink Locometal Rung Ladder	Рожева локометалева драбина зі щаблями
+Pink Locometal Trapdoor	Рожевий локометалевий люк
+Pink Locometal Vent	Рожева локометалева вентиляційна решітка
+Pink Paint	Рожева фарба
+Pink Paint Pitcher	Рожевий глечик фарби
+Pink Round Pane Locometal Window	Рожеве локометалеве вікно з круглою шибкою
+Pink Single Pane Locometal Window	Рожеве локометалеве вікно з однією шибкою
+Pink Sliding Locometal Door	Рожеві розсувні локометалеві двері
+Pink Two Pane Locometal Window	Рожеве локометалеве вікно на 2 шибки
+Pink on Black Chevron	Шеврон (рожевий на чорний)
+Pink on Black Hazard Stripes	Смуги небезпеки (рожевий на чорний)
+Pink on White Chevron	Шеврон (рожевий на білий)
+Pink on White Hazard Stripes	Смуги небезпеки (рожевий на білий)
+Plated Chartreuse Locometal	Шартрезовий обшитий локометал
+Plated Diorite Locometal	Діоритовий обшитий локометал
+Plated Dripstone Locometal	Натічний обшитий локометал
+Plated Granite Locometal	Гранітний обшитий локометал
+Plated Limestone Locometal	Вапняковий обшитий локометал
+Plated Maroon Locometal	Бордовий обшитий локометал
+Plated Ochrum Locometal	Охряний обшитий локометал
+Plated Olive Green Locometal	Оливковий обшитий локометал
+Plated Pine Green Locometal	Хвойно-зелений обшитий локометал
+Plated Royal Blue Locometal	Королівсько-синій обшитий локометал
+Plated Scorchia Locometal	Обпалений обшитий локометал
+Plated Sea Green Locometal	Морсько-зелений обшитий локометал
+Plated Tuff Locometal	Туфовий обшитий локометал
+Plated Turquoise Locometal	Бірюзово-зелений обшитий локометал
+Plated Vermilion Locometal	Кіноварний обшитий локометал
+Purple Brass Wrapped Locometal Smokebox	Фіолетова димова коробка в латунній обгортці
+Purple Copper Wrapped Locometal Smokebox	Фіолетова димова коробка в мідній обгортці
+Purple Folding Locometal Door	Фіолетові складні локометалеві двері
+Purple Four Pane Locometal Window	Фіолетове локометалеве вікно на 4 шибки
+Purple Hinged Locometal Door	Фіолетові навісні локометалеві двері
+Purple Iron Wrapped Locometal Smokebox	Фіолетова димова коробка в залізній обгортці
+Purple Locometal End Ladder	Фіолетова торцева локометалева драбина
+Purple Locometal Flywheel	Фіолетовий локометалевий маховик
+Purple Locometal Rung Ladder	Фіолетова локометалева драбина зі щаблями
+Purple Locometal Trapdoor	Фіолетовий локометалевий люк
+Purple Locometal Vent	Фіолетова локометалева вентиляційна решітка
+Purple Paint	Фіолетова фарба
+Purple Paint Pitcher	Фіолетовий глечик фарби
+Purple Round Pane Locometal Window	Фіолетове локометалеве вікно з круглою шибкою
+Purple Single Pane Locometal Window	Фіолетове локометалеве вікно з однією шибкою
+Purple Sliding Locometal Door	Фіолетові розсувні локометалеві двері
+Purple Two Pane Locometal Window	Фіолетове локометалеве вікно на 2 шибки
+Purple on Black Chevron	Шеврон (фіолетовий на чорний)
+Purple on Black Hazard Stripes	Смуги небезпеки (фіолетовий на чорний)
+Purple on White Chevron	Шеврон (фіолетовий на білий)
+Purple on White Hazard Stripes	Смуги небезпеки (фіолетовий на білий)
+Red Brass Wrapped Locometal Smokebox	Червона димова коробка в латунній обгортці
+Red Copper Wrapped Locometal Smokebox	Червона димова коробка в мідній обгортці
+Red Folding Locometal Door	Червоні складні локометалеві двері
+Red Four Pane Locometal Window	Червоне локометалеве вікно на 4 шибки
+Red Hinged Locometal Door	Червоні навісні локометалеві двері
+Red Iron Wrapped Locometal Smokebox	Червона димова коробка в залізній обгортці
+Red Locometal End Ladder	Червона торцева локометалева драбина
+Red Locometal Flywheel	Червоний локометалевий маховик
+Red Locometal Rung Ladder	Червона локометалева драбина зі щаблями
+Red Locometal Trapdoor	Червоний локометалевий люк
+Red Locometal Vent	Червона локометалева вентиляційна решітка
+Red Paint	Червона фарба
+Red Paint Pitcher	Червоний глечик фарби
+Red Round Pane Locometal Window	Червоне локометалеве вікно з круглою шибкою
+Red Single Pane Locometal Window	Червоне локометалеве вікно з однією шибкою
+Red Sliding Locometal Door	Червоні розсувні локометалеві двері
+Red Two Pane Locometal Window	Червоне локометалеве вікно на 2 шибки
+Red on Black Chevron	Шеврон (червоний на чорний)
+Red on Black Hazard Stripes	Смуги небезпеки (червоний на чорний)
+Red on White Chevron	Шеврон (червоний на білий)
+Red on White Hazard Stripes	Смуги небезпеки (червоний на білий)
+Round Pane Locometal Window	Локометалеве вікно з круглою шибкою
+Royal Blue Brass Wrapped Locometal	Королівсько-синій локометал у латунній обгортці
+Royal Blue Brass Wrapped Locometal Boiler	Королівсько-синій котел у латунній обгортці
+Royal Blue Brass Wrapped Locometal Smokebox	Королівсько-синя димова коробка в латунній обгортці
+Royal Blue Copper Wrapped Locometal	Королівсько-синій локометал у мідній обгортці
+Royal Blue Copper Wrapped Locometal Boiler	Королівсько-синій котел у мідній обгортці
+Royal Blue Copper Wrapped Locometal Smokebox	Королівсько-синя димова коробка в мідній обгортці
+Royal Blue Folding Locometal Door	Королівсько-сині складні локометалеві двері
+Royal Blue Four Pane Locometal Window	Королівсько-синє локометалеве вікно на 4 шибки
+Royal Blue Hinged Locometal Door	Королівсько-сині навісні локометалеві двері
+Royal Blue Iron Wrapped Locometal	Королівсько-синій локометал у залізній обгортці
+Royal Blue Iron Wrapped Locometal Boiler	Королівсько-синій котел у залізній обгортці
+Royal Blue Iron Wrapped Locometal Smokebox	Королівсько-синя димова коробка в залізній обгортці
+Royal Blue Locometal Boiler	Королівсько-синій локометалевий котел
+Royal Blue Locometal End Ladder	Королівсько-синя торцева локометалева драбина
+Royal Blue Locometal Flywheel	Королівсько-синій локометалевий маховик
+Royal Blue Locometal Pillar	Королівсько-синя локометалева колона
+Royal Blue Locometal Rung Ladder	Королівсько-синя локометалева драбина зі щаблями
+Royal Blue Locometal Smokebox	Королівсько-синя локометалева димова коробка
+Royal Blue Locometal Trapdoor	Королівсько-синій локометалевий люк
+Royal Blue Locometal Vent	Королівсько-синя локометалева вентиляційна решітка
+Royal Blue Paint	Королівсько-синя фарба
+Royal Blue Paint Pitcher	Королівсько-синій глечик фарби
+Royal Blue Riveted Locometal	Королівсько-синій клепаний локометал
+Royal Blue Round Pane Locometal Window	Королівсько-синє локометалеве вікно з круглою шибкою
+Royal Blue Single Pane Locometal Window	Королівсько-синє локометалеве вікно з однією шибкою
+Royal Blue Slashed Locometal	Королівсько-синій смугастий локометал
+Royal Blue Sliding Locometal Door	Королівсько-сині розсувні локометалеві двері
+Royal Blue Two Pane Locometal Window	Королівсько-синє локометалеве вікно на 2 шибки
+Royal Blue on Black Chevron	Шеврон (королівсько-синій на чорний)
+Royal Blue on Black Hazard Stripes	Смуги небезпеки (королівсько-синій на чорний)
+Royal Blue on White Chevron	Шеврон (королівсько-синій на білий)
+Royal Blue on White Hazard Stripes	Смуги небезпеки (королівсько-синій на білий)
+Sandy Paint Pitcher	Глечик піщаної фарби
+Scorchia Brass Wrapped Locometal	Обпалений локометал у латунній обгортці
+Scorchia Brass Wrapped Locometal Boiler	Обпалений котел у латунній обгортці
+Scorchia Brass Wrapped Locometal Smokebox	Обпалена димова коробка в латунній обгортці
+Scorchia Copper Wrapped Locometal	Обпалений локометал у мідній обгортці
+Scorchia Copper Wrapped Locometal Boiler	Обпалений котел у мідній обгортці
+Scorchia Copper Wrapped Locometal Smokebox	Обпалена димова коробка в мідній обгортці
+Scorchia Folding Locometal Door	Обпалені складні локометалеві двері
+Scorchia Four Pane Locometal Window	Обпалене локометалеве вікно на 4 шибки
+Scorchia Hinged Locometal Door	Обпалені навісні локометалеві двері
+Scorchia Iron Wrapped Locometal	Обпалений локометал у залізній обгортці
+Scorchia Iron Wrapped Locometal Boiler	Обпалений котел у залізній обгортці
+Scorchia Iron Wrapped Locometal Smokebox	Обпалена димова коробка в залізній обгортці
+Scorchia Locometal Boiler	Обпалений локометалевий котел
+Scorchia Locometal End Ladder	Обпалена торцева локометалева драбина
+Scorchia Locometal Flywheel	Обпалений локометалевий маховик
+Scorchia Locometal Pillar	Обпалена локометалева колона
+Scorchia Locometal Rung Ladder	Обпалена локометалева драбина зі щаблями
+Scorchia Locometal Smokebox	Обпалена локометалева димова коробка
+Scorchia Locometal Trapdoor	Обпалений локометалевий люк
+Scorchia Locometal Vent	Обпалена локометалева вентиляційна решітка
+Scorchia Paint	Обпалена фарба
+Scorchia Paint Pitcher	Обпалений глечик фарби
+Scorchia Riveted Locometal	Обпалений клепаний локометал
+Scorchia Round Pane Locometal Window	Обпалене локометалеве вікно з круглою шибкою
+Scorchia Single Pane Locometal Window	Обпалене локометалеве вікно з однією шибкою
+Scorchia Slashed Locometal	Обпалений смугастий локометал
+Scorchia Sliding Locometal Door	Обпалені розсувні локометалеві двері
+Scorchia Two Pane Locometal Window	Обпалене локометалеве вікно на 2 шибки
+Scorchia on Black Chevron	Шеврон (обпалений на чорний)
+Scorchia on Black Hazard Stripes	Смуги небезпеки (обпалений на чорний)
+Scorchia on White Chevron	Шеврон (обпалений на білий)
+Scorchia on White Hazard Stripes	Смуги небезпеки (обпалений на білий)
+Sea Green Brass Wrapped Locometal	Морсько-зелений локометал у латунній обгортці
+Sea Green Brass Wrapped Locometal Boiler	Морсько-зелений котел у латунній обгортці
+Sea Green Brass Wrapped Locometal Smokebox	Морсько-зелена димова коробка в латунній обгортці
+Sea Green Copper Wrapped Locometal	Морсько-зелений локометал у мідній обгортці
+Sea Green Copper Wrapped Locometal Boiler	Морсько-зелений котел у мідній обгортці
+Sea Green Copper Wrapped Locometal Smokebox	Морсько-зелена димова коробка в мідній обгортці
+Sea Green Folding Locometal Door	Морсько-зелені складні локометалеві двері
+Sea Green Four Pane Locometal Window	Морсько-зелене локометалеве вікно на 4 шибки
+Sea Green Hinged Locometal Door	Морсько-зелені навісні локометалеві двері
+Sea Green Iron Wrapped Locometal	Морсько-зелений локометал у залізній обгортці
+Sea Green Iron Wrapped Locometal Boiler	Морсько-зелений котел у залізній обгортці
+Sea Green Iron Wrapped Locometal Smokebox	Морсько-зелена димова коробка в залізній обгортці
+Sea Green Locometal Boiler	Морсько-зелений локометалевий котел
+Sea Green Locometal End Ladder	Морсько-зелена торцева локометалева драбина
+Sea Green Locometal Flywheel	Морсько-зелений локометалевий маховик
+Sea Green Locometal Pillar	Морсько-зелена локометалева колона
+Sea Green Locometal Rung Ladder	Морсько-зелена локометалева драбина зі щаблями
+Sea Green Locometal Smokebox	Морсько-зелена локометалева димова коробка
+Sea Green Locometal Trapdoor	Морсько-зелений локометалевий люк
+Sea Green Locometal Vent	Морсько-зелена локометалева вентиляційна решітка
+Sea Green Paint	Морсько-зелена фарба
+Sea Green Paint Pitcher	Морсько-зелений глечик фарби
+Sea Green Riveted Locometal	Морсько-зелений клепаний локометал
+Sea Green Round Pane Locometal Window	Морсько-зелене локометалеве вікно з круглою шибкою
+Sea Green Single Pane Locometal Window	Морсько-зелене локометалеве вікно з однією шибкою
+Sea Green Slashed Locometal	Морсько-зелений смугастий локометал
+Sea Green Sliding Locometal Door	Морсько-зелені розсувні локометалеві двері
+Sea Green Two Pane Locometal Window	Морсько-зелене локометалеве вікно на 2 шибки
+Sea Green on Black Chevron	Шеврон (морсько-зелений на чорний)
+Sea Green on Black Hazard Stripes	Смуги небезпеки (морсько-зелений на чорний)
+Sea Green on White Chevron	Шеврон (морсько-зелений на білий)
+Sea Green on White Hazard Stripes	Смуги небезпеки (морсько-зелений на білий)
+Single Pane Locometal Window	Локометалеве вікно з однією шибкою
+Sliding Locometal Door	Розсувні локометалеві двері
+Streamlined Smokestack Extension	Подовжувач обтічної димової труби
+Tuff Brass Wrapped Locometal	Туфовий локометал у латунній обгортці
+Tuff Brass Wrapped Locometal Boiler	Туфовий котел у латунній обгортці
+Tuff Brass Wrapped Locometal Smokebox	Туфова димова коробка в латунній обгортці
+Tuff Copper Wrapped Locometal	Туфовий локометал у мідній обгортці
+Tuff Copper Wrapped Locometal Boiler	Туфовий котел у мідній обгортці
+Tuff Copper Wrapped Locometal Smokebox	Туфова димова коробка в мідній обгортці
+Tuff Folding Locometal Door	Туфові складні локометалеві двері
+Tuff Four Pane Locometal Window	Туфове локометалеве вікно на 4 шибки
+Tuff Hinged Locometal Door	Туфові навісні локометалеві двері
+Tuff Iron Wrapped Locometal	Туфовий локометал у залізній обгортці
+Tuff Iron Wrapped Locometal Boiler	Туфовий котел у залізній обгортці
+Tuff Iron Wrapped Locometal Smokebox	Туфова димова коробка в залізній обгортці
+Tuff Locometal Boiler	Туфовий локометалевий котел
+Tuff Locometal End Ladder	Туфова торцева локометалева драбина
+Tuff Locometal Flywheel	Туфовий локометалевий маховик
+Tuff Locometal Pillar	Туфова локометалева колона
+Tuff Locometal Rung Ladder	Туфова локометалева драбина зі щаблями
+Tuff Locometal Smokebox	Туфова локометалева димова коробка
+Tuff Locometal Trapdoor	Туфовий локометалевий люк
+Tuff Locometal Vent	Туфова локометалева вентиляційна решітка
+Tuff Paint	Туфова фарба
+Tuff Paint Pitcher	Туфовий глечик фарби
+Tuff Riveted Locometal	Туфовий клепаний локометал
+Tuff Round Pane Locometal Window	Туфове локометалеве вікно з круглою шибкою
+Tuff Single Pane Locometal Window	Туфове локометалеве вікно з однією шибкою
+Tuff Slashed Locometal	Туфовий смугастий локометал
+Tuff Sliding Locometal Door	Туфові розсувні локометалеві двері
+Tuff Two Pane Locometal Window	Туфове локометалеве вікно на 2 шибки
+Tuff on Black Chevron	Шеврон (туфовий на чорний)
+Tuff on Black Hazard Stripes	Смуги небезпеки (туфовий на чорний)
+Tuff on White Chevron	Шеврон (туфовий на білий)
+Tuff on White Hazard Stripes	Смуги небезпеки (туфовий на білий)
+Turquoise Brass Wrapped Locometal	Бірюзово-зелений локометал у латунній обгортці
+Turquoise Brass Wrapped Locometal Boiler	Бірюзово-зелений котел у латунній обгортці
+Turquoise Brass Wrapped Locometal Smokebox	Бірюзово-зелена димова коробка в латунній обгортці
+Turquoise Copper Wrapped Locometal	Бірюзово-зелений локометал у мідній обгортці
+Turquoise Copper Wrapped Locometal Boiler	Бірюзово-зелений котел у мідній обгортці
+Turquoise Copper Wrapped Locometal Smokebox	Бірюзово-зелена димова коробка в мідній обгортці
+Turquoise Folding Locometal Door	Бірюзово-зелені складні локометалеві двері
+Turquoise Four Pane Locometal Window	Бірюзово-зелене локометалеве вікно на 4 шибки
+Turquoise Hinged Locometal Door	Бірюзово-зелені навісні локометалеві двері
+Turquoise Iron Wrapped Locometal	Бірюзово-зелений локометал у залізній обгортці
+Turquoise Iron Wrapped Locometal Boiler	Бірюзово-зелений котел у залізній обгортці
+Turquoise Iron Wrapped Locometal Smokebox	Бірюзово-зелена димова коробка в залізній обгортці
+Turquoise Locometal Boiler	Бірюзово-зелений локометалевий котел
+Turquoise Locometal End Ladder	Бірюзово-зелена торцева локометалева драбина
+Turquoise Locometal Flywheel	Бірюзово-зелений локометалевий маховик
+Turquoise Locometal Pillar	Бірюзово-зелена локометалева колона
+Turquoise Locometal Rung Ladder	Бірюзово-зелена локометалева драбина зі щаблями
+Turquoise Locometal Smokebox	Бірюзово-зелена локометалева димова коробка
+Turquoise Locometal Trapdoor	Бірюзово-зелений локометалевий люк
+Turquoise Locometal Vent	Бірюзово-зелена локометалева вентиляційна решітка
+Turquoise Paint	Бірюзово-зелена фарба
+Turquoise Paint Pitcher	Бірюзово-зелений глечик фарби
+Turquoise Riveted Locometal	Бірюзово-зелений клепаний локометал
+Turquoise Round Pane Locometal Window	Бірюзово-зелене локометалеве вікно з круглою шибкою
+Turquoise Single Pane Locometal Window	Бірюзово-зелене локометалеве вікно з однією шибкою
+Turquoise Slashed Locometal	Бірюзово-зелений смугастий локометал
+Turquoise Sliding Locometal Door	Бірюзово-зелені розсувні локометалеві двері
+Turquoise Two Pane Locometal Window	Бірюзово-зелене локометалеве вікно на 2 шибки
+Turquoise on Black Chevron	Шеврон (бірюзово-зелений на чорний)
+Turquoise on Black Hazard Stripes	Смуги небезпеки (бірюзово-зелений на чорний)
+Turquoise on White Chevron	Шеврон (бірюзово-зелений на білий)
+Turquoise on White Hazard Stripes	Смуги небезпеки (бірюзово-зелений на білий)
+Two Pane Locometal Window	Локометалеве вікно на 2 шибки
+Vermilion Brass Wrapped Locometal	Кіноварний локометал у латунній обгортці
+Vermilion Brass Wrapped Locometal Boiler	Кіноварний котел у латунній обгортці
+Vermilion Brass Wrapped Locometal Smokebox	Кіноварна димова коробка в латунній обгортці
+Vermilion Copper Wrapped Locometal	Кіноварний локометал у мідній обгортці
+Vermilion Copper Wrapped Locometal Boiler	Кіноварний котел у мідній обгортці
+Vermilion Copper Wrapped Locometal Smokebox	Кіноварна димова коробка в мідній обгортці
+Vermilion Folding Locometal Door	Кіноварні складні локометалеві двері
+Vermilion Four Pane Locometal Window	Кіноварне локометалеве вікно на 4 шибки
+Vermilion Hinged Locometal Door	Кіноварні навісні локометалеві двері
+Vermilion Iron Wrapped Locometal	Кіноварний локометал у залізній обгортці
+Vermilion Iron Wrapped Locometal Boiler	Кіноварний котел у залізній обгортці
+Vermilion Iron Wrapped Locometal Smokebox	Кіноварна димова коробка в залізній обгортці
+Vermilion Locometal Boiler	Кіноварний локометалевий котел
+Vermilion Locometal End Ladder	Кіноварна торцева локометалева драбина
+Vermilion Locometal Flywheel	Кіноварний локометалевий маховик
+Vermilion Locometal Pillar	Кіноварна локометалева колона
+Vermilion Locometal Rung Ladder	Кіноварна локометалева драбина зі щаблями
+Vermilion Locometal Smokebox	Кіноварна локометалева димова коробка
+Vermilion Locometal Trapdoor	Кіноварний локометалевий люк
+Vermilion Locometal Vent	Кіноварна локометалева вентиляційна решітка
+Vermilion Paint	Кіноварна фарба
+Vermilion Paint Pitcher	Кіноварний глечик фарби
+Vermilion Riveted Locometal	Кіноварний клепаний локометал
+Vermilion Round Pane Locometal Window	Кіноварне локометалеве вікно з круглою шибкою
+Vermilion Single Pane Locometal Window	Кіноварне локометалеве вікно з однією шибкою
+Vermilion Slashed Locometal	Кіноварний смугастий локометал
+Vermilion Sliding Locometal Door	Кіноварні розсувні локометалеві двері
+Vermilion Two Pane Locometal Window	Кіноварне локометалеве вікно на 2 шибки
+Vermilion on Black Chevron	Шеврон (кіноварний на чорний)
+Vermilion on Black Hazard Stripes	Смуги небезпеки (кіноварний на чорний)
+Vermilion on White Chevron	Шеврон (кіноварний на білий)
+Vermilion on White Hazard Stripes	Смуги небезпеки (кіноварний на білий)
+White Brass Wrapped Locometal Smokebox	Біла димова коробка в латунній обгортці
+White Copper Wrapped Locometal Smokebox	Біла димова коробка в мідній обгортці
+White Folding Locometal Door	Білі складні локометалеві двері
+White Four Pane Locometal Window	Біле локометалеве вікно на 4 шибки
+White Hinged Locometal Door	Білі навісні локометалеві двері
+White Iron Wrapped Locometal Smokebox	Біла димова коробка в залізній обгортці
+White Locometal End Ladder	Біла торцева локометалева драбина
+White Locometal Flywheel	Білий локометалевий маховик
+White Locometal Rung Ladder	Біла локометалева драбина зі щаблями
+White Locometal Trapdoor	Білий локометалевий люк
+White Locometal Vent	Біла локометалева вентиляційна решітка
+White Paint	Біла фарба
+White Paint Pitcher	Білий глечик фарби
+White Round Pane Locometal Window	Біле локометалеве вікно з круглою шибкою
+White Single Pane Locometal Window	Біле локометалеве вікно з однією шибкою
+White Sliding Locometal Door	Білі розсувні локометалеві двері
+White Two Pane Locometal Window	Біле локометалеве вікно на 2 шибки
+White on Black Chevron	Шеврон (білий на чорний)
+White on Black Hazard Stripes	Смуги небезпеки (білий на чорний)
+White on White Chevron	Шеврон (білий на білий)
+White on White Hazard Stripes	Смуги небезпеки (білий на білий)
+Wide Phantom Train Track	Широка фантомна колія
+Woodburner Smokestack Extension	Подовжувач дров'яної димової труби
+Yellow Brass Wrapped Locometal Smokebox	Жовта димова коробка в латунній обгортці
+Yellow Copper Wrapped Locometal Smokebox	Жовта димова коробка в мідній обгортці
+Yellow Folding Locometal Door	Жовті складні локометалеві двері
+Yellow Four Pane Locometal Window	Жовте локометалеве вікно на 4 шибки
+Yellow Hinged Locometal Door	Жовті навісні локометалеві двері
+Yellow Iron Wrapped Locometal Smokebox	Жовта димова коробка в залізній обгортці
+Yellow Locometal End Ladder	Жовта торцева локометалева драбина
+Yellow Locometal Flywheel	Жовтий локометалевий маховик
+Yellow Locometal Rung Ladder	Жовта локометалева драбина зі щаблями
+Yellow Locometal Trapdoor	Жовтий локометалевий люк
+Yellow Locometal Vent	Жовта локометалева вентиляційна решітка
+Yellow Paint	Жовта фарба
+Yellow Paint Pitcher	Жовтий глечик фарби
+Yellow Round Pane Locometal Window	Жовте локометалеве вікно з круглою шибкою
+Yellow Single Pane Locometal Window	Жовте локометалеве вікно з однією шибкою
+Yellow Sliding Locometal Door	Жовті розсувні локометалеві двері
+Yellow Two Pane Locometal Window	Жовте локометалеве вікно на 2 шибки
+Yellow on Black Chevron	Шеврон (жовтий на чорний)
+Yellow on Black Hazard Stripes	Смуги небезпеки (жовтий на чорний)
+Yellow on White Chevron	Шеврон (жовтий на білий)
+Yellow on White Hazard Stripes	Смуги небезпеки (жовтий на білий)
+Andesite Alloy Sheet	Лист андезитового сплаву
+Andesite Bars	Ґрати з андезиту
+Andesite Bars Overlay	Накладка ґрат з андезиту
+Andesite Catwalk	Місток з андезиту
+Andesite Catwalk Railing	Поруччя містка з андезиту
+Andesite Catwalk Stairs	Сходи містка з андезиту
+Andesite Door	Двері з андезиту
+Andesite Mesh Fence	Сітчастий паркан з андезиту
+Andesite Sheet Metal	Листовий метал з андезиту
+Andesite Support	Опора з андезиту
+Andesite Support Wedge	Клин опори з андезиту
+Andesite Train Hull	Корпус поїзда з андезиту
+Andesite Trapdoor	Люк з андезиту
+Andesite Window	Вікно з андезиту
+Andesite Window Pane	Віконна панель з андезиту
+Black Placard	Чорний плакат
+Black Shipping Container	Чорний вантажний контейнер
+Blue Andesite Cage Lamp	Синя лампа в клітці з андезиту
+Blue Brass Cage Lamp	Синя лампа в клітці з латуні
+Blue Brick Slab	Плита з синьої цегли
+Blue Brick Stairs	Сходи з синьої цегли
+Blue Brick Wall	Стіна з синьої цегли
+Blue Bricks	Синя цегла
+Blue Copper Cage Lamp	Синя лампа в клітці з міді
+Blue Industrial Iron Cage Lamp	Синя лампа в клітці з промислового заліза
+Blue Iron Cage Lamp	Синя лампа в клітці з заліза
+Blue Placard	Синій плакат
+Blue Shipping Container	Синій вантажний контейнер
+Blue Zinc Cage Lamp	Синя лампа в клітці з цинку
+Brass Bars	Ґрати з латуні
+Brass Bars Overlay	Накладка ґрат з латуні
+Brass Catwalk	Місток з латуні
+Brass Catwalk Railing	Поруччя містка з латуні
+Brass Catwalk Stairs	Сходи містка з латуні
+Brass Coin	Монета з латуні
+Brass Coin Stack	Стос монет з латуні
+Brass Door	Двері з латуні
+Brass Mesh Fence	Сітчастий паркан з латуні
+Brass Sheet Metal	Листовий метал з латуні
+Brass Support	Опора з латуні
+Brass Support Wedge	Клин опори з латуні
+Brass Train Hull	Корпус поїзда з латуні
+Brass Trapdoor	Люк з латуні
+Brass Window	Вікно з латуні
+Brass Window Pane	Віконна панель з латуні
+BrassCoin Stack Block	Блок стосу монет з латуні
+Brown Placard	Коричневий плакат
+Brown Shipping Container	Коричневий вантажний контейнер
+Copper Bars	Ґрати з міді
+Copper Bars Overlay	Накладка ґрат з міді
+Copper Catwalk	Місток з міді
+Copper Catwalk Railing	Поруччя містка з міді
+Copper Catwalk Stairs	Сходи містка з міді
+Copper Coin Stack	Стос монет з міді
+Copper Mesh Fence	Сітчастий паркан з міді
+Copper Sheet Metal	Листовий метал з міді
+Copper Support	Опора з міді
+Copper Support Wedge	Клин опори з міді
+Copper Train Hull	Корпус поїзда з міді
+Copper Window	Вікно з міді
+Copper Window Pane	Віконна панель з міді
+CopperCoin Stack Block	Блок стосу монет з міді
+Corner Blue Brick Slab	Плита з синьої кутової цегли
+Corner Blue Brick Stairs	Сходи з синьої кутової цегли
+Corner Blue Brick Wall	Стіна з синьої кутової цегли
+Corner Blue Bricks	Синя кутова цегла
+Corner Dean Brick Slab	Плита з пісочної кутової цегли
+Corner Dean Brick Stairs	Сходи з пісочної кутової цегли
+Corner Dean Brick Wall	Стіна з пісочної кутової цегли
+Corner Dean Bricks	Пісочна кутова цегла
+Corner Dusk Brick Slab	Плита з сутінкової кутової цегли
+Corner Dusk Brick Stairs	Сходи з сутінкової кутової цегли
+Corner Dusk Brick Wall	Стіна з сутінкової кутової цегли
+Corner Dusk Bricks	Сутінкова кутова цегла
+Corner Pearl Brick Slab	Плита з перламутрової кутової цегли
+Corner Pearl Brick Stairs	Сходи з перламутрової кутової цегли
+Corner Pearl Brick Wall	Стіна з перламутрової кутової цегли
+Corner Pearl Bricks	Перламутрова кутова цегла
+Corner Red Brick Slab	Плита з червоної кутової цегли
+Corner Red Brick Stairs	Сходи з червоної кутової цегли
+Corner Red Brick Wall	Стіна з червоної кутової цегли
+Corner Red Bricks	Червона кутова цегла
+Corner Scarlet Brick Slab	Плита з багряної кутової цегли
+Corner Scarlet Brick Stairs	Сходи з багряної кутової цегли
+Corner Scarlet Brick Wall	Стіна з багряної кутової цегли
+Corner Scarlet Bricks	Багряна кутова цегла
+Corner Umber Brick Slab	Плита з умбрової кутової цегли
+Corner Umber Brick Stairs	Сходи з умбрової кутової цегли
+Corner Umber Brick Wall	Стіна з умбрової кутової цегли
+Corner Umber Bricks	Умброва кутова цегла
+Corner Verdant Brick Slab	Плита з смарагдової кутової цегли
+Corner Verdant Brick Stairs	Сходи з смарагдової кутової цегли
+Corner Verdant Brick Wall	Стіна з смарагдової кутової цегли
+Corner Verdant Bricks	Смарагдова кутова цегла
+Cracked Blue Brick Slab	Плита з синьої потрісканої цегли
+Cracked Blue Brick Stairs	Сходи з синьої потрісканої цегли
+Cracked Blue Brick Wall	Стіна з синьої потрісканої цегли
+Cracked Blue Bricks	Синя потріскана цегла
+Cracked Dean Brick Slab	Плита з пісочної потрісканої цегли
+Cracked Dean Brick Stairs	Сходи з пісочної потрісканої цегли
+Cracked Dean Brick Wall	Стіна з пісочної потрісканої цегли
+Cracked Dean Bricks	Пісочна потріскана цегла
+Cracked Dusk Brick Slab	Плита з сутінкової потрісканої цегли
+Cracked Dusk Brick Stairs	Сходи з сутінкової потрісканої цегли
+Cracked Dusk Brick Wall	Стіна з сутінкової потрісканої цегли
+Cracked Dusk Bricks	Сутінкова потріскана цегла
+Cracked Pearl Brick Slab	Плита з перламутрової потрісканої цегли
+Cracked Pearl Brick Stairs	Сходи з перламутрової потрісканої цегли
+Cracked Pearl Brick Wall	Стіна з перламутрової потрісканої цегли
+Cracked Pearl Bricks	Перламутрова потріскана цегла
+Cracked Red Brick Slab	Плита з червоної потрісканої цегли
+Cracked Red Brick Stairs	Сходи з червоної потрісканої цегли
+Cracked Red Brick Wall	Стіна з червоної потрісканої цегли
+Cracked Red Bricks	Червона потріскана цегла
+Cracked Scarlet Brick Slab	Плита з багряної потрісканої цегли
+Cracked Scarlet Brick Stairs	Сходи з багряної потрісканої цегли
+Cracked Scarlet Brick Wall	Стіна з багряної потрісканої цегли
+Cracked Scarlet Bricks	Багряна потріскана цегла
+Cracked Umber Brick Slab	Плита з умбрової потрісканої цегли
+Cracked Umber Brick Stairs	Сходи з умбрової потрісканої цегли
+Cracked Umber Brick Wall	Стіна з умбрової потрісканої цегли
+Cracked Umber Bricks	Умброва потріскана цегла
+Cracked Verdant Brick Slab	Плита з смарагдової потрісканої цегли
+Cracked Verdant Brick Stairs	Сходи з смарагдової потрісканої цегли
+Cracked Verdant Brick Wall	Стіна з смарагдової потрісканої цегли
+Cracked Verdant Bricks	Смарагдова потріскана цегла
+Create Deco Bricks	Create Deco: цегла
+Create Deco Props	Create Deco: декор
+Creeper Decal	Наліпка «Кріпер»
+Cross Decal	Наліпка «Хрест»
+Cyan Placard	Бірюзовий плакат
+Cyan Shipping Container	Бірюзовий вантажний контейнер
+Dean Brick Slab	Плита з пісочної цегли
+Dean Brick Stairs	Сходи з пісочної цегли
+Dean Brick Wall	Стіна з пісочної цегли
+Dean Bricks	Пісочна цегла
+Down Arrow Decal	Наліпка «Стрілка вниз»
+Down Left Arrow Decal	Наліпка «Стрілка вниз-ліворуч»
+Down Right Arrow Decal	Наліпка «Стрілка вниз-праворуч»
+Dusk Brick Slab	Плита з сутінкової цегли
+Dusk Brick Stairs	Сходи з сутінкової цегли
+Dusk Brick Wall	Стіна з сутінкової цегли
+Dusk Bricks	Сутінкова цегла
+Electrical Decal	Наліпка «Електрика»
+Fire Decal	Наліпка «Вогонь»
+Fire Diamond Decal	Наліпка «Ромб небезпеки»
+Flow Decal	Наліпка «Потік»
+Fluid Decal	Наліпка «Рідина»
+Gold Coin Stack	Стос монет з золота
+GoldCoin Stack Block	Блок стосу монет з золота
+Gray Placard	Сірий плакат
+Gray Shipping Container	Сірий вантажний контейнер
+Green Andesite Cage Lamp	Зелена лампа в клітці з андезиту
+Green Brass Cage Lamp	Зелена лампа в клітці з латуні
+Green Copper Cage Lamp	Зелена лампа в клітці з міді
+Green Industrial Iron Cage Lamp	Зелена лампа в клітці з промислового заліза
+Green Iron Cage Lamp	Зелена лампа в клітці з заліза
+Green Placard	Зелений плакат
+Green Shipping Container	Зелений вантажний контейнер
+Green Zinc Cage Lamp	Зелена лампа в клітці з цинку
+Ice Decal	Наліпка «Лід»
+Industrial Iron Bars	Ґрати з промислового заліза
+Industrial Iron Bars Overlay	Накладка ґрат з промислового заліза
+Industrial Iron Catwalk	Місток з промислового заліза
+Industrial Iron Catwalk Railing	Поруччя містка з промислового заліза
+Industrial Iron Catwalk Stairs	Сходи містка з промислового заліза
+Industrial Iron Coin	Монета з промислового заліза
+Industrial Iron Coin Stack	Стос монет з промислового заліза
+Industrial Iron Door	Двері з промислового заліза
+Industrial Iron Ingot	Злиток промислового заліза
+Industrial Iron Ladder	Драбина з промислового заліза
+Industrial Iron Mesh Fence	Сітчастий паркан з промислового заліза
+Industrial Iron Nugget	Самородок промислового заліза
+Industrial Iron Sheet	Лист з промислового заліза
+Industrial Iron Sheet Metal	Листовий метал з промислового заліза
+Industrial Iron Support	Опора з промислового заліза
+Industrial Iron Support Wedge	Клин опори з промислового заліза
+Industrial Iron Train Hull	Корпус поїзда з промислового заліза
+Industrial Iron Trapdoor	Люк з промислового заліза
+Industrial Iron Window	Вікно з промислового заліза
+Industrial Iron Window Pane	Віконна панель з промислового заліза
+Industrial IronCoin Stack Block	Блок стосу монет з промислового заліза
+Iron Bars Overlay	Накладка ґрат з заліза
+Iron Catwalk	Місток з заліза
+Iron Catwalk Railing	Поруччя містка з заліза
+Iron Catwalk Stairs	Сходи містка з заліза
+Iron Coin Stack	Стос монет з заліза
+Iron Ladder	Драбина з заліза
+Iron Mesh Fence	Сітчастий паркан з заліза
+Iron Sheet Metal	Листовий метал з заліза
+Iron Support	Опора з заліза
+Iron Support Wedge	Клин опори з заліза
+Iron Train Hull	Корпус поїзда з заліза
+Iron Window	Вікно з заліза
+Iron Window Pane	Віконна панель з заліза
+IronCoin Stack Block	Блок стосу монет з заліза
+Left Arrow Decal	Наліпка «Стрілка ліворуч»
+Light Blue Placard	Блакитний плакат
+Light Blue Shipping Container	Блакитний вантажний контейнер
+Light Gray Placard	Світло-сірий плакат
+Light Gray Shipping Container	Світло-сірий вантажний контейнер
+Lime Placard	Лаймовий плакат
+Lime Shipping Container	Лаймовий вантажний контейнер
+Locked Andesite Door	Замкнені двері з андезиту
+Locked Brass Door	Замкнені двері з латуні
+Locked Copper Door	Замкнені двері з міді
+Locked Industrial Iron Door	Замкнені двері з промислового заліза
+Locked Zinc Door	Замкнені двері з цинку
+Long Blue Brick Slab	Плита з синьої довгої цегли
+Long Blue Brick Stairs	Сходи з синьої довгої цегли
+Long Blue Brick Wall	Стіна з синьої довгої цегли
+Long Blue Bricks	Синя довга цегла
+Long Dean Brick Slab	Плита з пісочної довгої цегли
+Long Dean Brick Stairs	Сходи з пісочної довгої цегли
+Long Dean Brick Wall	Стіна з пісочної довгої цегли
+Long Dean Bricks	Пісочна довга цегла
+Long Dusk Brick Slab	Плита з сутінкової довгої цегли
+Long Dusk Brick Stairs	Сходи з сутінкової довгої цегли
+Long Dusk Brick Wall	Стіна з сутінкової довгої цегли
+Long Dusk Bricks	Сутінкова довга цегла
+Long Pearl Brick Slab	Плита з перламутрової довгої цегли
+Long Pearl Brick Stairs	Сходи з перламутрової довгої цегли
+Long Pearl Brick Wall	Стіна з перламутрової довгої цегли
+Long Pearl Bricks	Перламутрова довга цегла
+Long Red Brick Slab	Плита з червоної довгої цегли
+Long Red Brick Stairs	Сходи з червоної довгої цегли
+Long Red Brick Wall	Стіна з червоної довгої цегли
+Long Red Bricks	Червона довга цегла
+Long Scarlet Brick Slab	Плита з багряної довгої цегли
+Long Scarlet Brick Stairs	Сходи з багряної довгої цегли
+Long Scarlet Brick Wall	Стіна з багряної довгої цегли
+Long Scarlet Bricks	Багряна довга цегла
+Long Umber Brick Slab	Плита з умбрової довгої цегли
+Long Umber Brick Stairs	Сходи з умбрової довгої цегли
+Long Umber Brick Wall	Стіна з умбрової довгої цегли
+Long Umber Bricks	Умброва довга цегла
+Long Verdant Brick Slab	Плита з смарагдової довгої цегли
+Long Verdant Brick Stairs	Сходи з смарагдової довгої цегли
+Long Verdant Brick Wall	Стіна з смарагдової довгої цегли
+Long Verdant Bricks	Смарагдова довга цегла
+Magenta Placard	Пурпуровий плакат
+Magenta Shipping Container	Пурпуровий вантажний контейнер
+Mossy Blue Brick Slab	Плита з синьої замшілої цегли
+Mossy Blue Brick Stairs	Сходи з синьої замшілої цегли
+Mossy Blue Brick Wall	Стіна з синьої замшілої цегли
+Mossy Blue Bricks	Синя замшіла цегла
+Mossy Dean Brick Slab	Плита з пісочної замшілої цегли
+Mossy Dean Brick Stairs	Сходи з пісочної замшілої цегли
+Mossy Dean Brick Wall	Стіна з пісочної замшілої цегли
+Mossy Dean Bricks	Пісочна замшіла цегла
+Mossy Dusk Brick Slab	Плита з сутінкової замшілої цегли
+Mossy Dusk Brick Stairs	Сходи з сутінкової замшілої цегли
+Mossy Dusk Brick Wall	Стіна з сутінкової замшілої цегли
+Mossy Dusk Bricks	Сутінкова замшіла цегла
+Mossy Pearl Brick Slab	Плита з перламутрової замшілої цегли
+Mossy Pearl Brick Stairs	Сходи з перламутрової замшілої цегли
+Mossy Pearl Brick Wall	Стіна з перламутрової замшілої цегли
+Mossy Pearl Bricks	Перламутрова замшіла цегла
+Mossy Red Brick Slab	Плита з червоної замшілої цегли
+Mossy Red Brick Stairs	Сходи з червоної замшілої цегли
+Mossy Red Brick Wall	Стіна з червоної замшілої цегли
+Mossy Red Bricks	Червона замшіла цегла
+Mossy Scarlet Brick Slab	Плита з багряної замшілої цегли
+Mossy Scarlet Brick Stairs	Сходи з багряної замшілої цегли
+Mossy Scarlet Brick Wall	Стіна з багряної замшілої цегли
+Mossy Scarlet Bricks	Багряна замшіла цегла
+Mossy Umber Brick Slab	Плита з умбрової замшілої цегли
+Mossy Umber Brick Stairs	Сходи з умбрової замшілої цегли
+Mossy Umber Brick Wall	Стіна з умбрової замшілої цегли
+Mossy Umber Bricks	Умброва замшіла цегла
+Mossy Verdant Brick Slab	Плита з смарагдової замшілої цегли
+Mossy Verdant Brick Stairs	Сходи з смарагдової замшілої цегли
+Mossy Verdant Brick Wall	Стіна з смарагдової замшілої цегли
+Mossy Verdant Bricks	Смарагдова замшіла цегла
+Netherite Coin Stack	Стос монет з незериту
+NetheriteCoin Stack Block	Блок стосу монет з незериту
+No Entry Decal	Наліпка «В'їзд заборонено»
+Orange Placard	Помаранчевий плакат
+Orange Shipping Container	Помаранчевий вантажний контейнер
+Pearl Brick Slab	Плита з перламутрової цегли
+Pearl Brick Stairs	Сходи з перламутрової цегли
+Pearl Brick Wall	Стіна з перламутрової цегли
+Pearl Bricks	Перламутрова цегла
+Pink Placard	Рожевий плакат
+Pink Shipping Container	Рожевий вантажний контейнер
+Purple Placard	Фіолетовий плакат
+Purple Shipping Container	Фіолетовий вантажний контейнер
+Radioactive Decal	Наліпка «Радіація»
+Red Andesite Cage Lamp	Червона лампа в клітці з андезиту
+Red Brass Cage Lamp	Червона лампа в клітці з латуні
+Red Copper Cage Lamp	Червона лампа в клітці з міді
+Red Industrial Iron Cage Lamp	Червона лампа в клітці з промислового заліза
+Red Iron Cage Lamp	Червона лампа в клітці з заліза
+Red Placard	Червоний плакат
+Red Shipping Container	Червоний вантажний контейнер
+Red Zinc Cage Lamp	Червона лампа в клітці з цинку
+Right Arrow Decal	Наліпка «Стрілка праворуч»
+Scarlet Brick Slab	Плита з багряної цегли
+Scarlet Brick Stairs	Сходи з багряної цегли
+Scarlet Brick Wall	Стіна з багряної цегли
+Scarlet Bricks	Багряна цегла
+Short Blue Brick Slab	Плита з синьої короткої цегли
+Short Blue Brick Stairs	Сходи з синьої короткої цегли
+Short Blue Brick Wall	Стіна з синьої короткої цегли
+Short Blue Bricks	Синя коротка цегла
+Short Dean Brick Slab	Плита з пісочної короткої цегли
+Short Dean Brick Stairs	Сходи з пісочної короткої цегли
+Short Dean Brick Wall	Стіна з пісочної короткої цегли
+Short Dean Bricks	Пісочна коротка цегла
+Short Dusk Brick Slab	Плита з сутінкової короткої цегли
+Short Dusk Brick Stairs	Сходи з сутінкової короткої цегли
+Short Dusk Brick Wall	Стіна з сутінкової короткої цегли
+Short Dusk Bricks	Сутінкова коротка цегла
+Short Pearl Brick Slab	Плита з перламутрової короткої цегли
+Short Pearl Brick Stairs	Сходи з перламутрової короткої цегли
+Short Pearl Brick Wall	Стіна з перламутрової короткої цегли
+Short Pearl Bricks	Перламутрова коротка цегла
+Short Red Brick Slab	Плита з червоної короткої цегли
+Short Red Brick Stairs	Сходи з червоної короткої цегли
+Short Red Brick Wall	Стіна з червоної короткої цегли
+Short Red Bricks	Червона коротка цегла
+Short Scarlet Brick Slab	Плита з багряної короткої цегли
+Short Scarlet Brick Stairs	Сходи з багряної короткої цегли
+Short Scarlet Brick Wall	Стіна з багряної короткої цегли
+Short Scarlet Bricks	Багряна коротка цегла
+Short Umber Brick Slab	Плита з умбрової короткої цегли
+Short Umber Brick Stairs	Сходи з умбрової короткої цегли
+Short Umber Brick Wall	Стіна з умбрової короткої цегли
+Short Umber Bricks	Умброва коротка цегла
+Short Verdant Brick Slab	Плита з смарагдової короткої цегли
+Short Verdant Brick Stairs	Сходи з смарагдової короткої цегли
+Short Verdant Brick Wall	Стіна з смарагдової короткої цегли
+Short Verdant Bricks	Смарагдова коротка цегла
+Skull Decal	Наліпка «Череп»
+Tiled Blue Brick Slab	Плита з синьої плиткової цегли
+Tiled Blue Brick Stairs	Сходи з синьої плиткової цегли
+Tiled Blue Brick Wall	Стіна з синьої плиткової цегли
+Tiled Blue Bricks	Синя плиткова цегла
+Tiled Dean Brick Slab	Плита з пісочної плиткової цегли
+Tiled Dean Brick Stairs	Сходи з пісочної плиткової цегли
+Tiled Dean Brick Wall	Стіна з пісочної плиткової цегли
+Tiled Dean Bricks	Пісочна плиткова цегла
+Tiled Dusk Brick Slab	Плита з сутінкової плиткової цегли
+Tiled Dusk Brick Stairs	Сходи з сутінкової плиткової цегли
+Tiled Dusk Brick Wall	Стіна з сутінкової плиткової цегли
+Tiled Dusk Bricks	Сутінкова плиткова цегла
+Tiled Pearl Brick Slab	Плита з перламутрової плиткової цегли
+Tiled Pearl Brick Stairs	Сходи з перламутрової плиткової цегли
+Tiled Pearl Brick Wall	Стіна з перламутрової плиткової цегли
+Tiled Pearl Bricks	Перламутрова плиткова цегла
+Tiled Red Brick Slab	Плита з червоної плиткової цегли
+Tiled Red Brick Stairs	Сходи з червоної плиткової цегли
+Tiled Red Brick Wall	Стіна з червоної плиткової цегли
+Tiled Red Bricks	Червона плиткова цегла
+Tiled Scarlet Brick Slab	Плита з багряної плиткової цегли
+Tiled Scarlet Brick Stairs	Сходи з багряної плиткової цегли
+Tiled Scarlet Brick Wall	Стіна з багряної плиткової цегли
+Tiled Scarlet Bricks	Багряна плиткова цегла
+Tiled Umber Brick Slab	Плита з умбрової плиткової цегли
+Tiled Umber Brick Stairs	Сходи з умбрової плиткової цегли
+Tiled Umber Brick Wall	Стіна з умбрової плиткової цегли
+Tiled Umber Bricks	Умброва плиткова цегла
+Tiled Verdant Brick Slab	Плита з смарагдової плиткової цегли
+Tiled Verdant Brick Stairs	Сходи з смарагдової плиткової цегли
+Tiled Verdant Brick Wall	Стіна з смарагдової плиткової цегли
+Tiled Verdant Bricks	Смарагдова плиткова цегла
+Umber Brick Slab	Плита з умбрової цегли
+Umber Brick Stairs	Сходи з умбрової цегли
+Umber Brick Wall	Стіна з умбрової цегли
+Umber Bricks	Умброва цегла
+Up Arrow Decal	Наліпка «Стрілка вгору»
+Up Left Arrow Decal	Наліпка «Стрілка вгору-ліворуч»
+Up Right Arrow Decal	Наліпка «Стрілка вгору-праворуч»
+Verdant Brick Slab	Плита з смарагдової цегли
+Verdant Brick Stairs	Сходи з смарагдової цегли
+Verdant Brick Wall	Стіна з смарагдової цегли
+Verdant Bricks	Смарагдова цегла
+Warning Decal	Наліпка «Увага»
+White Shipping Container	Білий вантажний контейнер
+Yellow Andesite Cage Lamp	Жовта лампа в клітці з андезиту
+Yellow Brass Cage Lamp	Жовта лампа в клітці з латуні
+Yellow Copper Cage Lamp	Жовта лампа в клітці з міді
+Yellow Industrial Iron Cage Lamp	Жовта лампа в клітці з промислового заліза
+Yellow Iron Cage Lamp	Жовта лампа в клітці з заліза
+Yellow Placard	Жовтий плакат
+Yellow Shipping Container	Жовтий вантажний контейнер
+Yellow Zinc Cage Lamp	Жовта лампа в клітці з цинку
+Zinc Bars	Ґрати з цинку
+Zinc Bars Overlay	Накладка ґрат з цинку
+Zinc Catwalk	Місток з цинку
+Zinc Catwalk Railing	Поруччя містка з цинку
+Zinc Catwalk Stairs	Сходи містка з цинку
+Zinc Coin	Монета з цинку
+Zinc Coin Stack	Стос монет з цинку
+Zinc Door	Двері з цинку
+Zinc Ladder	Драбина з цинку
+Zinc Mesh Fence	Сітчастий паркан з цинку
+Zinc Sheet	Лист з цинку
+Zinc Sheet Metal	Листовий метал з цинку
+Zinc Support	Опора з цинку
+Zinc Support Wedge	Клин опори з цинку
+Zinc Train Hull	Корпус поїзда з цинку
+Zinc Trapdoor	Люк з цинку
+Zinc Window	Вікно з цинку
+Zinc Window Pane	Віконна панель з цинку
+ZincCoin Stack Block	Блок стосу монет з цинку
+Absolute Bin	Абсолютний бункер
+Absolute Centrifuging Factory	Абсолютна фабрика центрифугування
+Absolute Chemical Tank	Абсолютний хімічний бак
+Absolute Combining Factory	Абсолютна фабрика об'єднання
+Absolute Compressing Factory	Абсолютна фабрика стиснення
+Absolute Control Circuit	Абсолютна схема керування
+Absolute Crushing Factory	Абсолютна фабрика дроблення
+Absolute Crystallizing Factory	Абсолютна фабрика кристалізації
+Absolute Dissolving Factory	Абсолютна фабрика розчинення
+Absolute Energy Cube	Абсолютний енергетичний куб
+Absolute Enriching Factory	Абсолютна фабрика збагачення
+Absolute Fluid Tank	Абсолютний рідинний бак
+Absolute Induction Cell	Абсолютна індукційна комірка
+Absolute Induction Provider	Абсолютний індукційний постачальник
+Absolute Infusing Factory	Абсолютна фабрика насичення
+Absolute Injecting Factory	Абсолютна фабрика вприскування
+Absolute Lathe Factory	Абсолютна фабрика токарної обробки
+Absolute Liquifying Factory	Абсолютна фабрика розрідження
+Absolute Logistical Transporter	Абсолютний логістичний транспортер
+Absolute Mechanical Pipe	Абсолютна механічна труба
+Absolute Oxidizing Factory	Абсолютна фабрика окиснення
+Absolute Painting Factory	Абсолютна фабрика фарбування
+Absolute Pigment Extracting Factory	Абсолютна фабрика видобування пігменту
+Absolute Planting Factory	Абсолютна фабрика вирощування
+Absolute Pressing Factory	Абсолютна фабрика пресування
+Absolute Pressurised Reacting Factory	Абсолютна фабрика реакцій під тиском
+Absolute Pressurized Tube	Абсолютна трубка під тиском
+Absolute Purifying Factory	Абсолютна фабрика очищення
+Absolute Radioactive Waste Barrel	Абсолютна бочка радіоактивних відходів
+Absolute Recycling Factory	Абсолютна фабрика переробки
+Absolute Replicating Factory	Абсолютна фабрика реплікації
+Absolute Rolling Mill Factory	Абсолютна фабрика прокатки
+Absolute Sawing Factory	Абсолютна фабрика розпилювання
+Absolute Smelting Factory	Абсолютна фабрика плавки
+Absolute Stamping Factory	Абсолютна фабрика штампування
+Absolute Thermodynamic Conductor	Абсолютний термодинамічний провідник
+Absolute Tier Installer	Абсолютний установник рівня
+Absolute Universal Cable	Абсолютний універсальний кабель
+Absolute Washing Factory	Абсолютна фабрика промивання
+Advanced Electric Pump	Покращений електронасос
+Black Hole QIO Drive	Накопичувач QIO «Чорна діра»
+Collapse QIO Drive	Накопичувач QIO «Колапс»
+Cosmic Bin	Космічний бункер
+Cosmic Centrifuging Factory	Космічна фабрика центрифугування
+Cosmic Chemical Tank	Космічний хімічний бак
+Cosmic Combining Factory	Космічна фабрика об'єднання
+Cosmic Compressing Factory	Космічна фабрика стиснення
+Cosmic Control Circuit	Космічна схема керування
+Cosmic Crushing Factory	Космічна фабрика дроблення
+Cosmic Crystallizing Factory	Космічна фабрика кристалізації
+Cosmic Dissolving Factory	Космічна фабрика розчинення
+Cosmic Energy Cube	Космічний енергетичний куб
+Cosmic Enriching Factory	Космічна фабрика збагачення
+Cosmic Fluid Tank	Космічний рідинний бак
+Cosmic Induction Cell	Космічна індукційна комірка
+Cosmic Induction Provider	Космічний індукційний постачальник
+Cosmic Infusing Factory	Космічна фабрика насичення
+Cosmic Injecting Factory	Космічна фабрика вприскування
+Cosmic Lathe Factory	Космічна фабрика токарної обробки
+Cosmic Liquifying Factory	Космічна фабрика розрідження
+Cosmic Logistical Transporter	Космічний логістичний транспортер
+Cosmic Mechanical Pipe	Космічна механічна труба
+Cosmic Oxidizing Factory	Космічна фабрика окиснення
+Cosmic Painting Factory	Космічна фабрика фарбування
+Cosmic Pigment Extracting Factory	Космічна фабрика видобування пігменту
+Cosmic Planting Factory	Космічна фабрика вирощування
+Cosmic Pressing Factory	Космічна фабрика пресування
+Cosmic Pressurised Reacting Factory	Космічна фабрика реакцій під тиском
+Cosmic Pressurized Tube	Космічна трубка під тиском
+Cosmic Purifying Factory	Космічна фабрика очищення
+Cosmic Radioactive Waste Barrel	Космічна бочка радіоактивних відходів
+Cosmic Recycling Factory	Космічна фабрика переробки
+Cosmic Replicating Factory	Космічна фабрика реплікації
+Cosmic Rolling Mill Factory	Космічна фабрика прокатки
+Cosmic Sawing Factory	Космічна фабрика розпилювання
+Cosmic Smelting Factory	Космічна фабрика плавки
+Cosmic Stamping Factory	Космічна фабрика штампування
+Cosmic Thermodynamic Conductor	Космічний термодинамічний провідник
+Cosmic Tier Installer	Космічний установник рівня
+Cosmic Universal Cable	Космічний універсальний кабель
+Cosmic Washing Factory	Космічна фабрика промивання
+Creative Upgrade	Креативне покращення
+Dirty Naquadah Dust	Брудний наквадовий пил
+End Naquadah Ore	Наквадова руда Енду
+Enriched Lead	Збагачений свинець
+Enriched Osmium	Збагачений осмій
+Enriched Radiance	Збагачене сяйво
+Enriched Shining	Збагачений блиск
+Enriched Spectrum	Збагачений спектр
+Enriched Thermonuclear	Збагачений термоядерний сплав
+Gamma QIO Drive	Накопичувач QIO «Гамма»
+Infinite Bin	Нескінченний бункер
+Infinite Centrifuging Factory	Нескінченна фабрика центрифугування
+Infinite Chemical Tank	Нескінченний хімічний бак
+Infinite Combining Factory	Нескінченна фабрика об'єднання
+Infinite Compressing Factory	Нескінченна фабрика стиснення
+Infinite Control Circuit	Нескінченна схема керування
+Infinite Crushing Factory	Нескінченна фабрика дроблення
+Infinite Crystallizing Factory	Нескінченна фабрика кристалізації
+Infinite Dissolving Factory	Нескінченна фабрика розчинення
+Infinite Energy Cube	Нескінченний енергетичний куб
+Infinite Enriching Factory	Нескінченна фабрика збагачення
+Infinite Fluid Tank	Нескінченний рідинний бак
+Infinite Induction Cell	Нескінченна індукційна комірка
+Infinite Induction Provider	Нескінченний індукційний постачальник
+Infinite Infusing Factory	Нескінченна фабрика насичення
+Infinite Injecting Factory	Нескінченна фабрика вприскування
+Infinite Lathe Factory	Нескінченна фабрика токарної обробки
+Infinite Liquifying Factory	Нескінченна фабрика розрідження
+Infinite Logistical Transporter	Нескінченний логістичний транспортер
+Infinite Mechanical Pipe	Нескінченна механічна труба
+Infinite Oxidizing Factory	Нескінченна фабрика окиснення
+Infinite Painting Factory	Нескінченна фабрика фарбування
+Infinite Pigment Extracting Factory	Нескінченна фабрика видобування пігменту
+Infinite Planting Factory	Нескінченна фабрика вирощування
+Infinite Pressing Factory	Нескінченна фабрика пресування
+Infinite Pressurised Reacting Factory	Нескінченна фабрика реакцій під тиском
+Infinite Pressurized Tube	Нескінченна трубка під тиском
+Infinite Purifying Factory	Нескінченна фабрика очищення
+Infinite Radioactive Waste Barrel	Нескінченна бочка радіоактивних відходів
+Infinite Recycling Factory	Нескінченна фабрика переробки
+Infinite Replicating Factory	Нескінченна фабрика реплікації
+Infinite Rolling Mill Factory	Нескінченна фабрика прокатки
+Infinite Sawing Factory	Нескінченна фабрика розпилювання
+Infinite Smelting Factory	Нескінченна фабрика плавки
+Infinite Stamping Factory	Нескінченна фабрика штампування
+Infinite Thermodynamic Conductor	Нескінченний термодинамічний провідник
+Infinite Tier Installer	Нескінченний установник рівня
+Infinite Universal Cable	Нескінченний універсальний кабель
+Infinite Washing Factory	Нескінченна фабрика промивання
+Ionic Membrane Upgrade	Покращення іонної мембрани
+Lead Coated Laser Focus Matrix	Матриця фокусування лазера зі свинцевим покриттям
+Liquid Fluorinated Naquadah Uranium Fuel	Рідке фторроване наквадо-уранове паливо
+Liquid Naquadah Hexafluoride	Рідкий гексафторид наквади
+Liquid Naquadah Hexafluoride Bucket	Відро рідкого гексафториду наквади
+Liquid Polonium Containing Solution Bucket	Відро полонієвмісного розчину
+Liquid Polonium-208 Bucket	Відро рідкого полонію-208
+Liquid Rich Naquadah Fuel	Рідке збагачене наквадове паливо
+Liquid Rich Naquadah Fuel Bucket	Відро рідкого збагаченого наквадового палива
+Liquid Rich Uranium Fuel	Рідке збагачене уранове паливо
+Liquid Rich Uranium Fuel Bucket	Відро рідкого збагаченого уранового палива
+Liquid fluorinated Naquadah Uranium Fuel Bucket	Відро рідкого фторрованого наквадо-уранового палива
+Naquadah Block	Наквадовий блок
+Naquadah Clump	Грудка наквади
+Naquadah Crystal	Наквадовий кристал
+Naquadah Dust	Наквадовий пил
+Naquadah Hohlraum	Наквадовий гольраум
+Naquadah Ingot	Наквадовий злиток
+Naquadah Ore	Наквадова руда
+Naquadah Reactor Casing	Корпус наквадового реактора
+Naquadah Reactor Controller	Контролер наквадового реактора
+Naquadah Reactor Logic Adapter	Логічний адаптер наквадового реактора
+Naquadah Reactor Port	Порт наквадового реактора
+Naquadah Shard	Уламок наквади
+Nugget Naquadah	Наквадовий самородок
+Polonium Containing Solution	Полонієвмісний розчин
+Radiance Alloy	Сплав сяйва
+Radiance Dust	Пил сяйва
+Raw Naquadah	Сира наквада
+Raw Naquadah Block	Блок сирої наквади
+Shining Alloy	Сплав блиску
+Singularity QIO Drive	Накопичувач QIO «Сингулярність»
+Spectrum Alloy	Сплав спектра
+Stack Upgrade	Покращення стака
+Supreme Bin	Верховний бункер
+Supreme Centrifuging Factory	Верховна фабрика центрифугування
+Supreme Chemical Tank	Верховний хімічний бак
+Supreme Combining Factory	Верховна фабрика об'єднання
+Supreme Compressing Factory	Верховна фабрика стиснення
+Supreme Control Circuit	Верховна схема керування
+Supreme Crushing Factory	Верховна фабрика дроблення
+Supreme Crystallizing Factory	Верховна фабрика кристалізації
+Supreme Dissolving Factory	Верховна фабрика розчинення
+Supreme Energy Cube	Верховний енергетичний куб
+Supreme Enriching Factory	Верховна фабрика збагачення
+Supreme Fluid Tank	Верховний рідинний бак
+Supreme Induction Cell	Верховна індукційна комірка
+Supreme Induction Provider	Верховний індукційний постачальник
+Supreme Infusing Factory	Верховна фабрика насичення
+Supreme Injecting Factory	Верховна фабрика вприскування
+Supreme Lathe Factory	Верховна фабрика токарної обробки
+Supreme Liquifying Factory	Верховна фабрика розрідження
+Supreme Logistical Transporter	Верховний логістичний транспортер
+Supreme Mechanical Pipe	Верховна механічна труба
+Supreme Oxidizing Factory	Верховна фабрика окиснення
+Supreme Painting Factory	Верховна фабрика фарбування
+Supreme Pigment Extracting Factory	Верховна фабрика видобування пігменту
+Supreme Planting Factory	Верховна фабрика вирощування
+Supreme Pressing Factory	Верховна фабрика пресування
+Supreme Pressurised Reacting Factory	Верховна фабрика реакцій під тиском
+Supreme Pressurized Tube	Верховна трубка під тиском
+Supreme Purifying Factory	Верховна фабрика очищення
+Supreme Radioactive Waste Barrel	Верховна бочка радіоактивних відходів
+Supreme Recycling Factory	Верховна фабрика переробки
+Supreme Replicating Factory	Верховна фабрика реплікації
+Supreme Rolling Mill Factory	Верховна фабрика прокатки
+Supreme Sawing Factory	Верховна фабрика розпилювання
+Supreme Smelting Factory	Верховна фабрика плавки
+Supreme Stamping Factory	Верховна фабрика штампування
+Supreme Thermodynamic Conductor	Верховний термодинамічний провідник
+Supreme Tier Installer	Верховний установник рівня
+Supreme Universal Cable	Верховний універсальний кабель
+Supreme Washing Factory	Верховна фабрика промивання
+Thermonuclear Alloy	Термоядерний сплав
+polonium-208	Полоній-208
+(Empty) Fuel Can	Каністра (порожня)
+(Filled) Tin Can	Бляшанка (повна)
+10k Coolant Cell	Охолоджувальна капсула 10k
+2x Ins. Gold Cable	Золотий кабель, 2× ізоляція
+2x Ins. HV Cable	ВН-кабель, 2× ізоляція
+30k Coolant Cell	Охолоджувальна капсула 30k
+3x Ins. HV Cable	ВН-кабель, 3× ізоляція
+60k Coolant Cell	Охолоджувальна капсула 60k
+Acacia Tree Sapling	Саджанець акації
+Adv.Batpack	Покращений батпак
+Advanced Alloy	Покращений сплав
+Advanced Charging Battery	Покращена зарядна батарея
+Advanced Circuit	Покращена схема
+Advanced Ejector Upgrade	Покращене покращення виштовхування
+Advanced Heat Exchanger	Покращений теплообмінник
+Advanced Heat Vent	Покращений тепловідвід
+Advanced Machine Casing	Покращений корпус машини
+Advanced Miner	Покращений бур-шахтар
+Advanced Pulling Upgrade	Покращене покращення втягування
+Advanced RE-Battery	Покращена RE-батарея
+Air	Повітря
+Air Bucket	Відро повітря
+Air Compressor	Повітряний компресор
+Allium	Цибуля
+Ashes	Попіл
+Azure Bluet	Блакитна гостянка
+Basic Machine Casing	Корпус машини
+Bat-box	Батбокс
+BatBox	Батбокс
+BatPack	Батпак
+Batch Crafter	Пакетний верстак
+Bio Cell	Біокапсула
+Bio Chaff	Біополова
+Biofuel Cell	Капсула біопалива
+Biogas	Біогаз
+Biogas Bucket	Відро біогазу
+Biogas Cell	Капсула біогазу
+Biomass	Біомаса
+Biomass Bucket	Відро біомаси
+Biomass Cell	Капсула біомаси
+Birch Tree Sapling	Саджанець берези
+Black Painter	Чорний пензель
+Blackthorn	Терен
+Blast Furnace	Доменна піч
+Blaze Reed	Очерет іфрита
+Block Cutting Machine	Блокорізальна машина
+Blue Orchid	Синя орхідея
+Blue Painter	Синій пензель
+Bob's Yer Uncle Ranks Berries	Ягоди «Бобів дядько»
+Bob's Yer Uncle Ranks Berry	Ягода «Бобів дядько»
+Booze Barrel	Бочка для браги
+Booze Mug	Кухоль браги
+Bottling Plant	Розливна установка
+Broken Rubber Boat	Пробитий гумовий човен
+Bronze Axe	Бронзова сокира
+Bronze Block	Бронзовий блок
+Bronze Boots	Бронзові чоботи
+Bronze Chestplate	Бронзовий нагрудник
+Bronze Dust	Бронзовий пил
+Bronze Helmet	Бронзовий шолом
+Bronze Hoe	Бронзова мотика
+Bronze Item Casing	Бронзовий корпус предмета
+Bronze Leggings	Бронзові поножі
+Bronze Pickaxe	Бронзова кирка
+Bronze Plate	Бронзова пластина
+Bronze Rotor Blade	Бронзова лопать ротора
+Bronze Shovel	Бронзова лопата
+Bronze Storage Box	Бронзовий ящик
+Bronze Sword	Бронзовий меч
+Bronze Tank	Бронзовий бак
+Brown Mushroom	Коричневий гриб
+Brown Painter	Коричневий пензель
+CESU	CESU
+CF Backpack	Ранець будівельної піни
+CF Pellet	Гранула будівельної піни
+CF Powder	Порошок будівельної піни
+CF Sprayer	Розпилювач будівельної піни
+Carbon Boat	Вуглецевий човен
+Carbon Plate	Вуглецева пластина
+Carbon Rotor Blade	Вуглецева лопать ротора
+Chainsaw	Бензопила
+Charge Pad (BatBox)	Зарядна платформа (батбокс)
+Charge Pad (CESU)	Зарядна платформа (CESU)
+Charge Pad (MFE)	Зарядна платформа (MFE)
+Charge Pad (MFSU)	Зарядна платформа (MFSU)
+Charging Energy Crystal	Зарядний енергокристал
+Charging Lapotron Crystal	Зарядний лапотронний кристал
+Charging RE Battery	Зарядна RE-батарея
+Cherry Sapling	Саджанець вишні
+Chunk Loader	Завантажувач чанків
+Clay Dust	Глиняний пил
+Coal Ball	Вугільна куля
+Coal Chunk	Вугільна брила
+Coal Coke	Кокс
+Coffee	Кава
+Coffee Powder	Мелена кава
+Coil	Котушка
+Coke Kiln	Коксова піч
+Coke Kiln Grate	Решітка коксової печі
+Coke Kiln Hatch	Люк коксової печі
+Cold Coffee	Холодна кава
+Compact Item Buffer	Компактний буфер предметів
+Component Heat Exchanger	Компонентний теплообмінник
+Component Heat Vent	Компонентний тепловідвід
+Composite Vest	Композитний жилет
+Compressed Air	Стиснене повітря
+Compressed Air Cell	Капсула стисненого повітря
+Compressed Coal Ball	Стиснена вугільна куля
+Compressed Plants	Стиснені рослини
+Compressor	Компресор
+Condenser	Конденсатор пари
+Construction Foam	Будівельна піна
+Construction Foam Bucket	Відро будівельної піни
+Construction Foam Cell	Капсула будівельної піни
+Construction Foam Wall (Black)	Стіна з піни (чорна)
+Construction Foam Wall (Blue)	Стіна з піни (синя)
+Construction Foam Wall (Brown)	Стіна з піни (коричнева)
+Construction Foam Wall (Cyan)	Стіна з піни (бірюзова)
+Construction Foam Wall (Gray)	Стіна з піни (сіра)
+Construction Foam Wall (Green)	Стіна з піни (зелена)
+Construction Foam Wall (Light Blue)	Стіна з піни (блакитна)
+Construction Foam Wall (Light Gray)	Стіна з піни (світло-сіра)
+Construction Foam Wall (Lime)	Стіна з піни (лаймова)
+Construction Foam Wall (Magenta)	Стіна з піни (пурпурова)
+Construction Foam Wall (Orange)	Стіна з піни (помаранчева)
+Construction Foam Wall (Pink)	Стіна з піни (рожева)
+Construction Foam Wall (Purple)	Стіна з піни (фіолетова)
+Construction Foam Wall (Red)	Стіна з піни (червона)
+Construction Foam Wall (White)	Стіна з піни (біла)
+Construction Foam Wall (Yellow)	Стіна з піни (жовта)
+Containment Box	Захисний ящик
+Containment Reactor Plating	Захисна обшивка реактора
+Coolant	Охолоджувач
+Coolant Bucket	Відро охолоджувача
+Coolant Cell	Капсула охолоджувача
+Copper Boiler	Мідний котел
+Copper Cable	Мідний кабель
+Copper Ingot	Мідний злиток
+Copper Item Casing	Мідний корпус предмета
+Copper Ore Berry	Мідна рудоягода
+Copper Plate	Мідна пластина
+Corium	Коріум
+Cornflower	Волошка
+Corpse Plant	Трупна квітка
+Creative Generator	Креативний генератор
+Creeper Weed	Кріпер-бур'ян
+Creosote	Креозот
+Creosote Bucket	Відро креозоту
+Creosote Cell	Капсула креозоту
+Crop Analyzer	Аналізатор рослин
+Crop Harvester	Збирач урожаю
+Crop Stick	Підпірка для рослин
+Crop-matron	Агроматрона
+Crowbar	Лом
+Crushed Copper Ore	Подрібнена мідна руда
+Crushed Gold Ore	Подрібнена золота руда
+Crushed Iron Ore	Подрібнена залізна руда
+Crushed Lead Ore	Подрібнена свинцева руда
+Crushed Silver Ore	Подрібнена срібна руда
+Crushed Tin Ore	Подрібнена олов'яна руда
+Crushed Uranium Ore	Подрібнена уранова руда
+Crystal Memory	Кристалічна пам'ять
+Crystal Memory (raw)	Кристалічна пам'ять (сира)
+Cutter	Різак
+Cyan Painter	Бірюзовий пензель
+Cyazint	Ціазинт
+Dandelion	Кульбаба
+Dark Coffee	Чорна кава
+Dark Grey Painter	Темно-сірий пензель
+Dark Oak Tree Sapling	Саджанець темного дуба
+Debug Item	Предмет налагодження
+Deepslate Lead Ore	Глибосланцева свинцева руда
+Deepslate Tin Ore	Глибосланцева олов'яна руда
+Deepslate Uranium Ore	Глибосланцева уранова руда
+Dense Bronze Plate	Щільна бронзова пластина
+Dense Copper Plate	Щільна мідна пластина
+Dense Gold Plate	Щільна золота пластина
+Dense Iron Plate	Щільна залізна пластина
+Dense Lapis Lazuli Plate	Щільна лазуритова пластина
+Dense Lead Plate	Щільна свинцева пластина
+Dense Obsidian Plate	Щільна обсидіанова пластина
+Dense Steel Plate	Щільна сталева пластина
+Dense Tin Plate	Щільна олов'яна пластина
+Depleted Isotope Cell	Капсула виснаженого ізотопу
+Diamond Berry	Алмазна ягода
+Diamond Cutting Blade	Алмазне різальне лезо
+Diamond Drill	Алмазний бур
+Distilled Water	Дистильована вода
+Distilled Water Bucket	Відро дистильованої води
+Distilled Water Cell	Капсула дистильованої води
+Dual Fuel Rod (Depleted MOX)	Подвійний паливний стрижень (виснажений MOX)
+Dual Fuel Rod (Depleted Uranium)	Подвійний паливний стрижень (виснажений уран)
+Dual Fuel Rod (MOX)	Подвійний паливний стрижень (MOX)
+Dual Fuel Rod (Uranium)	Подвійний паливний стрижень (уран)
+Dynamite	Динаміт
+Dynamite-O-Mote	Пульт динаміту
+EU-Detector Cable	Кабель-детектор EU
+EU-Reader	Зчитувач EU
+EU-Splitter Cable	Кабель-розгалужувач EU
+EV-Transformer	EV-трансформатор
+Eating Plant	Рослина-поїдач
+Egg Plant	Яєчна рослина
+Ejector Upgrade	Покращення виштовхування
+Electric Boat	Електричний човен
+Electric Furnace	Електропіч
+Electric Heater	Електронагрівач
+Electric Hoe	Електромотика
+Electric Jetpack	Електричний реактивний ранець
+Electric Motor	Електромотор
+Electric Sorting Machine	Електросортувальник
+Electric Treetap	Електрокраник
+Electric Wrench	Електроключ
+Electrolyzed Water Cell	Капсула електролізованої води
+Electrolyzer	Електролізер
+Electronic Circuit	Електросхема
+Empty Cell	Порожня капсула
+Ender Blossom	Квітка Енду
+Ender Pearl Dust	Пил перлини Енду
+Energium Dust	Енергієвий пил
+Energy Crystal	Енергетичний кристал
+Energy Storage Upgrade	Покращення накопичення енергії
+Energy-O-Mat	Енергомат
+Energypack	Енергоранець
+Enriched Uranium Nuclear Fuel	Збагачене уранове ядерне паливо
+Extractor	Екстрактор
+Fermenter	Ферментер
+Filled Fuel Can	Заповнена каністра
+Fluid Distributor	Розподільник рідини
+Fluid Ejector Upgrade	Покращення виштовхування рідини
+Fluid Pulling Upgrade	Покращення втягування рідини
+Fluid Regulator	Регулятор рідини
+Fluid/Solid Canning Machine	Консервна машина (рідини/тверді)
+Forge Hammer	Ковальський молот
+Frequency Transmitter	Частотний передавач
+Fuel Rod (Depleted MOX)	Паливний стрижень (виснажений MOX)
+Fuel Rod (Depleted Uranium)	Паливний стрижень (виснажений уран)
+Fuel Rod (Empty)	Паливний стрижень (порожній)
+Fuel Rod (Lithium)	Паливний стрижень (літій)
+Fuel Rod (MOX)	Паливний стрижень (MOX)
+Fuel Rod (Tritium)	Паливний стрижень (тритій)
+Fuel Rod (Uranium)	Паливний стрижень (уран)
+Generator	Генератор
+Geothermal Generator	Геотермальний генератор
+Glass Fibre Cable	Скловолоконний кабель
+Gold Cable	Золотий кабель
+Gold Item Casing	Золотий корпус предмета
+Gold Ore Berry	Золота рудоягода
+Gold Plate	Золота пластина
+Green Painter	Зелений пензель
+Grin Powder	Порошок усмішки
+H. Coal	Гідр. вугілля
+HV Cable	ВН-кабель
+HV-Transformer	HV-трансформатор
+Hazmat Suit	Захисний костюм
+Hazmat Suit Leggings	Поножі захисного костюма
+Heat Conductor	Теплопровідник
+Heat Exchanger	Теплообмінник
+Heat Vent	Тепловідвід
+Heat-Capacity Reactor Plating	Теплоємна обшивка реактора
+Heating Cell	Нагрівальна капсула
+Heavy Water	Важка вода
+Heavy Water Bucket	Відро важкої води
+Heavy Water Cell	Капсула важкої води
+Hot Coolant	Гарячий охолоджувач
+Hot Coolant Bucket	Відро гарячого охолоджувача
+Hot Coolant Cell	Капсула гарячого охолоджувача
+Hot Water	Гаряча вода
+Hot Water Bucket	Відро гарячої води
+Hot Water Cell	Капсула гарячої води
+Hydrated Coal Dust	Зволожений вугільний пил
+Hydrated Tin Dust	Зволожений олов'яний пил
+Hydration Cell	Зволожувальна капсула
+Hydrogen	Водень
+Hydrogen Bucket	Відро водню
+Hydrogen Cell	Капсула водню
+IC2 Combat	IC2: бій
+IC2 Farming	IC2: фермерство
+IC2 General	IC2: загальне
+IC2 Generators And Wiring	IC2: генератори й дроти
+IC2 Machines	IC2: машини
+IC2 Materials	IC2: матеріали
+IC2 Reactor	IC2: реактор
+IC2 Tools And Utilities	IC2: інструменти
+Induction Furnace	Індукційна піч
+Industrial Credit	Промисловий кредит
+Industrial Diamond	Промисловий алмаз
+Industrial TNT	Промисловий динаміт
+Industrial Workbench	Промисловий верстак
+Insulated Copper Cable	Ізольований мідний кабель
+Insulated Gold Cable	Ізольований золотий кабель
+Insulated HV Cable	Ізольований ВН-кабель
+Insulated Tin Cable	Ізольований олов'яний кабель
+Iodine	Йод
+Iodine Tablet	Таблетка йоду
+Iridium Drill	Іридієвий бур
+Iridium Neutron Reflector	Іридієвий відбивач нейтронів
+Iridium Ore	Іридієва руда
+Iridium Reinforced Plate	Іридієва пластина
+Iridium Shard	Уламок іридію
+Iridium Storage Box	Іридієвий ящик
+Iridium Tank	Іридієвий бак
+Iron Cutting Blade	Залізне різальне лезо
+Iron Fence	Залізний паркан
+Iron Furnace	Залізна піч
+Iron Item Casing	Залізний корпус предмета
+Iron Ore Berry	Залізна рудоягода
+Iron Plate	Залізна пластина
+Iron Rotor Blade	Залізна лопать ротора
+Iron Storage Box	Залізний ящик
+Item Buffer	Буфер предметів
+Jetpack	Реактивний ранець
+Jetpack Attachment Plate	Кріплення реактивного ранця
+Jungle Tree Sapling	Саджанець тропічного дерева
+Kinetic Gearbox Rotor (Bronze)	Ротор кінетичного редуктора (бронза)
+Kinetic Gearbox Rotor (Carbon)	Ротор кінетичного редуктора (вуглець)
+Kinetic Gearbox Rotor (Iron)	Ротор кінетичного редуктора (залізо)
+Kinetic Gearbox Rotor (Steel)	Ротор кінетичного редуктора (сталь)
+Kinetic Gearbox Rotor (Wood)	Ротор кінетичного редуктора (дерево)
+LV-Transformer	LV-трансформатор
+LZH-Condensator	LZH-конденсатор
+Lapis Lazuli Dust	Лазуритовий пил
+Lapis Lazuli Plate	Лазуритова пластина
+Lapotron Crystal	Лапотронний кристал
+Lappack	Лаппак
+Large Bronze Fluid Pipe	Велика бронзова труба
+Large Steel Fluid Pipe	Велика сталева труба
+Lava Cell	Капсула лави
+Lead Block	Свинцевий блок
+Lead Dust	Свинцевий пил
+Lead Ingot	Свинцевий злиток
+Lead Item Casing	Свинцевий корпус предмета
+Lead Ore	Свинцева руда
+Lead Ore Berry	Свинцева рудоягода
+Lead Plate	Свинцева пластина
+Light Blue Painter	Блакитний пензель
+Light Grey Painter	Світло-сірий пензель
+Lily of the Valley	Конвалія
+Lime Painter	Лаймовий пензель
+Liquid Fuel Firebox	Топка на рідкому паливі
+Liquid Heat Exchanger	Рідинний теплообмінник
+Lithium Dust	Літієвий пил
+Luminator	Люмінатор
+MFE	MFE
+MFSU	MFSU
+MFSU Upgrade Kit	Набір покращення до MFSU
+MOX Nuclear Fuel	Ядерне паливо MOX
+MV-Transformer	MV-трансформатор
+Macerator	Подрібнювач
+Magenta Painter	Пурпуровий пензель
+Magnetizer	Магнетизатор
+Manual Kinetic Generator	Ручний кінетичний генератор
+Matter Fabricator	Масфабрикатор
+Meat Rose	М'ясна троянда
+Medium Bronze Fluid Pipe	Середня бронзова труба
+Medium Steel Fluid Pipe	Середня сталева труба
+Metal Former	Металоформувач
+Milk Wart	Молочна бородавка
+Miner	Бур-шахтар
+Mining Drill	Бур
+Mining Filter Upgrade	Покращення фільтра видобутку
+Mining Laser	Гірничий лазер
+Mining Pipe	Бурова труба
+Mixed Metal Ingot	Змішаний злиток
+Nano Saber	Наношабля
+NanoSuit Bodyarmor	Нанонагрудник
+NanoSuit Boots	Наночоботи
+NanoSuit Helmet	Наношолом
+NanoSuit Leggings	Нанопоножі
+Near-depleted Uranium	Майже виснажений уран
+Netherrack Dust	Пил пекельного каменю
+Neutron Reflector	Відбивач нейтронів
+Night Vision Goggles	Окуляри нічного бачення
+Nuclear Reactor	Ядерний реактор
+Nuke	Ядерна бомба
+OD Scanner	OD-сканер
+OV Scanner	OV-сканер
+Oak Tree Sapling	Саджанець дуба
+Obscurator	Маскувальник
+Obscured Wall	Замаскована стіна
+Obsidian Plate	Обсидіанова пластина
+Oil Berries	Нафтоягоди
+Oil Berry	Нафтоягода
+Orange Painter	Помаранчевий пензель
+Orange Tulip	Помаранчевий тюльпан
+Ore Washing Plant	Рудопромивна установка
+Overclocked Heat Vent	Розігнаний тепловідвід
+Overclocker Upgrade	Покращення розгону
+Oxeye Daisy	Ромашка
+Oxygen	Кисень
+Oxygen Bucket	Відро кисню
+Oxygen Cell	Капсула кисню
+Pahoehoe Lava	Лава пахоехое
+Pahoehoe Lava Bucket	Відро лави пахоехое
+Pahoehoe Lava Cell	Капсула лави пахоехое
+Painter	Пензель
+Pattern Storage	Сховище шаблонів
+Pellets of Enriched Uranium Nuclear Fuel	Гранули збагаченого уранового палива
+Pellets of RTG Fuel	Гранули палива РІТЕГ
+Personal Chest	Особиста скриня
+Personal Safe	Особистий сейф
+Pink Painter	Рожевий пензель
+Pink Tulip	Рожевий тюльпан
+Pitcher Plant	Глечикова рослина
+Plantball	Рослинна куля
+Plutonium	Плутоній
+Poppy	Мак
+Power Unit	Енергоблок
+Primed ITNT	Підпалений промисловий динаміт
+Primed Nuke	Підпалена ядерна бомба
+Pulling Upgrade	Покращення втягування
+Pump	Насос
+Pump Attachment (LV)	Насосна насадка (LV)
+Pump Attachment (MV)	Насосна насадка (MV)
+Pumpkin	Гарбуз
+Purified Crushed Copper Ore	Очищена подрібнена мідна руда
+Purified Crushed Gold Ore	Очищена подрібнена золота руда
+Purified Crushed Iron Ore	Очищена подрібнена залізна руда
+Purified Crushed Lead Ore	Очищена подрібнена свинцева руда
+Purified Crushed Silver Ore	Очищена подрібнена срібна руда
+Purified Crushed Tin Ore	Очищена подрібнена олов'яна руда
+Purified Crushed Uranium Ore	Очищена подрібнена уранова руда
+Purified Crushed Zinc Ore	Очищена подрібнена цинкова руда
+Purple Painter	Фіолетовий пензель
+Quad Fuel Rod (Depleted MOX)	Четверний паливний стрижень (виснажений MOX)
+Quad Fuel Rod (Depleted Uranium)	Четверний паливний стрижень (виснажений уран)
+Quad Fuel Rod (MOX)	Четверний паливний стрижень (MOX)
+Quad Fuel Rod (Uranium)	Четверний паливний стрижень (уран)
+QuantumSuit Bodyarmor	Квантовий нагрудник
+QuantumSuit Boots	Квантові чоботи
+QuantumSuit Helmet	Квантовий шолом
+QuantumSuit Leggings	Квантові поножі
+RE-Battery	RE-батарея
+RSH-Condensator	RSH-конденсатор
+Radiation	Радіація
+Radioisotope Heat Generator	Радіоізотопний теплогенератор
+Radioisotope Thermoelectric Generator	Радіоізотопний термоелектричний генератор
+Raw Carbon Fibre	Сире вуглецеве волокно
+Raw Carbon Mesh	Сира вуглецева сітка
+Raw Lead	Сирий свинець
+Raw Lead Block	Блок сирого свинцю
+Raw Tin	Сире олово
+Raw Tin Block	Блок сирого олова
+Raw Uranium	Сирий уран
+Raw Uranium Block	Блок сирого урану
+Re-Enriched Uranium	Перезбагачений уран
+Reactor Access Hatch	Люк доступу до реактора
+Reactor Chamber	Реакторна камера
+Reactor Coolant Injector (LZH)	Інжектор охолоджувача (LZH)
+Reactor Coolant Injector (RSH)	Інжектор охолоджувача (RSH)
+Reactor Fluid Port	Рідинний порт реактора
+Reactor Heat Exchanger	Теплообмінник реактора
+Reactor Heat Vent	Тепловідвід реактора
+Reactor Plating	Обшивка реактора
+Reactor Pressure Vessel	Корпус високого тиску реактора
+Reactor Redstone Port	Редстоун-порт реактора
+Recycler	Сміттєпереробник
+Red Mushroom	Червоний гриб
+Red Painter	Червоний пензель
+Red Tulip	Червоний тюльпан
+Red Wheat	Червона пшениця
+Redstone Signal Inverter Upgrade	Покращення інверсії редстоуну
+Refined Uranium	Очищений уран
+Refractory Bricks	Вогнетривка цегла
+Remote Interface Upgrade	Покращення віддаленого інтерфейсу
+Replicator	Реплікатор
+Resin Sheet	Лист смоли
+Rubber	Гума
+Rubber Boat	Гумовий човен
+Rubber Boots	Гумові чоботи
+Rubber Button	Каучукова кнопка
+Rubber Door	Каучукові двері
+Rubber Fence	Каучуковий паркан
+Rubber Fence Gate	Каучукова хвіртка
+Rubber Planks	Каучукові дошки
+Rubber Pressure Plate	Каучукова натискна плита
+Rubber Sheet	Гумовий лист
+Rubber Sign	Каучукова табличка
+Rubber Slab	Каучукова плита
+Rubber Stairs	Каучукові сходи
+Rubber Trapdoor	Каучуковий люк
+Rubber Tree Leaves	Листя каучукового дерева
+Rubber Tree Sapling	Саджанець каучукового дерева
+Rubber Wood	Каучукова деревина
+Rum	Ром
+Scanner	Сканер
+Scrap	Скрап
+Scrap Box	Скрап-бокс
+Scuba Helmet	Шолом аквалангіста
+Seed Bag	Мішечок насіння
+Semifluid Generator	Генератор на напіврідкому паливі
+Shaft (Bronze)	Вал (бронза)
+Shaft (Iron)	Вал (залізо)
+Shaft (Steel)	Вал (сталь)
+Silicon Dioxide	Діоксид кремнію
+Silver Block	Срібний блок
+Silver Ore Berry	Срібна рудоягода
+Single-Use Battery	Одноразова батарея
+Slag	Шлак
+Slime Plant	Слизова рослина
+Small Bronze Fluid Pipe	Мала бронзова труба
+Small Diamond Dust	Дрібка алмазного пилу
+Small Power Unit	Малий енергоблок
+Small Steel Fluid Pipe	Мала сталева труба
+Solar Distiller	Сонячний дистилятор
+Solar Helmet	Сонячний шолом
+Solar Panel	Сонячна панель
+Solid Canning Machine	Консервна машина
+Solid Fuel Firebox	Топка на твердому паливі
+Spider Nip	Павучий ласощ
+Spruce Tree Sapling	Саджанець ялини
+Static Boots	Антистатичні чоботи
+Steam	Пара
+Steam Boiler	Паровий котел
+Steam Bucket	Відро пари
+Steam Cell	Капсула пари
+Steam Re-Pressurizer	Паровий ущільнювач
+Steam Repressurizer	Паровий ущільнювач
+Steam Turbine	Парова турбіна
+Steam Turbine Blade	Лопать парової турбіни
+Steel Block	Сталевий блок
+Steel Cutting Blade	Сталеве різальне лезо
+Steel Hopper	Сталева лійка
+Steel Ingot	Сталевий злиток
+Steel Item Casing	Сталевий корпус предмета
+Steel Plate	Сталева пластина
+Steel Rotor Blade	Сталева лопать ротора
+Steel Storage Box	Сталевий ящик
+Steel Tank	Сталевий бак
+Sticky Dynamite	Липкий динаміт
+Sticky Reed	Липкий очерет
+Sticky Resin	Липка смола
+Stirling Generator	Генератор Стірлінга
+Stirling Kinetic Generator	Кінетичний генератор Стірлінга
+Stone Dust	Кам'яний пил
+Stone Mug	Кам'яний кухоль
+Stripped Rubber Log	Обтесана каучукова колода
+Stripped Rubber Wood	Обтесана каучукова деревина
+Sulfur Dust	Сірчаний пил
+Superheated Steam	Перегріта пара
+Superheated Steam Bucket	Відро перегрітої пари
+Superheated Steam Cell	Капсула перегрітої пари
+TFBP - Chilling	Шаблон тераформера: охолодження
+TFBP - Cultivation	Шаблон тераформера: культивація
+TFBP - Desertification	Шаблон тераформера: опустелювання
+TFBP - Empty	Шаблон тераформера: порожній
+TFBP - Flatification	Шаблон тераформера: вирівнювання
+TFBP - Irrigation	Шаблон тераформера: зрошення
+TFBP - Mushroom	Шаблон тераформера: гриби
+Tear Stalks	Сльозостебла
+Teleporter	Телепорт
+Terra Wart	Земляна бородавка
+Terraformer	Тераформер
+Tesla Coil	Котушка Тесли
+Thermal Centrifuge	Термоцентрифуга
+Thick Neutron Reflector	Товстий відбивач нейтронів
+Tin Block	Олов'яний блок
+Tin Cable	Олов'яний кабель
+Tin Can	Бляшанка
+Tin Dust	Олов'яний пил
+Tin Ingot	Олов'яний злиток
+Tin Item Casing	Олов'яний корпус предмета
+Tin Ore	Олов'яна руда
+Tin Ore Berry	Олов'яна рудоягода
+Tin Plate	Олов'яна пластина
+Tiny Bronze Fluid Pipe	Крихітна бронзова труба
+Tiny Pile of Bronze Dust	Дрібка бронзового пилу
+Tiny Pile of Copper Dust	Дрібка мідного пилу
+Tiny Pile of Gold Dust	Дрібка золотого пилу
+Tiny Pile of Iron Dust	Дрібка залізного пилу
+Tiny Pile of Lapis Dust	Дрібка лазуритового пилу
+Tiny Pile of Lead Dust	Дрібка свинцевого пилу
+Tiny Pile of Lithium Dust	Дрібка літієвого пилу
+Tiny Pile of Obsidian Dust	Дрібка обсидіанового пилу
+Tiny Pile of Plutonium	Дрібка плутонію
+Tiny Pile of Silver Dust	Дрібка срібного пилу
+Tiny Pile of Sulfur Dust	Дрібка сірчаного пилу
+Tiny Pile of Tin Dust	Дрібка олов'яного пилу
+Tiny Pile of Uranium 235	Дрібка урану-235
+Tiny Pile of Uranium 238	Дрібка урану-238
+Tiny Pile of Zinc Dust	Дрібка цинкового пилу
+Tiny Steel Fluid Pipe	Крихітна сталева труба
+Tool Box	Ящик для інструментів
+Torchflower	Смолоскипник
+Trade-O-Mat	Торгомат
+Trade-o-mat	Торгомат
+Transformer Upgrade	Покращення трансформатора
+Treetap	Краник
+Tulip	Тюльпан
+UU Assembly Bench	Верстак UU-збирання
+UU Matter	UU-матерія
+UU Matter Bucket	Відро UU-матерії
+UU Matter Cell	Капсула UU-матерії
+UU-Matter	UU-матерія
+Universal Fluid Cell	Універсальна рідинна капсула
+Uranium 235	Уран-235
+Uranium 238	Уран-238
+Uranium Block	Урановий блок
+Uranium Ore	Уранова руда
+Venom ilia	Отруйниця
+Water Cell	Капсула води
+Water Mill	Водяний млин
+Water Turbine	Водяна турбіна
+Watermelon	Кавун
+Weed	Бур'ян
+Weed EX	Гербіцид
+Weed Ex	Гербіцид
+Weed Ex Bucket	Відро гербіциду
+Weed-EX	Гербіцид
+Weeding Trowel	Прополювальна лопатка
+Weighted Fluid Distributor	Зважений розподільник рідини
+Weighted Item Distributor	Зважений розподільник предметів
+White Painter	Білий пензель
+White Tulip	Білий тюльпан
+Wind Mill	Вітряк
+Wind Turbine	Вітрова турбіна
+Windmeter	Вітромір
+Wither Reed	Очерет візера
+Wither Rose	Троянда візера
+Wood Rotor Blade	Дерев'яна лопать ротора
+Wooden Storage Box	Дерев'яний ящик
+Wool Sheet	Вовняний лист
+Wrench	Гайковий ключ
+Yellow Painter	Жовтий пензель
+Zinc Dust	Цинковий пил
+Advanced Chainsaw	Покращена бензопила
+Advanced Diamond Drill	Покращений алмазний бур
+Advanced Electric Jetpack	Покращений електричний реактивний ранець
+Advanced Iridium Drill	Покращений іридієвий бур
+Advanced Lappack	Покращений лаппак
+Advanced Liquid Sensor Card	Покращена карта датчика рідини
+Advanced Liquid Sensor Kit	Покращений набір датчика рідини
+Advanced Nano Boots	Покращені наночоботи
+Advanced Nano Chestplate	Покращений нанонагрудник
+Advanced Nano Leggings	Покращені нанопоножі
+Advanced Quantum Boots	Покращені квантові чоботи
+Advanced Quantum Leggings	Покращені квантові поножі
+Advanced Solar Helmet	Покращений сонячний шолом
+Advanced Solar Panel	Покращена сонячна панель
+Average Energy Counter	Середній лічильник енергії
+Basic Circuit	Базова схема
+Card Holder	Тримач карт
+Centrifuge Extractor	Центрифужний екстрактор
+Color Upgrade	Покращення кольору
+Compacting Recycler	Ущільнювальний сміттєпереробник
+Cooling Core	Охолоджувальне ядро
+Counter Sensor Card	Карта датчика лічильника
+Counter Sensor Kit	Набір датчика лічильника
+Digital Thermometer	Цифровий термометр
+Electric Engine	Електродвигун
+Energy Array Card	Карта енергомасиву
+Energy Counter	Лічильник енергії
+Energy Sensor Card	Карта енергодатчика
+Energy Sensor Kit	Набір енергодатчика
+Engine Booster	Прискорювач двигуна
+Enriched Sunnarium	Збагачений санаріум
+Enriched Sunnarium Alloy	Сплав збагаченого санаріуму
+Extreme Reactors Sensor Card	Карта датчика Extreme Reactors
+Extreme Reactors Sensor Kit	Набір датчика Extreme Reactors
+GraviTool	Гравітул
+Gravitational Chestplate	Гравітаційний нагрудник
+Gravitational Engine	Гравітаційний двигун
+Holographic Information Panel	Голографічна інформаційна панель
+Holographic Panel Extender	Розширювач голографічної панелі
+Hotbar magnet	Магніт панелі швидкого доступу
+Howler Alarm	Сирена-ревун
+Hybrid Solar Helmet	Гібридний сонячний шолом
+Hybrid Solar Panel	Гібридна сонячна панель
+IC2R Addons	IC2R: доповнення
+IC2R Addons: BuildCraft	IC2R: доповнення — BuildCraft
+IC2R Addons: Equipment	IC2R: доповнення — спорядження
+IC2R Addons: Nuclear Control	IC2R: доповнення — Nuclear Control
+IC2R Addons: Solar Technology	IC2R: доповнення — сонячні технології
+IC2R Sensor Card	Карта датчика IC2R
+IC2R Sensor Kit	Набір датчика IC2R
+Impellerized Roller	Імпелерний валок
+Industrial Alarm	Промислова сирена
+Iridium Ingot	Іридієвий злиток
+Iridium-Iron Plate	Іридієво-залізна пластина
+Irradiant Glass Pane	Сяйна скляна панель
+Irradiant Uranium	Сяйний уран
+Kit Assembler	Збирач наборів
+Liquescent Extruder	Плавильний екструдер
+Liquid Array Card	Карта рідинного масиву
+Liquid Sensor Card	Карта датчика рідини
+Liquid Sensor Kit	Набір датчика рідини
+MT Core	Ядро MT
+Machine Casing	Корпус машини
+Magnet	Магніт
+Magnetron	Магнетрон
+Molecular Transformer	Молекулярний трансформатор
+Orange Lamp	Помаранчева лампа
+Portable Panel	Портативна панель
+Quantum Generator	Квантовий генератор
+Quantum Solar Helmet	Квантовий сонячний шолом
+Quantum Solar Panel	Квантова сонячна панель
+Radio Transmitter	Радіопередавач
+Range Trigger	Пороговий тригер
+Range Upgrade	Покращення радіуса
+Relocator	Релокатор
+Relocator Orb	Сфера релокатора
+Relocator Portal	Портал релокатора
+Remote Inventory Card	Карта віддаленого інвентаря
+Remote Inventory Kit	Набір віддаленого інвентаря
+Remote Redstone Card	Карта віддаленого редстоуну
+Remote Redstone Kit	Набір віддаленого редстоуну
+Remote Thermal Monitor	Віддалений термомонітор
+Remote Toggle Card	Карта віддаленого перемикача
+Remote Toggle Kit	Набір віддаленого перемикача
+Rotary Macerator	Обертовий подрібнювач
+Sharpened Iron Plate	Загострена залізна пластина
+Singularity Compressor	Сингулярний компресор
+Strong String	Міцна нитка
+Sunnarium	Санаріум
+Sunnarium Alloy	Сплав санаріуму
+Sunnarium Part	Частинка санаріуму
+Superconductor	Надпровідник
+Superconductor Cover	Оболонка надпровідника
+Text Card	Текстова карта
+Thermal Monitor	Термомонітор
+Thermal Washer	Термопромивач
+Thermometer	Термометр
+Time Card	Карта часу
+Timer	Таймер
+Toggle armor engine	Перемкнути двигун броні
+Touch Screen Upgrade	Покращення сенсорного екрана
+Ultimate Hybrid Solar Helmet	Ультимативний гібридний сонячний шолом
+Ultimate Hybrid Solar Panel	Ультимативна гібридна сонячна панель
+Ultimate Lappack	Ультимативний лаппак
+Uranium Ingot	Урановий злиток
+Vajra	Ваджра
+Vajra Core	Ядро ваджри
+Voider	Знищувач
+Water-Jet Cutter	Гідроабразивний різак
+Web Upgrade	Покращення павутини
+White Lamp	Біла лампа
+Locometal End Ladder	Торцева локометалева драбина
+Locometal Flywheel	Локометалевий маховик
+Locometal Rung Ladder	Локометалева драбина зі щаблями
+Locometal Trapdoor	Локометалевий люк
+Locometal Vent	Локометалева вентиляційна решітка
