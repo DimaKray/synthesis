@@ -1,0 +1,825 @@
+(Empty) Fuel Can	Каністра (порожня)
+(Filled) Tin Can	Бляшанка (повна)
+10k Coolant Cell	Охолоджувальна капсула 10k
+2x Ins. Gold Cable	Золотий кабель, 2× ізоляція
+2x Ins. HV Cable	ВН-кабель, 2× ізоляція
+30k Coolant Cell	Охолоджувальна капсула 30k
+3x Ins. HV Cable	ВН-кабель, 3× ізоляція
+60k Coolant Cell	Охолоджувальна капсула 60k
+Acacia Tree Sapling	Саджанець акації
+Adv.Batpack	Покращений батпак
+Advanced Alloy	Покращений сплав
+Advanced Charging Battery	Покращена зарядна батарея
+Advanced Circuit	Покращена схема
+Advanced Ejector Upgrade	Покращене покращення виштовхування
+Advanced Heat Exchanger	Покращений теплообмінник
+Advanced Heat Vent	Покращений тепловідвід
+Advanced Machine Casing	Покращений корпус машини
+Advanced Miner	Покращений бур-шахтар
+Advanced Pulling Upgrade	Покращене покращення втягування
+Advanced RE-Battery	Покращена RE-батарея
+Air	Повітря
+Air Bucket	Відро повітря
+Air Compressor	Повітряний компресор
+Allium	Цибуля
+Ashes	Попіл
+Azure Bluet	Блакитна гостянка
+Basic Machine Casing	Корпус машини
+Bat-box	Батбокс
+BatBox	Батбокс
+BatPack	Батпак
+Batch Crafter	Пакетний верстак
+Bio Cell	Біокапсула
+Bio Chaff	Біополова
+Biofuel Cell	Капсула біопалива
+Biogas	Біогаз
+Biogas Bucket	Відро біогазу
+Biogas Cell	Капсула біогазу
+Biomass	Біомаса
+Biomass Bucket	Відро біомаси
+Biomass Cell	Капсула біомаси
+Birch Tree Sapling	Саджанець берези
+Black Painter	Чорний пензель
+Blackthorn	Терен
+Blast Furnace	Доменна піч
+Blaze Reed	Очерет іфрита
+Block Cutting Machine	Блокорізальна машина
+Blue Orchid	Синя орхідея
+Blue Painter	Синій пензель
+Bob's Yer Uncle Ranks Berries	Ягоди «Бобів дядько»
+Bob's Yer Uncle Ranks Berry	Ягода «Бобів дядько»
+Booze Barrel	Бочка для браги
+Booze Mug	Кухоль браги
+Bottling Plant	Розливна установка
+Broken Rubber Boat	Пробитий гумовий човен
+Bronze Axe	Бронзова сокира
+Bronze Block	Бронзовий блок
+Bronze Boots	Бронзові чоботи
+Bronze Chestplate	Бронзовий нагрудник
+Bronze Dust	Бронзовий пил
+Bronze Helmet	Бронзовий шолом
+Bronze Hoe	Бронзова мотика
+Bronze Item Casing	Бронзовий корпус предмета
+Bronze Leggings	Бронзові поножі
+Bronze Pickaxe	Бронзова кирка
+Bronze Plate	Бронзова пластина
+Bronze Rotor Blade	Бронзова лопать ротора
+Bronze Shovel	Бронзова лопата
+Bronze Storage Box	Бронзовий ящик
+Bronze Sword	Бронзовий меч
+Bronze Tank	Бронзовий бак
+Brown Mushroom	Коричневий гриб
+Brown Painter	Коричневий пензель
+CESU	CESU
+CF Backpack	Ранець будівельної піни
+CF Pellet	Гранула будівельної піни
+CF Powder	Порошок будівельної піни
+CF Sprayer	Розпилювач будівельної піни
+Carbon Boat	Вуглецевий човен
+Carbon Plate	Вуглецева пластина
+Carbon Rotor Blade	Вуглецева лопать ротора
+Chainsaw	Бензопила
+Charge Pad (BatBox)	Зарядна платформа (батбокс)
+Charge Pad (CESU)	Зарядна платформа (CESU)
+Charge Pad (MFE)	Зарядна платформа (MFE)
+Charge Pad (MFSU)	Зарядна платформа (MFSU)
+Charging Energy Crystal	Зарядний енергокристал
+Charging Lapotron Crystal	Зарядний лапотронний кристал
+Charging RE Battery	Зарядна RE-батарея
+Cherry Sapling	Саджанець вишні
+Chunk Loader	Завантажувач чанків
+Clay Dust	Глиняний пил
+Coal Ball	Вугільна куля
+Coal Chunk	Вугільна брила
+Coal Coke	Кокс
+Coffee	Кава
+Coffee Powder	Мелена кава
+Coil	Котушка
+Coke Kiln	Коксова піч
+Coke Kiln Grate	Решітка коксової печі
+Coke Kiln Hatch	Люк коксової печі
+Cold Coffee	Холодна кава
+Compact Item Buffer	Компактний буфер предметів
+Component Heat Exchanger	Компонентний теплообмінник
+Component Heat Vent	Компонентний тепловідвід
+Composite Vest	Композитний жилет
+Compressed Air	Стиснене повітря
+Compressed Air Cell	Капсула стисненого повітря
+Compressed Coal Ball	Стиснена вугільна куля
+Compressed Plants	Стиснені рослини
+Compressor	Компресор
+Condenser	Конденсатор пари
+Construction Foam	Будівельна піна
+Construction Foam Bucket	Відро будівельної піни
+Construction Foam Cell	Капсула будівельної піни
+Construction Foam Wall (Black)	Стіна з піни (чорна)
+Construction Foam Wall (Blue)	Стіна з піни (синя)
+Construction Foam Wall (Brown)	Стіна з піни (коричнева)
+Construction Foam Wall (Cyan)	Стіна з піни (бірюзова)
+Construction Foam Wall (Gray)	Стіна з піни (сіра)
+Construction Foam Wall (Green)	Стіна з піни (зелена)
+Construction Foam Wall (Light Blue)	Стіна з піни (блакитна)
+Construction Foam Wall (Light Gray)	Стіна з піни (світло-сіра)
+Construction Foam Wall (Lime)	Стіна з піни (лаймова)
+Construction Foam Wall (Magenta)	Стіна з піни (пурпурова)
+Construction Foam Wall (Orange)	Стіна з піни (помаранчева)
+Construction Foam Wall (Pink)	Стіна з піни (рожева)
+Construction Foam Wall (Purple)	Стіна з піни (фіолетова)
+Construction Foam Wall (Red)	Стіна з піни (червона)
+Construction Foam Wall (White)	Стіна з піни (біла)
+Construction Foam Wall (Yellow)	Стіна з піни (жовта)
+Containment Box	Захисний ящик
+Containment Reactor Plating	Захисна обшивка реактора
+Coolant	Охолоджувач
+Coolant Bucket	Відро охолоджувача
+Coolant Cell	Капсула охолоджувача
+Copper Boiler	Мідний котел
+Copper Cable	Мідний кабель
+Copper Ingot	Мідний злиток
+Copper Item Casing	Мідний корпус предмета
+Copper Ore Berry	Мідна рудоягода
+Copper Plate	Мідна пластина
+Corium	Коріум
+Cornflower	Волошка
+Corpse Plant	Трупна квітка
+Creative Generator	Креативний генератор
+Creeper Weed	Кріпер-бур'ян
+Creosote	Креозот
+Creosote Bucket	Відро креозоту
+Creosote Cell	Капсула креозоту
+Crop Analyzer	Аналізатор рослин
+Crop Harvester	Збирач урожаю
+Crop Stick	Підпірка для рослин
+Crop-matron	Агроматрона
+Crowbar	Лом
+Crushed Copper Ore	Подрібнена мідна руда
+Crushed Gold Ore	Подрібнена золота руда
+Crushed Iron Ore	Подрібнена залізна руда
+Crushed Lead Ore	Подрібнена свинцева руда
+Crushed Silver Ore	Подрібнена срібна руда
+Crushed Tin Ore	Подрібнена олов'яна руда
+Crushed Uranium Ore	Подрібнена уранова руда
+Crystal Memory	Кристалічна пам'ять
+Crystal Memory (raw)	Кристалічна пам'ять (сира)
+Cutter	Різак
+Cyan Painter	Бірюзовий пензель
+Cyazint	Ціазинт
+Dandelion	Кульбаба
+Dark Coffee	Чорна кава
+Dark Grey Painter	Темно-сірий пензель
+Dark Oak Tree Sapling	Саджанець темного дуба
+Debug Item	Предмет налагодження
+Deepslate Lead Ore	Глибосланцева свинцева руда
+Deepslate Tin Ore	Глибосланцева олов'яна руда
+Deepslate Uranium Ore	Глибосланцева уранова руда
+Dense Bronze Plate	Щільна бронзова пластина
+Dense Copper Plate	Щільна мідна пластина
+Dense Gold Plate	Щільна золота пластина
+Dense Iron Plate	Щільна залізна пластина
+Dense Lapis Lazuli Plate	Щільна лазуритова пластина
+Dense Lead Plate	Щільна свинцева пластина
+Dense Obsidian Plate	Щільна обсидіанова пластина
+Dense Steel Plate	Щільна сталева пластина
+Dense Tin Plate	Щільна олов'яна пластина
+Depleted Isotope Cell	Капсула виснаженого ізотопу
+Diamond Berry	Алмазна ягода
+Diamond Cutting Blade	Алмазне різальне лезо
+Diamond Drill	Алмазний бур
+Distilled Water	Дистильована вода
+Distilled Water Bucket	Відро дистильованої води
+Distilled Water Cell	Капсула дистильованої води
+Dual Fuel Rod (Depleted MOX)	Подвійний паливний стрижень (виснажений MOX)
+Dual Fuel Rod (Depleted Uranium)	Подвійний паливний стрижень (виснажений уран)
+Dual Fuel Rod (MOX)	Подвійний паливний стрижень (MOX)
+Dual Fuel Rod (Uranium)	Подвійний паливний стрижень (уран)
+Dynamite	Динаміт
+Dynamite-O-Mote	Пульт динаміту
+EU-Detector Cable	Кабель-детектор EU
+EU-Reader	Зчитувач EU
+EU-Splitter Cable	Кабель-розгалужувач EU
+EV-Transformer	EV-трансформатор
+Eating Plant	Рослина-поїдач
+Egg Plant	Яєчна рослина
+Ejector Upgrade	Покращення виштовхування
+Electric Boat	Електричний човен
+Electric Furnace	Електропіч
+Electric Heater	Електронагрівач
+Electric Hoe	Електромотика
+Electric Jetpack	Електричний реактивний ранець
+Electric Motor	Електромотор
+Electric Sorting Machine	Електросортувальник
+Electric Treetap	Електрокраник
+Electric Wrench	Електроключ
+Electrolyzed Water Cell	Капсула електролізованої води
+Electrolyzer	Електролізер
+Electronic Circuit	Електросхема
+Empty Cell	Порожня капсула
+Ender Blossom	Квітка Енду
+Ender Pearl Dust	Пил перлини Енду
+Energium Dust	Енергієвий пил
+Energy Crystal	Енергетичний кристал
+Energy Storage Upgrade	Покращення накопичення енергії
+Energy-O-Mat	Енергомат
+Energypack	Енергоранець
+Enriched Uranium Nuclear Fuel	Збагачене уранове ядерне паливо
+Extractor	Екстрактор
+Fermenter	Ферментер
+Filled Fuel Can	Заповнена каністра
+Fluid Distributor	Розподільник рідини
+Fluid Ejector Upgrade	Покращення виштовхування рідини
+Fluid Pulling Upgrade	Покращення втягування рідини
+Fluid Regulator	Регулятор рідини
+Fluid/Solid Canning Machine	Консервна машина (рідини/тверді)
+Forge Hammer	Ковальський молот
+Frequency Transmitter	Частотний передавач
+Fuel Rod (Depleted MOX)	Паливний стрижень (виснажений MOX)
+Fuel Rod (Depleted Uranium)	Паливний стрижень (виснажений уран)
+Fuel Rod (Empty)	Паливний стрижень (порожній)
+Fuel Rod (Lithium)	Паливний стрижень (літій)
+Fuel Rod (MOX)	Паливний стрижень (MOX)
+Fuel Rod (Tritium)	Паливний стрижень (тритій)
+Fuel Rod (Uranium)	Паливний стрижень (уран)
+Generator	Генератор
+Geothermal Generator	Геотермальний генератор
+Glass Fibre Cable	Скловолоконний кабель
+Gold Cable	Золотий кабель
+Gold Item Casing	Золотий корпус предмета
+Gold Ore Berry	Золота рудоягода
+Gold Plate	Золота пластина
+Green Painter	Зелений пензель
+Grin Powder	Порошок усмішки
+H. Coal	Гідр. вугілля
+HV Cable	ВН-кабель
+HV-Transformer	HV-трансформатор
+Hazmat Suit	Захисний костюм
+Hazmat Suit Leggings	Поножі захисного костюма
+Heat Conductor	Теплопровідник
+Heat Exchanger	Теплообмінник
+Heat Vent	Тепловідвід
+Heat-Capacity Reactor Plating	Теплоємна обшивка реактора
+Heating Cell	Нагрівальна капсула
+Heavy Water	Важка вода
+Heavy Water Bucket	Відро важкої води
+Heavy Water Cell	Капсула важкої води
+Hot Coolant	Гарячий охолоджувач
+Hot Coolant Bucket	Відро гарячого охолоджувача
+Hot Coolant Cell	Капсула гарячого охолоджувача
+Hot Water	Гаряча вода
+Hot Water Bucket	Відро гарячої води
+Hot Water Cell	Капсула гарячої води
+Hydrated Coal Dust	Зволожений вугільний пил
+Hydrated Tin Dust	Зволожений олов'яний пил
+Hydration Cell	Зволожувальна капсула
+Hydrogen	Водень
+Hydrogen Bucket	Відро водню
+Hydrogen Cell	Капсула водню
+IC2 Combat	IC2: бій
+IC2 Farming	IC2: фермерство
+IC2 General	IC2: загальне
+IC2 Generators And Wiring	IC2: генератори й дроти
+IC2 Machines	IC2: машини
+IC2 Materials	IC2: матеріали
+IC2 Reactor	IC2: реактор
+IC2 Tools And Utilities	IC2: інструменти
+Induction Furnace	Індукційна піч
+Industrial Credit	Промисловий кредит
+Industrial Diamond	Промисловий алмаз
+Industrial TNT	Промисловий динаміт
+Industrial Workbench	Промисловий верстак
+Insulated Copper Cable	Ізольований мідний кабель
+Insulated Gold Cable	Ізольований золотий кабель
+Insulated HV Cable	Ізольований ВН-кабель
+Insulated Tin Cable	Ізольований олов'яний кабель
+Iodine	Йод
+Iodine Tablet	Таблетка йоду
+Iridium Drill	Іридієвий бур
+Iridium Neutron Reflector	Іридієвий відбивач нейтронів
+Iridium Ore	Іридієва руда
+Iridium Reinforced Plate	Іридієва пластина
+Iridium Shard	Уламок іридію
+Iridium Storage Box	Іридієвий ящик
+Iridium Tank	Іридієвий бак
+Iron Cutting Blade	Залізне різальне лезо
+Iron Fence	Залізний паркан
+Iron Furnace	Залізна піч
+Iron Item Casing	Залізний корпус предмета
+Iron Ore Berry	Залізна рудоягода
+Iron Plate	Залізна пластина
+Iron Rotor Blade	Залізна лопать ротора
+Iron Storage Box	Залізний ящик
+Item Buffer	Буфер предметів
+Jetpack	Реактивний ранець
+Jetpack Attachment Plate	Кріплення реактивного ранця
+Jungle Tree Sapling	Саджанець тропічного дерева
+Kinetic Gearbox Rotor (Bronze)	Ротор кінетичного редуктора (бронза)
+Kinetic Gearbox Rotor (Carbon)	Ротор кінетичного редуктора (вуглець)
+Kinetic Gearbox Rotor (Iron)	Ротор кінетичного редуктора (залізо)
+Kinetic Gearbox Rotor (Steel)	Ротор кінетичного редуктора (сталь)
+Kinetic Gearbox Rotor (Wood)	Ротор кінетичного редуктора (дерево)
+LV-Transformer	LV-трансформатор
+LZH-Condensator	LZH-конденсатор
+Lapis Lazuli Dust	Лазуритовий пил
+Lapis Lazuli Plate	Лазуритова пластина
+Lapotron Crystal	Лапотронний кристал
+Lappack	Лаппак
+Large Bronze Fluid Pipe	Велика бронзова труба
+Large Steel Fluid Pipe	Велика сталева труба
+Lava Cell	Капсула лави
+Lead Block	Свинцевий блок
+Lead Dust	Свинцевий пил
+Lead Ingot	Свинцевий злиток
+Lead Item Casing	Свинцевий корпус предмета
+Lead Ore	Свинцева руда
+Lead Ore Berry	Свинцева рудоягода
+Lead Plate	Свинцева пластина
+Light Blue Painter	Блакитний пензель
+Light Grey Painter	Світло-сірий пензель
+Lily of the Valley	Конвалія
+Lime Painter	Лаймовий пензель
+Liquid Fuel Firebox	Топка на рідкому паливі
+Liquid Heat Exchanger	Рідинний теплообмінник
+Lithium Dust	Літієвий пил
+Luminator	Люмінатор
+MFE	MFE
+MFSU	MFSU
+MFSU Upgrade Kit	Набір покращення до MFSU
+MOX Nuclear Fuel	Ядерне паливо MOX
+MV-Transformer	MV-трансформатор
+Macerator	Подрібнювач
+Magenta Painter	Пурпуровий пензель
+Magnetizer	Магнетизатор
+Manual Kinetic Generator	Ручний кінетичний генератор
+Matter Fabricator	Масфабрикатор
+Meat Rose	М'ясна троянда
+Medium Bronze Fluid Pipe	Середня бронзова труба
+Medium Steel Fluid Pipe	Середня сталева труба
+Metal Former	Металоформувач
+Milk Wart	Молочна бородавка
+Miner	Бур-шахтар
+Mining Drill	Бур
+Mining Filter Upgrade	Покращення фільтра видобутку
+Mining Laser	Гірничий лазер
+Mining Pipe	Бурова труба
+Mixed Metal Ingot	Змішаний злиток
+Nano Saber	Наношабля
+NanoSuit Bodyarmor	Нанонагрудник
+NanoSuit Boots	Наночоботи
+NanoSuit Helmet	Наношолом
+NanoSuit Leggings	Нанопоножі
+Near-depleted Uranium	Майже виснажений уран
+Netherrack Dust	Пил пекельного каменю
+Neutron Reflector	Відбивач нейтронів
+Night Vision Goggles	Окуляри нічного бачення
+Nuclear Reactor	Ядерний реактор
+Nuke	Ядерна бомба
+OD Scanner	OD-сканер
+OV Scanner	OV-сканер
+Oak Tree Sapling	Саджанець дуба
+Obscurator	Маскувальник
+Obscured Wall	Замаскована стіна
+Obsidian Plate	Обсидіанова пластина
+Oil Berries	Нафтоягоди
+Oil Berry	Нафтоягода
+Orange Painter	Помаранчевий пензель
+Orange Tulip	Помаранчевий тюльпан
+Ore Washing Plant	Рудопромивна установка
+Overclocked Heat Vent	Розігнаний тепловідвід
+Overclocker Upgrade	Покращення розгону
+Oxeye Daisy	Ромашка
+Oxygen	Кисень
+Oxygen Bucket	Відро кисню
+Oxygen Cell	Капсула кисню
+Pahoehoe Lava	Лава пахоехое
+Pahoehoe Lava Bucket	Відро лави пахоехое
+Pahoehoe Lava Cell	Капсула лави пахоехое
+Painter	Пензель
+Pattern Storage	Сховище шаблонів
+Pellets of Enriched Uranium Nuclear Fuel	Гранули збагаченого уранового палива
+Pellets of RTG Fuel	Гранули палива РІТЕГ
+Personal Chest	Особиста скриня
+Personal Safe	Особистий сейф
+Pink Painter	Рожевий пензель
+Pink Tulip	Рожевий тюльпан
+Pitcher Plant	Глечикова рослина
+Plantball	Рослинна куля
+Plutonium	Плутоній
+Poppy	Мак
+Power Unit	Енергоблок
+Primed ITNT	Підпалений промисловий динаміт
+Primed Nuke	Підпалена ядерна бомба
+Pulling Upgrade	Покращення втягування
+Pump	Насос
+Pump Attachment (LV)	Насосна насадка (LV)
+Pump Attachment (MV)	Насосна насадка (MV)
+Pumpkin	Гарбуз
+Purified Crushed Copper Ore	Очищена подрібнена мідна руда
+Purified Crushed Gold Ore	Очищена подрібнена золота руда
+Purified Crushed Iron Ore	Очищена подрібнена залізна руда
+Purified Crushed Lead Ore	Очищена подрібнена свинцева руда
+Purified Crushed Silver Ore	Очищена подрібнена срібна руда
+Purified Crushed Tin Ore	Очищена подрібнена олов'яна руда
+Purified Crushed Uranium Ore	Очищена подрібнена уранова руда
+Purified Crushed Zinc Ore	Очищена подрібнена цинкова руда
+Purple Painter	Фіолетовий пензель
+Quad Fuel Rod (Depleted MOX)	Четверний паливний стрижень (виснажений MOX)
+Quad Fuel Rod (Depleted Uranium)	Четверний паливний стрижень (виснажений уран)
+Quad Fuel Rod (MOX)	Четверний паливний стрижень (MOX)
+Quad Fuel Rod (Uranium)	Четверний паливний стрижень (уран)
+QuantumSuit Bodyarmor	Квантовий нагрудник
+QuantumSuit Boots	Квантові чоботи
+QuantumSuit Helmet	Квантовий шолом
+QuantumSuit Leggings	Квантові поножі
+RE-Battery	RE-батарея
+RSH-Condensator	RSH-конденсатор
+Radiation	Радіація
+Radioisotope Heat Generator	Радіоізотопний теплогенератор
+Radioisotope Thermoelectric Generator	Радіоізотопний термоелектричний генератор
+Raw Carbon Fibre	Сире вуглецеве волокно
+Raw Carbon Mesh	Сира вуглецева сітка
+Raw Lead	Сирий свинець
+Raw Lead Block	Блок сирого свинцю
+Raw Tin	Сире олово
+Raw Tin Block	Блок сирого олова
+Raw Uranium	Сирий уран
+Raw Uranium Block	Блок сирого урану
+Re-Enriched Uranium	Перезбагачений уран
+Reactor Access Hatch	Люк доступу до реактора
+Reactor Chamber	Реакторна камера
+Reactor Coolant Injector (LZH)	Інжектор охолоджувача (LZH)
+Reactor Coolant Injector (RSH)	Інжектор охолоджувача (RSH)
+Reactor Fluid Port	Рідинний порт реактора
+Reactor Heat Exchanger	Теплообмінник реактора
+Reactor Heat Vent	Тепловідвід реактора
+Reactor Plating	Обшивка реактора
+Reactor Pressure Vessel	Корпус високого тиску реактора
+Reactor Redstone Port	Редстоун-порт реактора
+Recycler	Сміттєпереробник
+Red Mushroom	Червоний гриб
+Red Painter	Червоний пензель
+Red Tulip	Червоний тюльпан
+Red Wheat	Червона пшениця
+Redstone Signal Inverter Upgrade	Покращення інверсії редстоуну
+Refined Uranium	Очищений уран
+Refractory Bricks	Вогнетривка цегла
+Remote Interface Upgrade	Покращення віддаленого інтерфейсу
+Replicator	Реплікатор
+Resin Sheet	Лист смоли
+Rubber	Гума
+Rubber Boat	Гумовий човен
+Rubber Boots	Гумові чоботи
+Rubber Button	Каучукова кнопка
+Rubber Door	Каучукові двері
+Rubber Fence	Каучуковий паркан
+Rubber Fence Gate	Каучукова хвіртка
+Rubber Planks	Каучукові дошки
+Rubber Pressure Plate	Каучукова натискна плита
+Rubber Sheet	Гумовий лист
+Rubber Sign	Каучукова табличка
+Rubber Slab	Каучукова плита
+Rubber Stairs	Каучукові сходи
+Rubber Trapdoor	Каучуковий люк
+Rubber Tree Leaves	Листя каучукового дерева
+Rubber Tree Sapling	Саджанець каучукового дерева
+Rubber Wood	Каучукова деревина
+Rum	Ром
+Scanner	Сканер
+Scrap	Скрап
+Scrap Box	Скрап-бокс
+Scuba Helmet	Шолом аквалангіста
+Seed Bag	Мішечок насіння
+Semifluid Generator	Генератор на напіврідкому паливі
+Shaft (Bronze)	Вал (бронза)
+Shaft (Iron)	Вал (залізо)
+Shaft (Steel)	Вал (сталь)
+Silicon Dioxide	Діоксид кремнію
+Silver Block	Срібний блок
+Silver Ore Berry	Срібна рудоягода
+Single-Use Battery	Одноразова батарея
+Slag	Шлак
+Slime Plant	Слизова рослина
+Small Bronze Fluid Pipe	Мала бронзова труба
+Small Diamond Dust	Дрібка алмазного пилу
+Small Power Unit	Малий енергоблок
+Small Steel Fluid Pipe	Мала сталева труба
+Solar Distiller	Сонячний дистилятор
+Solar Helmet	Сонячний шолом
+Solar Panel	Сонячна панель
+Solid Canning Machine	Консервна машина
+Solid Fuel Firebox	Топка на твердому паливі
+Spider Nip	Павучий ласощ
+Spruce Tree Sapling	Саджанець ялини
+Static Boots	Антистатичні чоботи
+Steam	Пара
+Steam Boiler	Паровий котел
+Steam Bucket	Відро пари
+Steam Cell	Капсула пари
+Steam Re-Pressurizer	Паровий ущільнювач
+Steam Repressurizer	Паровий ущільнювач
+Steam Turbine	Парова турбіна
+Steam Turbine Blade	Лопать парової турбіни
+Steel Block	Сталевий блок
+Steel Cutting Blade	Сталеве різальне лезо
+Steel Hopper	Сталева лійка
+Steel Ingot	Сталевий злиток
+Steel Item Casing	Сталевий корпус предмета
+Steel Plate	Сталева пластина
+Steel Rotor Blade	Сталева лопать ротора
+Steel Storage Box	Сталевий ящик
+Steel Tank	Сталевий бак
+Sticky Dynamite	Липкий динаміт
+Sticky Reed	Липкий очерет
+Sticky Resin	Липка смола
+Stirling Generator	Генератор Стірлінга
+Stirling Kinetic Generator	Кінетичний генератор Стірлінга
+Stone Dust	Кам'яний пил
+Stone Mug	Кам'яний кухоль
+Stripped Rubber Log	Обтесана каучукова колода
+Stripped Rubber Wood	Обтесана каучукова деревина
+Sulfur Dust	Сірчаний пил
+Superheated Steam	Перегріта пара
+Superheated Steam Bucket	Відро перегрітої пари
+Superheated Steam Cell	Капсула перегрітої пари
+TFBP - Chilling	Шаблон тераформера: охолодження
+TFBP - Cultivation	Шаблон тераформера: культивація
+TFBP - Desertification	Шаблон тераформера: опустелювання
+TFBP - Empty	Шаблон тераформера: порожній
+TFBP - Flatification	Шаблон тераформера: вирівнювання
+TFBP - Irrigation	Шаблон тераформера: зрошення
+TFBP - Mushroom	Шаблон тераформера: гриби
+Tear Stalks	Сльозостебла
+Teleporter	Телепорт
+Terra Wart	Земляна бородавка
+Terraformer	Тераформер
+Tesla Coil	Котушка Тесли
+Thermal Centrifuge	Термоцентрифуга
+Thick Neutron Reflector	Товстий відбивач нейтронів
+Tin Block	Олов'яний блок
+Tin Cable	Олов'яний кабель
+Tin Can	Бляшанка
+Tin Dust	Олов'яний пил
+Tin Ingot	Олов'яний злиток
+Tin Item Casing	Олов'яний корпус предмета
+Tin Ore	Олов'яна руда
+Tin Ore Berry	Олов'яна рудоягода
+Tin Plate	Олов'яна пластина
+Tiny Bronze Fluid Pipe	Крихітна бронзова труба
+Tiny Pile of Bronze Dust	Дрібка бронзового пилу
+Tiny Pile of Copper Dust	Дрібка мідного пилу
+Tiny Pile of Gold Dust	Дрібка золотого пилу
+Tiny Pile of Iron Dust	Дрібка залізного пилу
+Tiny Pile of Lapis Dust	Дрібка лазуритового пилу
+Tiny Pile of Lead Dust	Дрібка свинцевого пилу
+Tiny Pile of Lithium Dust	Дрібка літієвого пилу
+Tiny Pile of Obsidian Dust	Дрібка обсидіанового пилу
+Tiny Pile of Plutonium	Дрібка плутонію
+Tiny Pile of Silver Dust	Дрібка срібного пилу
+Tiny Pile of Sulfur Dust	Дрібка сірчаного пилу
+Tiny Pile of Tin Dust	Дрібка олов'яного пилу
+Tiny Pile of Uranium 235	Дрібка урану-235
+Tiny Pile of Uranium 238	Дрібка урану-238
+Tiny Pile of Zinc Dust	Дрібка цинкового пилу
+Tiny Steel Fluid Pipe	Крихітна сталева труба
+Tool Box	Ящик для інструментів
+Torchflower	Смолоскипник
+Trade-O-Mat	Торгомат
+Trade-o-mat	Торгомат
+Transformer Upgrade	Покращення трансформатора
+Treetap	Краник
+Tulip	Тюльпан
+UU Assembly Bench	Верстак UU-збирання
+UU Matter	UU-матерія
+UU Matter Bucket	Відро UU-матерії
+UU Matter Cell	Капсула UU-матерії
+UU-Matter	UU-матерія
+Universal Fluid Cell	Універсальна рідинна капсула
+Uranium 235	Уран-235
+Uranium 238	Уран-238
+Uranium Block	Урановий блок
+Uranium Ore	Уранова руда
+Venom ilia	Отруйниця
+Water Cell	Капсула води
+Water Mill	Водяний млин
+Water Turbine	Водяна турбіна
+Watermelon	Кавун
+Weed	Бур'ян
+Weed EX	Гербіцид
+Weed Ex	Гербіцид
+Weed Ex Bucket	Відро гербіциду
+Weed-EX	Гербіцид
+Weeding Trowel	Прополювальна лопатка
+Weighted Fluid Distributor	Зважений розподільник рідини
+Weighted Item Distributor	Зважений розподільник предметів
+White Painter	Білий пензель
+White Tulip	Білий тюльпан
+Wind Mill	Вітряк
+Wind Turbine	Вітрова турбіна
+Windmeter	Вітромір
+Wither Reed	Очерет візера
+Wither Rose	Троянда візера
+Wood Rotor Blade	Дерев'яна лопать ротора
+Wooden Storage Box	Дерев'яний ящик
+Wool Sheet	Вовняний лист
+Wrench	Гайковий ключ
+Yellow Painter	Жовтий пензель
+Zinc Dust	Цинковий пил
+Advanced Chainsaw	Покращена бензопила
+Advanced Diamond Drill	Покращений алмазний бур
+Advanced Electric Jetpack	Покращений електричний реактивний ранець
+Advanced Iridium Drill	Покращений іридієвий бур
+Advanced Lappack	Покращений лаппак
+Advanced Liquid Sensor Card	Покращена карта датчика рідини
+Advanced Liquid Sensor Kit	Покращений набір датчика рідини
+Advanced Nano Boots	Покращені наночоботи
+Advanced Nano Chestplate	Покращений нанонагрудник
+Advanced Nano Leggings	Покращені нанопоножі
+Advanced Quantum Boots	Покращені квантові чоботи
+Advanced Quantum Leggings	Покращені квантові поножі
+Advanced Solar Helmet	Покращений сонячний шолом
+Advanced Solar Panel	Покращена сонячна панель
+Average Energy Counter	Середній лічильник енергії
+Basic Circuit	Базова схема
+Card Holder	Тримач карт
+Centrifuge Extractor	Центрифужний екстрактор
+Color Upgrade	Покращення кольору
+Compacting Recycler	Ущільнювальний сміттєпереробник
+Cooling Core	Охолоджувальне ядро
+Counter Sensor Card	Карта датчика лічильника
+Counter Sensor Kit	Набір датчика лічильника
+Digital Thermometer	Цифровий термометр
+Electric Engine	Електродвигун
+Energy Array Card	Карта енергомасиву
+Energy Counter	Лічильник енергії
+Energy Sensor Card	Карта енергодатчика
+Energy Sensor Kit	Набір енергодатчика
+Engine Booster	Прискорювач двигуна
+Enriched Sunnarium	Збагачений санаріум
+Enriched Sunnarium Alloy	Сплав збагаченого санаріуму
+Extreme Reactors Sensor Card	Карта датчика Extreme Reactors
+Extreme Reactors Sensor Kit	Набір датчика Extreme Reactors
+GraviTool	Гравітул
+Gravitational Chestplate	Гравітаційний нагрудник
+Gravitational Engine	Гравітаційний двигун
+Holographic Information Panel	Голографічна інформаційна панель
+Holographic Panel Extender	Розширювач голографічної панелі
+Hotbar magnet	Магніт панелі швидкого доступу
+Howler Alarm	Сирена-ревун
+Hybrid Solar Helmet	Гібридний сонячний шолом
+Hybrid Solar Panel	Гібридна сонячна панель
+IC2R Addons	IC2R: доповнення
+IC2R Addons: BuildCraft	IC2R: доповнення — BuildCraft
+IC2R Addons: Equipment	IC2R: доповнення — спорядження
+IC2R Addons: Nuclear Control	IC2R: доповнення — Nuclear Control
+IC2R Addons: Solar Technology	IC2R: доповнення — сонячні технології
+IC2R Sensor Card	Карта датчика IC2R
+IC2R Sensor Kit	Набір датчика IC2R
+Impellerized Roller	Імпелерний валок
+Industrial Alarm	Промислова сирена
+Iridium Ingot	Іридієвий злиток
+Iridium-Iron Plate	Іридієво-залізна пластина
+Irradiant Glass Pane	Сяйна скляна панель
+Irradiant Uranium	Сяйний уран
+Kit Assembler	Збирач наборів
+Liquescent Extruder	Плавильний екструдер
+Liquid Array Card	Карта рідинного масиву
+Liquid Sensor Card	Карта датчика рідини
+Liquid Sensor Kit	Набір датчика рідини
+MT Core	Ядро MT
+Machine Casing	Корпус машини
+Magnet	Магніт
+Magnetron	Магнетрон
+Molecular Transformer	Молекулярний трансформатор
+Orange Lamp	Помаранчева лампа
+Portable Panel	Портативна панель
+Quantum Generator	Квантовий генератор
+Quantum Solar Helmet	Квантовий сонячний шолом
+Quantum Solar Panel	Квантова сонячна панель
+Radio Transmitter	Радіопередавач
+Range Trigger	Пороговий тригер
+Range Upgrade	Покращення радіуса
+Relocator	Релокатор
+Relocator Orb	Сфера релокатора
+Relocator Portal	Портал релокатора
+Remote Inventory Card	Карта віддаленого інвентаря
+Remote Inventory Kit	Набір віддаленого інвентаря
+Remote Redstone Card	Карта віддаленого редстоуну
+Remote Redstone Kit	Набір віддаленого редстоуну
+Remote Thermal Monitor	Віддалений термомонітор
+Remote Toggle Card	Карта віддаленого перемикача
+Remote Toggle Kit	Набір віддаленого перемикача
+Rotary Macerator	Обертовий подрібнювач
+Sharpened Iron Plate	Загострена залізна пластина
+Singularity Compressor	Сингулярний компресор
+Strong String	Міцна нитка
+Sunnarium	Санаріум
+Sunnarium Alloy	Сплав санаріуму
+Sunnarium Part	Частинка санаріуму
+Superconductor	Надпровідник
+Superconductor Cover	Оболонка надпровідника
+Text Card	Текстова карта
+Thermal Monitor	Термомонітор
+Thermal Washer	Термопромивач
+Thermometer	Термометр
+Time Card	Карта часу
+Timer	Таймер
+Toggle armor engine	Перемкнути двигун броні
+Touch Screen Upgrade	Покращення сенсорного екрана
+Ultimate Hybrid Solar Helmet	Ультимативний гібридний сонячний шолом
+Ultimate Hybrid Solar Panel	Ультимативна гібридна сонячна панель
+Ultimate Lappack	Ультимативний лаппак
+Uranium Ingot	Урановий злиток
+Vajra	Ваджра
+Vajra Core	Ядро ваджри
+Voider	Знищувач
+Water-Jet Cutter	Гідроабразивний різак
+Web Upgrade	Покращення павутини
+White Lamp	Біла лампа
+Advanced Electric Pump	Покращений електронасос
+Black Hole QIO Drive	Накопичувач QIO «Чорна діра»
+Collapse QIO Drive	Накопичувач QIO «Колапс»
+Creative Upgrade	Креативне покращення
+Dirty Naquadah Dust	Брудний наквадовий пил
+End Naquadah Ore	Наквадова руда Енду
+Enriched Lead	Збагачений свинець
+Enriched Osmium	Збагачений осмій
+Enriched Radiance	Збагачене сяйво
+Enriched Shining	Збагачений блиск
+Enriched Spectrum	Збагачений спектр
+Enriched Thermonuclear	Збагачений термоядерний сплав
+Gamma QIO Drive	Накопичувач QIO «Гамма»
+Ionic Membrane Upgrade	Покращення іонної мембрани
+Lead Coated Laser Focus Matrix	Матриця фокусування лазера зі свинцевим покриттям
+Liquid Fluorinated Naquadah Uranium Fuel	Рідке фторроване наквадо-уранове паливо
+Liquid Naquadah Hexafluoride	Рідкий гексафторид наквади
+Liquid Naquadah Hexafluoride Bucket	Відро рідкого гексафториду наквади
+Liquid Polonium Containing Solution Bucket	Відро полонієвмісного розчину
+Liquid Polonium-208 Bucket	Відро рідкого полонію-208
+Liquid Rich Naquadah Fuel	Рідке збагачене наквадове паливо
+Liquid Rich Naquadah Fuel Bucket	Відро рідкого збагаченого наквадового палива
+Liquid Rich Uranium Fuel	Рідке збагачене уранове паливо
+Liquid Rich Uranium Fuel Bucket	Відро рідкого збагаченого уранового палива
+Liquid fluorinated Naquadah Uranium Fuel Bucket	Відро рідкого фторрованого наквадо-уранового палива
+Naquadah Block	Наквадовий блок
+Naquadah Clump	Грудка наквади
+Naquadah Crystal	Наквадовий кристал
+Naquadah Dust	Наквадовий пил
+Naquadah Hohlraum	Наквадовий гольраум
+Naquadah Ingot	Наквадовий злиток
+Naquadah Ore	Наквадова руда
+Naquadah Reactor Casing	Корпус наквадового реактора
+Naquadah Reactor Controller	Контролер наквадового реактора
+Naquadah Reactor Logic Adapter	Логічний адаптер наквадового реактора
+Naquadah Reactor Port	Порт наквадового реактора
+Naquadah Shard	Уламок наквади
+Nugget Naquadah	Наквадовий самородок
+Polonium Containing Solution	Полонієвмісний розчин
+Radiance Alloy	Сплав сяйва
+Radiance Dust	Пил сяйва
+Raw Naquadah	Сира наквада
+Raw Naquadah Block	Блок сирої наквади
+Shining Alloy	Сплав блиску
+Singularity QIO Drive	Накопичувач QIO «Сингулярність»
+Spectrum Alloy	Сплав спектра
+Stack Upgrade	Покращення стака
+Thermonuclear Alloy	Термоядерний сплав
+polonium-208	Полоній-208
+Caboose Smokestack	Димова труба вагона-теплушки
+Coalburner Smokestack Extension	Подовжувач вугільної димової труби
+Double Smokestack Extension	Подовжувач подвійної димової труби
+Oilburner Smokestack Extension	Подовжувач нафтової димової труби
+Streamlined Smokestack Extension	Подовжувач обтічної димової труби
+Woodburner Smokestack Extension	Подовжувач дров'яної димової труби
+Empty Paint Pitcher	Порожній глечик фарби
+Sandy Paint Pitcher	Глечик піщаної фарби
+Paint Brush	Пензель
+Paint level: %s / %s	Рівень фарби: %s / %s
+Incomplete Narrow Phantom Track	Незавершена вузька фантомна колія
+Incomplete Wide Phantom Track	Незавершена широка фантомна колія
+Narrow Phantom Train Track	Вузька фантомна колія
+Wide Phantom Train Track	Широка фантомна колія
+Create Deco Bricks	Create Deco: цегла
+Create Deco Props	Create Deco: декор
+Creeper Decal	Наліпка «Кріпер»
+Cross Decal	Наліпка «Хрест»
+Down Arrow Decal	Наліпка «Стрілка вниз»
+Down Left Arrow Decal	Наліпка «Стрілка вниз-ліворуч»
+Down Right Arrow Decal	Наліпка «Стрілка вниз-праворуч»
+Electrical Decal	Наліпка «Електрика»
+Fire Decal	Наліпка «Вогонь»
+Fire Diamond Decal	Наліпка «Ромб небезпеки»
+Flow Decal	Наліпка «Потік»
+Fluid Decal	Наліпка «Рідина»
+Ice Decal	Наліпка «Лід»
+Left Arrow Decal	Наліпка «Стрілка ліворуч»
+No Entry Decal	Наліпка «В'їзд заборонено»
+Radioactive Decal	Наліпка «Радіація»
+Right Arrow Decal	Наліпка «Стрілка праворуч»
+Skull Decal	Наліпка «Череп»
+Up Arrow Decal	Наліпка «Стрілка вгору»
+Up Left Arrow Decal	Наліпка «Стрілка вгору-ліворуч»
+Up Right Arrow Decal	Наліпка «Стрілка вгору-праворуч»
+Warning Decal	Наліпка «Увага»
+Locometal End Ladder	Торцева локометалева драбина
+Locometal Flywheel	Локометалевий маховик
+Locometal Rung Ladder	Локометалева драбина зі щаблями
+Locometal Trapdoor	Локометалевий люк
+Locometal Vent	Локометалева вентиляційна решітка

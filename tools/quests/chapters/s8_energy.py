@@ -85,6 +85,38 @@ CHAPTER = Chapter(
                 'З нього — пробуджена хаотична броня й зброя (злиттям з хаотичних).',
             ], deps=['de_chaotic_core']),
         ]),
+        Lane('Mekanism Extras', [
+            Q('mx_radiance', 'mekanism_extras:alloy_radiance', 'Сплав сяйва', [
+                'Mekanism Extras додає рівні понад «найкращий»: абсолютний → верховний → космічний → нескінченний. '
+                'Перший крок — сплав сяйва: атомний сплав у металургійному інфузорі.',
+            ], deps=['mk_atomic']),
+            Q('mx_circuit', 'mekanism_extras:absolute_control_circuit', 'Абсолютна схема', [
+                'Найкраща схема Mekanism + сплав сяйва. З неї — абсолютні машини, фабрики, кабелі й установники рівня.',
+            ], deps=['mx_radiance', 'mk_ultimate']),
+            Q('mx_cube', 'mekanism_extras:absolute_energy_cube', 'Абсолютний енергокуб', [
+                'Найкращий енергокуб + сплав сяйва + енергопланшети. Далі — верховний, космічний і нескінченний куби й індукційні комірки.',
+            ], deps=['mx_circuit', 'mk_casing']),
+            Q('mx_supreme', 'mekanism_extras:supreme_control_circuit', 'Верховна схема', [
+                'Абсолютна схема + термоядерний сплав. Наступний рівень машин.',
+            ], deps=['mx_circuit']),
+            Q('mx_naquadah', 'mekanism_extras:naquadah_reactor_controller', 'Наквадовий реактор', [
+                'Новий мультиблок-реактор на наквадовому паливі. Контролер — космічна схема + корпус реактора + веселкова шибка Ботанії + абсолютний хімбак. '
+                'Наквадова руда — в Енді.',
+            ], deps=['mx_supreme', 'bo_elementium'], reward='none'),
+        ]),
+        Lane('Create: поїзди й декор', [
+            Q('sr_handcar', 'railways:handcar', 'Дрезина', [
+                "Steam 'n' Rails розширює поїзди Create: нові колії (вузькі, широкі, з різного дерева), семафори, димові труби, "
+                'локометал для вагонів і дрезина — маленький поїзд, який крутиш сам.',
+            ], deps=['cr_casing', 'cr_alloy', 'cr_tube']),
+            Q('sr_semaphore', 'railways:semaphore', 'Семафор', [
+                'Андезитовий корпус + паркан + залізний лист + електронна лампа. Показує сигнал світлофора поїздам. Ще є зчіпка колій для довгих маршрутів.',
+            ], deps=['sr_handcar', 'cr_train', 'cr_tube'], reward='none'),
+            Q('cd_catwalk', 'createdeco:brass_catwalk', 'Декор Create', [
+                'Create Deco: містки, ґрати, двері, вікна й опори з металів Create, кольорова цегла, лампи, контейнери й наліпки. '
+                'Більшість — на каменерізі з латуні, міді, цинку чи заліза.',
+            ], deps=['cr_brass'], reward='none'),
+        ]),
         Lane('Доповнення AE2', [
             Q('ae_chem', 'appmek:chemical_storage_cell_1k', 'Хімічна комірка', [
                 'Applied Mekanistics: гази й хімікати Mekanism у мережі ME. Корпус — осмій + кварцове скло + редстоун.',
