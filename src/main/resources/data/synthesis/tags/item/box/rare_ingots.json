@@ -25,7 +25,7 @@
       "required": false
     },
     {
-      "id": "industrialupgrade:itemingots/iridium_ingot",
+      "id": "ic2r_addons:iridium_ingot",
       "required": false
     }
   ]

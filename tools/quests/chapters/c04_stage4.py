@@ -1,7 +1,7 @@
 from qb import Q, Lane, Chapter
 
 KEYS = ['de_chaotic_core', 'bo_gaia_ingot', 'tc_pearl', 'tt_ichorium', 'mk_antimatter', 'wi_animus', 'ca_cursium',
-        'iu_neutronium', 'tf_fiery', 'ars_tribute', 'isb_ink', 'cr_precision', 'ae_qsing', 'pw_nitro', 'ot_unholy',
+        'ic2_key', 'tf_fiery', 'ars_tribute', 'isb_ink', 'cr_precision', 'ae_qsing', 'pw_nitro', 'ot_unholy',
         'nv_orb6', 'oc_marid', 'fa_stella', 'eb_orichalcos', 'ma_insanium', 'dv_mortum']
 
 CHAPTER = Chapter(
@@ -80,7 +80,7 @@ CHAPTER = Chapter(
             Q('keys', 'synthesis:capital_altar', '21 ключ', [
                 'Збери всі ключі. Кожен — окремий квест у своїй главі:',
                 'Create, Ботанія, Таумкрафт, Thaumic Tinkerer, Mekanism, AE2, Draconic, Witchery, Ars, Iron\'s Spells,',
-                'Twilight Forest, Cataclysm, Industrial Upgrade, Powah, Oritech, Neo Vitae, Occultism, Forbidden & Arcanus,',
+                'Twilight Forest, Cataclysm, IndustrialCraft 2, Powah, Oritech, Neo Vitae, Occultism, Forbidden & Arcanus,',
                 'ExtraBotany, Mystical Agriculture, DivineRPG.',
             ], deps=KEYS, check=True, kind='info'),
             Q('sy_capital', 'synthesis:capital_altar', 'Вівтар Капіталізму', [

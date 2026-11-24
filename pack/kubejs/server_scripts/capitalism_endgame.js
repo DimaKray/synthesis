@@ -15,7 +15,7 @@ const CAPITALISM_KEYS = [
   'mekanism:pellet_antimatter',          // Mekanism — антиматерія
   'witchery:infernal_animus',            // Witchery — пекельна анімуса
   'cataclysm:cursium_ingot',             // L_Ender's Cataclysm — курсіум (бос Maledictus)
-  'industrialupgrade:neutroniumingot',   // Industrial Upgrade — нейтронієвий злиток
+  'ic2r_addons:quantum_solar_panel',     // IC2R + Advanced Solar Panels — квантова сонячна панель
   'twilightforest:fiery_ingot',          // Twilight Forest — вогняний злиток (Гідра)
   'ars_nouveau:wilden_tribute',          // Ars Nouveau — данина Вайлден-Хімери
   'irons_spellbooks:legendary_ink',      // Iron's Spells — легендарне чорнило

@@ -2,7 +2,7 @@ from qb import Q, Lane, Chapter
 
 CHAPTER = Chapter(
     'capitalism_s2_industry', 'Важка промисловість',
-    'Immersive Engineering, Powah, Oritech, Industrial Foregoing і розширення AE2. Ключі: нітро-кристал, нечестивий інтелект, нейтроній IU',
+    'Immersive Engineering, Powah, Oritech, Industrial Foregoing і розширення AE2. Ключі: нітро-кристал, нечестивий інтелект',
     'powah:crystal_nitro', tier=3, group='side', order=11, lanes=[
         Lane('Immersive Engineering', [
             Q('ie_hammer', 'immersiveengineering:hammer', 'Молот інженера', [
@@ -82,18 +82,6 @@ CHAPTER = Chapter(
             Q('if_supreme', 'industrialforegoing:machine_frame_supreme', 'Найвищий каркас', [
                 'Камера розчинення: просунута рамка + пластик + незеритові злитки + алмази й алмазна шестерня. Для найкращих машин IF.',
             ], deps=['if_frame', 'v_netherite'], reward='none'),
-        ]),
-        Lane('Industrial Upgrade', [
-            Q('iu_photon', 'industrialupgrade:circuit/photoncircuit', 'Фотонна схема', [
-                'Наступна після квантової. Ланцюжок схем IU веде до нейтронію.',
-            ], deps=['iu_quantum_circuit']),
-            Q('iu_spectral', 'industrialupgrade:circuit/spectralcircuit', 'Спектральна схема', ['Найвища схема IU.'], deps=['iu_photon']),
-            Q('iu_neutronium', 'industrialupgrade:neutroniumingot', 'Нейтронієвий злиток IU', [
-                'Вершина Industrial Upgrade (рецепт — у JEI). &6Один із 21 ключа.&r',
-            ], deps=['iu_spectral', 'iu_star_ingot'], kind='key'),
-            Q('iu_quarry', 'industrialupgrade:basemachine/quantum_quarry', 'Квантовий кар\'єр', [
-                'Видобуває руду без копання — з енергії.',
-            ], deps=['iu_quantum_circuit'], reward='none'),
         ]),
         Lane('Розширення AE2', [
             Q('xae_provider', 'extendedae:ex_pattern_provider', 'Розширений постачальник шаблонів', [

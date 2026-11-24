@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
   // ===== Пізній =====
   // Ядро Віверни — злиток зірки Незеру з Industrial Upgrade і Сплав єдності II («Синтез»)
   event.remove({ id: 'draconicevolution:components/wyvern_core' })
-  event.custom({"type": "minecraft:crafting_shaped", "category": "misc", "key": {"A": {"tag": "c:ingots/draconium"}, "B": {"item": "draconicevolution:draconium_core"}, "C": {"item": "industrialupgrade:nether_star_ingot"}, "U": {"item": "synthesis:unity_alloy_2"}}, "pattern": ["ABA", "BCB", "AUA"], "result": {"count": 1, "id": "draconicevolution:wyvern_core"}}).id('capitalism:bridge/components_wyvern_core')
+  event.custom({"type": "minecraft:crafting_shaped", "category": "misc", "key": {"A": {"tag": "c:ingots/draconium"}, "B": {"item": "draconicevolution:draconium_core"}, "C": {"item": "ic2:iridium"}, "U": {"item": "synthesis:unity_alloy_2"}}, "pattern": ["ABA", "BCB", "AUA"], "result": {"count": 1, "id": "draconicevolution:wyvern_core"}}).id('capitalism:bridge/components_wyvern_core')
   // Компонент 256k AE2 — з атомним сплавом Mekanism
   event.remove({ id: 'ae2:network/cells/item_storage_components_cell_256k_part' })
   event.custom({"type": "minecraft:crafting_shaped", "category": "misc", "key": {"a": {"item": "mekanism:alloy_atomic"}, "b": {"item": "ae2:calculation_processor"}, "c": {"item": "ae2:cell_component_64k"}, "d": {"item": "ae2:quartz_glass"}}, "pattern": ["aba", "cdc", "aca"], "result": {"count": 1, "id": "ae2:cell_component_256k"}}).id('capitalism:bridge/network_cells_item_storage_components_cell_256k_part')

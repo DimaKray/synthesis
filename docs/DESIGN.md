@@ -89,7 +89,7 @@
 **Крафтить Infinity Catalyst** (рецепт Avaritia прибираємо через KubeJS). Промені від 21 п'єдестала сходяться в центр. Аналог «Квантового генератора» LoliLand — предмета, що поєднує всі моди.
 
 **21 ключ (зараз у `kubejs/server_scripts/capitalism_endgame.js`):**
-draconicevolution:chaotic_core, botania:gaia_ingot, tc4modern:primordial_pearl, ttinkerer:ichorium, mekanism:pellet_antimatter, witchery:infernal_animus, cataclysm:cursium_ingot, industrialupgrade:neutroniumingot, twilightforest:fiery_ingot, ars_nouveau:wilden_tribute, irons_spellbooks:legendary_ink, create:precision_mechanism, ae2:quantum_entangled_singularity, powah:crystal_nitro, oritech:unholy_intelligence, neovitae:blood_orb_transcendent, occultism:book_of_binding_bound_marid, forbidden_arcanus:eternal_stella, extrabotany:orichalcos_ingot, mysticalagradditions:insanium_ingot, divinerpg:mortum_heart.
+draconicevolution:chaotic_core, botania:gaia_ingot, tc4modern:primordial_pearl, ttinkerer:ichorium, mekanism:pellet_antimatter, witchery:infernal_animus, cataclysm:cursium_ingot, ic2r_addons:quantum_solar_panel, twilightforest:fiery_ingot, ars_nouveau:wilden_tribute, irons_spellbooks:legendary_ink, create:precision_mechanism, ae2:quantum_entangled_singularity, powah:crystal_nitro, oritech:unholy_intelligence, neovitae:blood_orb_transcendent, occultism:book_of_binding_bound_marid, forbidden_arcanus:eternal_stella, extrabotany:orichalcos_ingot, mysticalagradditions:insanium_ingot, divinerpg:mortum_heart.
 Список ключів вівтар бере з JSON-рецепта (тип `synthesis:capital`), а не з коду — щоб можна було змінювати без перезбірки. Розмітка 21 позиції п'єдесталів — у коді мультиблока (два кільця навколо центру).
 
 ### 2.6 Предмети

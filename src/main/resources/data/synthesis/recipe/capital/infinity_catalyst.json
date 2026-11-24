@@ -42,7 +42,7 @@
     },
     {
       "type": "neoforge:mod_loaded",
-      "modid": "industrialupgrade"
+      "modid": "ic2r_addons"
     },
     {
       "type": "neoforge:mod_loaded",
@@ -116,7 +116,7 @@
       "item": "cataclysm:cursium_ingot"
     },
     {
-      "item": "industrialupgrade:neutroniumingot"
+      "item": "ic2r_addons:quantum_solar_panel"
     },
     {
       "item": "twilightforest:fiery_ingot"

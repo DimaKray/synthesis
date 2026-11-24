@@ -10,7 +10,7 @@ CHAPTER = Chapter(
                 '&6іхоріум&r (Thaumic Tinkerer) і &6ігнітієвий злиток&r (бос Ігніс із Cataclysm).',
                 'Ресурси ритуалу: &6500 000 мани, 20 000 джерела й 1 000 000 FE&r.',
                 '',
-                'Тут з\'являються перші серйозні боси — готуй броню (Віверна, нано/квантова IU або магічна).',
+                'Тут з\'являються перші серйозні боси — готуй броню (Віверна, нано/квантова IC2 або магічна).',
             ], deps=['unity2'], check=True, kind='info'),
         ]),
         Lane('Пекло й зірки', [
@@ -18,29 +18,9 @@ CHAPTER = Chapter(
                 'Візер-скелети живуть у фортецях Незеру. Три черепи + пісок душ = виклик Візера. Меч з «Добиччю» допоможе.',
             ], deps=['s3_intro'], count=3),
             Q('v_nether_star', 'minecraft:nether_star', 'Зірка Незеру', [
-                'Нагорода за Візера. Потрібна для &6злитка зірки Незеру IU&r (→ ядро Віверни), &6маяка&r і Avaritia.',
+                'Нагорода за Візера. Потрібна для &6маяка&r, квантового ядра IC2 і Avaritia.',
                 'Порада: бийся з Візером під землею, щоб він не розніс базу.',
             ], deps=['v_wither_skull'], count=2),
-        ]),
-        Lane('Industrial Upgrade', [
-            Q('iu_macerator', 'industrialupgrade:simplemachine/macerator_iu', 'Подрібнювач IU', [
-                'Перша машина Industrial Upgrade (на FE). IU — окрема технологічна гілка з сонячними панелями, схемами й бронею.',
-            ], deps=['s3_intro']),
-            Q('iu_compressor', 'industrialupgrade:simplemachine/compressor_iu', 'Компресор', [
-                'Стискає ресурси: пластини, вугільні кулі, матеріали для корпусів.',
-            ], deps=['iu_macerator']),
-            Q('iu_adv_casing', 'industrialupgrade:blockresource/advanced_machine', 'Покращений корпус машини', [
-                'Основа покращених машин і панелей IU.',
-            ], deps=['iu_compressor']),
-            Q('iu_nanocircuit', 'industrialupgrade:circuit/nanocircuit', 'Наносхема', [
-                'Схема для нано-броні й кращих машин IU. Ланцюжок схем іде далі: квантова → фотонна → спектральна.',
-            ], deps=['iu_adv_casing']),
-            Q('iu_quantum_circuit', 'industrialupgrade:circuit/quantumcircuit', 'Квантова схема', [
-                'Потрібна для квантової броні й &6злитка зірки Незеру&r.',
-            ], deps=['iu_nanocircuit']),
-            Q('iu_star_ingot', 'industrialupgrade:nether_star_ingot', 'Злиток зірки Незеру', [
-                'Мост збірки: без нього не скрафтити &6ядро Віверни Draconic&r. Рецепт — у JEI.',
-            ], deps=['iu_quantum_circuit', 'v_nether_star'], count=2),
         ]),
         Lane('Draconic Evolution', [
             Q('de_ingot', 'draconicevolution:draconium_ingot', 'Драконій', [
@@ -59,9 +39,9 @@ CHAPTER = Chapter(
                 'Мультиблокове сховище енергії на мільярди FE. Не обов\'язкове, але для пізніх крафтів злиттям дуже допоможе.',
             ], deps=['de_core', 'de_wyvern_core'], reward='none'),
             Q('de_wyvern_core', 'draconicevolution:wyvern_core', 'Ядро Віверни', [
-                'У збірці: драконієві ядра + &6злиток зірки Незеру IU&r + &6Сплав єдності II&r (міст).',
+                'У збірці: драконієві ядра + &6іридієва пластина IC2&r + &6Сплав єдності II&r (міст).',
                 'Відкриває інструменти й броню Віверни, а також &6порт SPS Mekanism&r.',
-            ], deps=['de_fusion', 'iu_star_ingot', 'unity2'], count=2),
+            ], deps=['de_fusion', 'ic2_iridium', 'unity2'], count=2),
             Q('de_wyvern_gear', 'draconicevolution:wyvern_chestpiece', 'Броня Віверни', [
                 'Щит, що поглинає шкоду, і політ. Для боїв Етапу III і далі — дуже раджу.',
             ], deps=['de_wyvern_core'], reward='none'),

@@ -85,23 +85,6 @@ CHAPTER = Chapter(
                 'З нього — пробуджена хаотична броня й зброя (злиттям з хаотичних).',
             ], deps=['de_chaotic_core']),
         ]),
-        Lane('Industrial Upgrade: доповнення', [
-            Q('sq_quarry', 'simplyquarries:simplyquarries/simply_quarry', 'Кар\'єр', [
-                'Simply Quarries: автоматичний кар\'єр на просунутому корпусі IU. Копає під собою й складає руду в сусідні сховища. '
-                'Далі — покращений, просунутий, досконалий і фотонний кар\'єри (кожен з попереднього).',
-            ], deps=['iu_adv_casing']),
-            Q('pu_conv', 'powerutils:converter/power_utilities_fe', 'Перетворювач енергії EF/FE', [
-                'Power Utilities: енергія IU (EF) ↔ FE інших модів. Модулі робляться з нано- і квантових схем.',
-            ], deps=['iu_quantum_circuit']),
-            Q('rp_exchange', 'reactorplus:reactorsplus/heat_exchange', 'Деталі реактора IU', [
-                'ReactorPlus додає реактору Industrial Upgrade нові теплообмінники, вентилі й паливні стрижні (у тому числі MOX і рідкісні елементи). '
-                'Рецепти — у JEI.',
-            ], deps=['iu_adv_casing'], reward='none'),
-            Q('qg_photon', 'quantumgenerators:qg/phsp_gen', 'Фотонний квантовий генератор', [
-                'Quantum Generators: генератори на основі адмін-сонячної панелі IU і ядер. Ланцюжок: фотонний → нейтронний → баріонний → адронний → '
-                'гравітонний → кварковий (кожен з попереднього + нове ядро).',
-            ], deps=['iu_photon'], reward='none'),
-        ]),
         Lane('Доповнення AE2', [
             Q('ae_chem', 'appmek:chemical_storage_cell_1k', 'Хімічна комірка', [
                 'Applied Mekanistics: гази й хімікати Mekanism у мережі ME. Корпус — осмій + кварцове скло + редстоун.',

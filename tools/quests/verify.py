@@ -46,6 +46,7 @@ def main():
         return False
 
     memo = {}
+    PREF = [frozenset()]  # предмети вже пройдених квестів: серед рівноцінних варіантів тегу беремо їх
 
     def need(item, depth=0, stack=()):
         """Мінімальна множина квестових предметів, потрібних для крафту item (None — рецепта немає)."""
@@ -67,8 +68,8 @@ def main():
             for alt in r['ingredients']:
                 opts = [need(o, depth + 1, stack + (item,))[0] for o in alt]
                 opts = [o if o is not None else set() for o in opts]
-                total |= min(opts, key=len) if opts else set()
-            if best is None or len(total) < len(best[0]):
+                total |= min(opts, key=lambda o: (len(o - PREF[0]), len(o))) if opts else set()
+            if best is None or (len(total - PREF[0]), len(total)) < (len(best[0] - PREF[0]), len(best[0])):
                 best = (total, [r])
         if depth > 0:
             memo[item] = best
@@ -80,6 +81,8 @@ def main():
         if q.check:
             continue
         a = ancestors(key) | {key}
+        PREF[0] = frozenset(it2 for k2 in a for it2 in (allq[k2].items or [allq[k2].item]))
+        memo.clear()
         for it in (q.items or [q.item]):
             req, rs = need(it)
             if req is None:
