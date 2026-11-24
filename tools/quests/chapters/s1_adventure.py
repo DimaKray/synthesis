@@ -63,6 +63,9 @@ CHAPTER = Chapter(
             Q('ca_harbinger', 'cataclysm:witherite_ingot', 'Харбінджер', [
                 'Механічний бос зі Стародавньої фабрики. Візеритові злитки — для зброї Cataclysm.',
             ], deps=['ca_monstrosity']),
+            Q('ca_anvil', 'cataclysm:mechanical_fusion_anvil', 'Механічне ковадло злиття', [
+                'Ковадло + віттерит + блоки редстоуну. Тут поєднують трофеї босів із зброєю — так робиться більшість легендарних речей Cataclysm.',
+            ], deps=['ca_harbinger']),
             Q('ca_cursium', 'cataclysm:cursium_ingot', 'Малідиктус', [
                 "Проклятий лицар з Морозної в'язниці. Курсіум — &6один із 21 ключа.&r",
             ], deps=['ca_harbinger'], kind='key'),
