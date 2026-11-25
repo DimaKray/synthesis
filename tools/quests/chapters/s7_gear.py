@@ -63,7 +63,7 @@ CHAPTER = Chapter(
             ], deps=['mt_osmium', 'mk_obsidian'], items=[
                 'mekanismtools:refined_obsidian_helmet', 'mekanismtools:refined_obsidian_chestplate',
                 'mekanismtools:refined_obsidian_leggings', 'mekanismtools:refined_obsidian_boots']),
-            Q('ec_weapon', 'expanded_combat:base/iron_katana', 'Нова зброя', [
+            Q('ec_weapon', 'expanded_combat:iron_katana', 'Нова зброя', [
                 'Expanded Combat додає катани, глефи, коси, списи, клеймори й інше — з кожного металу. '
                 'Різна дальність і швидкість удару. Рецепти — у JEI. Тут достатньо будь-якої залізної катани.',
             ], deps=['welcome'], reward='none'),
