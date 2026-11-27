@@ -108,8 +108,8 @@ CHAPTER = Chapter(
             Q('na_altar', 'naturesaura:nature_altar', 'Вівтар природи', [
                 'Nature\'s Aura: сила аури природи навколо. У збірці ритуал дерева вимагає &6манасталь Ботанії&r (міст).',
             ], deps=['bo_manasteel']),
-            Q('na_book', 'naturesaura:book', 'Книга природи', [
-                "Папір + шкіра + саджанець. Довідник Nature's Aura: аура — це енергія природи в чанку, і її треба відновлювати, садячи рослини.",
+            Q('na_book', 'patchouli:guide_book', 'Книга природи', [
+                "Довідник Nature's Aura (книга Patchouli; рецепт — папір + шкіра + саджанець, див. JEI). Аура — це енергія природи в чанку, її треба відновлювати, садячи рослини.",
             ], deps=['welcome']),
             Q('na_leaf', 'naturesaura:gold_powder', 'Золотий пил', [
                 'Золоте листя випадає з дерев, коли поруч є золото (див. книгу). Перемелене — пил для кругів ритуалу дерева.',
@@ -135,8 +135,9 @@ CHAPTER = Chapter(
             ], deps=['na_sky', 'v_netherite'], reward='none'),
         ]),
         Lane('Forbidden & Arcanus', [
-            Q('fa_lens', 'forbidden_arcanus:lens_of_veritatis', 'Лінза Правди', [
-                'Показує приховане: таємні кристали в руді й особливі блоки світу.',
+            Q('fa_lens', 'forbidden_arcanus:forbiddenomicon', 'Заборонений манускрипт', [
+                'Довідник Forbidden & Arcanus (рецепт — у JEI). Розповідає про таємні кристали, кузню Гефеста й ритуали.',
+                'Руда таємного кристала трапляється глибоко під землею.',
             ], deps=['welcome']),
             Q('fa_crystal', 'forbidden_arcanus:arcane_crystal', 'Таємний кристал', ['Основний матеріал мода.'], deps=['fa_lens']),
             Q('fa_mundabitur', 'forbidden_arcanus:mundabitur_dust', 'Пил мундабітур', [

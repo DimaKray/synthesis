@@ -6,7 +6,7 @@ MODS = r"C:/Users/dimak/curseforge/minecraft/Instances/Capitalism/mods"
 CACHE = os.path.join(os.path.dirname(__file__), '.registry_cache.json')
 
 
-GAME_DUMP = r"C:/Users/dimak/curseforge/minecraft/Instances/Capitalism/kubejs/exported/capitalism_items.txt"
+GAME_DUMP = r"C:/Users/dimak/curseforge/minecraft/Instances/Capitalism/kubejs/exported/capitalism_items.json"
 
 
 def load(refresh=False):
@@ -14,7 +14,7 @@ def load(refresh=False):
     if os.path.exists(GAME_DUMP):
         newest_jar = max(os.path.getmtime(j) for j in glob.glob(MODS + '/*.jar'))
         if os.path.getmtime(GAME_DUMP) >= newest_jar:
-            return set(l.strip() for l in open(GAME_DUMP, encoding='utf-8') if l.strip())
+            return set(json.load(open(GAME_DUMP, encoding='utf-8'))['ids'])
         print('УВАГА: вивантаження предметів з гри старіше за моди — запусти світ, щоб оновити; поки перевіряю за jar')
     if os.path.exists(CACHE) and not refresh:
         return set(json.load(open(CACHE, encoding='utf-8')))

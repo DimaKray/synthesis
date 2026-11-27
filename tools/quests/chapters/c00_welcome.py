@@ -60,7 +60,7 @@ CHAPTER = Chapter(
             Q('wallet', 'lightmanscurrency:wallet_iron', 'Гаманець', [
                 'Монети в гаманці не займають інвентар і рахуються автоматично. Кращі гаманці (залізний → золотий → …) тримають більше й самі збирають монети.',
             ], deps=['coins']),
-            Q('casino', 'jackpot:slot_machine', 'Казино', [
+            Q('casino', 'jackpot:blue_slot_machine', 'Казино', [
                 'Для азартних: ігрові автомати й плінко з Jackpot, а також гача-автомати Lightman\'s. '
                 'Ставки — фішки або монети. Пам\'ятай: казино завжди у плюсі.',
             ], deps=['coins'], reward='none'),
